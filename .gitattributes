@@ -1,1 +1,2 @@
 /releases/SGM_Offline_TC_Candidate003.apk filter=lfs diff=lfs merge=lfs -text
+/releases/SGM_Offline_TC_Candidate004.apk filter=lfs diff=lfs merge=lfs -text
