@@ -1,0 +1,9 @@
+{
+  "reconstructed_sha256": "499027020bc20b2b9a829ab3889b78544523ae241e0b599825e62710abf4b61f",
+  "reconstructed_size": 1737834354,
+  "byte_exact_reconstruction_verified": true,
+  "apk_native_gameplay_verified": false,
+  "python_syntax": "passed",
+  "shell_syntax": "passed",
+  "workflow_yaml_parse": "passed"
+}
