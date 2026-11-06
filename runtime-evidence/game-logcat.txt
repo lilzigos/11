@@ -1,0 +1,1 @@
+logcat: Unknown option '--uid=10167'.
