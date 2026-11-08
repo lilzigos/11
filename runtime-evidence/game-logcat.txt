@@ -1,648 +1,4 @@
  5354  5411 E Unity   : java.lang.NullPointerException: Attempt to invoke virtual method 'android.content.Context com.userjoy.mars.core.plugin.PluginBase.GetContext()' on a null object reference
-11-08 22:07:24.743  5354  5411 E Unity   : 	at com.userjoy.mars.core.MarsMain.GetContext(SourceFile:1)
-11-08 22:07:24.743  5354  5411 E Unity   : 	at com.userjoy.mars.NetworkState.NetworkState.<init>(SourceFile:253)
-11-08 22:07:24.743  5354  5411 E Unity   : 	at com.userjoy.mars.NetworkState.NetworkState.if(SourceFile:2)
-11-08 22:07:24.743  5354  5411 E Unity   : 	at com.userjoy.mars.bridge.NetworkStateBridge.GetNetworkType(SourceFile:1)
-11-08 22:07:24.743  5354  5411 E Unity   : 	at com.unity3d.player.UnityPlayer.nativeRender(Native Method)
-11-08 22:07:24.743  5354  5411 E Unity   : 	at com.unity3d.player.UnityPlayer.-$$Nest$mnativeRender(Unknown Source:0)
-11-08 22:07:24.743  5354  5411 E Unity   : 	at com.unity3d.player.T0.handleMessage(Unknown Source:122)
-11-08 22:07:24.743  5354  5411 E Unity   : 	at android.os.Handler.dispatchMessage(Handler.java:102)
-11-08 22:07:24.743  5354  5411 E Unity   : 	at android.os.Looper.loop(Looper.java:223)
-11-08 22:07:24.743  5354  5411 E Unity   : 	at com.unity3d.player.U0.run(Unknown Source:24)
-11-08 22:07:24.743  5354  5411 E Unity   :   at UnityEngine.AndroidJNISafe.CheckExce
-11-08 22:07:24.838  5354  5411 E Unity   : UnityEngine.AndroidJavaException: java.lang.NullPointerException: Attempt to invoke virtual method 'android.content.Context com.userjoy.mars.core.plugin.PluginBase.GetContext()' on a null object reference
-11-08 22:07:24.838  5354  5411 E Unity   :   at UnityEngine.AndroidJNISafe.CheckException () [0x00000] in <00000000000000000000000000000000>:0 
-11-08 22:07:24.838  5354  5411 E Unity   :   at UnityEngine.AndroidJNISafe.CallStringMethod (System.IntPtr obj, System.IntPtr methodID, System.Span`1[T] args) [0x00000] in <00000000000000000000000000000000>:0 
-11-08 22:07:24.838  5354  5411 E Unity   :   at UnityEngine.AndroidJavaObject._Call[ReturnType] (System.IntPtr methodID, System.Object[] args) [0x00000] in <00000000000000000000000000000000>:0 
-11-08 22:07:24.838  5354  5411 E Unity   :   at BaseProcLua.V_Update (System.Single dTime) [0x00000] in <00000000000000000000000000000000>:0 
-11-08 22:07:24.838  5354  5411 E Unity   :   at CProcManager.Update (System.Single dTime) [0x00000] in <00000000000000000000000000000000>:0 
-11-08 22:07:24.838  5354  5411 E Unity   :   at Main.Update () [0x00000] in <00000000000000000000000000000000>:0 
-11-08 22:07:24.838  5354  5411 E Unity   : UJDebug:LogError(Object, Boolean, UJLogType)
-11-08 22:07:24.838  5354  5411 E Unity   : Main:Update()
-11-08 22:07:24.838  5354  5411 E Unity   : 
-11-08 22:07:24.843  5354  5411 E Unity   : AndroidJavaException: java.lang.NullPointerException: Attempt to invoke virtual method 'android.content.Context com.userjoy.mars.core.plugin.PluginBase.GetContext()' on a null object reference
-11-08 22:07:24.843  5354  5411 E Unity   : java.lang.NullPointerException: Attempt to invoke virtual method 'android.content.Context com.userjoy.mars.core.plugin.PluginBase.GetContext()' on a null object reference
-11-08 22:07:24.843  5354  5411 E Unity   : 	at com.userjoy.mars.core.MarsMain.GetContext(SourceFile:1)
-11-08 22:07:24.843  5354  5411 E Unity   : 	at com.userjoy.mars.NetworkState.NetworkState.<init>(SourceFile:253)
-11-08 22:07:24.843  5354  5411 E Unity   : 	at com.userjoy.mars.NetworkState.NetworkState.if(SourceFile:2)
-11-08 22:07:24.843  5354  5411 E Unity   : 	at com.userjoy.mars.bridge.NetworkStateBridge.GetNetworkType(SourceFile:1)
-11-08 22:07:24.843  5354  5411 E Unity   : 	at com.unity3d.player.UnityPlayer.nativeRender(Native Method)
-11-08 22:07:24.843  5354  5411 E Unity   : 	at com.unity3d.player.UnityPlayer.-$$Nest$mnativeRender(Unknown Source:0)
-11-08 22:07:24.843  5354  5411 E Unity   : 	at com.unity3d.player.T0.handleMessage(Unknown Source:122)
-11-08 22:07:24.843  5354  5411 E Unity   : 	at android.os.Handler.dispatchMessage(Handler.java:102)
-11-08 22:07:24.843  5354  5411 E Unity   : 	at android.os.Looper.loop(Looper.java:223)
-11-08 22:07:24.843  5354  5411 E Unity   : 	at com.unity3d.player.U0.run(Unknown Source:24)
-11-08 22:07:24.843  5354  5411 E Unity   :   at UnityEngine.AndroidJNISafe.CheckExce
-11-08 22:07:24.943  5354  5411 E Unity   : UnityEngine.AndroidJavaException: java.lang.NullPointerException: Attempt to invoke virtual method 'android.content.Context com.userjoy.mars.core.plugin.PluginBase.GetContext()' on a null object reference
-11-08 22:07:24.943  5354  5411 E Unity   :   at UnityEngine.AndroidJNISafe.CheckException () [0x00000] in <00000000000000000000000000000000>:0 
-11-08 22:07:24.943  5354  5411 E Unity   :   at UnityEngine.AndroidJNISafe.CallStringMethod (System.IntPtr obj, System.IntPtr methodID, System.Span`1[T] args) [0x00000] in <00000000000000000000000000000000>:0 
-11-08 22:07:24.943  5354  5411 E Unity   :   at UnityEngine.AndroidJavaObject._Call[ReturnType] (System.IntPtr methodID, System.Object[] args) [0x00000] in <00000000000000000000000000000000>:0 
-11-08 22:07:24.943  5354  5411 E Unity   :   at BaseProcLua.V_Update (System.Single dTime) [0x00000] in <00000000000000000000000000000000>:0 
-11-08 22:07:24.943  5354  5411 E Unity   :   at CProcManager.Update (System.Single dTime) [0x00000] in <00000000000000000000000000000000>:0 
-11-08 22:07:24.943  5354  5411 E Unity   :   at Main.Update () [0x00000] in <00000000000000000000000000000000>:0 
-11-08 22:07:24.943  5354  5411 E Unity   : UJDebug:LogError(Object, Boolean, UJLogType)
-11-08 22:07:24.943  5354  5411 E Unity   : Main:Update()
-11-08 22:07:24.943  5354  5411 E Unity   : 
-11-08 22:07:24.947  5354  5411 E Unity   : AndroidJavaException: java.lang.NullPointerException: Attempt to invoke virtual method 'android.content.Context com.userjoy.mars.core.plugin.PluginBase.GetContext()' on a null object reference
-11-08 22:07:24.947  5354  5411 E Unity   : java.lang.NullPointerException: Attempt to invoke virtual method 'android.content.Context com.userjoy.mars.core.plugin.PluginBase.GetContext()' on a null object reference
-11-08 22:07:24.947  5354  5411 E Unity   : 	at com.userjoy.mars.core.MarsMain.GetContext(SourceFile:1)
-11-08 22:07:24.947  5354  5411 E Unity   : 	at com.userjoy.mars.NetworkState.NetworkState.<init>(SourceFile:253)
-11-08 22:07:24.947  5354  5411 E Unity   : 	at com.userjoy.mars.NetworkState.NetworkState.if(SourceFile:2)
-11-08 22:07:24.947  5354  5411 E Unity   : 	at com.userjoy.mars.bridge.NetworkStateBridge.GetNetworkType(SourceFile:1)
-11-08 22:07:24.947  5354  5411 E Unity   : 	at com.unity3d.player.UnityPlayer.nativeRender(Native Method)
-11-08 22:07:24.947  5354  5411 E Unity   : 	at com.unity3d.player.UnityPlayer.-$$Nest$mnativeRender(Unknown Source:0)
-11-08 22:07:24.947  5354  5411 E Unity   : 	at com.unity3d.player.T0.handleMessage(Unknown Source:122)
-11-08 22:07:24.947  5354  5411 E Unity   : 	at android.os.Handler.dispatchMessage(Handler.java:102)
-11-08 22:07:24.947  5354  5411 E Unity   : 	at android.os.Looper.loop(Looper.java:223)
-11-08 22:07:24.947  5354  5411 E Unity   : 	at com.unity3d.player.U0.run(Unknown Source:24)
-11-08 22:07:24.947  5354  5411 E Unity   :   at UnityEngine.AndroidJNISafe.CheckExce
-11-08 22:07:25.057  5354  5411 E Unity   : UnityEngine.AndroidJavaException: java.lang.NullPointerException: Attempt to invoke virtual method 'android.content.Context com.userjoy.mars.core.plugin.PluginBase.GetContext()' on a null object reference
-11-08 22:07:25.057  5354  5411 E Unity   :   at UnityEngine.AndroidJNISafe.CheckException () [0x00000] in <00000000000000000000000000000000>:0 
-11-08 22:07:25.057  5354  5411 E Unity   :   at UnityEngine.AndroidJNISafe.CallStringMethod (System.IntPtr obj, System.IntPtr methodID, System.Span`1[T] args) [0x00000] in <00000000000000000000000000000000>:0 
-11-08 22:07:25.057  5354  5411 E Unity   :   at UnityEngine.AndroidJavaObject._Call[ReturnType] (System.IntPtr methodID, System.Object[] args) [0x00000] in <00000000000000000000000000000000>:0 
-11-08 22:07:25.057  5354  5411 E Unity   :   at BaseProcLua.V_Update (System.Single dTime) [0x00000] in <00000000000000000000000000000000>:0 
-11-08 22:07:25.057  5354  5411 E Unity   :   at CProcManager.Update (System.Single dTime) [0x00000] in <00000000000000000000000000000000>:0 
-11-08 22:07:25.057  5354  5411 E Unity   :   at Main.Update () [0x00000] in <00000000000000000000000000000000>:0 
-11-08 22:07:25.057  5354  5411 E Unity   : UJDebug:LogError(Object, Boolean, UJLogType)
-11-08 22:07:25.057  5354  5411 E Unity   : Main:Update()
-11-08 22:07:25.057  5354  5411 E Unity   : 
-11-08 22:07:25.061  5354  5411 E Unity   : AndroidJavaException: java.lang.NullPointerException: Attempt to invoke virtual method 'android.content.Context com.userjoy.mars.core.plugin.PluginBase.GetContext()' on a null object reference
-11-08 22:07:25.061  5354  5411 E Unity   : java.lang.NullPointerException: Attempt to invoke virtual method 'android.content.Context com.userjoy.mars.core.plugin.PluginBase.GetContext()' on a null object reference
-11-08 22:07:25.061  5354  5411 E Unity   : 	at com.userjoy.mars.core.MarsMain.GetContext(SourceFile:1)
-11-08 22:07:25.061  5354  5411 E Unity   : 	at com.userjoy.mars.NetworkState.NetworkState.<init>(SourceFile:253)
-11-08 22:07:25.061  5354  5411 E Unity   : 	at com.userjoy.mars.NetworkState.NetworkState.if(SourceFile:2)
-11-08 22:07:25.061  5354  5411 E Unity   : 	at com.userjoy.mars.bridge.NetworkStateBridge.GetNetworkType(SourceFile:1)
-11-08 22:07:25.061  5354  5411 E Unity   : 	at com.unity3d.player.UnityPlayer.nativeRender(Native Method)
-11-08 22:07:25.061  5354  5411 E Unity   : 	at com.unity3d.player.UnityPlayer.-$$Nest$mnativeRender(Unknown Source:0)
-11-08 22:07:25.061  5354  5411 E Unity   : 	at com.unity3d.player.T0.handleMessage(Unknown Source:122)
-11-08 22:07:25.061  5354  5411 E Unity   : 	at android.os.Handler.dispatchMessage(Handler.java:102)
-11-08 22:07:25.061  5354  5411 E Unity   : 	at android.os.Looper.loop(Looper.java:223)
-11-08 22:07:25.061  5354  5411 E Unity   : 	at com.unity3d.player.U0.run(Unknown Source:24)
-11-08 22:07:25.061  5354  5411 E Unity   :   at UnityEngine.AndroidJNISafe.CheckExce
-11-08 22:07:25.163  5354  5411 E Unity   : UnityEngine.AndroidJavaException: java.lang.NullPointerException: Attempt to invoke virtual method 'android.content.Context com.userjoy.mars.core.plugin.PluginBase.GetContext()' on a null object reference
-11-08 22:07:25.163  5354  5411 E Unity   :   at UnityEngine.AndroidJNISafe.CheckException () [0x00000] in <00000000000000000000000000000000>:0 
-11-08 22:07:25.163  5354  5411 E Unity   :   at UnityEngine.AndroidJNISafe.CallStringMethod (System.IntPtr obj, System.IntPtr methodID, System.Span`1[T] args) [0x00000] in <00000000000000000000000000000000>:0 
-11-08 22:07:25.163  5354  5411 E Unity   :   at UnityEngine.AndroidJavaObject._Call[ReturnType] (System.IntPtr methodID, System.Object[] args) [0x00000] in <00000000000000000000000000000000>:0 
-11-08 22:07:25.163  5354  5411 E Unity   :   at BaseProcLua.V_Update (System.Single dTime) [0x00000] in <00000000000000000000000000000000>:0 
-11-08 22:07:25.163  5354  5411 E Unity   :   at CProcManager.Update (System.Single dTime) [0x00000] in <00000000000000000000000000000000>:0 
-11-08 22:07:25.163  5354  5411 E Unity   :   at Main.Update () [0x00000] in <00000000000000000000000000000000>:0 
-11-08 22:07:25.163  5354  5411 E Unity   : UJDebug:LogError(Object, Boolean, UJLogType)
-11-08 22:07:25.163  5354  5411 E Unity   : Main:Update()
-11-08 22:07:25.163  5354  5411 E Unity   : 
-11-08 22:07:25.167  5354  5411 E Unity   : AndroidJavaException: java.lang.NullPointerException: Attempt to invoke virtual method 'android.content.Context com.userjoy.mars.core.plugin.PluginBase.GetContext()' on a null object reference
-11-08 22:07:25.167  5354  5411 E Unity   : java.lang.NullPointerException: Attempt to invoke virtual method 'android.content.Context com.userjoy.mars.core.plugin.PluginBase.GetContext()' on a null object reference
-11-08 22:07:25.167  5354  5411 E Unity   : 	at com.userjoy.mars.core.MarsMain.GetContext(SourceFile:1)
-11-08 22:07:25.167  5354  5411 E Unity   : 	at com.userjoy.mars.NetworkState.NetworkState.<init>(SourceFile:253)
-11-08 22:07:25.167  5354  5411 E Unity   : 	at com.userjoy.mars.NetworkState.NetworkState.if(SourceFile:2)
-11-08 22:07:25.167  5354  5411 E Unity   : 	at com.userjoy.mars.bridge.NetworkStateBridge.GetNetworkType(SourceFile:1)
-11-08 22:07:25.167  5354  5411 E Unity   : 	at com.unity3d.player.UnityPlayer.nativeRender(Native Method)
-11-08 22:07:25.167  5354  5411 E Unity   : 	at com.unity3d.player.UnityPlayer.-$$Nest$mnativeRender(Unknown Source:0)
-11-08 22:07:25.167  5354  5411 E Unity   : 	at com.unity3d.player.T0.handleMessage(Unknown Source:122)
-11-08 22:07:25.167  5354  5411 E Unity   : 	at android.os.Handler.dispatchMessage(Handler.java:102)
-11-08 22:07:25.167  5354  5411 E Unity   : 	at android.os.Looper.loop(Looper.java:223)
-11-08 22:07:25.167  5354  5411 E Unity   : 	at com.unity3d.player.U0.run(Unknown Source:24)
-11-08 22:07:25.167  5354  5411 E Unity   :   at UnityEngine.AndroidJNISafe.CheckExce
-11-08 22:07:25.258  5354  5411 E Unity   : UnityEngine.AndroidJavaException: java.lang.NullPointerException: Attempt to invoke virtual method 'android.content.Context com.userjoy.mars.core.plugin.PluginBase.GetContext()' on a null object reference
-11-08 22:07:25.258  5354  5411 E Unity   :   at UnityEngine.AndroidJNISafe.CheckException () [0x00000] in <00000000000000000000000000000000>:0 
-11-08 22:07:25.258  5354  5411 E Unity   :   at UnityEngine.AndroidJNISafe.CallStringMethod (System.IntPtr obj, System.IntPtr methodID, System.Span`1[T] args) [0x00000] in <00000000000000000000000000000000>:0 
-11-08 22:07:25.258  5354  5411 E Unity   :   at UnityEngine.AndroidJavaObject._Call[ReturnType] (System.IntPtr methodID, System.Object[] args) [0x00000] in <00000000000000000000000000000000>:0 
-11-08 22:07:25.258  5354  5411 E Unity   :   at BaseProcLua.V_Update (System.Single dTime) [0x00000] in <00000000000000000000000000000000>:0 
-11-08 22:07:25.258  5354  5411 E Unity   :   at CProcManager.Update (System.Single dTime) [0x00000] in <00000000000000000000000000000000>:0 
-11-08 22:07:25.258  5354  5411 E Unity   :   at Main.Update () [0x00000] in <00000000000000000000000000000000>:0 
-11-08 22:07:25.258  5354  5411 E Unity   : UJDebug:LogError(Object, Boolean, UJLogType)
-11-08 22:07:25.258  5354  5411 E Unity   : Main:Update()
-11-08 22:07:25.258  5354  5411 E Unity   : 
-11-08 22:07:25.263  5354  5411 E Unity   : AndroidJavaException: java.lang.NullPointerException: Attempt to invoke virtual method 'android.content.Context com.userjoy.mars.core.plugin.PluginBase.GetContext()' on a null object reference
-11-08 22:07:25.263  5354  5411 E Unity   : java.lang.NullPointerException: Attempt to invoke virtual method 'android.content.Context com.userjoy.mars.core.plugin.PluginBase.GetContext()' on a null object reference
-11-08 22:07:25.263  5354  5411 E Unity   : 	at com.userjoy.mars.core.MarsMain.GetContext(SourceFile:1)
-11-08 22:07:25.263  5354  5411 E Unity   : 	at com.userjoy.mars.NetworkState.NetworkState.<init>(SourceFile:253)
-11-08 22:07:25.263  5354  5411 E Unity   : 	at com.userjoy.mars.NetworkState.NetworkState.if(SourceFile:2)
-11-08 22:07:25.263  5354  5411 E Unity   : 	at com.userjoy.mars.bridge.NetworkStateBridge.GetNetworkType(SourceFile:1)
-11-08 22:07:25.263  5354  5411 E Unity   : 	at com.unity3d.player.UnityPlayer.nativeRender(Native Method)
-11-08 22:07:25.263  5354  5411 E Unity   : 	at com.unity3d.player.UnityPlayer.-$$Nest$mnativeRender(Unknown Source:0)
-11-08 22:07:25.263  5354  5411 E Unity   : 	at com.unity3d.player.T0.handleMessage(Unknown Source:122)
-11-08 22:07:25.263  5354  5411 E Unity   : 	at android.os.Handler.dispatchMessage(Handler.java:102)
-11-08 22:07:25.263  5354  5411 E Unity   : 	at android.os.Looper.loop(Looper.java:223)
-11-08 22:07:25.263  5354  5411 E Unity   : 	at com.unity3d.player.U0.run(Unknown Source:24)
-11-08 22:07:25.263  5354  5411 E Unity   :   at UnityEngine.AndroidJNISafe.CheckExce
-11-08 22:07:25.364  5354  5411 E Unity   : UnityEngine.AndroidJavaException: java.lang.NullPointerException: Attempt to invoke virtual method 'android.content.Context com.userjoy.mars.core.plugin.PluginBase.GetContext()' on a null object reference
-11-08 22:07:25.364  5354  5411 E Unity   :   at UnityEngine.AndroidJNISafe.CheckException () [0x00000] in <00000000000000000000000000000000>:0 
-11-08 22:07:25.364  5354  5411 E Unity   :   at UnityEngine.AndroidJNISafe.CallStringMethod (System.IntPtr obj, System.IntPtr methodID, System.Span`1[T] args) [0x00000] in <00000000000000000000000000000000>:0 
-11-08 22:07:25.364  5354  5411 E Unity   :   at UnityEngine.AndroidJavaObject._Call[ReturnType] (System.IntPtr methodID, System.Object[] args) [0x00000] in <00000000000000000000000000000000>:0 
-11-08 22:07:25.364  5354  5411 E Unity   :   at BaseProcLua.V_Update (System.Single dTime) [0x00000] in <00000000000000000000000000000000>:0 
-11-08 22:07:25.364  5354  5411 E Unity   :   at CProcManager.Update (System.Single dTime) [0x00000] in <00000000000000000000000000000000>:0 
-11-08 22:07:25.364  5354  5411 E Unity   :   at Main.Update () [0x00000] in <00000000000000000000000000000000>:0 
-11-08 22:07:25.364  5354  5411 E Unity   : UJDebug:LogError(Object, Boolean, UJLogType)
-11-08 22:07:25.364  5354  5411 E Unity   : Main:Update()
-11-08 22:07:25.364  5354  5411 E Unity   : 
-11-08 22:07:25.371  5354  5411 E Unity   : AndroidJavaException: java.lang.NullPointerException: Attempt to invoke virtual method 'android.content.Context com.userjoy.mars.core.plugin.PluginBase.GetContext()' on a null object reference
-11-08 22:07:25.371  5354  5411 E Unity   : java.lang.NullPointerException: Attempt to invoke virtual method 'android.content.Context com.userjoy.mars.core.plugin.PluginBase.GetContext()' on a null object reference
-11-08 22:07:25.371  5354  5411 E Unity   : 	at com.userjoy.mars.core.MarsMain.GetContext(SourceFile:1)
-11-08 22:07:25.371  5354  5411 E Unity   : 	at com.userjoy.mars.NetworkState.NetworkState.<init>(SourceFile:253)
-11-08 22:07:25.371  5354  5411 E Unity   : 	at com.userjoy.mars.NetworkState.NetworkState.if(SourceFile:2)
-11-08 22:07:25.371  5354  5411 E Unity   : 	at com.userjoy.mars.bridge.NetworkStateBridge.GetNetworkType(SourceFile:1)
-11-08 22:07:25.371  5354  5411 E Unity   : 	at com.unity3d.player.UnityPlayer.nativeRender(Native Method)
-11-08 22:07:25.371  5354  5411 E Unity   : 	at com.unity3d.player.UnityPlayer.-$$Nest$mnativeRender(Unknown Source:0)
-11-08 22:07:25.371  5354  5411 E Unity   : 	at com.unity3d.player.T0.handleMessage(Unknown Source:122)
-11-08 22:07:25.371  5354  5411 E Unity   : 	at android.os.Handler.dispatchMessage(Handler.java:102)
-11-08 22:07:25.371  5354  5411 E Unity   : 	at android.os.Looper.loop(Looper.java:223)
-11-08 22:07:25.371  5354  5411 E Unity   : 	at com.unity3d.player.U0.run(Unknown Source:24)
-11-08 22:07:25.371  5354  5411 E Unity   :   at UnityEngine.AndroidJNISafe.CheckExce
-11-08 22:07:25.480  5354  5411 E Unity   : UnityEngine.AndroidJavaException: java.lang.NullPointerException: Attempt to invoke virtual method 'android.content.Context com.userjoy.mars.core.plugin.PluginBase.GetContext()' on a null object reference
-11-08 22:07:25.480  5354  5411 E Unity   :   at UnityEngine.AndroidJNISafe.CheckException () [0x00000] in <00000000000000000000000000000000>:0 
-11-08 22:07:25.480  5354  5411 E Unity   :   at UnityEngine.AndroidJNISafe.CallStringMethod (System.IntPtr obj, System.IntPtr methodID, System.Span`1[T] args) [0x00000] in <00000000000000000000000000000000>:0 
-11-08 22:07:25.480  5354  5411 E Unity   :   at UnityEngine.AndroidJavaObject._Call[ReturnType] (System.IntPtr methodID, System.Object[] args) [0x00000] in <00000000000000000000000000000000>:0 
-11-08 22:07:25.480  5354  5411 E Unity   :   at BaseProcLua.V_Update (System.Single dTime) [0x00000] in <00000000000000000000000000000000>:0 
-11-08 22:07:25.480  5354  5411 E Unity   :   at CProcManager.Update (System.Single dTime) [0x00000] in <00000000000000000000000000000000>:0 
-11-08 22:07:25.480  5354  5411 E Unity   :   at Main.Update () [0x00000] in <00000000000000000000000000000000>:0 
-11-08 22:07:25.480  5354  5411 E Unity   : UJDebug:LogError(Object, Boolean, UJLogType)
-11-08 22:07:25.480  5354  5411 E Unity   : Main:Update()
-11-08 22:07:25.480  5354  5411 E Unity   : 
-11-08 22:07:25.485  5354  5411 E Unity   : AndroidJavaException: java.lang.NullPointerException: Attempt to invoke virtual method 'android.content.Context com.userjoy.mars.core.plugin.PluginBase.GetContext()' on a null object reference
-11-08 22:07:25.485  5354  5411 E Unity   : java.lang.NullPointerException: Attempt to invoke virtual method 'android.content.Context com.userjoy.mars.core.plugin.PluginBase.GetContext()' on a null object reference
-11-08 22:07:25.485  5354  5411 E Unity   : 	at com.userjoy.mars.core.MarsMain.GetContext(SourceFile:1)
-11-08 22:07:25.485  5354  5411 E Unity   : 	at com.userjoy.mars.NetworkState.NetworkState.<init>(SourceFile:253)
-11-08 22:07:25.485  5354  5411 E Unity   : 	at com.userjoy.mars.NetworkState.NetworkState.if(SourceFile:2)
-11-08 22:07:25.485  5354  5411 E Unity   : 	at com.userjoy.mars.bridge.NetworkStateBridge.GetNetworkType(SourceFile:1)
-11-08 22:07:25.485  5354  5411 E Unity   : 	at com.unity3d.player.UnityPlayer.nativeRender(Native Method)
-11-08 22:07:25.485  5354  5411 E Unity   : 	at com.unity3d.player.UnityPlayer.-$$Nest$mnativeRender(Unknown Source:0)
-11-08 22:07:25.485  5354  5411 E Unity   : 	at com.unity3d.player.T0.handleMessage(Unknown Source:122)
-11-08 22:07:25.485  5354  5411 E Unity   : 	at android.os.Handler.dispatchMessage(Handler.java:102)
-11-08 22:07:25.485  5354  5411 E Unity   : 	at android.os.Looper.loop(Looper.java:223)
-11-08 22:07:25.485  5354  5411 E Unity   : 	at com.unity3d.player.U0.run(Unknown Source:24)
-11-08 22:07:25.485  5354  5411 E Unity   :   at UnityEngine.AndroidJNISafe.CheckExce
-11-08 22:07:25.580  5354  5411 E Unity   : UnityEngine.AndroidJavaException: java.lang.NullPointerException: Attempt to invoke virtual method 'android.content.Context com.userjoy.mars.core.plugin.PluginBase.GetContext()' on a null object reference
-11-08 22:07:25.580  5354  5411 E Unity   :   at UnityEngine.AndroidJNISafe.CheckException () [0x00000] in <00000000000000000000000000000000>:0 
-11-08 22:07:25.580  5354  5411 E Unity   :   at UnityEngine.AndroidJNISafe.CallStringMethod (System.IntPtr obj, System.IntPtr methodID, System.Span`1[T] args) [0x00000] in <00000000000000000000000000000000>:0 
-11-08 22:07:25.580  5354  5411 E Unity   :   at UnityEngine.AndroidJavaObject._Call[ReturnType] (System.IntPtr methodID, System.Object[] args) [0x00000] in <00000000000000000000000000000000>:0 
-11-08 22:07:25.580  5354  5411 E Unity   :   at BaseProcLua.V_Update (System.Single dTime) [0x00000] in <00000000000000000000000000000000>:0 
-11-08 22:07:25.580  5354  5411 E Unity   :   at CProcManager.Update (System.Single dTime) [0x00000] in <00000000000000000000000000000000>:0 
-11-08 22:07:25.580  5354  5411 E Unity   :   at Main.Update () [0x00000] in <00000000000000000000000000000000>:0 
-11-08 22:07:25.580  5354  5411 E Unity   : UJDebug:LogError(Object, Boolean, UJLogType)
-11-08 22:07:25.580  5354  5411 E Unity   : Main:Update()
-11-08 22:07:25.580  5354  5411 E Unity   : 
-11-08 22:07:25.586  5354  5411 E Unity   : AndroidJavaException: java.lang.NullPointerException: Attempt to invoke virtual method 'android.content.Context com.userjoy.mars.core.plugin.PluginBase.GetContext()' on a null object reference
-11-08 22:07:25.586  5354  5411 E Unity   : java.lang.NullPointerException: Attempt to invoke virtual method 'android.content.Context com.userjoy.mars.core.plugin.PluginBase.GetContext()' on a null object reference
-11-08 22:07:25.586  5354  5411 E Unity   : 	at com.userjoy.mars.core.MarsMain.GetContext(SourceFile:1)
-11-08 22:07:25.586  5354  5411 E Unity   : 	at com.userjoy.mars.NetworkState.NetworkState.<init>(SourceFile:253)
-11-08 22:07:25.586  5354  5411 E Unity   : 	at com.userjoy.mars.NetworkState.NetworkState.if(SourceFile:2)
-11-08 22:07:25.586  5354  5411 E Unity   : 	at com.userjoy.mars.bridge.NetworkStateBridge.GetNetworkType(SourceFile:1)
-11-08 22:07:25.586  5354  5411 E Unity   : 	at com.unity3d.player.UnityPlayer.nativeRender(Native Method)
-11-08 22:07:25.586  5354  5411 E Unity   : 	at com.unity3d.player.UnityPlayer.-$$Nest$mnativeRender(Unknown Source:0)
-11-08 22:07:25.586  5354  5411 E Unity   : 	at com.unity3d.player.T0.handleMessage(Unknown Source:122)
-11-08 22:07:25.586  5354  5411 E Unity   : 	at android.os.Handler.dispatchMessage(Handler.java:102)
-11-08 22:07:25.586  5354  5411 E Unity   : 	at android.os.Looper.loop(Looper.java:223)
-11-08 22:07:25.586  5354  5411 E Unity   : 	at com.unity3d.player.U0.run(Unknown Source:24)
-11-08 22:07:25.586  5354  5411 E Unity   :   at UnityEngine.AndroidJNISafe.CheckExce
-11-08 22:07:25.704  5354  5411 E Unity   : UnityEngine.AndroidJavaException: java.lang.NullPointerException: Attempt to invoke virtual method 'android.content.Context com.userjoy.mars.core.plugin.PluginBase.GetContext()' on a null object reference
-11-08 22:07:25.704  5354  5411 E Unity   :   at UnityEngine.AndroidJNISafe.CheckException () [0x00000] in <00000000000000000000000000000000>:0 
-11-08 22:07:25.704  5354  5411 E Unity   :   at UnityEngine.AndroidJNISafe.CallStringMethod (System.IntPtr obj, System.IntPtr methodID, System.Span`1[T] args) [0x00000] in <00000000000000000000000000000000>:0 
-11-08 22:07:25.704  5354  5411 E Unity   :   at UnityEngine.AndroidJavaObject._Call[ReturnType] (System.IntPtr methodID, System.Object[] args) [0x00000] in <00000000000000000000000000000000>:0 
-11-08 22:07:25.704  5354  5411 E Unity   :   at BaseProcLua.V_Update (System.Single dTime) [0x00000] in <00000000000000000000000000000000>:0 
-11-08 22:07:25.704  5354  5411 E Unity   :   at CProcManager.Update (System.Single dTime) [0x00000] in <00000000000000000000000000000000>:0 
-11-08 22:07:25.704  5354  5411 E Unity   :   at Main.Update () [0x00000] in <00000000000000000000000000000000>:0 
-11-08 22:07:25.704  5354  5411 E Unity   : UJDebug:LogError(Object, Boolean, UJLogType)
-11-08 22:07:25.704  5354  5411 E Unity   : Main:Update()
-11-08 22:07:25.704  5354  5411 E Unity   : 
-11-08 22:07:25.708  5354  5411 E Unity   : AndroidJavaException: java.lang.NullPointerException: Attempt to invoke virtual method 'android.content.Context com.userjoy.mars.core.plugin.PluginBase.GetContext()' on a null object reference
-11-08 22:07:25.708  5354  5411 E Unity   : java.lang.NullPointerException: Attempt to invoke virtual method 'android.content.Context com.userjoy.mars.core.plugin.PluginBase.GetContext()' on a null object reference
-11-08 22:07:25.708  5354  5411 E Unity   : 	at com.userjoy.mars.core.MarsMain.GetContext(SourceFile:1)
-11-08 22:07:25.708  5354  5411 E Unity   : 	at com.userjoy.mars.NetworkState.NetworkState.<init>(SourceFile:253)
-11-08 22:07:25.708  5354  5411 E Unity   : 	at com.userjoy.mars.NetworkState.NetworkState.if(SourceFile:2)
-11-08 22:07:25.708  5354  5411 E Unity   : 	at com.userjoy.mars.bridge.NetworkStateBridge.GetNetworkType(SourceFile:1)
-11-08 22:07:25.708  5354  5411 E Unity   : 	at com.unity3d.player.UnityPlayer.nativeRender(Native Method)
-11-08 22:07:25.708  5354  5411 E Unity   : 	at com.unity3d.player.UnityPlayer.-$$Nest$mnativeRender(Unknown Source:0)
-11-08 22:07:25.708  5354  5411 E Unity   : 	at com.unity3d.player.T0.handleMessage(Unknown Source:122)
-11-08 22:07:25.708  5354  5411 E Unity   : 	at android.os.Handler.dispatchMessage(Handler.java:102)
-11-08 22:07:25.708  5354  5411 E Unity   : 	at android.os.Looper.loop(Looper.java:223)
-11-08 22:07:25.708  5354  5411 E Unity   : 	at com.unity3d.player.U0.run(Unknown Source:24)
-11-08 22:07:25.708  5354  5411 E Unity   :   at UnityEngine.AndroidJNISafe.CheckExce
-11-08 22:07:25.800  5354  5411 E Unity   : UnityEngine.AndroidJavaException: java.lang.NullPointerException: Attempt to invoke virtual method 'android.content.Context com.userjoy.mars.core.plugin.PluginBase.GetContext()' on a null object reference
-11-08 22:07:25.800  5354  5411 E Unity   :   at UnityEngine.AndroidJNISafe.CheckException () [0x00000] in <00000000000000000000000000000000>:0 
-11-08 22:07:25.800  5354  5411 E Unity   :   at UnityEngine.AndroidJNISafe.CallStringMethod (System.IntPtr obj, System.IntPtr methodID, System.Span`1[T] args) [0x00000] in <00000000000000000000000000000000>:0 
-11-08 22:07:25.800  5354  5411 E Unity   :   at UnityEngine.AndroidJavaObject._Call[ReturnType] (System.IntPtr methodID, System.Object[] args) [0x00000] in <00000000000000000000000000000000>:0 
-11-08 22:07:25.800  5354  5411 E Unity   :   at BaseProcLua.V_Update (System.Single dTime) [0x00000] in <00000000000000000000000000000000>:0 
-11-08 22:07:25.800  5354  5411 E Unity   :   at CProcManager.Update (System.Single dTime) [0x00000] in <00000000000000000000000000000000>:0 
-11-08 22:07:25.800  5354  5411 E Unity   :   at Main.Update () [0x00000] in <00000000000000000000000000000000>:0 
-11-08 22:07:25.800  5354  5411 E Unity   : UJDebug:LogError(Object, Boolean, UJLogType)
-11-08 22:07:25.800  5354  5411 E Unity   : Main:Update()
-11-08 22:07:25.800  5354  5411 E Unity   : 
-11-08 22:07:25.805  5354  5411 E Unity   : AndroidJavaException: java.lang.NullPointerException: Attempt to invoke virtual method 'android.content.Context com.userjoy.mars.core.plugin.PluginBase.GetContext()' on a null object reference
-11-08 22:07:25.805  5354  5411 E Unity   : java.lang.NullPointerException: Attempt to invoke virtual method 'android.content.Context com.userjoy.mars.core.plugin.PluginBase.GetContext()' on a null object reference
-11-08 22:07:25.805  5354  5411 E Unity   : 	at com.userjoy.mars.core.MarsMain.GetContext(SourceFile:1)
-11-08 22:07:25.805  5354  5411 E Unity   : 	at com.userjoy.mars.NetworkState.NetworkState.<init>(SourceFile:253)
-11-08 22:07:25.805  5354  5411 E Unity   : 	at com.userjoy.mars.NetworkState.NetworkState.if(SourceFile:2)
-11-08 22:07:25.805  5354  5411 E Unity   : 	at com.userjoy.mars.bridge.NetworkStateBridge.GetNetworkType(SourceFile:1)
-11-08 22:07:25.805  5354  5411 E Unity   : 	at com.unity3d.player.UnityPlayer.nativeRender(Native Method)
-11-08 22:07:25.805  5354  5411 E Unity   : 	at com.unity3d.player.UnityPlayer.-$$Nest$mnativeRender(Unknown Source:0)
-11-08 22:07:25.805  5354  5411 E Unity   : 	at com.unity3d.player.T0.handleMessage(Unknown Source:122)
-11-08 22:07:25.805  5354  5411 E Unity   : 	at android.os.Handler.dispatchMessage(Handler.java:102)
-11-08 22:07:25.805  5354  5411 E Unity   : 	at android.os.Looper.loop(Looper.java:223)
-11-08 22:07:25.805  5354  5411 E Unity   : 	at com.unity3d.player.U0.run(Unknown Source:24)
-11-08 22:07:25.805  5354  5411 E Unity   :   at UnityEngine.AndroidJNISafe.CheckExce
-11-08 22:07:25.894  5354  5411 E Unity   : UnityEngine.AndroidJavaException: java.lang.NullPointerException: Attempt to invoke virtual method 'android.content.Context com.userjoy.mars.core.plugin.PluginBase.GetContext()' on a null object reference
-11-08 22:07:25.894  5354  5411 E Unity   :   at UnityEngine.AndroidJNISafe.CheckException () [0x00000] in <00000000000000000000000000000000>:0 
-11-08 22:07:25.894  5354  5411 E Unity   :   at UnityEngine.AndroidJNISafe.CallStringMethod (System.IntPtr obj, System.IntPtr methodID, System.Span`1[T] args) [0x00000] in <00000000000000000000000000000000>:0 
-11-08 22:07:25.894  5354  5411 E Unity   :   at UnityEngine.AndroidJavaObject._Call[ReturnType] (System.IntPtr methodID, System.Object[] args) [0x00000] in <00000000000000000000000000000000>:0 
-11-08 22:07:25.894  5354  5411 E Unity   :   at BaseProcLua.V_Update (System.Single dTime) [0x00000] in <00000000000000000000000000000000>:0 
-11-08 22:07:25.894  5354  5411 E Unity   :   at CProcManager.Update (System.Single dTime) [0x00000] in <00000000000000000000000000000000>:0 
-11-08 22:07:25.894  5354  5411 E Unity   :   at Main.Update () [0x00000] in <00000000000000000000000000000000>:0 
-11-08 22:07:25.894  5354  5411 E Unity   : UJDebug:LogError(Object, Boolean, UJLogType)
-11-08 22:07:25.894  5354  5411 E Unity   : Main:Update()
-11-08 22:07:25.894  5354  5411 E Unity   : 
-11-08 22:07:25.910  5354  5411 E Unity   : AndroidJavaException: java.lang.NullPointerException: Attempt to invoke virtual method 'android.content.Context com.userjoy.mars.core.plugin.PluginBase.GetContext()' on a null object reference
-11-08 22:07:25.910  5354  5411 E Unity   : java.lang.NullPointerException: Attempt to invoke virtual method 'android.content.Context com.userjoy.mars.core.plugin.PluginBase.GetContext()' on a null object reference
-11-08 22:07:25.910  5354  5411 E Unity   : 	at com.userjoy.mars.core.MarsMain.GetContext(SourceFile:1)
-11-08 22:07:25.910  5354  5411 E Unity   : 	at com.userjoy.mars.NetworkState.NetworkState.<init>(SourceFile:253)
-11-08 22:07:25.910  5354  5411 E Unity   : 	at com.userjoy.mars.NetworkState.NetworkState.if(SourceFile:2)
-11-08 22:07:25.910  5354  5411 E Unity   : 	at com.userjoy.mars.bridge.NetworkStateBridge.GetNetworkType(SourceFile:1)
-11-08 22:07:25.910  5354  5411 E Unity   : 	at com.unity3d.player.UnityPlayer.nativeRender(Native Method)
-11-08 22:07:25.910  5354  5411 E Unity   : 	at com.unity3d.player.UnityPlayer.-$$Nest$mnativeRender(Unknown Source:0)
-11-08 22:07:25.910  5354  5411 E Unity   : 	at com.unity3d.player.T0.handleMessage(Unknown Source:122)
-11-08 22:07:25.910  5354  5411 E Unity   : 	at android.os.Handler.dispatchMessage(Handler.java:102)
-11-08 22:07:25.910  5354  5411 E Unity   : 	at android.os.Looper.loop(Looper.java:223)
-11-08 22:07:25.910  5354  5411 E Unity   : 	at com.unity3d.player.U0.run(Unknown Source:24)
-11-08 22:07:25.910  5354  5411 E Unity   :   at UnityEngine.AndroidJNISafe.CheckExce
-11-08 22:07:26.005  5354  5411 E Unity   : UnityEngine.AndroidJavaException: java.lang.NullPointerException: Attempt to invoke virtual method 'android.content.Context com.userjoy.mars.core.plugin.PluginBase.GetContext()' on a null object reference
-11-08 22:07:26.005  5354  5411 E Unity   :   at UnityEngine.AndroidJNISafe.CheckException () [0x00000] in <00000000000000000000000000000000>:0 
-11-08 22:07:26.005  5354  5411 E Unity   :   at UnityEngine.AndroidJNISafe.CallStringMethod (System.IntPtr obj, System.IntPtr methodID, System.Span`1[T] args) [0x00000] in <00000000000000000000000000000000>:0 
-11-08 22:07:26.005  5354  5411 E Unity   :   at UnityEngine.AndroidJavaObject._Call[ReturnType] (System.IntPtr methodID, System.Object[] args) [0x00000] in <00000000000000000000000000000000>:0 
-11-08 22:07:26.005  5354  5411 E Unity   :   at BaseProcLua.V_Update (System.Single dTime) [0x00000] in <00000000000000000000000000000000>:0 
-11-08 22:07:26.005  5354  5411 E Unity   :   at CProcManager.Update (System.Single dTime) [0x00000] in <00000000000000000000000000000000>:0 
-11-08 22:07:26.005  5354  5411 E Unity   :   at Main.Update () [0x00000] in <00000000000000000000000000000000>:0 
-11-08 22:07:26.005  5354  5411 E Unity   : UJDebug:LogError(Object, Boolean, UJLogType)
-11-08 22:07:26.005  5354  5411 E Unity   : Main:Update()
-11-08 22:07:26.005  5354  5411 E Unity   : 
-11-08 22:07:26.011  5354  5411 E Unity   : AndroidJavaException: java.lang.NullPointerException: Attempt to invoke virtual method 'android.content.Context com.userjoy.mars.core.plugin.PluginBase.GetContext()' on a null object reference
-11-08 22:07:26.011  5354  5411 E Unity   : java.lang.NullPointerException: Attempt to invoke virtual method 'android.content.Context com.userjoy.mars.core.plugin.PluginBase.GetContext()' on a null object reference
-11-08 22:07:26.011  5354  5411 E Unity   : 	at com.userjoy.mars.core.MarsMain.GetContext(SourceFile:1)
-11-08 22:07:26.011  5354  5411 E Unity   : 	at com.userjoy.mars.NetworkState.NetworkState.<init>(SourceFile:253)
-11-08 22:07:26.011  5354  5411 E Unity   : 	at com.userjoy.mars.NetworkState.NetworkState.if(SourceFile:2)
-11-08 22:07:26.011  5354  5411 E Unity   : 	at com.userjoy.mars.bridge.NetworkStateBridge.GetNetworkType(SourceFile:1)
-11-08 22:07:26.011  5354  5411 E Unity   : 	at com.unity3d.player.UnityPlayer.nativeRender(Native Method)
-11-08 22:07:26.011  5354  5411 E Unity   : 	at com.unity3d.player.UnityPlayer.-$$Nest$mnativeRender(Unknown Source:0)
-11-08 22:07:26.011  5354  5411 E Unity   : 	at com.unity3d.player.T0.handleMessage(Unknown Source:122)
-11-08 22:07:26.011  5354  5411 E Unity   : 	at android.os.Handler.dispatchMessage(Handler.java:102)
-11-08 22:07:26.011  5354  5411 E Unity   : 	at android.os.Looper.loop(Looper.java:223)
-11-08 22:07:26.011  5354  5411 E Unity   : 	at com.unity3d.player.U0.run(Unknown Source:24)
-11-08 22:07:26.011  5354  5411 E Unity   :   at UnityEngine.AndroidJNISafe.CheckExce
-11-08 22:07:26.112  5354  5411 E Unity   : UnityEngine.AndroidJavaException: java.lang.NullPointerException: Attempt to invoke virtual method 'android.content.Context com.userjoy.mars.core.plugin.PluginBase.GetContext()' on a null object reference
-11-08 22:07:26.112  5354  5411 E Unity   :   at UnityEngine.AndroidJNISafe.CheckException () [0x00000] in <00000000000000000000000000000000>:0 
-11-08 22:07:26.112  5354  5411 E Unity   :   at UnityEngine.AndroidJNISafe.CallStringMethod (System.IntPtr obj, System.IntPtr methodID, System.Span`1[T] args) [0x00000] in <00000000000000000000000000000000>:0 
-11-08 22:07:26.112  5354  5411 E Unity   :   at UnityEngine.AndroidJavaObject._Call[ReturnType] (System.IntPtr methodID, System.Object[] args) [0x00000] in <00000000000000000000000000000000>:0 
-11-08 22:07:26.112  5354  5411 E Unity   :   at BaseProcLua.V_Update (System.Single dTime) [0x00000] in <00000000000000000000000000000000>:0 
-11-08 22:07:26.112  5354  5411 E Unity   :   at CProcManager.Update (System.Single dTime) [0x00000] in <00000000000000000000000000000000>:0 
-11-08 22:07:26.112  5354  5411 E Unity   :   at Main.Update () [0x00000] in <00000000000000000000000000000000>:0 
-11-08 22:07:26.112  5354  5411 E Unity   : UJDebug:LogError(Object, Boolean, UJLogType)
-11-08 22:07:26.112  5354  5411 E Unity   : Main:Update()
-11-08 22:07:26.112  5354  5411 E Unity   : 
-11-08 22:07:26.115  5354  5411 E Unity   : AndroidJavaException: java.lang.NullPointerException: Attempt to invoke virtual method 'android.content.Context com.userjoy.mars.core.plugin.PluginBase.GetContext()' on a null object reference
-11-08 22:07:26.115  5354  5411 E Unity   : java.lang.NullPointerException: Attempt to invoke virtual method 'android.content.Context com.userjoy.mars.core.plugin.PluginBase.GetContext()' on a null object reference
-11-08 22:07:26.115  5354  5411 E Unity   : 	at com.userjoy.mars.core.MarsMain.GetContext(SourceFile:1)
-11-08 22:07:26.115  5354  5411 E Unity   : 	at com.userjoy.mars.NetworkState.NetworkState.<init>(SourceFile:253)
-11-08 22:07:26.115  5354  5411 E Unity   : 	at com.userjoy.mars.NetworkState.NetworkState.if(SourceFile:2)
-11-08 22:07:26.115  5354  5411 E Unity   : 	at com.userjoy.mars.bridge.NetworkStateBridge.GetNetworkType(SourceFile:1)
-11-08 22:07:26.115  5354  5411 E Unity   : 	at com.unity3d.player.UnityPlayer.nativeRender(Native Method)
-11-08 22:07:26.115  5354  5411 E Unity   : 	at com.unity3d.player.UnityPlayer.-$$Nest$mnativeRender(Unknown Source:0)
-11-08 22:07:26.115  5354  5411 E Unity   : 	at com.unity3d.player.T0.handleMessage(Unknown Source:122)
-11-08 22:07:26.115  5354  5411 E Unity   : 	at android.os.Handler.dispatchMessage(Handler.java:102)
-11-08 22:07:26.115  5354  5411 E Unity   : 	at android.os.Looper.loop(Looper.java:223)
-11-08 22:07:26.115  5354  5411 E Unity   : 	at com.unity3d.player.U0.run(Unknown Source:24)
-11-08 22:07:26.115  5354  5411 E Unity   :   at UnityEngine.AndroidJNISafe.CheckExce
-11-08 22:07:26.220  5354  5411 E Unity   : UnityEngine.AndroidJavaException: java.lang.NullPointerException: Attempt to invoke virtual method 'android.content.Context com.userjoy.mars.core.plugin.PluginBase.GetContext()' on a null object reference
-11-08 22:07:26.220  5354  5411 E Unity   :   at UnityEngine.AndroidJNISafe.CheckException () [0x00000] in <00000000000000000000000000000000>:0 
-11-08 22:07:26.220  5354  5411 E Unity   :   at UnityEngine.AndroidJNISafe.CallStringMethod (System.IntPtr obj, System.IntPtr methodID, System.Span`1[T] args) [0x00000] in <00000000000000000000000000000000>:0 
-11-08 22:07:26.220  5354  5411 E Unity   :   at UnityEngine.AndroidJavaObject._Call[ReturnType] (System.IntPtr methodID, System.Object[] args) [0x00000] in <00000000000000000000000000000000>:0 
-11-08 22:07:26.220  5354  5411 E Unity   :   at BaseProcLua.V_Update (System.Single dTime) [0x00000] in <00000000000000000000000000000000>:0 
-11-08 22:07:26.220  5354  5411 E Unity   :   at CProcManager.Update (System.Single dTime) [0x00000] in <00000000000000000000000000000000>:0 
-11-08 22:07:26.220  5354  5411 E Unity   :   at Main.Update () [0x00000] in <00000000000000000000000000000000>:0 
-11-08 22:07:26.220  5354  5411 E Unity   : UJDebug:LogError(Object, Boolean, UJLogType)
-11-08 22:07:26.220  5354  5411 E Unity   : Main:Update()
-11-08 22:07:26.220  5354  5411 E Unity   : 
-11-08 22:07:26.224  5354  5411 E Unity   : AndroidJavaException: java.lang.NullPointerException: Attempt to invoke virtual method 'android.content.Context com.userjoy.mars.core.plugin.PluginBase.GetContext()' on a null object reference
-11-08 22:07:26.224  5354  5411 E Unity   : java.lang.NullPointerException: Attempt to invoke virtual method 'android.content.Context com.userjoy.mars.core.plugin.PluginBase.GetContext()' on a null object reference
-11-08 22:07:26.224  5354  5411 E Unity   : 	at com.userjoy.mars.core.MarsMain.GetContext(SourceFile:1)
-11-08 22:07:26.224  5354  5411 E Unity   : 	at com.userjoy.mars.NetworkState.NetworkState.<init>(SourceFile:253)
-11-08 22:07:26.224  5354  5411 E Unity   : 	at com.userjoy.mars.NetworkState.NetworkState.if(SourceFile:2)
-11-08 22:07:26.224  5354  5411 E Unity   : 	at com.userjoy.mars.bridge.NetworkStateBridge.GetNetworkType(SourceFile:1)
-11-08 22:07:26.224  5354  5411 E Unity   : 	at com.unity3d.player.UnityPlayer.nativeRender(Native Method)
-11-08 22:07:26.224  5354  5411 E Unity   : 	at com.unity3d.player.UnityPlayer.-$$Nest$mnativeRender(Unknown Source:0)
-11-08 22:07:26.224  5354  5411 E Unity   : 	at com.unity3d.player.T0.handleMessage(Unknown Source:122)
-11-08 22:07:26.224  5354  5411 E Unity   : 	at android.os.Handler.dispatchMessage(Handler.java:102)
-11-08 22:07:26.224  5354  5411 E Unity   : 	at android.os.Looper.loop(Looper.java:223)
-11-08 22:07:26.224  5354  5411 E Unity   : 	at com.unity3d.player.U0.run(Unknown Source:24)
-11-08 22:07:26.224  5354  5411 E Unity   :   at UnityEngine.AndroidJNISafe.CheckExce
-11-08 22:07:26.320  5354  5411 E Unity   : UnityEngine.AndroidJavaException: java.lang.NullPointerException: Attempt to invoke virtual method 'android.content.Context com.userjoy.mars.core.plugin.PluginBase.GetContext()' on a null object reference
-11-08 22:07:26.320  5354  5411 E Unity   :   at UnityEngine.AndroidJNISafe.CheckException () [0x00000] in <00000000000000000000000000000000>:0 
-11-08 22:07:26.320  5354  5411 E Unity   :   at UnityEngine.AndroidJNISafe.CallStringMethod (System.IntPtr obj, System.IntPtr methodID, System.Span`1[T] args) [0x00000] in <00000000000000000000000000000000>:0 
-11-08 22:07:26.320  5354  5411 E Unity   :   at UnityEngine.AndroidJavaObject._Call[ReturnType] (System.IntPtr methodID, System.Object[] args) [0x00000] in <00000000000000000000000000000000>:0 
-11-08 22:07:26.320  5354  5411 E Unity   :   at BaseProcLua.V_Update (System.Single dTime) [0x00000] in <00000000000000000000000000000000>:0 
-11-08 22:07:26.320  5354  5411 E Unity   :   at CProcManager.Update (System.Single dTime) [0x00000] in <00000000000000000000000000000000>:0 
-11-08 22:07:26.320  5354  5411 E Unity   :   at Main.Update () [0x00000] in <00000000000000000000000000000000>:0 
-11-08 22:07:26.320  5354  5411 E Unity   : UJDebug:LogError(Object, Boolean, UJLogType)
-11-08 22:07:26.320  5354  5411 E Unity   : Main:Update()
-11-08 22:07:26.320  5354  5411 E Unity   : 
-11-08 22:07:26.324  5354  5411 E Unity   : AndroidJavaException: java.lang.NullPointerException: Attempt to invoke virtual method 'android.content.Context com.userjoy.mars.core.plugin.PluginBase.GetContext()' on a null object reference
-11-08 22:07:26.324  5354  5411 E Unity   : java.lang.NullPointerException: Attempt to invoke virtual method 'android.content.Context com.userjoy.mars.core.plugin.PluginBase.GetContext()' on a null object reference
-11-08 22:07:26.324  5354  5411 E Unity   : 	at com.userjoy.mars.core.MarsMain.GetContext(SourceFile:1)
-11-08 22:07:26.324  5354  5411 E Unity   : 	at com.userjoy.mars.NetworkState.NetworkState.<init>(SourceFile:253)
-11-08 22:07:26.324  5354  5411 E Unity   : 	at com.userjoy.mars.NetworkState.NetworkState.if(SourceFile:2)
-11-08 22:07:26.324  5354  5411 E Unity   : 	at com.userjoy.mars.bridge.NetworkStateBridge.GetNetworkType(SourceFile:1)
-11-08 22:07:26.324  5354  5411 E Unity   : 	at com.unity3d.player.UnityPlayer.nativeRender(Native Method)
-11-08 22:07:26.324  5354  5411 E Unity   : 	at com.unity3d.player.UnityPlayer.-$$Nest$mnativeRender(Unknown Source:0)
-11-08 22:07:26.324  5354  5411 E Unity   : 	at com.unity3d.player.T0.handleMessage(Unknown Source:122)
-11-08 22:07:26.324  5354  5411 E Unity   : 	at android.os.Handler.dispatchMessage(Handler.java:102)
-11-08 22:07:26.324  5354  5411 E Unity   : 	at android.os.Looper.loop(Looper.java:223)
-11-08 22:07:26.324  5354  5411 E Unity   : 	at com.unity3d.player.U0.run(Unknown Source:24)
-11-08 22:07:26.324  5354  5411 E Unity   :   at UnityEngine.AndroidJNISafe.CheckExce
-11-08 22:07:26.413  5354  5411 E Unity   : UnityEngine.AndroidJavaException: java.lang.NullPointerException: Attempt to invoke virtual method 'android.content.Context com.userjoy.mars.core.plugin.PluginBase.GetContext()' on a null object reference
-11-08 22:07:26.413  5354  5411 E Unity   :   at UnityEngine.AndroidJNISafe.CheckException () [0x00000] in <00000000000000000000000000000000>:0 
-11-08 22:07:26.413  5354  5411 E Unity   :   at UnityEngine.AndroidJNISafe.CallStringMethod (System.IntPtr obj, System.IntPtr methodID, System.Span`1[T] args) [0x00000] in <00000000000000000000000000000000>:0 
-11-08 22:07:26.413  5354  5411 E Unity   :   at UnityEngine.AndroidJavaObject._Call[ReturnType] (System.IntPtr methodID, System.Object[] args) [0x00000] in <00000000000000000000000000000000>:0 
-11-08 22:07:26.413  5354  5411 E Unity   :   at BaseProcLua.V_Update (System.Single dTime) [0x00000] in <00000000000000000000000000000000>:0 
-11-08 22:07:26.413  5354  5411 E Unity   :   at CProcManager.Update (System.Single dTime) [0x00000] in <00000000000000000000000000000000>:0 
-11-08 22:07:26.413  5354  5411 E Unity   :   at Main.Update () [0x00000] in <00000000000000000000000000000000>:0 
-11-08 22:07:26.413  5354  5411 E Unity   : UJDebug:LogError(Object, Boolean, UJLogType)
-11-08 22:07:26.413  5354  5411 E Unity   : Main:Update()
-11-08 22:07:26.413  5354  5411 E Unity   : 
-11-08 22:07:26.422  5354  5411 E Unity   : AndroidJavaException: java.lang.NullPointerException: Attempt to invoke virtual method 'android.content.Context com.userjoy.mars.core.plugin.PluginBase.GetContext()' on a null object reference
-11-08 22:07:26.422  5354  5411 E Unity   : java.lang.NullPointerException: Attempt to invoke virtual method 'android.content.Context com.userjoy.mars.core.plugin.PluginBase.GetContext()' on a null object reference
-11-08 22:07:26.422  5354  5411 E Unity   : 	at com.userjoy.mars.core.MarsMain.GetContext(SourceFile:1)
-11-08 22:07:26.422  5354  5411 E Unity   : 	at com.userjoy.mars.NetworkState.NetworkState.<init>(SourceFile:253)
-11-08 22:07:26.422  5354  5411 E Unity   : 	at com.userjoy.mars.NetworkState.NetworkState.if(SourceFile:2)
-11-08 22:07:26.422  5354  5411 E Unity   : 	at com.userjoy.mars.bridge.NetworkStateBridge.GetNetworkType(SourceFile:1)
-11-08 22:07:26.422  5354  5411 E Unity   : 	at com.unity3d.player.UnityPlayer.nativeRender(Native Method)
-11-08 22:07:26.422  5354  5411 E Unity   : 	at com.unity3d.player.UnityPlayer.-$$Nest$mnativeRender(Unknown Source:0)
-11-08 22:07:26.422  5354  5411 E Unity   : 	at com.unity3d.player.T0.handleMessage(Unknown Source:122)
-11-08 22:07:26.422  5354  5411 E Unity   : 	at android.os.Handler.dispatchMessage(Handler.java:102)
-11-08 22:07:26.422  5354  5411 E Unity   : 	at android.os.Looper.loop(Looper.java:223)
-11-08 22:07:26.422  5354  5411 E Unity   : 	at com.unity3d.player.U0.run(Unknown Source:24)
-11-08 22:07:26.422  5354  5411 E Unity   :   at UnityEngine.AndroidJNISafe.CheckExce
-11-08 22:07:26.518  5354  5411 E Unity   : UnityEngine.AndroidJavaException: java.lang.NullPointerException: Attempt to invoke virtual method 'android.content.Context com.userjoy.mars.core.plugin.PluginBase.GetContext()' on a null object reference
-11-08 22:07:26.518  5354  5411 E Unity   :   at UnityEngine.AndroidJNISafe.CheckException () [0x00000] in <00000000000000000000000000000000>:0 
-11-08 22:07:26.518  5354  5411 E Unity   :   at UnityEngine.AndroidJNISafe.CallStringMethod (System.IntPtr obj, System.IntPtr methodID, System.Span`1[T] args) [0x00000] in <00000000000000000000000000000000>:0 
-11-08 22:07:26.518  5354  5411 E Unity   :   at UnityEngine.AndroidJavaObject._Call[ReturnType] (System.IntPtr methodID, System.Object[] args) [0x00000] in <00000000000000000000000000000000>:0 
-11-08 22:07:26.518  5354  5411 E Unity   :   at BaseProcLua.V_Update (System.Single dTime) [0x00000] in <00000000000000000000000000000000>:0 
-11-08 22:07:26.518  5354  5411 E Unity   :   at CProcManager.Update (System.Single dTime) [0x00000] in <00000000000000000000000000000000>:0 
-11-08 22:07:26.518  5354  5411 E Unity   :   at Main.Update () [0x00000] in <00000000000000000000000000000000>:0 
-11-08 22:07:26.518  5354  5411 E Unity   : UJDebug:LogError(Object, Boolean, UJLogType)
-11-08 22:07:26.518  5354  5411 E Unity   : Main:Update()
-11-08 22:07:26.518  5354  5411 E Unity   : 
-11-08 22:07:26.523  5354  5411 E Unity   : AndroidJavaException: java.lang.NullPointerException: Attempt to invoke virtual method 'android.content.Context com.userjoy.mars.core.plugin.PluginBase.GetContext()' on a null object reference
-11-08 22:07:26.523  5354  5411 E Unity   : java.lang.NullPointerException: Attempt to invoke virtual method 'android.content.Context com.userjoy.mars.core.plugin.PluginBase.GetContext()' on a null object reference
-11-08 22:07:26.523  5354  5411 E Unity   : 	at com.userjoy.mars.core.MarsMain.GetContext(SourceFile:1)
-11-08 22:07:26.523  5354  5411 E Unity   : 	at com.userjoy.mars.NetworkState.NetworkState.<init>(SourceFile:253)
-11-08 22:07:26.523  5354  5411 E Unity   : 	at com.userjoy.mars.NetworkState.NetworkState.if(SourceFile:2)
-11-08 22:07:26.523  5354  5411 E Unity   : 	at com.userjoy.mars.bridge.NetworkStateBridge.GetNetworkType(SourceFile:1)
-11-08 22:07:26.523  5354  5411 E Unity   : 	at com.unity3d.player.UnityPlayer.nativeRender(Native Method)
-11-08 22:07:26.523  5354  5411 E Unity   : 	at com.unity3d.player.UnityPlayer.-$$Nest$mnativeRender(Unknown Source:0)
-11-08 22:07:26.523  5354  5411 E Unity   : 	at com.unity3d.player.T0.handleMessage(Unknown Source:122)
-11-08 22:07:26.523  5354  5411 E Unity   : 	at android.os.Handler.dispatchMessage(Handler.java:102)
-11-08 22:07:26.523  5354  5411 E Unity   : 	at android.os.Looper.loop(Looper.java:223)
-11-08 22:07:26.523  5354  5411 E Unity   : 	at com.unity3d.player.U0.run(Unknown Source:24)
-11-08 22:07:26.523  5354  5411 E Unity   :   at UnityEngine.AndroidJNISafe.CheckExce
-11-08 22:07:26.624  5354  5411 E Unity   : UnityEngine.AndroidJavaException: java.lang.NullPointerException: Attempt to invoke virtual method 'android.content.Context com.userjoy.mars.core.plugin.PluginBase.GetContext()' on a null object reference
-11-08 22:07:26.624  5354  5411 E Unity   :   at UnityEngine.AndroidJNISafe.CheckException () [0x00000] in <00000000000000000000000000000000>:0 
-11-08 22:07:26.624  5354  5411 E Unity   :   at UnityEngine.AndroidJNISafe.CallStringMethod (System.IntPtr obj, System.IntPtr methodID, System.Span`1[T] args) [0x00000] in <00000000000000000000000000000000>:0 
-11-08 22:07:26.624  5354  5411 E Unity   :   at UnityEngine.AndroidJavaObject._Call[ReturnType] (System.IntPtr methodID, System.Object[] args) [0x00000] in <00000000000000000000000000000000>:0 
-11-08 22:07:26.624  5354  5411 E Unity   :   at BaseProcLua.V_Update (System.Single dTime) [0x00000] in <00000000000000000000000000000000>:0 
-11-08 22:07:26.624  5354  5411 E Unity   :   at CProcManager.Update (System.Single dTime) [0x00000] in <00000000000000000000000000000000>:0 
-11-08 22:07:26.624  5354  5411 E Unity   :   at Main.Update () [0x00000] in <00000000000000000000000000000000>:0 
-11-08 22:07:26.624  5354  5411 E Unity   : UJDebug:LogError(Object, Boolean, UJLogType)
-11-08 22:07:26.624  5354  5411 E Unity   : Main:Update()
-11-08 22:07:26.624  5354  5411 E Unity   : 
-11-08 22:07:26.628  5354  5411 E Unity   : AndroidJavaException: java.lang.NullPointerException: Attempt to invoke virtual method 'android.content.Context com.userjoy.mars.core.plugin.PluginBase.GetContext()' on a null object reference
-11-08 22:07:26.628  5354  5411 E Unity   : java.lang.NullPointerException: Attempt to invoke virtual method 'android.content.Context com.userjoy.mars.core.plugin.PluginBase.GetContext()' on a null object reference
-11-08 22:07:26.628  5354  5411 E Unity   : 	at com.userjoy.mars.core.MarsMain.GetContext(SourceFile:1)
-11-08 22:07:26.628  5354  5411 E Unity   : 	at com.userjoy.mars.NetworkState.NetworkState.<init>(SourceFile:253)
-11-08 22:07:26.628  5354  5411 E Unity   : 	at com.userjoy.mars.NetworkState.NetworkState.if(SourceFile:2)
-11-08 22:07:26.628  5354  5411 E Unity   : 	at com.userjoy.mars.bridge.NetworkStateBridge.GetNetworkType(SourceFile:1)
-11-08 22:07:26.628  5354  5411 E Unity   : 	at com.unity3d.player.UnityPlayer.nativeRender(Native Method)
-11-08 22:07:26.628  5354  5411 E Unity   : 	at com.unity3d.player.UnityPlayer.-$$Nest$mnativeRender(Unknown Source:0)
-11-08 22:07:26.628  5354  5411 E Unity   : 	at com.unity3d.player.T0.handleMessage(Unknown Source:122)
-11-08 22:07:26.628  5354  5411 E Unity   : 	at android.os.Handler.dispatchMessage(Handler.java:102)
-11-08 22:07:26.628  5354  5411 E Unity   : 	at android.os.Looper.loop(Looper.java:223)
-11-08 22:07:26.628  5354  5411 E Unity   : 	at com.unity3d.player.U0.run(Unknown Source:24)
-11-08 22:07:26.628  5354  5411 E Unity   :   at UnityEngine.AndroidJNISafe.CheckExce
-11-08 22:07:26.733  5354  5411 E Unity   : UnityEngine.AndroidJavaException: java.lang.NullPointerException: Attempt to invoke virtual method 'android.content.Context com.userjoy.mars.core.plugin.PluginBase.GetContext()' on a null object reference
-11-08 22:07:26.733  5354  5411 E Unity   :   at UnityEngine.AndroidJNISafe.CheckException () [0x00000] in <00000000000000000000000000000000>:0 
-11-08 22:07:26.733  5354  5411 E Unity   :   at UnityEngine.AndroidJNISafe.CallStringMethod (System.IntPtr obj, System.IntPtr methodID, System.Span`1[T] args) [0x00000] in <00000000000000000000000000000000>:0 
-11-08 22:07:26.733  5354  5411 E Unity   :   at UnityEngine.AndroidJavaObject._Call[ReturnType] (System.IntPtr methodID, System.Object[] args) [0x00000] in <00000000000000000000000000000000>:0 
-11-08 22:07:26.733  5354  5411 E Unity   :   at BaseProcLua.V_Update (System.Single dTime) [0x00000] in <00000000000000000000000000000000>:0 
-11-08 22:07:26.733  5354  5411 E Unity   :   at CProcManager.Update (System.Single dTime) [0x00000] in <00000000000000000000000000000000>:0 
-11-08 22:07:26.733  5354  5411 E Unity   :   at Main.Update () [0x00000] in <00000000000000000000000000000000>:0 
-11-08 22:07:26.733  5354  5411 E Unity   : UJDebug:LogError(Object, Boolean, UJLogType)
-11-08 22:07:26.733  5354  5411 E Unity   : Main:Update()
-11-08 22:07:26.733  5354  5411 E Unity   : 
-11-08 22:07:26.739  5354  5411 E Unity   : AndroidJavaException: java.lang.NullPointerException: Attempt to invoke virtual method 'android.content.Context com.userjoy.mars.core.plugin.PluginBase.GetContext()' on a null object reference
-11-08 22:07:26.739  5354  5411 E Unity   : java.lang.NullPointerException: Attempt to invoke virtual method 'android.content.Context com.userjoy.mars.core.plugin.PluginBase.GetContext()' on a null object reference
-11-08 22:07:26.739  5354  5411 E Unity   : 	at com.userjoy.mars.core.MarsMain.GetContext(SourceFile:1)
-11-08 22:07:26.739  5354  5411 E Unity   : 	at com.userjoy.mars.NetworkState.NetworkState.<init>(SourceFile:253)
-11-08 22:07:26.739  5354  5411 E Unity   : 	at com.userjoy.mars.NetworkState.NetworkState.if(SourceFile:2)
-11-08 22:07:26.739  5354  5411 E Unity   : 	at com.userjoy.mars.bridge.NetworkStateBridge.GetNetworkType(SourceFile:1)
-11-08 22:07:26.739  5354  5411 E Unity   : 	at com.unity3d.player.UnityPlayer.nativeRender(Native Method)
-11-08 22:07:26.739  5354  5411 E Unity   : 	at com.unity3d.player.UnityPlayer.-$$Nest$mnativeRender(Unknown Source:0)
-11-08 22:07:26.739  5354  5411 E Unity   : 	at com.unity3d.player.T0.handleMessage(Unknown Source:122)
-11-08 22:07:26.739  5354  5411 E Unity   : 	at android.os.Handler.dispatchMessage(Handler.java:102)
-11-08 22:07:26.739  5354  5411 E Unity   : 	at android.os.Looper.loop(Looper.java:223)
-11-08 22:07:26.739  5354  5411 E Unity   : 	at com.unity3d.player.U0.run(Unknown Source:24)
-11-08 22:07:26.739  5354  5411 E Unity   :   at UnityEngine.AndroidJNISafe.CheckExce
-11-08 22:07:26.829  5354  5411 E Unity   : UnityEngine.AndroidJavaException: java.lang.NullPointerException: Attempt to invoke virtual method 'android.content.Context com.userjoy.mars.core.plugin.PluginBase.GetContext()' on a null object reference
-11-08 22:07:26.829  5354  5411 E Unity   :   at UnityEngine.AndroidJNISafe.CheckException () [0x00000] in <00000000000000000000000000000000>:0 
-11-08 22:07:26.829  5354  5411 E Unity   :   at UnityEngine.AndroidJNISafe.CallStringMethod (System.IntPtr obj, System.IntPtr methodID, System.Span`1[T] args) [0x00000] in <00000000000000000000000000000000>:0 
-11-08 22:07:26.829  5354  5411 E Unity   :   at UnityEngine.AndroidJavaObject._Call[ReturnType] (System.IntPtr methodID, System.Object[] args) [0x00000] in <00000000000000000000000000000000>:0 
-11-08 22:07:26.829  5354  5411 E Unity   :   at BaseProcLua.V_Update (System.Single dTime) [0x00000] in <00000000000000000000000000000000>:0 
-11-08 22:07:26.829  5354  5411 E Unity   :   at CProcManager.Update (System.Single dTime) [0x00000] in <00000000000000000000000000000000>:0 
-11-08 22:07:26.829  5354  5411 E Unity   :   at Main.Update () [0x00000] in <00000000000000000000000000000000>:0 
-11-08 22:07:26.829  5354  5411 E Unity   : UJDebug:LogError(Object, Boolean, UJLogType)
-11-08 22:07:26.829  5354  5411 E Unity   : Main:Update()
-11-08 22:07:26.829  5354  5411 E Unity   : 
-11-08 22:07:26.835  5354  5411 E Unity   : AndroidJavaException: java.lang.NullPointerException: Attempt to invoke virtual method 'android.content.Context com.userjoy.mars.core.plugin.PluginBase.GetContext()' on a null object reference
-11-08 22:07:26.835  5354  5411 E Unity   : java.lang.NullPointerException: Attempt to invoke virtual method 'android.content.Context com.userjoy.mars.core.plugin.PluginBase.GetContext()' on a null object reference
-11-08 22:07:26.835  5354  5411 E Unity   : 	at com.userjoy.mars.core.MarsMain.GetContext(SourceFile:1)
-11-08 22:07:26.835  5354  5411 E Unity   : 	at com.userjoy.mars.NetworkState.NetworkState.<init>(SourceFile:253)
-11-08 22:07:26.835  5354  5411 E Unity   : 	at com.userjoy.mars.NetworkState.NetworkState.if(SourceFile:2)
-11-08 22:07:26.835  5354  5411 E Unity   : 	at com.userjoy.mars.bridge.NetworkStateBridge.GetNetworkType(SourceFile:1)
-11-08 22:07:26.835  5354  5411 E Unity   : 	at com.unity3d.player.UnityPlayer.nativeRender(Native Method)
-11-08 22:07:26.835  5354  5411 E Unity   : 	at com.unity3d.player.UnityPlayer.-$$Nest$mnativeRender(Unknown Source:0)
-11-08 22:07:26.835  5354  5411 E Unity   : 	at com.unity3d.player.T0.handleMessage(Unknown Source:122)
-11-08 22:07:26.835  5354  5411 E Unity   : 	at android.os.Handler.dispatchMessage(Handler.java:102)
-11-08 22:07:26.835  5354  5411 E Unity   : 	at android.os.Looper.loop(Looper.java:223)
-11-08 22:07:26.835  5354  5411 E Unity   : 	at com.unity3d.player.U0.run(Unknown Source:24)
-11-08 22:07:26.835  5354  5411 E Unity   :   at UnityEngine.AndroidJNISafe.CheckExce
-11-08 22:07:26.936  5354  5411 E Unity   : UnityEngine.AndroidJavaException: java.lang.NullPointerException: Attempt to invoke virtual method 'android.content.Context com.userjoy.mars.core.plugin.PluginBase.GetContext()' on a null object reference
-11-08 22:07:26.936  5354  5411 E Unity   :   at UnityEngine.AndroidJNISafe.CheckException () [0x00000] in <00000000000000000000000000000000>:0 
-11-08 22:07:26.936  5354  5411 E Unity   :   at UnityEngine.AndroidJNISafe.CallStringMethod (System.IntPtr obj, System.IntPtr methodID, System.Span`1[T] args) [0x00000] in <00000000000000000000000000000000>:0 
-11-08 22:07:26.936  5354  5411 E Unity   :   at UnityEngine.AndroidJavaObject._Call[ReturnType] (System.IntPtr methodID, System.Object[] args) [0x00000] in <00000000000000000000000000000000>:0 
-11-08 22:07:26.936  5354  5411 E Unity   :   at BaseProcLua.V_Update (System.Single dTime) [0x00000] in <00000000000000000000000000000000>:0 
-11-08 22:07:26.936  5354  5411 E Unity   :   at CProcManager.Update (System.Single dTime) [0x00000] in <00000000000000000000000000000000>:0 
-11-08 22:07:26.936  5354  5411 E Unity   :   at Main.Update () [0x00000] in <00000000000000000000000000000000>:0 
-11-08 22:07:26.936  5354  5411 E Unity   : UJDebug:LogError(Object, Boolean, UJLogType)
-11-08 22:07:26.936  5354  5411 E Unity   : Main:Update()
-11-08 22:07:26.936  5354  5411 E Unity   : 
-11-08 22:07:26.939  5354  5411 E Unity   : AndroidJavaException: java.lang.NullPointerException: Attempt to invoke virtual method 'android.content.Context com.userjoy.mars.core.plugin.PluginBase.GetContext()' on a null object reference
-11-08 22:07:26.939  5354  5411 E Unity   : java.lang.NullPointerException: Attempt to invoke virtual method 'android.content.Context com.userjoy.mars.core.plugin.PluginBase.GetContext()' on a null object reference
-11-08 22:07:26.939  5354  5411 E Unity   : 	at com.userjoy.mars.core.MarsMain.GetContext(SourceFile:1)
-11-08 22:07:26.939  5354  5411 E Unity   : 	at com.userjoy.mars.NetworkState.NetworkState.<init>(SourceFile:253)
-11-08 22:07:26.939  5354  5411 E Unity   : 	at com.userjoy.mars.NetworkState.NetworkState.if(SourceFile:2)
-11-08 22:07:26.939  5354  5411 E Unity   : 	at com.userjoy.mars.bridge.NetworkStateBridge.GetNetworkType(SourceFile:1)
-11-08 22:07:26.939  5354  5411 E Unity   : 	at com.unity3d.player.UnityPlayer.nativeRender(Native Method)
-11-08 22:07:26.939  5354  5411 E Unity   : 	at com.unity3d.player.UnityPlayer.-$$Nest$mnativeRender(Unknown Source:0)
-11-08 22:07:26.939  5354  5411 E Unity   : 	at com.unity3d.player.T0.handleMessage(Unknown Source:122)
-11-08 22:07:26.939  5354  5411 E Unity   : 	at android.os.Handler.dispatchMessage(Handler.java:102)
-11-08 22:07:26.939  5354  5411 E Unity   : 	at android.os.Looper.loop(Looper.java:223)
-11-08 22:07:26.939  5354  5411 E Unity   : 	at com.unity3d.player.U0.run(Unknown Source:24)
-11-08 22:07:26.939  5354  5411 E Unity   :   at UnityEngine.AndroidJNISafe.CheckExce
-11-08 22:07:27.030  5354  5411 E Unity   : UnityEngine.AndroidJavaException: java.lang.NullPointerException: Attempt to invoke virtual method 'android.content.Context com.userjoy.mars.core.plugin.PluginBase.GetContext()' on a null object reference
-11-08 22:07:27.030  5354  5411 E Unity   :   at UnityEngine.AndroidJNISafe.CheckException () [0x00000] in <00000000000000000000000000000000>:0 
-11-08 22:07:27.030  5354  5411 E Unity   :   at UnityEngine.AndroidJNISafe.CallStringMethod (System.IntPtr obj, System.IntPtr methodID, System.Span`1[T] args) [0x00000] in <00000000000000000000000000000000>:0 
-11-08 22:07:27.030  5354  5411 E Unity   :   at UnityEngine.AndroidJavaObject._Call[ReturnType] (System.IntPtr methodID, System.Object[] args) [0x00000] in <00000000000000000000000000000000>:0 
-11-08 22:07:27.030  5354  5411 E Unity   :   at BaseProcLua.V_Update (System.Single dTime) [0x00000] in <00000000000000000000000000000000>:0 
-11-08 22:07:27.030  5354  5411 E Unity   :   at CProcManager.Update (System.Single dTime) [0x00000] in <00000000000000000000000000000000>:0 
-11-08 22:07:27.030  5354  5411 E Unity   :   at Main.Update () [0x00000] in <00000000000000000000000000000000>:0 
-11-08 22:07:27.030  5354  5411 E Unity   : UJDebug:LogError(Object, Boolean, UJLogType)
-11-08 22:07:27.030  5354  5411 E Unity   : Main:Update()
-11-08 22:07:27.030  5354  5411 E Unity   : 
-11-08 22:07:27.037  5354  5411 E Unity   : AndroidJavaException: java.lang.NullPointerException: Attempt to invoke virtual method 'android.content.Context com.userjoy.mars.core.plugin.PluginBase.GetContext()' on a null object reference
-11-08 22:07:27.037  5354  5411 E Unity   : java.lang.NullPointerException: Attempt to invoke virtual method 'android.content.Context com.userjoy.mars.core.plugin.PluginBase.GetContext()' on a null object reference
-11-08 22:07:27.037  5354  5411 E Unity   : 	at com.userjoy.mars.core.MarsMain.GetContext(SourceFile:1)
-11-08 22:07:27.037  5354  5411 E Unity   : 	at com.userjoy.mars.NetworkState.NetworkState.<init>(SourceFile:253)
-11-08 22:07:27.037  5354  5411 E Unity   : 	at com.userjoy.mars.NetworkState.NetworkState.if(SourceFile:2)
-11-08 22:07:27.037  5354  5411 E Unity   : 	at com.userjoy.mars.bridge.NetworkStateBridge.GetNetworkType(SourceFile:1)
-11-08 22:07:27.037  5354  5411 E Unity   : 	at com.unity3d.player.UnityPlayer.nativeRender(Native Method)
-11-08 22:07:27.037  5354  5411 E Unity   : 	at com.unity3d.player.UnityPlayer.-$$Nest$mnativeRender(Unknown Source:0)
-11-08 22:07:27.037  5354  5411 E Unity   : 	at com.unity3d.player.T0.handleMessage(Unknown Source:122)
-11-08 22:07:27.037  5354  5411 E Unity   : 	at android.os.Handler.dispatchMessage(Handler.java:102)
-11-08 22:07:27.037  5354  5411 E Unity   : 	at android.os.Looper.loop(Looper.java:223)
-11-08 22:07:27.037  5354  5411 E Unity   : 	at com.unity3d.player.U0.run(Unknown Source:24)
-11-08 22:07:27.037  5354  5411 E Unity   :   at UnityEngine.AndroidJNISafe.CheckExce
-11-08 22:07:27.131  5354  5411 E Unity   : UnityEngine.AndroidJavaException: java.lang.NullPointerException: Attempt to invoke virtual method 'android.content.Context com.userjoy.mars.core.plugin.PluginBase.GetContext()' on a null object reference
-11-08 22:07:27.131  5354  5411 E Unity   :   at UnityEngine.AndroidJNISafe.CheckException () [0x00000] in <00000000000000000000000000000000>:0 
-11-08 22:07:27.131  5354  5411 E Unity   :   at UnityEngine.AndroidJNISafe.CallStringMethod (System.IntPtr obj, System.IntPtr methodID, System.Span`1[T] args) [0x00000] in <00000000000000000000000000000000>:0 
-11-08 22:07:27.131  5354  5411 E Unity   :   at UnityEngine.AndroidJavaObject._Call[ReturnType] (System.IntPtr methodID, System.Object[] args) [0x00000] in <00000000000000000000000000000000>:0 
-11-08 22:07:27.131  5354  5411 E Unity   :   at BaseProcLua.V_Update (System.Single dTime) [0x00000] in <00000000000000000000000000000000>:0 
-11-08 22:07:27.131  5354  5411 E Unity   :   at CProcManager.Update (System.Single dTime) [0x00000] in <00000000000000000000000000000000>:0 
-11-08 22:07:27.131  5354  5411 E Unity   :   at Main.Update () [0x00000] in <00000000000000000000000000000000>:0 
-11-08 22:07:27.131  5354  5411 E Unity   : UJDebug:LogError(Object, Boolean, UJLogType)
-11-08 22:07:27.131  5354  5411 E Unity   : Main:Update()
-11-08 22:07:27.131  5354  5411 E Unity   : 
-11-08 22:07:27.138  5354  5411 E Unity   : AndroidJavaException: java.lang.NullPointerException: Attempt to invoke virtual method 'android.content.Context com.userjoy.mars.core.plugin.PluginBase.GetContext()' on a null object reference
-11-08 22:07:27.138  5354  5411 E Unity   : java.lang.NullPointerException: Attempt to invoke virtual method 'android.content.Context com.userjoy.mars.core.plugin.PluginBase.GetContext()' on a null object reference
-11-08 22:07:27.138  5354  5411 E Unity   : 	at com.userjoy.mars.core.MarsMain.GetContext(SourceFile:1)
-11-08 22:07:27.138  5354  5411 E Unity   : 	at com.userjoy.mars.NetworkState.NetworkState.<init>(SourceFile:253)
-11-08 22:07:27.138  5354  5411 E Unity   : 	at com.userjoy.mars.NetworkState.NetworkState.if(SourceFile:2)
-11-08 22:07:27.138  5354  5411 E Unity   : 	at com.userjoy.mars.bridge.NetworkStateBridge.GetNetworkType(SourceFile:1)
-11-08 22:07:27.138  5354  5411 E Unity   : 	at com.unity3d.player.UnityPlayer.nativeRender(Native Method)
-11-08 22:07:27.138  5354  5411 E Unity   : 	at com.unity3d.player.UnityPlayer.-$$Nest$mnativeRender(Unknown Source:0)
-11-08 22:07:27.138  5354  5411 E Unity   : 	at com.unity3d.player.T0.handleMessage(Unknown Source:122)
-11-08 22:07:27.138  5354  5411 E Unity   : 	at android.os.Handler.dispatchMessage(Handler.java:102)
-11-08 22:07:27.138  5354  5411 E Unity   : 	at android.os.Looper.loop(Looper.java:223)
-11-08 22:07:27.138  5354  5411 E Unity   : 	at com.unity3d.player.U0.run(Unknown Source:24)
-11-08 22:07:27.138  5354  5411 E Unity   :   at UnityEngine.AndroidJNISafe.CheckExce
-11-08 22:07:27.239  5354  5411 E Unity   : UnityEngine.AndroidJavaException: java.lang.NullPointerException: Attempt to invoke virtual method 'android.content.Context com.userjoy.mars.core.plugin.PluginBase.GetContext()' on a null object reference
-11-08 22:07:27.239  5354  5411 E Unity   :   at UnityEngine.AndroidJNISafe.CheckException () [0x00000] in <00000000000000000000000000000000>:0 
-11-08 22:07:27.239  5354  5411 E Unity   :   at UnityEngine.AndroidJNISafe.CallStringMethod (System.IntPtr obj, System.IntPtr methodID, System.Span`1[T] args) [0x00000] in <00000000000000000000000000000000>:0 
-11-08 22:07:27.239  5354  5411 E Unity   :   at UnityEngine.AndroidJavaObject._Call[ReturnType] (System.IntPtr methodID, System.Object[] args) [0x00000] in <00000000000000000000000000000000>:0 
-11-08 22:07:27.239  5354  5411 E Unity   :   at BaseProcLua.V_Update (System.Single dTime) [0x00000] in <00000000000000000000000000000000>:0 
-11-08 22:07:27.239  5354  5411 E Unity   :   at CProcManager.Update (System.Single dTime) [0x00000] in <00000000000000000000000000000000>:0 
-11-08 22:07:27.239  5354  5411 E Unity   :   at Main.Update () [0x00000] in <00000000000000000000000000000000>:0 
-11-08 22:07:27.239  5354  5411 E Unity   : UJDebug:LogError(Object, Boolean, UJLogType)
-11-08 22:07:27.239  5354  5411 E Unity   : Main:Update()
-11-08 22:07:27.239  5354  5411 E Unity   : 
-11-08 22:07:27.242  5354  5411 E Unity   : AndroidJavaException: java.lang.NullPointerException: Attempt to invoke virtual method 'android.content.Context com.userjoy.mars.core.plugin.PluginBase.GetContext()' on a null object reference
-11-08 22:07:27.242  5354  5411 E Unity   : java.lang.NullPointerException: Attempt to invoke virtual method 'android.content.Context com.userjoy.mars.core.plugin.PluginBase.GetContext()' on a null object reference
-11-08 22:07:27.242  5354  5411 E Unity   : 	at com.userjoy.mars.core.MarsMain.GetContext(SourceFile:1)
-11-08 22:07:27.242  5354  5411 E Unity   : 	at com.userjoy.mars.NetworkState.NetworkState.<init>(SourceFile:253)
-11-08 22:07:27.242  5354  5411 E Unity   : 	at com.userjoy.mars.NetworkState.NetworkState.if(SourceFile:2)
-11-08 22:07:27.242  5354  5411 E Unity   : 	at com.userjoy.mars.bridge.NetworkStateBridge.GetNetworkType(SourceFile:1)
-11-08 22:07:27.242  5354  5411 E Unity   : 	at com.unity3d.player.UnityPlayer.nativeRender(Native Method)
-11-08 22:07:27.242  5354  5411 E Unity   : 	at com.unity3d.player.UnityPlayer.-$$Nest$mnativeRender(Unknown Source:0)
-11-08 22:07:27.242  5354  5411 E Unity   : 	at com.unity3d.player.T0.handleMessage(Unknown Source:122)
-11-08 22:07:27.242  5354  5411 E Unity   : 	at android.os.Handler.dispatchMessage(Handler.java:102)
-11-08 22:07:27.242  5354  5411 E Unity   : 	at android.os.Looper.loop(Looper.java:223)
-11-08 22:07:27.242  5354  5411 E Unity   : 	at com.unity3d.player.U0.run(Unknown Source:24)
-11-08 22:07:27.242  5354  5411 E Unity   :   at UnityEngine.AndroidJNISafe.CheckExce
-11-08 22:07:27.343  5354  5411 E Unity   : UnityEngine.AndroidJavaException: java.lang.NullPointerException: Attempt to invoke virtual method 'android.content.Context com.userjoy.mars.core.plugin.PluginBase.GetContext()' on a null object reference
-11-08 22:07:27.343  5354  5411 E Unity   :   at UnityEngine.AndroidJNISafe.CheckException () [0x00000] in <00000000000000000000000000000000>:0 
-11-08 22:07:27.343  5354  5411 E Unity   :   at UnityEngine.AndroidJNISafe.CallStringMethod (System.IntPtr obj, System.IntPtr methodID, System.Span`1[T] args) [0x00000] in <00000000000000000000000000000000>:0 
-11-08 22:07:27.343  5354  5411 E Unity   :   at UnityEngine.AndroidJavaObject._Call[ReturnType] (System.IntPtr methodID, System.Object[] args) [0x00000] in <00000000000000000000000000000000>:0 
-11-08 22:07:27.343  5354  5411 E Unity   :   at BaseProcLua.V_Update (System.Single dTime) [0x00000] in <00000000000000000000000000000000>:0 
-11-08 22:07:27.343  5354  5411 E Unity   :   at CProcManager.Update (System.Single dTime) [0x00000] in <00000000000000000000000000000000>:0 
-11-08 22:07:27.343  5354  5411 E Unity   :   at Main.Update () [0x00000] in <00000000000000000000000000000000>:0 
-11-08 22:07:27.343  5354  5411 E Unity   : UJDebug:LogError(Object, Boolean, UJLogType)
-11-08 22:07:27.343  5354  5411 E Unity   : Main:Update()
-11-08 22:07:27.343  5354  5411 E Unity   : 
-11-08 22:07:27.347  5354  5411 E Unity   : AndroidJavaException: java.lang.NullPointerException: Attempt to invoke virtual method 'android.content.Context com.userjoy.mars.core.plugin.PluginBase.GetContext()' on a null object reference
-11-08 22:07:27.347  5354  5411 E Unity   : java.lang.NullPointerException: Attempt to invoke virtual method 'android.content.Context com.userjoy.mars.core.plugin.PluginBase.GetContext()' on a null object reference
-11-08 22:07:27.347  5354  5411 E Unity   : 	at com.userjoy.mars.core.MarsMain.GetContext(SourceFile:1)
-11-08 22:07:27.347  5354  5411 E Unity   : 	at com.userjoy.mars.NetworkState.NetworkState.<init>(SourceFile:253)
-11-08 22:07:27.347  5354  5411 E Unity   : 	at com.userjoy.mars.NetworkState.NetworkState.if(SourceFile:2)
-11-08 22:07:27.347  5354  5411 E Unity   : 	at com.userjoy.mars.bridge.NetworkStateBridge.GetNetworkType(SourceFile:1)
-11-08 22:07:27.347  5354  5411 E Unity   : 	at com.unity3d.player.UnityPlayer.nativeRender(Native Method)
-11-08 22:07:27.347  5354  5411 E Unity   : 	at com.unity3d.player.UnityPlayer.-$$Nest$mnativeRender(Unknown Source:0)
-11-08 22:07:27.347  5354  5411 E Unity   : 	at com.unity3d.player.T0.handleMessage(Unknown Source:122)
-11-08 22:07:27.347  5354  5411 E Unity   : 	at android.os.Handler.dispatchMessage(Handler.java:102)
-11-08 22:07:27.347  5354  5411 E Unity   : 	at android.os.Looper.loop(Looper.java:223)
-11-08 22:07:27.347  5354  5411 E Unity   : 	at com.unity3d.player.U0.run(Unknown Source:24)
-11-08 22:07:27.347  5354  5411 E Unity   :   at UnityEngine.AndroidJNISafe.CheckExce
-11-08 22:07:27.446  5354  5411 E Unity   : UnityEngine.AndroidJavaException: java.lang.NullPointerException: Attempt to invoke virtual method 'android.content.Context com.userjoy.mars.core.plugin.PluginBase.GetContext()' on a null object reference
-11-08 22:07:27.446  5354  5411 E Unity   :   at UnityEngine.AndroidJNISafe.CheckException () [0x00000] in <00000000000000000000000000000000>:0 
-11-08 22:07:27.446  5354  5411 E Unity   :   at UnityEngine.AndroidJNISafe.CallStringMethod (System.IntPtr obj, System.IntPtr methodID, System.Span`1[T] args) [0x00000] in <00000000000000000000000000000000>:0 
-11-08 22:07:27.446  5354  5411 E Unity   :   at UnityEngine.AndroidJavaObject._Call[ReturnType] (System.IntPtr methodID, System.Object[] args) [0x00000] in <00000000000000000000000000000000>:0 
-11-08 22:07:27.446  5354  5411 E Unity   :   at BaseProcLua.V_Update (System.Single dTime) [0x00000] in <00000000000000000000000000000000>:0 
-11-08 22:07:27.446  5354  5411 E Unity   :   at CProcManager.Update (System.Single dTime) [0x00000] in <00000000000000000000000000000000>:0 
-11-08 22:07:27.446  5354  5411 E Unity   :   at Main.Update () [0x00000] in <00000000000000000000000000000000>:0 
-11-08 22:07:27.446  5354  5411 E Unity   : UJDebug:LogError(Object, Boolean, UJLogType)
-11-08 22:07:27.446  5354  5411 E Unity   : Main:Update()
-11-08 22:07:27.446  5354  5411 E Unity   : 
-11-08 22:07:27.449  5354  5411 E Unity   : AndroidJavaException: java.lang.NullPointerException: Attempt to invoke virtual method 'android.content.Context com.userjoy.mars.core.plugin.PluginBase.GetContext()' on a null object reference
-11-08 22:07:27.449  5354  5411 E Unity   : java.lang.NullPointerException: Attempt to invoke virtual method 'android.content.Context com.userjoy.mars.core.plugin.PluginBase.GetContext()' on a null object reference
-11-08 22:07:27.449  5354  5411 E Unity   : 	at com.userjoy.mars.core.MarsMain.GetContext(SourceFile:1)
-11-08 22:07:27.449  5354  5411 E Unity   : 	at com.userjoy.mars.NetworkState.NetworkState.<init>(SourceFile:253)
-11-08 22:07:27.449  5354  5411 E Unity   : 	at com.userjoy.mars.NetworkState.NetworkState.if(SourceFile:2)
-11-08 22:07:27.449  5354  5411 E Unity   : 	at com.userjoy.mars.bridge.NetworkStateBridge.GetNetworkType(SourceFile:1)
-11-08 22:07:27.449  5354  5411 E Unity   : 	at com.unity3d.player.UnityPlayer.nativeRender(Native Method)
-11-08 22:07:27.449  5354  5411 E Unity   : 	at com.unity3d.player.UnityPlayer.-$$Nest$mnativeRender(Unknown Source:0)
-11-08 22:07:27.449  5354  5411 E Unity   : 	at com.unity3d.player.T0.handleMessage(Unknown Source:122)
-11-08 22:07:27.449  5354  5411 E Unity   : 	at android.os.Handler.dispatchMessage(Handler.java:102)
-11-08 22:07:27.449  5354  5411 E Unity   : 	at android.os.Looper.loop(Looper.java:223)
-11-08 22:07:27.449  5354  5411 E Unity   : 	at com.unity3d.player.U0.run(Unknown Source:24)
-11-08 22:07:27.449  5354  5411 E Unity   :   at UnityEngine.AndroidJNISafe.CheckExce
-11-08 22:07:27.540  5354  5411 E Unity   : UnityEngine.AndroidJavaException: java.lang.NullPointerException: Attempt to invoke virtual method 'android.content.Context com.userjoy.mars.core.plugin.PluginBase.GetContext()' on a null object reference
-11-08 22:07:27.540  5354  5411 E Unity   :   at UnityEngine.AndroidJNISafe.CheckException () [0x00000] in <00000000000000000000000000000000>:0 
-11-08 22:07:27.540  5354  5411 E Unity   :   at UnityEngine.AndroidJNISafe.CallStringMethod (System.IntPtr obj, System.IntPtr methodID, System.Span`1[T] args) [0x00000] in <00000000000000000000000000000000>:0 
-11-08 22:07:27.540  5354  5411 E Unity   :   at UnityEngine.AndroidJavaObject._Call[ReturnType] (System.IntPtr methodID, System.Object[] args) [0x00000] in <00000000000000000000000000000000>:0 
-11-08 22:07:27.540  5354  5411 E Unity   :   at BaseProcLua.V_Update (System.Single dTime) [0x00000] in <00000000000000000000000000000000>:0 
-11-08 22:07:27.540  5354  5411 E Unity   :   at CProcManager.Update (System.Single dTime) [0x00000] in <00000000000000000000000000000000>:0 
-11-08 22:07:27.540  5354  5411 E Unity   :   at Main.Update () [0x00000] in <00000000000000000000000000000000>:0 
-11-08 22:07:27.540  5354  5411 E Unity   : UJDebug:LogError(Object, Boolean, UJLogType)
-11-08 22:07:27.540  5354  5411 E Unity   : Main:Update()
-11-08 22:07:27.540  5354  5411 E Unity   : 
-11-08 22:07:27.544  5354  5411 E Unity   : AndroidJavaException: java.lang.NullPointerException: Attempt to invoke virtual method 'android.content.Context com.userjoy.mars.core.plugin.PluginBase.GetContext()' on a null object reference
-11-08 22:07:27.544  5354  5411 E Unity   : java.lang.NullPointerException: Attempt to invoke virtual method 'android.content.Context com.userjoy.mars.core.plugin.PluginBase.GetContext()' on a null object reference
-11-08 22:07:27.544  5354  5411 E Unity   : 	at com.userjoy.mars.core.MarsMain.GetContext(SourceFile:1)
-11-08 22:07:27.544  5354  5411 E Unity   : 	at com.userjoy.mars.NetworkState.NetworkState.<init>(SourceFile:253)
-11-08 22:07:27.544  5354  5411 E Unity   : 	at com.userjoy.mars.NetworkState.NetworkState.if(SourceFile:2)
-11-08 22:07:27.544  5354  5411 E Unity   : 	at com.userjoy.mars.bridge.NetworkStateBridge.GetNetworkType(SourceFile:1)
-11-08 22:07:27.544  5354  5411 E Unity   : 	at com.unity3d.player.UnityPlayer.nativeRender(Native Method)
-11-08 22:07:27.544  5354  5411 E Unity   : 	at com.unity3d.player.UnityPlayer.-$$Nest$mnativeRender(Unknown Source:0)
-11-08 22:07:27.544  5354  5411 E Unity   : 	at com.unity3d.player.T0.handleMessage(Unknown Source:122)
-11-08 22:07:27.544  5354  5411 E Unity   : 	at android.os.Handler.dispatchMessage(Handler.java:102)
-11-08 22:07:27.544  5354  5411 E Unity   : 	at android.os.Looper.loop(Looper.java:223)
-11-08 22:07:27.544  5354  5411 E Unity   : 	at com.unity3d.player.U0.run(Unknown Source:24)
-11-08 22:07:27.544  5354  5411 E Unity   :   at UnityEngine.AndroidJNISafe.CheckExce
-11-08 22:07:27.640  5354  5411 E Unity   : UnityEngine.AndroidJavaException: java.lang.NullPointerException: Attempt to invoke virtual method 'android.content.Context com.userjoy.mars.core.plugin.PluginBase.GetContext()' on a null object reference
-11-08 22:07:27.640  5354  5411 E Unity   :   at UnityEngine.AndroidJNISafe.CheckException () [0x00000] in <00000000000000000000000000000000>:0 
-11-08 22:07:27.640  5354  5411 E Unity   :   at UnityEngine.AndroidJNISafe.CallStringMethod (System.IntPtr obj, System.IntPtr methodID, System.Span`1[T] args) [0x00000] in <00000000000000000000000000000000>:0 
-11-08 22:07:27.640  5354  5411 E Unity   :   at UnityEngine.AndroidJavaObject._Call[ReturnType] (System.IntPtr methodID, System.Object[] args) [0x00000] in <00000000000000000000000000000000>:0 
-11-08 22:07:27.640  5354  5411 E Unity   :   at BaseProcLua.V_Update (System.Single dTime) [0x00000] in <00000000000000000000000000000000>:0 
-11-08 22:07:27.640  5354  5411 E Unity   :   at CProcManager.Update (System.Single dTime) [0x00000] in <00000000000000000000000000000000>:0 
-11-08 22:07:27.640  5354  5411 E Unity   :   at Main.Update () [0x00000] in <00000000000000000000000000000000>:0 
-11-08 22:07:27.640  5354  5411 E Unity   : UJDebug:LogError(Object, Boolean, UJLogType)
-11-08 22:07:27.640  5354  5411 E Unity   : Main:Update()
-11-08 22:07:27.640  5354  5411 E Unity   : 
-11-08 22:07:27.643  5354  5411 E Unity   : AndroidJavaException: java.lang.NullPointerException: Attempt to invoke virtual method 'android.content.Context com.userjoy.mars.core.plugin.PluginBase.GetContext()' on a null object reference
-11-08 22:07:27.643  5354  5411 E Unity   : java.lang.NullPointerException: Attempt to invoke virtual method 'android.content.Context com.userjoy.mars.core.plugin.PluginBase.GetContext()' on a null object reference
 11-08 22:07:27.643  5354  5411 E Unity   : 	at com.userjoy.mars.core.MarsMain.GetContext(SourceFile:1)
 11-08 22:07:27.643  5354  5411 E Unity   : 	at com.userjoy.mars.NetworkState.NetworkState.<init>(SourceFile:253)
 11-08 22:07:27.643  5354  5411 E Unity   : 	at com.userjoy.mars.NetworkState.NetworkState.if(SourceFile:2)
@@ -65089,3 +64445,647 @@
 11-08 22:11:25.447  7035  7124 E Unity   : 	at android.os.Looper.loop(Looper.java:223)
 11-08 22:11:25.447  7035  7124 E Unity   : 	at com.unity3d.player.U0.run(Unknown Source:24)
 11-08 22:11:25.447  7035  7124 E Unity   :   at UnityEngine.AndroidJNISafe.CheckExce
+11-08 22:11:25.606  7035  7124 E Unity   : UnityEngine.AndroidJavaException: java.lang.NullPointerException: Attempt to invoke virtual method 'android.content.Context com.userjoy.mars.core.plugin.PluginBase.GetContext()' on a null object reference
+11-08 22:11:25.606  7035  7124 E Unity   :   at UnityEngine.AndroidJNISafe.CheckException () [0x00000] in <00000000000000000000000000000000>:0 
+11-08 22:11:25.606  7035  7124 E Unity   :   at UnityEngine.AndroidJNISafe.CallStringMethod (System.IntPtr obj, System.IntPtr methodID, System.Span`1[T] args) [0x00000] in <00000000000000000000000000000000>:0 
+11-08 22:11:25.606  7035  7124 E Unity   :   at UnityEngine.AndroidJavaObject._Call[ReturnType] (System.IntPtr methodID, System.Object[] args) [0x00000] in <00000000000000000000000000000000>:0 
+11-08 22:11:25.606  7035  7124 E Unity   :   at BaseProcLua.V_Update (System.Single dTime) [0x00000] in <00000000000000000000000000000000>:0 
+11-08 22:11:25.606  7035  7124 E Unity   :   at CProcManager.Update (System.Single dTime) [0x00000] in <00000000000000000000000000000000>:0 
+11-08 22:11:25.606  7035  7124 E Unity   :   at Main.Update () [0x00000] in <00000000000000000000000000000000>:0 
+11-08 22:11:25.606  7035  7124 E Unity   : UJDebug:LogError(Object, Boolean, UJLogType)
+11-08 22:11:25.606  7035  7124 E Unity   : Main:Update()
+11-08 22:11:25.606  7035  7124 E Unity   : 
+11-08 22:11:25.611  7035  7124 E Unity   : AndroidJavaException: java.lang.NullPointerException: Attempt to invoke virtual method 'android.content.Context com.userjoy.mars.core.plugin.PluginBase.GetContext()' on a null object reference
+11-08 22:11:25.611  7035  7124 E Unity   : java.lang.NullPointerException: Attempt to invoke virtual method 'android.content.Context com.userjoy.mars.core.plugin.PluginBase.GetContext()' on a null object reference
+11-08 22:11:25.611  7035  7124 E Unity   : 	at com.userjoy.mars.core.MarsMain.GetContext(SourceFile:1)
+11-08 22:11:25.611  7035  7124 E Unity   : 	at com.userjoy.mars.NetworkState.NetworkState.<init>(SourceFile:253)
+11-08 22:11:25.611  7035  7124 E Unity   : 	at com.userjoy.mars.NetworkState.NetworkState.if(SourceFile:2)
+11-08 22:11:25.611  7035  7124 E Unity   : 	at com.userjoy.mars.bridge.NetworkStateBridge.GetNetworkType(SourceFile:1)
+11-08 22:11:25.611  7035  7124 E Unity   : 	at com.unity3d.player.UnityPlayer.nativeRender(Native Method)
+11-08 22:11:25.611  7035  7124 E Unity   : 	at com.unity3d.player.UnityPlayer.-$$Nest$mnativeRender(Unknown Source:0)
+11-08 22:11:25.611  7035  7124 E Unity   : 	at com.unity3d.player.T0.handleMessage(Unknown Source:122)
+11-08 22:11:25.611  7035  7124 E Unity   : 	at android.os.Handler.dispatchMessage(Handler.java:102)
+11-08 22:11:25.611  7035  7124 E Unity   : 	at android.os.Looper.loop(Looper.java:223)
+11-08 22:11:25.611  7035  7124 E Unity   : 	at com.unity3d.player.U0.run(Unknown Source:24)
+11-08 22:11:25.611  7035  7124 E Unity   :   at UnityEngine.AndroidJNISafe.CheckExce
+11-08 22:11:25.765  7035  7124 E Unity   : UnityEngine.AndroidJavaException: java.lang.NullPointerException: Attempt to invoke virtual method 'android.content.Context com.userjoy.mars.core.plugin.PluginBase.GetContext()' on a null object reference
+11-08 22:11:25.765  7035  7124 E Unity   :   at UnityEngine.AndroidJNISafe.CheckException () [0x00000] in <00000000000000000000000000000000>:0 
+11-08 22:11:25.765  7035  7124 E Unity   :   at UnityEngine.AndroidJNISafe.CallStringMethod (System.IntPtr obj, System.IntPtr methodID, System.Span`1[T] args) [0x00000] in <00000000000000000000000000000000>:0 
+11-08 22:11:25.765  7035  7124 E Unity   :   at UnityEngine.AndroidJavaObject._Call[ReturnType] (System.IntPtr methodID, System.Object[] args) [0x00000] in <00000000000000000000000000000000>:0 
+11-08 22:11:25.765  7035  7124 E Unity   :   at BaseProcLua.V_Update (System.Single dTime) [0x00000] in <00000000000000000000000000000000>:0 
+11-08 22:11:25.765  7035  7124 E Unity   :   at CProcManager.Update (System.Single dTime) [0x00000] in <00000000000000000000000000000000>:0 
+11-08 22:11:25.765  7035  7124 E Unity   :   at Main.Update () [0x00000] in <00000000000000000000000000000000>:0 
+11-08 22:11:25.765  7035  7124 E Unity   : UJDebug:LogError(Object, Boolean, UJLogType)
+11-08 22:11:25.765  7035  7124 E Unity   : Main:Update()
+11-08 22:11:25.765  7035  7124 E Unity   : 
+11-08 22:11:25.774  7035  7124 E Unity   : AndroidJavaException: java.lang.NullPointerException: Attempt to invoke virtual method 'android.content.Context com.userjoy.mars.core.plugin.PluginBase.GetContext()' on a null object reference
+11-08 22:11:25.774  7035  7124 E Unity   : java.lang.NullPointerException: Attempt to invoke virtual method 'android.content.Context com.userjoy.mars.core.plugin.PluginBase.GetContext()' on a null object reference
+11-08 22:11:25.774  7035  7124 E Unity   : 	at com.userjoy.mars.core.MarsMain.GetContext(SourceFile:1)
+11-08 22:11:25.774  7035  7124 E Unity   : 	at com.userjoy.mars.NetworkState.NetworkState.<init>(SourceFile:253)
+11-08 22:11:25.774  7035  7124 E Unity   : 	at com.userjoy.mars.NetworkState.NetworkState.if(SourceFile:2)
+11-08 22:11:25.774  7035  7124 E Unity   : 	at com.userjoy.mars.bridge.NetworkStateBridge.GetNetworkType(SourceFile:1)
+11-08 22:11:25.774  7035  7124 E Unity   : 	at com.unity3d.player.UnityPlayer.nativeRender(Native Method)
+11-08 22:11:25.774  7035  7124 E Unity   : 	at com.unity3d.player.UnityPlayer.-$$Nest$mnativeRender(Unknown Source:0)
+11-08 22:11:25.774  7035  7124 E Unity   : 	at com.unity3d.player.T0.handleMessage(Unknown Source:122)
+11-08 22:11:25.774  7035  7124 E Unity   : 	at android.os.Handler.dispatchMessage(Handler.java:102)
+11-08 22:11:25.774  7035  7124 E Unity   : 	at android.os.Looper.loop(Looper.java:223)
+11-08 22:11:25.774  7035  7124 E Unity   : 	at com.unity3d.player.U0.run(Unknown Source:24)
+11-08 22:11:25.774  7035  7124 E Unity   :   at UnityEngine.AndroidJNISafe.CheckExce
+11-08 22:11:25.941  7035  7124 E Unity   : UnityEngine.AndroidJavaException: java.lang.NullPointerException: Attempt to invoke virtual method 'android.content.Context com.userjoy.mars.core.plugin.PluginBase.GetContext()' on a null object reference
+11-08 22:11:25.941  7035  7124 E Unity   :   at UnityEngine.AndroidJNISafe.CheckException () [0x00000] in <00000000000000000000000000000000>:0 
+11-08 22:11:25.941  7035  7124 E Unity   :   at UnityEngine.AndroidJNISafe.CallStringMethod (System.IntPtr obj, System.IntPtr methodID, System.Span`1[T] args) [0x00000] in <00000000000000000000000000000000>:0 
+11-08 22:11:25.941  7035  7124 E Unity   :   at UnityEngine.AndroidJavaObject._Call[ReturnType] (System.IntPtr methodID, System.Object[] args) [0x00000] in <00000000000000000000000000000000>:0 
+11-08 22:11:25.941  7035  7124 E Unity   :   at BaseProcLua.V_Update (System.Single dTime) [0x00000] in <00000000000000000000000000000000>:0 
+11-08 22:11:25.941  7035  7124 E Unity   :   at CProcManager.Update (System.Single dTime) [0x00000] in <00000000000000000000000000000000>:0 
+11-08 22:11:25.941  7035  7124 E Unity   :   at Main.Update () [0x00000] in <00000000000000000000000000000000>:0 
+11-08 22:11:25.941  7035  7124 E Unity   : UJDebug:LogError(Object, Boolean, UJLogType)
+11-08 22:11:25.941  7035  7124 E Unity   : Main:Update()
+11-08 22:11:25.941  7035  7124 E Unity   : 
+11-08 22:11:25.946  7035  7124 E Unity   : AndroidJavaException: java.lang.NullPointerException: Attempt to invoke virtual method 'android.content.Context com.userjoy.mars.core.plugin.PluginBase.GetContext()' on a null object reference
+11-08 22:11:25.946  7035  7124 E Unity   : java.lang.NullPointerException: Attempt to invoke virtual method 'android.content.Context com.userjoy.mars.core.plugin.PluginBase.GetContext()' on a null object reference
+11-08 22:11:25.946  7035  7124 E Unity   : 	at com.userjoy.mars.core.MarsMain.GetContext(SourceFile:1)
+11-08 22:11:25.946  7035  7124 E Unity   : 	at com.userjoy.mars.NetworkState.NetworkState.<init>(SourceFile:253)
+11-08 22:11:25.946  7035  7124 E Unity   : 	at com.userjoy.mars.NetworkState.NetworkState.if(SourceFile:2)
+11-08 22:11:25.946  7035  7124 E Unity   : 	at com.userjoy.mars.bridge.NetworkStateBridge.GetNetworkType(SourceFile:1)
+11-08 22:11:25.946  7035  7124 E Unity   : 	at com.unity3d.player.UnityPlayer.nativeRender(Native Method)
+11-08 22:11:25.946  7035  7124 E Unity   : 	at com.unity3d.player.UnityPlayer.-$$Nest$mnativeRender(Unknown Source:0)
+11-08 22:11:25.946  7035  7124 E Unity   : 	at com.unity3d.player.T0.handleMessage(Unknown Source:122)
+11-08 22:11:25.946  7035  7124 E Unity   : 	at android.os.Handler.dispatchMessage(Handler.java:102)
+11-08 22:11:25.946  7035  7124 E Unity   : 	at android.os.Looper.loop(Looper.java:223)
+11-08 22:11:25.946  7035  7124 E Unity   : 	at com.unity3d.player.U0.run(Unknown Source:24)
+11-08 22:11:25.946  7035  7124 E Unity   :   at UnityEngine.AndroidJNISafe.CheckExce
+11-08 22:11:26.096  7035  7124 E Unity   : UnityEngine.AndroidJavaException: java.lang.NullPointerException: Attempt to invoke virtual method 'android.content.Context com.userjoy.mars.core.plugin.PluginBase.GetContext()' on a null object reference
+11-08 22:11:26.096  7035  7124 E Unity   :   at UnityEngine.AndroidJNISafe.CheckException () [0x00000] in <00000000000000000000000000000000>:0 
+11-08 22:11:26.096  7035  7124 E Unity   :   at UnityEngine.AndroidJNISafe.CallStringMethod (System.IntPtr obj, System.IntPtr methodID, System.Span`1[T] args) [0x00000] in <00000000000000000000000000000000>:0 
+11-08 22:11:26.096  7035  7124 E Unity   :   at UnityEngine.AndroidJavaObject._Call[ReturnType] (System.IntPtr methodID, System.Object[] args) [0x00000] in <00000000000000000000000000000000>:0 
+11-08 22:11:26.096  7035  7124 E Unity   :   at BaseProcLua.V_Update (System.Single dTime) [0x00000] in <00000000000000000000000000000000>:0 
+11-08 22:11:26.096  7035  7124 E Unity   :   at CProcManager.Update (System.Single dTime) [0x00000] in <00000000000000000000000000000000>:0 
+11-08 22:11:26.096  7035  7124 E Unity   :   at Main.Update () [0x00000] in <00000000000000000000000000000000>:0 
+11-08 22:11:26.096  7035  7124 E Unity   : UJDebug:LogError(Object, Boolean, UJLogType)
+11-08 22:11:26.096  7035  7124 E Unity   : Main:Update()
+11-08 22:11:26.096  7035  7124 E Unity   : 
+11-08 22:11:26.105  7035  7124 E Unity   : AndroidJavaException: java.lang.NullPointerException: Attempt to invoke virtual method 'android.content.Context com.userjoy.mars.core.plugin.PluginBase.GetContext()' on a null object reference
+11-08 22:11:26.105  7035  7124 E Unity   : java.lang.NullPointerException: Attempt to invoke virtual method 'android.content.Context com.userjoy.mars.core.plugin.PluginBase.GetContext()' on a null object reference
+11-08 22:11:26.105  7035  7124 E Unity   : 	at com.userjoy.mars.core.MarsMain.GetContext(SourceFile:1)
+11-08 22:11:26.105  7035  7124 E Unity   : 	at com.userjoy.mars.NetworkState.NetworkState.<init>(SourceFile:253)
+11-08 22:11:26.105  7035  7124 E Unity   : 	at com.userjoy.mars.NetworkState.NetworkState.if(SourceFile:2)
+11-08 22:11:26.105  7035  7124 E Unity   : 	at com.userjoy.mars.bridge.NetworkStateBridge.GetNetworkType(SourceFile:1)
+11-08 22:11:26.105  7035  7124 E Unity   : 	at com.unity3d.player.UnityPlayer.nativeRender(Native Method)
+11-08 22:11:26.105  7035  7124 E Unity   : 	at com.unity3d.player.UnityPlayer.-$$Nest$mnativeRender(Unknown Source:0)
+11-08 22:11:26.105  7035  7124 E Unity   : 	at com.unity3d.player.T0.handleMessage(Unknown Source:122)
+11-08 22:11:26.105  7035  7124 E Unity   : 	at android.os.Handler.dispatchMessage(Handler.java:102)
+11-08 22:11:26.105  7035  7124 E Unity   : 	at android.os.Looper.loop(Looper.java:223)
+11-08 22:11:26.105  7035  7124 E Unity   : 	at com.unity3d.player.U0.run(Unknown Source:24)
+11-08 22:11:26.105  7035  7124 E Unity   :   at UnityEngine.AndroidJNISafe.CheckExce
+11-08 22:11:26.266  7035  7124 E Unity   : UnityEngine.AndroidJavaException: java.lang.NullPointerException: Attempt to invoke virtual method 'android.content.Context com.userjoy.mars.core.plugin.PluginBase.GetContext()' on a null object reference
+11-08 22:11:26.266  7035  7124 E Unity   :   at UnityEngine.AndroidJNISafe.CheckException () [0x00000] in <00000000000000000000000000000000>:0 
+11-08 22:11:26.266  7035  7124 E Unity   :   at UnityEngine.AndroidJNISafe.CallStringMethod (System.IntPtr obj, System.IntPtr methodID, System.Span`1[T] args) [0x00000] in <00000000000000000000000000000000>:0 
+11-08 22:11:26.266  7035  7124 E Unity   :   at UnityEngine.AndroidJavaObject._Call[ReturnType] (System.IntPtr methodID, System.Object[] args) [0x00000] in <00000000000000000000000000000000>:0 
+11-08 22:11:26.266  7035  7124 E Unity   :   at BaseProcLua.V_Update (System.Single dTime) [0x00000] in <00000000000000000000000000000000>:0 
+11-08 22:11:26.266  7035  7124 E Unity   :   at CProcManager.Update (System.Single dTime) [0x00000] in <00000000000000000000000000000000>:0 
+11-08 22:11:26.266  7035  7124 E Unity   :   at Main.Update () [0x00000] in <00000000000000000000000000000000>:0 
+11-08 22:11:26.266  7035  7124 E Unity   : UJDebug:LogError(Object, Boolean, UJLogType)
+11-08 22:11:26.266  7035  7124 E Unity   : Main:Update()
+11-08 22:11:26.266  7035  7124 E Unity   : 
+11-08 22:11:26.275  7035  7124 E Unity   : AndroidJavaException: java.lang.NullPointerException: Attempt to invoke virtual method 'android.content.Context com.userjoy.mars.core.plugin.PluginBase.GetContext()' on a null object reference
+11-08 22:11:26.275  7035  7124 E Unity   : java.lang.NullPointerException: Attempt to invoke virtual method 'android.content.Context com.userjoy.mars.core.plugin.PluginBase.GetContext()' on a null object reference
+11-08 22:11:26.275  7035  7124 E Unity   : 	at com.userjoy.mars.core.MarsMain.GetContext(SourceFile:1)
+11-08 22:11:26.275  7035  7124 E Unity   : 	at com.userjoy.mars.NetworkState.NetworkState.<init>(SourceFile:253)
+11-08 22:11:26.275  7035  7124 E Unity   : 	at com.userjoy.mars.NetworkState.NetworkState.if(SourceFile:2)
+11-08 22:11:26.275  7035  7124 E Unity   : 	at com.userjoy.mars.bridge.NetworkStateBridge.GetNetworkType(SourceFile:1)
+11-08 22:11:26.275  7035  7124 E Unity   : 	at com.unity3d.player.UnityPlayer.nativeRender(Native Method)
+11-08 22:11:26.275  7035  7124 E Unity   : 	at com.unity3d.player.UnityPlayer.-$$Nest$mnativeRender(Unknown Source:0)
+11-08 22:11:26.275  7035  7124 E Unity   : 	at com.unity3d.player.T0.handleMessage(Unknown Source:122)
+11-08 22:11:26.275  7035  7124 E Unity   : 	at android.os.Handler.dispatchMessage(Handler.java:102)
+11-08 22:11:26.275  7035  7124 E Unity   : 	at android.os.Looper.loop(Looper.java:223)
+11-08 22:11:26.275  7035  7124 E Unity   : 	at com.unity3d.player.U0.run(Unknown Source:24)
+11-08 22:11:26.275  7035  7124 E Unity   :   at UnityEngine.AndroidJNISafe.CheckExce
+11-08 22:11:26.441  7035  7124 E Unity   : UnityEngine.AndroidJavaException: java.lang.NullPointerException: Attempt to invoke virtual method 'android.content.Context com.userjoy.mars.core.plugin.PluginBase.GetContext()' on a null object reference
+11-08 22:11:26.441  7035  7124 E Unity   :   at UnityEngine.AndroidJNISafe.CheckException () [0x00000] in <00000000000000000000000000000000>:0 
+11-08 22:11:26.441  7035  7124 E Unity   :   at UnityEngine.AndroidJNISafe.CallStringMethod (System.IntPtr obj, System.IntPtr methodID, System.Span`1[T] args) [0x00000] in <00000000000000000000000000000000>:0 
+11-08 22:11:26.441  7035  7124 E Unity   :   at UnityEngine.AndroidJavaObject._Call[ReturnType] (System.IntPtr methodID, System.Object[] args) [0x00000] in <00000000000000000000000000000000>:0 
+11-08 22:11:26.441  7035  7124 E Unity   :   at BaseProcLua.V_Update (System.Single dTime) [0x00000] in <00000000000000000000000000000000>:0 
+11-08 22:11:26.441  7035  7124 E Unity   :   at CProcManager.Update (System.Single dTime) [0x00000] in <00000000000000000000000000000000>:0 
+11-08 22:11:26.441  7035  7124 E Unity   :   at Main.Update () [0x00000] in <00000000000000000000000000000000>:0 
+11-08 22:11:26.441  7035  7124 E Unity   : UJDebug:LogError(Object, Boolean, UJLogType)
+11-08 22:11:26.441  7035  7124 E Unity   : Main:Update()
+11-08 22:11:26.441  7035  7124 E Unity   : 
+11-08 22:11:26.446  7035  7124 E Unity   : AndroidJavaException: java.lang.NullPointerException: Attempt to invoke virtual method 'android.content.Context com.userjoy.mars.core.plugin.PluginBase.GetContext()' on a null object reference
+11-08 22:11:26.446  7035  7124 E Unity   : java.lang.NullPointerException: Attempt to invoke virtual method 'android.content.Context com.userjoy.mars.core.plugin.PluginBase.GetContext()' on a null object reference
+11-08 22:11:26.446  7035  7124 E Unity   : 	at com.userjoy.mars.core.MarsMain.GetContext(SourceFile:1)
+11-08 22:11:26.446  7035  7124 E Unity   : 	at com.userjoy.mars.NetworkState.NetworkState.<init>(SourceFile:253)
+11-08 22:11:26.446  7035  7124 E Unity   : 	at com.userjoy.mars.NetworkState.NetworkState.if(SourceFile:2)
+11-08 22:11:26.446  7035  7124 E Unity   : 	at com.userjoy.mars.bridge.NetworkStateBridge.GetNetworkType(SourceFile:1)
+11-08 22:11:26.446  7035  7124 E Unity   : 	at com.unity3d.player.UnityPlayer.nativeRender(Native Method)
+11-08 22:11:26.446  7035  7124 E Unity   : 	at com.unity3d.player.UnityPlayer.-$$Nest$mnativeRender(Unknown Source:0)
+11-08 22:11:26.446  7035  7124 E Unity   : 	at com.unity3d.player.T0.handleMessage(Unknown Source:122)
+11-08 22:11:26.446  7035  7124 E Unity   : 	at android.os.Handler.dispatchMessage(Handler.java:102)
+11-08 22:11:26.446  7035  7124 E Unity   : 	at android.os.Looper.loop(Looper.java:223)
+11-08 22:11:26.446  7035  7124 E Unity   : 	at com.unity3d.player.U0.run(Unknown Source:24)
+11-08 22:11:26.446  7035  7124 E Unity   :   at UnityEngine.AndroidJNISafe.CheckExce
+11-08 22:11:26.604  7035  7124 E Unity   : UnityEngine.AndroidJavaException: java.lang.NullPointerException: Attempt to invoke virtual method 'android.content.Context com.userjoy.mars.core.plugin.PluginBase.GetContext()' on a null object reference
+11-08 22:11:26.604  7035  7124 E Unity   :   at UnityEngine.AndroidJNISafe.CheckException () [0x00000] in <00000000000000000000000000000000>:0 
+11-08 22:11:26.604  7035  7124 E Unity   :   at UnityEngine.AndroidJNISafe.CallStringMethod (System.IntPtr obj, System.IntPtr methodID, System.Span`1[T] args) [0x00000] in <00000000000000000000000000000000>:0 
+11-08 22:11:26.604  7035  7124 E Unity   :   at UnityEngine.AndroidJavaObject._Call[ReturnType] (System.IntPtr methodID, System.Object[] args) [0x00000] in <00000000000000000000000000000000>:0 
+11-08 22:11:26.604  7035  7124 E Unity   :   at BaseProcLua.V_Update (System.Single dTime) [0x00000] in <00000000000000000000000000000000>:0 
+11-08 22:11:26.604  7035  7124 E Unity   :   at CProcManager.Update (System.Single dTime) [0x00000] in <00000000000000000000000000000000>:0 
+11-08 22:11:26.604  7035  7124 E Unity   :   at Main.Update () [0x00000] in <00000000000000000000000000000000>:0 
+11-08 22:11:26.604  7035  7124 E Unity   : UJDebug:LogError(Object, Boolean, UJLogType)
+11-08 22:11:26.604  7035  7124 E Unity   : Main:Update()
+11-08 22:11:26.604  7035  7124 E Unity   : 
+11-08 22:11:26.608  7035  7124 E Unity   : AndroidJavaException: java.lang.NullPointerException: Attempt to invoke virtual method 'android.content.Context com.userjoy.mars.core.plugin.PluginBase.GetContext()' on a null object reference
+11-08 22:11:26.608  7035  7124 E Unity   : java.lang.NullPointerException: Attempt to invoke virtual method 'android.content.Context com.userjoy.mars.core.plugin.PluginBase.GetContext()' on a null object reference
+11-08 22:11:26.608  7035  7124 E Unity   : 	at com.userjoy.mars.core.MarsMain.GetContext(SourceFile:1)
+11-08 22:11:26.608  7035  7124 E Unity   : 	at com.userjoy.mars.NetworkState.NetworkState.<init>(SourceFile:253)
+11-08 22:11:26.608  7035  7124 E Unity   : 	at com.userjoy.mars.NetworkState.NetworkState.if(SourceFile:2)
+11-08 22:11:26.608  7035  7124 E Unity   : 	at com.userjoy.mars.bridge.NetworkStateBridge.GetNetworkType(SourceFile:1)
+11-08 22:11:26.608  7035  7124 E Unity   : 	at com.unity3d.player.UnityPlayer.nativeRender(Native Method)
+11-08 22:11:26.608  7035  7124 E Unity   : 	at com.unity3d.player.UnityPlayer.-$$Nest$mnativeRender(Unknown Source:0)
+11-08 22:11:26.608  7035  7124 E Unity   : 	at com.unity3d.player.T0.handleMessage(Unknown Source:122)
+11-08 22:11:26.608  7035  7124 E Unity   : 	at android.os.Handler.dispatchMessage(Handler.java:102)
+11-08 22:11:26.608  7035  7124 E Unity   : 	at android.os.Looper.loop(Looper.java:223)
+11-08 22:11:26.608  7035  7124 E Unity   : 	at com.unity3d.player.U0.run(Unknown Source:24)
+11-08 22:11:26.608  7035  7124 E Unity   :   at UnityEngine.AndroidJNISafe.CheckExce
+11-08 22:11:26.755  7035  7124 E Unity   : UnityEngine.AndroidJavaException: java.lang.NullPointerException: Attempt to invoke virtual method 'android.content.Context com.userjoy.mars.core.plugin.PluginBase.GetContext()' on a null object reference
+11-08 22:11:26.755  7035  7124 E Unity   :   at UnityEngine.AndroidJNISafe.CheckException () [0x00000] in <00000000000000000000000000000000>:0 
+11-08 22:11:26.755  7035  7124 E Unity   :   at UnityEngine.AndroidJNISafe.CallStringMethod (System.IntPtr obj, System.IntPtr methodID, System.Span`1[T] args) [0x00000] in <00000000000000000000000000000000>:0 
+11-08 22:11:26.755  7035  7124 E Unity   :   at UnityEngine.AndroidJavaObject._Call[ReturnType] (System.IntPtr methodID, System.Object[] args) [0x00000] in <00000000000000000000000000000000>:0 
+11-08 22:11:26.755  7035  7124 E Unity   :   at BaseProcLua.V_Update (System.Single dTime) [0x00000] in <00000000000000000000000000000000>:0 
+11-08 22:11:26.755  7035  7124 E Unity   :   at CProcManager.Update (System.Single dTime) [0x00000] in <00000000000000000000000000000000>:0 
+11-08 22:11:26.755  7035  7124 E Unity   :   at Main.Update () [0x00000] in <00000000000000000000000000000000>:0 
+11-08 22:11:26.755  7035  7124 E Unity   : UJDebug:LogError(Object, Boolean, UJLogType)
+11-08 22:11:26.755  7035  7124 E Unity   : Main:Update()
+11-08 22:11:26.755  7035  7124 E Unity   : 
+11-08 22:11:26.759  7035  7124 E Unity   : AndroidJavaException: java.lang.NullPointerException: Attempt to invoke virtual method 'android.content.Context com.userjoy.mars.core.plugin.PluginBase.GetContext()' on a null object reference
+11-08 22:11:26.759  7035  7124 E Unity   : java.lang.NullPointerException: Attempt to invoke virtual method 'android.content.Context com.userjoy.mars.core.plugin.PluginBase.GetContext()' on a null object reference
+11-08 22:11:26.759  7035  7124 E Unity   : 	at com.userjoy.mars.core.MarsMain.GetContext(SourceFile:1)
+11-08 22:11:26.759  7035  7124 E Unity   : 	at com.userjoy.mars.NetworkState.NetworkState.<init>(SourceFile:253)
+11-08 22:11:26.759  7035  7124 E Unity   : 	at com.userjoy.mars.NetworkState.NetworkState.if(SourceFile:2)
+11-08 22:11:26.759  7035  7124 E Unity   : 	at com.userjoy.mars.bridge.NetworkStateBridge.GetNetworkType(SourceFile:1)
+11-08 22:11:26.759  7035  7124 E Unity   : 	at com.unity3d.player.UnityPlayer.nativeRender(Native Method)
+11-08 22:11:26.759  7035  7124 E Unity   : 	at com.unity3d.player.UnityPlayer.-$$Nest$mnativeRender(Unknown Source:0)
+11-08 22:11:26.759  7035  7124 E Unity   : 	at com.unity3d.player.T0.handleMessage(Unknown Source:122)
+11-08 22:11:26.759  7035  7124 E Unity   : 	at android.os.Handler.dispatchMessage(Handler.java:102)
+11-08 22:11:26.759  7035  7124 E Unity   : 	at android.os.Looper.loop(Looper.java:223)
+11-08 22:11:26.759  7035  7124 E Unity   : 	at com.unity3d.player.U0.run(Unknown Source:24)
+11-08 22:11:26.759  7035  7124 E Unity   :   at UnityEngine.AndroidJNISafe.CheckExce
+11-08 22:11:26.906  7035  7124 E Unity   : UnityEngine.AndroidJavaException: java.lang.NullPointerException: Attempt to invoke virtual method 'android.content.Context com.userjoy.mars.core.plugin.PluginBase.GetContext()' on a null object reference
+11-08 22:11:26.906  7035  7124 E Unity   :   at UnityEngine.AndroidJNISafe.CheckException () [0x00000] in <00000000000000000000000000000000>:0 
+11-08 22:11:26.906  7035  7124 E Unity   :   at UnityEngine.AndroidJNISafe.CallStringMethod (System.IntPtr obj, System.IntPtr methodID, System.Span`1[T] args) [0x00000] in <00000000000000000000000000000000>:0 
+11-08 22:11:26.906  7035  7124 E Unity   :   at UnityEngine.AndroidJavaObject._Call[ReturnType] (System.IntPtr methodID, System.Object[] args) [0x00000] in <00000000000000000000000000000000>:0 
+11-08 22:11:26.906  7035  7124 E Unity   :   at BaseProcLua.V_Update (System.Single dTime) [0x00000] in <00000000000000000000000000000000>:0 
+11-08 22:11:26.906  7035  7124 E Unity   :   at CProcManager.Update (System.Single dTime) [0x00000] in <00000000000000000000000000000000>:0 
+11-08 22:11:26.906  7035  7124 E Unity   :   at Main.Update () [0x00000] in <00000000000000000000000000000000>:0 
+11-08 22:11:26.906  7035  7124 E Unity   : UJDebug:LogError(Object, Boolean, UJLogType)
+11-08 22:11:26.906  7035  7124 E Unity   : Main:Update()
+11-08 22:11:26.906  7035  7124 E Unity   : 
+11-08 22:11:26.910  7035  7124 E Unity   : AndroidJavaException: java.lang.NullPointerException: Attempt to invoke virtual method 'android.content.Context com.userjoy.mars.core.plugin.PluginBase.GetContext()' on a null object reference
+11-08 22:11:26.910  7035  7124 E Unity   : java.lang.NullPointerException: Attempt to invoke virtual method 'android.content.Context com.userjoy.mars.core.plugin.PluginBase.GetContext()' on a null object reference
+11-08 22:11:26.910  7035  7124 E Unity   : 	at com.userjoy.mars.core.MarsMain.GetContext(SourceFile:1)
+11-08 22:11:26.910  7035  7124 E Unity   : 	at com.userjoy.mars.NetworkState.NetworkState.<init>(SourceFile:253)
+11-08 22:11:26.910  7035  7124 E Unity   : 	at com.userjoy.mars.NetworkState.NetworkState.if(SourceFile:2)
+11-08 22:11:26.910  7035  7124 E Unity   : 	at com.userjoy.mars.bridge.NetworkStateBridge.GetNetworkType(SourceFile:1)
+11-08 22:11:26.910  7035  7124 E Unity   : 	at com.unity3d.player.UnityPlayer.nativeRender(Native Method)
+11-08 22:11:26.910  7035  7124 E Unity   : 	at com.unity3d.player.UnityPlayer.-$$Nest$mnativeRender(Unknown Source:0)
+11-08 22:11:26.910  7035  7124 E Unity   : 	at com.unity3d.player.T0.handleMessage(Unknown Source:122)
+11-08 22:11:26.910  7035  7124 E Unity   : 	at android.os.Handler.dispatchMessage(Handler.java:102)
+11-08 22:11:26.910  7035  7124 E Unity   : 	at android.os.Looper.loop(Looper.java:223)
+11-08 22:11:26.910  7035  7124 E Unity   : 	at com.unity3d.player.U0.run(Unknown Source:24)
+11-08 22:11:26.910  7035  7124 E Unity   :   at UnityEngine.AndroidJNISafe.CheckExce
+11-08 22:11:27.057  7035  7124 E Unity   : UnityEngine.AndroidJavaException: java.lang.NullPointerException: Attempt to invoke virtual method 'android.content.Context com.userjoy.mars.core.plugin.PluginBase.GetContext()' on a null object reference
+11-08 22:11:27.057  7035  7124 E Unity   :   at UnityEngine.AndroidJNISafe.CheckException () [0x00000] in <00000000000000000000000000000000>:0 
+11-08 22:11:27.057  7035  7124 E Unity   :   at UnityEngine.AndroidJNISafe.CallStringMethod (System.IntPtr obj, System.IntPtr methodID, System.Span`1[T] args) [0x00000] in <00000000000000000000000000000000>:0 
+11-08 22:11:27.057  7035  7124 E Unity   :   at UnityEngine.AndroidJavaObject._Call[ReturnType] (System.IntPtr methodID, System.Object[] args) [0x00000] in <00000000000000000000000000000000>:0 
+11-08 22:11:27.057  7035  7124 E Unity   :   at BaseProcLua.V_Update (System.Single dTime) [0x00000] in <00000000000000000000000000000000>:0 
+11-08 22:11:27.057  7035  7124 E Unity   :   at CProcManager.Update (System.Single dTime) [0x00000] in <00000000000000000000000000000000>:0 
+11-08 22:11:27.057  7035  7124 E Unity   :   at Main.Update () [0x00000] in <00000000000000000000000000000000>:0 
+11-08 22:11:27.057  7035  7124 E Unity   : UJDebug:LogError(Object, Boolean, UJLogType)
+11-08 22:11:27.057  7035  7124 E Unity   : Main:Update()
+11-08 22:11:27.057  7035  7124 E Unity   : 
+11-08 22:11:27.061  7035  7124 E Unity   : AndroidJavaException: java.lang.NullPointerException: Attempt to invoke virtual method 'android.content.Context com.userjoy.mars.core.plugin.PluginBase.GetContext()' on a null object reference
+11-08 22:11:27.061  7035  7124 E Unity   : java.lang.NullPointerException: Attempt to invoke virtual method 'android.content.Context com.userjoy.mars.core.plugin.PluginBase.GetContext()' on a null object reference
+11-08 22:11:27.061  7035  7124 E Unity   : 	at com.userjoy.mars.core.MarsMain.GetContext(SourceFile:1)
+11-08 22:11:27.061  7035  7124 E Unity   : 	at com.userjoy.mars.NetworkState.NetworkState.<init>(SourceFile:253)
+11-08 22:11:27.061  7035  7124 E Unity   : 	at com.userjoy.mars.NetworkState.NetworkState.if(SourceFile:2)
+11-08 22:11:27.061  7035  7124 E Unity   : 	at com.userjoy.mars.bridge.NetworkStateBridge.GetNetworkType(SourceFile:1)
+11-08 22:11:27.061  7035  7124 E Unity   : 	at com.unity3d.player.UnityPlayer.nativeRender(Native Method)
+11-08 22:11:27.061  7035  7124 E Unity   : 	at com.unity3d.player.UnityPlayer.-$$Nest$mnativeRender(Unknown Source:0)
+11-08 22:11:27.061  7035  7124 E Unity   : 	at com.unity3d.player.T0.handleMessage(Unknown Source:122)
+11-08 22:11:27.061  7035  7124 E Unity   : 	at android.os.Handler.dispatchMessage(Handler.java:102)
+11-08 22:11:27.061  7035  7124 E Unity   : 	at android.os.Looper.loop(Looper.java:223)
+11-08 22:11:27.061  7035  7124 E Unity   : 	at com.unity3d.player.U0.run(Unknown Source:24)
+11-08 22:11:27.061  7035  7124 E Unity   :   at UnityEngine.AndroidJNISafe.CheckExce
+11-08 22:11:27.190  7035  7124 E Unity   : UnityEngine.AndroidJavaException: java.lang.NullPointerException: Attempt to invoke virtual method 'android.content.Context com.userjoy.mars.core.plugin.PluginBase.GetContext()' on a null object reference
+11-08 22:11:27.190  7035  7124 E Unity   :   at UnityEngine.AndroidJNISafe.CheckException () [0x00000] in <00000000000000000000000000000000>:0 
+11-08 22:11:27.190  7035  7124 E Unity   :   at UnityEngine.AndroidJNISafe.CallStringMethod (System.IntPtr obj, System.IntPtr methodID, System.Span`1[T] args) [0x00000] in <00000000000000000000000000000000>:0 
+11-08 22:11:27.190  7035  7124 E Unity   :   at UnityEngine.AndroidJavaObject._Call[ReturnType] (System.IntPtr methodID, System.Object[] args) [0x00000] in <00000000000000000000000000000000>:0 
+11-08 22:11:27.190  7035  7124 E Unity   :   at BaseProcLua.V_Update (System.Single dTime) [0x00000] in <00000000000000000000000000000000>:0 
+11-08 22:11:27.190  7035  7124 E Unity   :   at CProcManager.Update (System.Single dTime) [0x00000] in <00000000000000000000000000000000>:0 
+11-08 22:11:27.190  7035  7124 E Unity   :   at Main.Update () [0x00000] in <00000000000000000000000000000000>:0 
+11-08 22:11:27.190  7035  7124 E Unity   : UJDebug:LogError(Object, Boolean, UJLogType)
+11-08 22:11:27.190  7035  7124 E Unity   : Main:Update()
+11-08 22:11:27.190  7035  7124 E Unity   : 
+11-08 22:11:27.193  7035  7124 E Unity   : AndroidJavaException: java.lang.NullPointerException: Attempt to invoke virtual method 'android.content.Context com.userjoy.mars.core.plugin.PluginBase.GetContext()' on a null object reference
+11-08 22:11:27.193  7035  7124 E Unity   : java.lang.NullPointerException: Attempt to invoke virtual method 'android.content.Context com.userjoy.mars.core.plugin.PluginBase.GetContext()' on a null object reference
+11-08 22:11:27.193  7035  7124 E Unity   : 	at com.userjoy.mars.core.MarsMain.GetContext(SourceFile:1)
+11-08 22:11:27.193  7035  7124 E Unity   : 	at com.userjoy.mars.NetworkState.NetworkState.<init>(SourceFile:253)
+11-08 22:11:27.193  7035  7124 E Unity   : 	at com.userjoy.mars.NetworkState.NetworkState.if(SourceFile:2)
+11-08 22:11:27.193  7035  7124 E Unity   : 	at com.userjoy.mars.bridge.NetworkStateBridge.GetNetworkType(SourceFile:1)
+11-08 22:11:27.193  7035  7124 E Unity   : 	at com.unity3d.player.UnityPlayer.nativeRender(Native Method)
+11-08 22:11:27.193  7035  7124 E Unity   : 	at com.unity3d.player.UnityPlayer.-$$Nest$mnativeRender(Unknown Source:0)
+11-08 22:11:27.193  7035  7124 E Unity   : 	at com.unity3d.player.T0.handleMessage(Unknown Source:122)
+11-08 22:11:27.193  7035  7124 E Unity   : 	at android.os.Handler.dispatchMessage(Handler.java:102)
+11-08 22:11:27.193  7035  7124 E Unity   : 	at android.os.Looper.loop(Looper.java:223)
+11-08 22:11:27.193  7035  7124 E Unity   : 	at com.unity3d.player.U0.run(Unknown Source:24)
+11-08 22:11:27.193  7035  7124 E Unity   :   at UnityEngine.AndroidJNISafe.CheckExce
+11-08 22:11:27.341  7035  7124 E Unity   : UnityEngine.AndroidJavaException: java.lang.NullPointerException: Attempt to invoke virtual method 'android.content.Context com.userjoy.mars.core.plugin.PluginBase.GetContext()' on a null object reference
+11-08 22:11:27.341  7035  7124 E Unity   :   at UnityEngine.AndroidJNISafe.CheckException () [0x00000] in <00000000000000000000000000000000>:0 
+11-08 22:11:27.341  7035  7124 E Unity   :   at UnityEngine.AndroidJNISafe.CallStringMethod (System.IntPtr obj, System.IntPtr methodID, System.Span`1[T] args) [0x00000] in <00000000000000000000000000000000>:0 
+11-08 22:11:27.341  7035  7124 E Unity   :   at UnityEngine.AndroidJavaObject._Call[ReturnType] (System.IntPtr methodID, System.Object[] args) [0x00000] in <00000000000000000000000000000000>:0 
+11-08 22:11:27.341  7035  7124 E Unity   :   at BaseProcLua.V_Update (System.Single dTime) [0x00000] in <00000000000000000000000000000000>:0 
+11-08 22:11:27.341  7035  7124 E Unity   :   at CProcManager.Update (System.Single dTime) [0x00000] in <00000000000000000000000000000000>:0 
+11-08 22:11:27.341  7035  7124 E Unity   :   at Main.Update () [0x00000] in <00000000000000000000000000000000>:0 
+11-08 22:11:27.341  7035  7124 E Unity   : UJDebug:LogError(Object, Boolean, UJLogType)
+11-08 22:11:27.341  7035  7124 E Unity   : Main:Update()
+11-08 22:11:27.341  7035  7124 E Unity   : 
+11-08 22:11:27.345  7035  7124 E Unity   : AndroidJavaException: java.lang.NullPointerException: Attempt to invoke virtual method 'android.content.Context com.userjoy.mars.core.plugin.PluginBase.GetContext()' on a null object reference
+11-08 22:11:27.345  7035  7124 E Unity   : java.lang.NullPointerException: Attempt to invoke virtual method 'android.content.Context com.userjoy.mars.core.plugin.PluginBase.GetContext()' on a null object reference
+11-08 22:11:27.345  7035  7124 E Unity   : 	at com.userjoy.mars.core.MarsMain.GetContext(SourceFile:1)
+11-08 22:11:27.345  7035  7124 E Unity   : 	at com.userjoy.mars.NetworkState.NetworkState.<init>(SourceFile:253)
+11-08 22:11:27.345  7035  7124 E Unity   : 	at com.userjoy.mars.NetworkState.NetworkState.if(SourceFile:2)
+11-08 22:11:27.345  7035  7124 E Unity   : 	at com.userjoy.mars.bridge.NetworkStateBridge.GetNetworkType(SourceFile:1)
+11-08 22:11:27.345  7035  7124 E Unity   : 	at com.unity3d.player.UnityPlayer.nativeRender(Native Method)
+11-08 22:11:27.345  7035  7124 E Unity   : 	at com.unity3d.player.UnityPlayer.-$$Nest$mnativeRender(Unknown Source:0)
+11-08 22:11:27.345  7035  7124 E Unity   : 	at com.unity3d.player.T0.handleMessage(Unknown Source:122)
+11-08 22:11:27.345  7035  7124 E Unity   : 	at android.os.Handler.dispatchMessage(Handler.java:102)
+11-08 22:11:27.345  7035  7124 E Unity   : 	at android.os.Looper.loop(Looper.java:223)
+11-08 22:11:27.345  7035  7124 E Unity   : 	at com.unity3d.player.U0.run(Unknown Source:24)
+11-08 22:11:27.345  7035  7124 E Unity   :   at UnityEngine.AndroidJNISafe.CheckExce
+11-08 22:11:27.479  7035  7124 E Unity   : UnityEngine.AndroidJavaException: java.lang.NullPointerException: Attempt to invoke virtual method 'android.content.Context com.userjoy.mars.core.plugin.PluginBase.GetContext()' on a null object reference
+11-08 22:11:27.479  7035  7124 E Unity   :   at UnityEngine.AndroidJNISafe.CheckException () [0x00000] in <00000000000000000000000000000000>:0 
+11-08 22:11:27.479  7035  7124 E Unity   :   at UnityEngine.AndroidJNISafe.CallStringMethod (System.IntPtr obj, System.IntPtr methodID, System.Span`1[T] args) [0x00000] in <00000000000000000000000000000000>:0 
+11-08 22:11:27.479  7035  7124 E Unity   :   at UnityEngine.AndroidJavaObject._Call[ReturnType] (System.IntPtr methodID, System.Object[] args) [0x00000] in <00000000000000000000000000000000>:0 
+11-08 22:11:27.479  7035  7124 E Unity   :   at BaseProcLua.V_Update (System.Single dTime) [0x00000] in <00000000000000000000000000000000>:0 
+11-08 22:11:27.479  7035  7124 E Unity   :   at CProcManager.Update (System.Single dTime) [0x00000] in <00000000000000000000000000000000>:0 
+11-08 22:11:27.479  7035  7124 E Unity   :   at Main.Update () [0x00000] in <00000000000000000000000000000000>:0 
+11-08 22:11:27.479  7035  7124 E Unity   : UJDebug:LogError(Object, Boolean, UJLogType)
+11-08 22:11:27.479  7035  7124 E Unity   : Main:Update()
+11-08 22:11:27.479  7035  7124 E Unity   : 
+11-08 22:11:27.490  7035  7124 E Unity   : AndroidJavaException: java.lang.NullPointerException: Attempt to invoke virtual method 'android.content.Context com.userjoy.mars.core.plugin.PluginBase.GetContext()' on a null object reference
+11-08 22:11:27.490  7035  7124 E Unity   : java.lang.NullPointerException: Attempt to invoke virtual method 'android.content.Context com.userjoy.mars.core.plugin.PluginBase.GetContext()' on a null object reference
+11-08 22:11:27.490  7035  7124 E Unity   : 	at com.userjoy.mars.core.MarsMain.GetContext(SourceFile:1)
+11-08 22:11:27.490  7035  7124 E Unity   : 	at com.userjoy.mars.NetworkState.NetworkState.<init>(SourceFile:253)
+11-08 22:11:27.490  7035  7124 E Unity   : 	at com.userjoy.mars.NetworkState.NetworkState.if(SourceFile:2)
+11-08 22:11:27.490  7035  7124 E Unity   : 	at com.userjoy.mars.bridge.NetworkStateBridge.GetNetworkType(SourceFile:1)
+11-08 22:11:27.490  7035  7124 E Unity   : 	at com.unity3d.player.UnityPlayer.nativeRender(Native Method)
+11-08 22:11:27.490  7035  7124 E Unity   : 	at com.unity3d.player.UnityPlayer.-$$Nest$mnativeRender(Unknown Source:0)
+11-08 22:11:27.490  7035  7124 E Unity   : 	at com.unity3d.player.T0.handleMessage(Unknown Source:122)
+11-08 22:11:27.490  7035  7124 E Unity   : 	at android.os.Handler.dispatchMessage(Handler.java:102)
+11-08 22:11:27.490  7035  7124 E Unity   : 	at android.os.Looper.loop(Looper.java:223)
+11-08 22:11:27.490  7035  7124 E Unity   : 	at com.unity3d.player.U0.run(Unknown Source:24)
+11-08 22:11:27.490  7035  7124 E Unity   :   at UnityEngine.AndroidJNISafe.CheckExce
+11-08 22:11:27.647  7035  7124 E Unity   : UnityEngine.AndroidJavaException: java.lang.NullPointerException: Attempt to invoke virtual method 'android.content.Context com.userjoy.mars.core.plugin.PluginBase.GetContext()' on a null object reference
+11-08 22:11:27.647  7035  7124 E Unity   :   at UnityEngine.AndroidJNISafe.CheckException () [0x00000] in <00000000000000000000000000000000>:0 
+11-08 22:11:27.647  7035  7124 E Unity   :   at UnityEngine.AndroidJNISafe.CallStringMethod (System.IntPtr obj, System.IntPtr methodID, System.Span`1[T] args) [0x00000] in <00000000000000000000000000000000>:0 
+11-08 22:11:27.647  7035  7124 E Unity   :   at UnityEngine.AndroidJavaObject._Call[ReturnType] (System.IntPtr methodID, System.Object[] args) [0x00000] in <00000000000000000000000000000000>:0 
+11-08 22:11:27.647  7035  7124 E Unity   :   at BaseProcLua.V_Update (System.Single dTime) [0x00000] in <00000000000000000000000000000000>:0 
+11-08 22:11:27.647  7035  7124 E Unity   :   at CProcManager.Update (System.Single dTime) [0x00000] in <00000000000000000000000000000000>:0 
+11-08 22:11:27.647  7035  7124 E Unity   :   at Main.Update () [0x00000] in <00000000000000000000000000000000>:0 
+11-08 22:11:27.647  7035  7124 E Unity   : UJDebug:LogError(Object, Boolean, UJLogType)
+11-08 22:11:27.647  7035  7124 E Unity   : Main:Update()
+11-08 22:11:27.647  7035  7124 E Unity   : 
+11-08 22:11:27.660  7035  7124 E Unity   : AndroidJavaException: java.lang.NullPointerException: Attempt to invoke virtual method 'android.content.Context com.userjoy.mars.core.plugin.PluginBase.GetContext()' on a null object reference
+11-08 22:11:27.660  7035  7124 E Unity   : java.lang.NullPointerException: Attempt to invoke virtual method 'android.content.Context com.userjoy.mars.core.plugin.PluginBase.GetContext()' on a null object reference
+11-08 22:11:27.660  7035  7124 E Unity   : 	at com.userjoy.mars.core.MarsMain.GetContext(SourceFile:1)
+11-08 22:11:27.660  7035  7124 E Unity   : 	at com.userjoy.mars.NetworkState.NetworkState.<init>(SourceFile:253)
+11-08 22:11:27.660  7035  7124 E Unity   : 	at com.userjoy.mars.NetworkState.NetworkState.if(SourceFile:2)
+11-08 22:11:27.660  7035  7124 E Unity   : 	at com.userjoy.mars.bridge.NetworkStateBridge.GetNetworkType(SourceFile:1)
+11-08 22:11:27.660  7035  7124 E Unity   : 	at com.unity3d.player.UnityPlayer.nativeRender(Native Method)
+11-08 22:11:27.660  7035  7124 E Unity   : 	at com.unity3d.player.UnityPlayer.-$$Nest$mnativeRender(Unknown Source:0)
+11-08 22:11:27.660  7035  7124 E Unity   : 	at com.unity3d.player.T0.handleMessage(Unknown Source:122)
+11-08 22:11:27.660  7035  7124 E Unity   : 	at android.os.Handler.dispatchMessage(Handler.java:102)
+11-08 22:11:27.660  7035  7124 E Unity   : 	at android.os.Looper.loop(Looper.java:223)
+11-08 22:11:27.660  7035  7124 E Unity   : 	at com.unity3d.player.U0.run(Unknown Source:24)
+11-08 22:11:27.660  7035  7124 E Unity   :   at UnityEngine.AndroidJNISafe.CheckExce
+11-08 22:11:27.804  7035  7124 E Unity   : UnityEngine.AndroidJavaException: java.lang.NullPointerException: Attempt to invoke virtual method 'android.content.Context com.userjoy.mars.core.plugin.PluginBase.GetContext()' on a null object reference
+11-08 22:11:27.804  7035  7124 E Unity   :   at UnityEngine.AndroidJNISafe.CheckException () [0x00000] in <00000000000000000000000000000000>:0 
+11-08 22:11:27.804  7035  7124 E Unity   :   at UnityEngine.AndroidJNISafe.CallStringMethod (System.IntPtr obj, System.IntPtr methodID, System.Span`1[T] args) [0x00000] in <00000000000000000000000000000000>:0 
+11-08 22:11:27.804  7035  7124 E Unity   :   at UnityEngine.AndroidJavaObject._Call[ReturnType] (System.IntPtr methodID, System.Object[] args) [0x00000] in <00000000000000000000000000000000>:0 
+11-08 22:11:27.804  7035  7124 E Unity   :   at BaseProcLua.V_Update (System.Single dTime) [0x00000] in <00000000000000000000000000000000>:0 
+11-08 22:11:27.804  7035  7124 E Unity   :   at CProcManager.Update (System.Single dTime) [0x00000] in <00000000000000000000000000000000>:0 
+11-08 22:11:27.804  7035  7124 E Unity   :   at Main.Update () [0x00000] in <00000000000000000000000000000000>:0 
+11-08 22:11:27.804  7035  7124 E Unity   : UJDebug:LogError(Object, Boolean, UJLogType)
+11-08 22:11:27.804  7035  7124 E Unity   : Main:Update()
+11-08 22:11:27.804  7035  7124 E Unity   : 
+11-08 22:11:27.808  7035  7124 E Unity   : AndroidJavaException: java.lang.NullPointerException: Attempt to invoke virtual method 'android.content.Context com.userjoy.mars.core.plugin.PluginBase.GetContext()' on a null object reference
+11-08 22:11:27.808  7035  7124 E Unity   : java.lang.NullPointerException: Attempt to invoke virtual method 'android.content.Context com.userjoy.mars.core.plugin.PluginBase.GetContext()' on a null object reference
+11-08 22:11:27.808  7035  7124 E Unity   : 	at com.userjoy.mars.core.MarsMain.GetContext(SourceFile:1)
+11-08 22:11:27.808  7035  7124 E Unity   : 	at com.userjoy.mars.NetworkState.NetworkState.<init>(SourceFile:253)
+11-08 22:11:27.808  7035  7124 E Unity   : 	at com.userjoy.mars.NetworkState.NetworkState.if(SourceFile:2)
+11-08 22:11:27.808  7035  7124 E Unity   : 	at com.userjoy.mars.bridge.NetworkStateBridge.GetNetworkType(SourceFile:1)
+11-08 22:11:27.808  7035  7124 E Unity   : 	at com.unity3d.player.UnityPlayer.nativeRender(Native Method)
+11-08 22:11:27.808  7035  7124 E Unity   : 	at com.unity3d.player.UnityPlayer.-$$Nest$mnativeRender(Unknown Source:0)
+11-08 22:11:27.808  7035  7124 E Unity   : 	at com.unity3d.player.T0.handleMessage(Unknown Source:122)
+11-08 22:11:27.808  7035  7124 E Unity   : 	at android.os.Handler.dispatchMessage(Handler.java:102)
+11-08 22:11:27.808  7035  7124 E Unity   : 	at android.os.Looper.loop(Looper.java:223)
+11-08 22:11:27.808  7035  7124 E Unity   : 	at com.unity3d.player.U0.run(Unknown Source:24)
+11-08 22:11:27.808  7035  7124 E Unity   :   at UnityEngine.AndroidJNISafe.CheckExce
+11-08 22:11:27.974  7035  7124 E Unity   : UnityEngine.AndroidJavaException: java.lang.NullPointerException: Attempt to invoke virtual method 'android.content.Context com.userjoy.mars.core.plugin.PluginBase.GetContext()' on a null object reference
+11-08 22:11:27.974  7035  7124 E Unity   :   at UnityEngine.AndroidJNISafe.CheckException () [0x00000] in <00000000000000000000000000000000>:0 
+11-08 22:11:27.974  7035  7124 E Unity   :   at UnityEngine.AndroidJNISafe.CallStringMethod (System.IntPtr obj, System.IntPtr methodID, System.Span`1[T] args) [0x00000] in <00000000000000000000000000000000>:0 
+11-08 22:11:27.974  7035  7124 E Unity   :   at UnityEngine.AndroidJavaObject._Call[ReturnType] (System.IntPtr methodID, System.Object[] args) [0x00000] in <00000000000000000000000000000000>:0 
+11-08 22:11:27.974  7035  7124 E Unity   :   at BaseProcLua.V_Update (System.Single dTime) [0x00000] in <00000000000000000000000000000000>:0 
+11-08 22:11:27.974  7035  7124 E Unity   :   at CProcManager.Update (System.Single dTime) [0x00000] in <00000000000000000000000000000000>:0 
+11-08 22:11:27.974  7035  7124 E Unity   :   at Main.Update () [0x00000] in <00000000000000000000000000000000>:0 
+11-08 22:11:27.974  7035  7124 E Unity   : UJDebug:LogError(Object, Boolean, UJLogType)
+11-08 22:11:27.974  7035  7124 E Unity   : Main:Update()
+11-08 22:11:27.974  7035  7124 E Unity   : 
+11-08 22:11:27.978  7035  7124 E Unity   : AndroidJavaException: java.lang.NullPointerException: Attempt to invoke virtual method 'android.content.Context com.userjoy.mars.core.plugin.PluginBase.GetContext()' on a null object reference
+11-08 22:11:27.978  7035  7124 E Unity   : java.lang.NullPointerException: Attempt to invoke virtual method 'android.content.Context com.userjoy.mars.core.plugin.PluginBase.GetContext()' on a null object reference
+11-08 22:11:27.978  7035  7124 E Unity   : 	at com.userjoy.mars.core.MarsMain.GetContext(SourceFile:1)
+11-08 22:11:27.978  7035  7124 E Unity   : 	at com.userjoy.mars.NetworkState.NetworkState.<init>(SourceFile:253)
+11-08 22:11:27.978  7035  7124 E Unity   : 	at com.userjoy.mars.NetworkState.NetworkState.if(SourceFile:2)
+11-08 22:11:27.978  7035  7124 E Unity   : 	at com.userjoy.mars.bridge.NetworkStateBridge.GetNetworkType(SourceFile:1)
+11-08 22:11:27.978  7035  7124 E Unity   : 	at com.unity3d.player.UnityPlayer.nativeRender(Native Method)
+11-08 22:11:27.978  7035  7124 E Unity   : 	at com.unity3d.player.UnityPlayer.-$$Nest$mnativeRender(Unknown Source:0)
+11-08 22:11:27.978  7035  7124 E Unity   : 	at com.unity3d.player.T0.handleMessage(Unknown Source:122)
+11-08 22:11:27.978  7035  7124 E Unity   : 	at android.os.Handler.dispatchMessage(Handler.java:102)
+11-08 22:11:27.978  7035  7124 E Unity   : 	at android.os.Looper.loop(Looper.java:223)
+11-08 22:11:27.978  7035  7124 E Unity   : 	at com.unity3d.player.U0.run(Unknown Source:24)
+11-08 22:11:27.978  7035  7124 E Unity   :   at UnityEngine.AndroidJNISafe.CheckExce
+11-08 22:11:28.122  7035  7124 E Unity   : UnityEngine.AndroidJavaException: java.lang.NullPointerException: Attempt to invoke virtual method 'android.content.Context com.userjoy.mars.core.plugin.PluginBase.GetContext()' on a null object reference
+11-08 22:11:28.122  7035  7124 E Unity   :   at UnityEngine.AndroidJNISafe.CheckException () [0x00000] in <00000000000000000000000000000000>:0 
+11-08 22:11:28.122  7035  7124 E Unity   :   at UnityEngine.AndroidJNISafe.CallStringMethod (System.IntPtr obj, System.IntPtr methodID, System.Span`1[T] args) [0x00000] in <00000000000000000000000000000000>:0 
+11-08 22:11:28.122  7035  7124 E Unity   :   at UnityEngine.AndroidJavaObject._Call[ReturnType] (System.IntPtr methodID, System.Object[] args) [0x00000] in <00000000000000000000000000000000>:0 
+11-08 22:11:28.122  7035  7124 E Unity   :   at BaseProcLua.V_Update (System.Single dTime) [0x00000] in <00000000000000000000000000000000>:0 
+11-08 22:11:28.122  7035  7124 E Unity   :   at CProcManager.Update (System.Single dTime) [0x00000] in <00000000000000000000000000000000>:0 
+11-08 22:11:28.122  7035  7124 E Unity   :   at Main.Update () [0x00000] in <00000000000000000000000000000000>:0 
+11-08 22:11:28.122  7035  7124 E Unity   : UJDebug:LogError(Object, Boolean, UJLogType)
+11-08 22:11:28.122  7035  7124 E Unity   : Main:Update()
+11-08 22:11:28.122  7035  7124 E Unity   : 
+11-08 22:11:28.126  7035  7124 E Unity   : AndroidJavaException: java.lang.NullPointerException: Attempt to invoke virtual method 'android.content.Context com.userjoy.mars.core.plugin.PluginBase.GetContext()' on a null object reference
+11-08 22:11:28.126  7035  7124 E Unity   : java.lang.NullPointerException: Attempt to invoke virtual method 'android.content.Context com.userjoy.mars.core.plugin.PluginBase.GetContext()' on a null object reference
+11-08 22:11:28.126  7035  7124 E Unity   : 	at com.userjoy.mars.core.MarsMain.GetContext(SourceFile:1)
+11-08 22:11:28.126  7035  7124 E Unity   : 	at com.userjoy.mars.NetworkState.NetworkState.<init>(SourceFile:253)
+11-08 22:11:28.126  7035  7124 E Unity   : 	at com.userjoy.mars.NetworkState.NetworkState.if(SourceFile:2)
+11-08 22:11:28.126  7035  7124 E Unity   : 	at com.userjoy.mars.bridge.NetworkStateBridge.GetNetworkType(SourceFile:1)
+11-08 22:11:28.126  7035  7124 E Unity   : 	at com.unity3d.player.UnityPlayer.nativeRender(Native Method)
+11-08 22:11:28.126  7035  7124 E Unity   : 	at com.unity3d.player.UnityPlayer.-$$Nest$mnativeRender(Unknown Source:0)
+11-08 22:11:28.126  7035  7124 E Unity   : 	at com.unity3d.player.T0.handleMessage(Unknown Source:122)
+11-08 22:11:28.126  7035  7124 E Unity   : 	at android.os.Handler.dispatchMessage(Handler.java:102)
+11-08 22:11:28.126  7035  7124 E Unity   : 	at android.os.Looper.loop(Looper.java:223)
+11-08 22:11:28.126  7035  7124 E Unity   : 	at com.unity3d.player.U0.run(Unknown Source:24)
+11-08 22:11:28.126  7035  7124 E Unity   :   at UnityEngine.AndroidJNISafe.CheckExce
+11-08 22:11:28.264  7035  7124 E Unity   : UnityEngine.AndroidJavaException: java.lang.NullPointerException: Attempt to invoke virtual method 'android.content.Context com.userjoy.mars.core.plugin.PluginBase.GetContext()' on a null object reference
+11-08 22:11:28.264  7035  7124 E Unity   :   at UnityEngine.AndroidJNISafe.CheckException () [0x00000] in <00000000000000000000000000000000>:0 
+11-08 22:11:28.264  7035  7124 E Unity   :   at UnityEngine.AndroidJNISafe.CallStringMethod (System.IntPtr obj, System.IntPtr methodID, System.Span`1[T] args) [0x00000] in <00000000000000000000000000000000>:0 
+11-08 22:11:28.264  7035  7124 E Unity   :   at UnityEngine.AndroidJavaObject._Call[ReturnType] (System.IntPtr methodID, System.Object[] args) [0x00000] in <00000000000000000000000000000000>:0 
+11-08 22:11:28.264  7035  7124 E Unity   :   at BaseProcLua.V_Update (System.Single dTime) [0x00000] in <00000000000000000000000000000000>:0 
+11-08 22:11:28.264  7035  7124 E Unity   :   at CProcManager.Update (System.Single dTime) [0x00000] in <00000000000000000000000000000000>:0 
+11-08 22:11:28.264  7035  7124 E Unity   :   at Main.Update () [0x00000] in <00000000000000000000000000000000>:0 
+11-08 22:11:28.264  7035  7124 E Unity   : UJDebug:LogError(Object, Boolean, UJLogType)
+11-08 22:11:28.264  7035  7124 E Unity   : Main:Update()
+11-08 22:11:28.264  7035  7124 E Unity   : 
+11-08 22:11:28.272  7035  7124 E Unity   : AndroidJavaException: java.lang.NullPointerException: Attempt to invoke virtual method 'android.content.Context com.userjoy.mars.core.plugin.PluginBase.GetContext()' on a null object reference
+11-08 22:11:28.272  7035  7124 E Unity   : java.lang.NullPointerException: Attempt to invoke virtual method 'android.content.Context com.userjoy.mars.core.plugin.PluginBase.GetContext()' on a null object reference
+11-08 22:11:28.272  7035  7124 E Unity   : 	at com.userjoy.mars.core.MarsMain.GetContext(SourceFile:1)
+11-08 22:11:28.272  7035  7124 E Unity   : 	at com.userjoy.mars.NetworkState.NetworkState.<init>(SourceFile:253)
+11-08 22:11:28.272  7035  7124 E Unity   : 	at com.userjoy.mars.NetworkState.NetworkState.if(SourceFile:2)
+11-08 22:11:28.272  7035  7124 E Unity   : 	at com.userjoy.mars.bridge.NetworkStateBridge.GetNetworkType(SourceFile:1)
+11-08 22:11:28.272  7035  7124 E Unity   : 	at com.unity3d.player.UnityPlayer.nativeRender(Native Method)
+11-08 22:11:28.272  7035  7124 E Unity   : 	at com.unity3d.player.UnityPlayer.-$$Nest$mnativeRender(Unknown Source:0)
+11-08 22:11:28.272  7035  7124 E Unity   : 	at com.unity3d.player.T0.handleMessage(Unknown Source:122)
+11-08 22:11:28.272  7035  7124 E Unity   : 	at android.os.Handler.dispatchMessage(Handler.java:102)
+11-08 22:11:28.272  7035  7124 E Unity   : 	at android.os.Looper.loop(Looper.java:223)
+11-08 22:11:28.272  7035  7124 E Unity   : 	at com.unity3d.player.U0.run(Unknown Source:24)
+11-08 22:11:28.272  7035  7124 E Unity   :   at UnityEngine.AndroidJNISafe.CheckExce
+11-08 22:11:28.405  7035  7124 E Unity   : UnityEngine.AndroidJavaException: java.lang.NullPointerException: Attempt to invoke virtual method 'android.content.Context com.userjoy.mars.core.plugin.PluginBase.GetContext()' on a null object reference
+11-08 22:11:28.405  7035  7124 E Unity   :   at UnityEngine.AndroidJNISafe.CheckException () [0x00000] in <00000000000000000000000000000000>:0 
+11-08 22:11:28.405  7035  7124 E Unity   :   at UnityEngine.AndroidJNISafe.CallStringMethod (System.IntPtr obj, System.IntPtr methodID, System.Span`1[T] args) [0x00000] in <00000000000000000000000000000000>:0 
+11-08 22:11:28.405  7035  7124 E Unity   :   at UnityEngine.AndroidJavaObject._Call[ReturnType] (System.IntPtr methodID, System.Object[] args) [0x00000] in <00000000000000000000000000000000>:0 
+11-08 22:11:28.405  7035  7124 E Unity   :   at BaseProcLua.V_Update (System.Single dTime) [0x00000] in <00000000000000000000000000000000>:0 
+11-08 22:11:28.405  7035  7124 E Unity   :   at CProcManager.Update (System.Single dTime) [0x00000] in <00000000000000000000000000000000>:0 
+11-08 22:11:28.405  7035  7124 E Unity   :   at Main.Update () [0x00000] in <00000000000000000000000000000000>:0 
+11-08 22:11:28.405  7035  7124 E Unity   : UJDebug:LogError(Object, Boolean, UJLogType)
+11-08 22:11:28.405  7035  7124 E Unity   : Main:Update()
+11-08 22:11:28.405  7035  7124 E Unity   : 
+11-08 22:11:28.409  7035  7124 E Unity   : AndroidJavaException: java.lang.NullPointerException: Attempt to invoke virtual method 'android.content.Context com.userjoy.mars.core.plugin.PluginBase.GetContext()' on a null object reference
+11-08 22:11:28.409  7035  7124 E Unity   : java.lang.NullPointerException: Attempt to invoke virtual method 'android.content.Context com.userjoy.mars.core.plugin.PluginBase.GetContext()' on a null object reference
+11-08 22:11:28.409  7035  7124 E Unity   : 	at com.userjoy.mars.core.MarsMain.GetContext(SourceFile:1)
+11-08 22:11:28.409  7035  7124 E Unity   : 	at com.userjoy.mars.NetworkState.NetworkState.<init>(SourceFile:253)
+11-08 22:11:28.409  7035  7124 E Unity   : 	at com.userjoy.mars.NetworkState.NetworkState.if(SourceFile:2)
+11-08 22:11:28.409  7035  7124 E Unity   : 	at com.userjoy.mars.bridge.NetworkStateBridge.GetNetworkType(SourceFile:1)
+11-08 22:11:28.409  7035  7124 E Unity   : 	at com.unity3d.player.UnityPlayer.nativeRender(Native Method)
+11-08 22:11:28.409  7035  7124 E Unity   : 	at com.unity3d.player.UnityPlayer.-$$Nest$mnativeRender(Unknown Source:0)
+11-08 22:11:28.409  7035  7124 E Unity   : 	at com.unity3d.player.T0.handleMessage(Unknown Source:122)
+11-08 22:11:28.409  7035  7124 E Unity   : 	at android.os.Handler.dispatchMessage(Handler.java:102)
+11-08 22:11:28.409  7035  7124 E Unity   : 	at android.os.Looper.loop(Looper.java:223)
+11-08 22:11:28.409  7035  7124 E Unity   : 	at com.unity3d.player.U0.run(Unknown Source:24)
+11-08 22:11:28.409  7035  7124 E Unity   :   at UnityEngine.AndroidJNISafe.CheckExce
+11-08 22:11:28.539  7035  7124 E Unity   : UnityEngine.AndroidJavaException: java.lang.NullPointerException: Attempt to invoke virtual method 'android.content.Context com.userjoy.mars.core.plugin.PluginBase.GetContext()' on a null object reference
+11-08 22:11:28.539  7035  7124 E Unity   :   at UnityEngine.AndroidJNISafe.CheckException () [0x00000] in <00000000000000000000000000000000>:0 
+11-08 22:11:28.539  7035  7124 E Unity   :   at UnityEngine.AndroidJNISafe.CallStringMethod (System.IntPtr obj, System.IntPtr methodID, System.Span`1[T] args) [0x00000] in <00000000000000000000000000000000>:0 
+11-08 22:11:28.539  7035  7124 E Unity   :   at UnityEngine.AndroidJavaObject._Call[ReturnType] (System.IntPtr methodID, System.Object[] args) [0x00000] in <00000000000000000000000000000000>:0 
+11-08 22:11:28.539  7035  7124 E Unity   :   at BaseProcLua.V_Update (System.Single dTime) [0x00000] in <00000000000000000000000000000000>:0 
+11-08 22:11:28.539  7035  7124 E Unity   :   at CProcManager.Update (System.Single dTime) [0x00000] in <00000000000000000000000000000000>:0 
+11-08 22:11:28.539  7035  7124 E Unity   :   at Main.Update () [0x00000] in <00000000000000000000000000000000>:0 
+11-08 22:11:28.539  7035  7124 E Unity   : UJDebug:LogError(Object, Boolean, UJLogType)
+11-08 22:11:28.539  7035  7124 E Unity   : Main:Update()
+11-08 22:11:28.539  7035  7124 E Unity   : 
+11-08 22:11:28.546  7035  7124 E Unity   : AndroidJavaException: java.lang.NullPointerException: Attempt to invoke virtual method 'android.content.Context com.userjoy.mars.core.plugin.PluginBase.GetContext()' on a null object reference
+11-08 22:11:28.546  7035  7124 E Unity   : java.lang.NullPointerException: Attempt to invoke virtual method 'android.content.Context com.userjoy.mars.core.plugin.PluginBase.GetContext()' on a null object reference
+11-08 22:11:28.546  7035  7124 E Unity   : 	at com.userjoy.mars.core.MarsMain.GetContext(SourceFile:1)
+11-08 22:11:28.546  7035  7124 E Unity   : 	at com.userjoy.mars.NetworkState.NetworkState.<init>(SourceFile:253)
+11-08 22:11:28.546  7035  7124 E Unity   : 	at com.userjoy.mars.NetworkState.NetworkState.if(SourceFile:2)
+11-08 22:11:28.546  7035  7124 E Unity   : 	at com.userjoy.mars.bridge.NetworkStateBridge.GetNetworkType(SourceFile:1)
+11-08 22:11:28.546  7035  7124 E Unity   : 	at com.unity3d.player.UnityPlayer.nativeRender(Native Method)
+11-08 22:11:28.546  7035  7124 E Unity   : 	at com.unity3d.player.UnityPlayer.-$$Nest$mnativeRender(Unknown Source:0)
+11-08 22:11:28.546  7035  7124 E Unity   : 	at com.unity3d.player.T0.handleMessage(Unknown Source:122)
+11-08 22:11:28.546  7035  7124 E Unity   : 	at android.os.Handler.dispatchMessage(Handler.java:102)
+11-08 22:11:28.546  7035  7124 E Unity   : 	at android.os.Looper.loop(Looper.java:223)
+11-08 22:11:28.546  7035  7124 E Unity   : 	at com.unity3d.player.U0.run(Unknown Source:24)
+11-08 22:11:28.546  7035  7124 E Unity   :   at UnityEngine.AndroidJNISafe.CheckExce
+11-08 22:11:28.672  7035  7124 E Unity   : UnityEngine.AndroidJavaException: java.lang.NullPointerException: Attempt to invoke virtual method 'android.content.Context com.userjoy.mars.core.plugin.PluginBase.GetContext()' on a null object reference
+11-08 22:11:28.672  7035  7124 E Unity   :   at UnityEngine.AndroidJNISafe.CheckException () [0x00000] in <00000000000000000000000000000000>:0 
+11-08 22:11:28.672  7035  7124 E Unity   :   at UnityEngine.AndroidJNISafe.CallStringMethod (System.IntPtr obj, System.IntPtr methodID, System.Span`1[T] args) [0x00000] in <00000000000000000000000000000000>:0 
+11-08 22:11:28.672  7035  7124 E Unity   :   at UnityEngine.AndroidJavaObject._Call[ReturnType] (System.IntPtr methodID, System.Object[] args) [0x00000] in <00000000000000000000000000000000>:0 
+11-08 22:11:28.672  7035  7124 E Unity   :   at BaseProcLua.V_Update (System.Single dTime) [0x00000] in <00000000000000000000000000000000>:0 
+11-08 22:11:28.672  7035  7124 E Unity   :   at CProcManager.Update (System.Single dTime) [0x00000] in <00000000000000000000000000000000>:0 
+11-08 22:11:28.672  7035  7124 E Unity   :   at Main.Update () [0x00000] in <00000000000000000000000000000000>:0 
+11-08 22:11:28.672  7035  7124 E Unity   : UJDebug:LogError(Object, Boolean, UJLogType)
+11-08 22:11:28.672  7035  7124 E Unity   : Main:Update()
+11-08 22:11:28.672  7035  7124 E Unity   : 
+11-08 22:11:28.676  7035  7124 E Unity   : AndroidJavaException: java.lang.NullPointerException: Attempt to invoke virtual method 'android.content.Context com.userjoy.mars.core.plugin.PluginBase.GetContext()' on a null object reference
+11-08 22:11:28.676  7035  7124 E Unity   : java.lang.NullPointerException: Attempt to invoke virtual method 'android.content.Context com.userjoy.mars.core.plugin.PluginBase.GetContext()' on a null object reference
+11-08 22:11:28.676  7035  7124 E Unity   : 	at com.userjoy.mars.core.MarsMain.GetContext(SourceFile:1)
+11-08 22:11:28.676  7035  7124 E Unity   : 	at com.userjoy.mars.NetworkState.NetworkState.<init>(SourceFile:253)
+11-08 22:11:28.676  7035  7124 E Unity   : 	at com.userjoy.mars.NetworkState.NetworkState.if(SourceFile:2)
+11-08 22:11:28.676  7035  7124 E Unity   : 	at com.userjoy.mars.bridge.NetworkStateBridge.GetNetworkType(SourceFile:1)
+11-08 22:11:28.676  7035  7124 E Unity   : 	at com.unity3d.player.UnityPlayer.nativeRender(Native Method)
+11-08 22:11:28.676  7035  7124 E Unity   : 	at com.unity3d.player.UnityPlayer.-$$Nest$mnativeRender(Unknown Source:0)
+11-08 22:11:28.676  7035  7124 E Unity   : 	at com.unity3d.player.T0.handleMessage(Unknown Source:122)
+11-08 22:11:28.676  7035  7124 E Unity   : 	at android.os.Handler.dispatchMessage(Handler.java:102)
+11-08 22:11:28.676  7035  7124 E Unity   : 	at android.os.Looper.loop(Looper.java:223)
+11-08 22:11:28.676  7035  7124 E Unity   : 	at com.unity3d.player.U0.run(Unknown Source:24)
+11-08 22:11:28.676  7035  7124 E Unity   :   at UnityEngine.AndroidJNISafe.CheckExce
+11-08 22:11:28.809  7035  7124 E Unity   : UnityEngine.AndroidJavaException: java.lang.NullPointerException: Attempt to invoke virtual method 'android.content.Context com.userjoy.mars.core.plugin.PluginBase.GetContext()' on a null object reference
+11-08 22:11:28.809  7035  7124 E Unity   :   at UnityEngine.AndroidJNISafe.CheckException () [0x00000] in <00000000000000000000000000000000>:0 
+11-08 22:11:28.809  7035  7124 E Unity   :   at UnityEngine.AndroidJNISafe.CallStringMethod (System.IntPtr obj, System.IntPtr methodID, System.Span`1[T] args) [0x00000] in <00000000000000000000000000000000>:0 
+11-08 22:11:28.809  7035  7124 E Unity   :   at UnityEngine.AndroidJavaObject._Call[ReturnType] (System.IntPtr methodID, System.Object[] args) [0x00000] in <00000000000000000000000000000000>:0 
+11-08 22:11:28.809  7035  7124 E Unity   :   at BaseProcLua.V_Update (System.Single dTime) [0x00000] in <00000000000000000000000000000000>:0 
+11-08 22:11:28.809  7035  7124 E Unity   :   at CProcManager.Update (System.Single dTime) [0x00000] in <00000000000000000000000000000000>:0 
+11-08 22:11:28.809  7035  7124 E Unity   :   at Main.Update () [0x00000] in <00000000000000000000000000000000>:0 
+11-08 22:11:28.809  7035  7124 E Unity   : UJDebug:LogError(Object, Boolean, UJLogType)
+11-08 22:11:28.809  7035  7124 E Unity   : Main:Update()
+11-08 22:11:28.809  7035  7124 E Unity   : 
+11-08 22:11:28.813  7035  7124 E Unity   : AndroidJavaException: java.lang.NullPointerException: Attempt to invoke virtual method 'android.content.Context com.userjoy.mars.core.plugin.PluginBase.GetContext()' on a null object reference
+11-08 22:11:28.813  7035  7124 E Unity   : java.lang.NullPointerException: Attempt to invoke virtual method 'android.content.Context com.userjoy.mars.core.plugin.PluginBase.GetContext()' on a null object reference
+11-08 22:11:28.813  7035  7124 E Unity   : 	at com.userjoy.mars.core.MarsMain.GetContext(SourceFile:1)
+11-08 22:11:28.813  7035  7124 E Unity   : 	at com.userjoy.mars.NetworkState.NetworkState.<init>(SourceFile:253)
+11-08 22:11:28.813  7035  7124 E Unity   : 	at com.userjoy.mars.NetworkState.NetworkState.if(SourceFile:2)
+11-08 22:11:28.813  7035  7124 E Unity   : 	at com.userjoy.mars.bridge.NetworkStateBridge.GetNetworkType(SourceFile:1)
+11-08 22:11:28.813  7035  7124 E Unity   : 	at com.unity3d.player.UnityPlayer.nativeRender(Native Method)
+11-08 22:11:28.813  7035  7124 E Unity   : 	at com.unity3d.player.UnityPlayer.-$$Nest$mnativeRender(Unknown Source:0)
+11-08 22:11:28.813  7035  7124 E Unity   : 	at com.unity3d.player.T0.handleMessage(Unknown Source:122)
+11-08 22:11:28.813  7035  7124 E Unity   : 	at android.os.Handler.dispatchMessage(Handler.java:102)
+11-08 22:11:28.813  7035  7124 E Unity   : 	at android.os.Looper.loop(Looper.java:223)
+11-08 22:11:28.813  7035  7124 E Unity   : 	at com.unity3d.player.U0.run(Unknown Source:24)
+11-08 22:11:28.813  7035  7124 E Unity   :   at UnityEngine.AndroidJNISafe.CheckExce
+11-08 22:11:28.939  7035  7124 E Unity   : UnityEngine.AndroidJavaException: java.lang.NullPointerException: Attempt to invoke virtual method 'android.content.Context com.userjoy.mars.core.plugin.PluginBase.GetContext()' on a null object reference
+11-08 22:11:28.939  7035  7124 E Unity   :   at UnityEngine.AndroidJNISafe.CheckException () [0x00000] in <00000000000000000000000000000000>:0 
+11-08 22:11:28.939  7035  7124 E Unity   :   at UnityEngine.AndroidJNISafe.CallStringMethod (System.IntPtr obj, System.IntPtr methodID, System.Span`1[T] args) [0x00000] in <00000000000000000000000000000000>:0 
+11-08 22:11:28.939  7035  7124 E Unity   :   at UnityEngine.AndroidJavaObject._Call[ReturnType] (System.IntPtr methodID, System.Object[] args) [0x00000] in <00000000000000000000000000000000>:0 
+11-08 22:11:28.939  7035  7124 E Unity   :   at BaseProcLua.V_Update (System.Single dTime) [0x00000] in <00000000000000000000000000000000>:0 
+11-08 22:11:28.939  7035  7124 E Unity   :   at CProcManager.Update (System.Single dTime) [0x00000] in <00000000000000000000000000000000>:0 
+11-08 22:11:28.939  7035  7124 E Unity   :   at Main.Update () [0x00000] in <00000000000000000000000000000000>:0 
+11-08 22:11:28.939  7035  7124 E Unity   : UJDebug:LogError(Object, Boolean, UJLogType)
+11-08 22:11:28.939  7035  7124 E Unity   : Main:Update()
+11-08 22:11:28.939  7035  7124 E Unity   : 
+11-08 22:11:28.943  7035  7124 E Unity   : AndroidJavaException: java.lang.NullPointerException: Attempt to invoke virtual method 'android.content.Context com.userjoy.mars.core.plugin.PluginBase.GetContext()' on a null object reference
+11-08 22:11:28.943  7035  7124 E Unity   : java.lang.NullPointerException: Attempt to invoke virtual method 'android.content.Context com.userjoy.mars.core.plugin.PluginBase.GetContext()' on a null object reference
+11-08 22:11:28.943  7035  7124 E Unity   : 	at com.userjoy.mars.core.MarsMain.GetContext(SourceFile:1)
+11-08 22:11:28.943  7035  7124 E Unity   : 	at com.userjoy.mars.NetworkState.NetworkState.<init>(SourceFile:253)
+11-08 22:11:28.943  7035  7124 E Unity   : 	at com.userjoy.mars.NetworkState.NetworkState.if(SourceFile:2)
+11-08 22:11:28.943  7035  7124 E Unity   : 	at com.userjoy.mars.bridge.NetworkStateBridge.GetNetworkType(SourceFile:1)
+11-08 22:11:28.943  7035  7124 E Unity   : 	at com.unity3d.player.UnityPlayer.nativeRender(Native Method)
+11-08 22:11:28.943  7035  7124 E Unity   : 	at com.unity3d.player.UnityPlayer.-$$Nest$mnativeRender(Unknown Source:0)
+11-08 22:11:28.943  7035  7124 E Unity   : 	at com.unity3d.player.T0.handleMessage(Unknown Source:122)
+11-08 22:11:28.943  7035  7124 E Unity   : 	at android.os.Handler.dispatchMessage(Handler.java:102)
+11-08 22:11:28.943  7035  7124 E Unity   : 	at android.os.Looper.loop(Looper.java:223)
+11-08 22:11:28.943  7035  7124 E Unity   : 	at com.unity3d.player.U0.run(Unknown Source:24)
+11-08 22:11:28.943  7035  7124 E Unity   :   at UnityEngine.AndroidJNISafe.CheckExce
+11-08 22:11:29.075  7035  7124 E Unity   : UnityEngine.AndroidJavaException: java.lang.NullPointerException: Attempt to invoke virtual method 'android.content.Context com.userjoy.mars.core.plugin.PluginBase.GetContext()' on a null object reference
+11-08 22:11:29.075  7035  7124 E Unity   :   at UnityEngine.AndroidJNISafe.CheckException () [0x00000] in <00000000000000000000000000000000>:0 
+11-08 22:11:29.075  7035  7124 E Unity   :   at UnityEngine.AndroidJNISafe.CallStringMethod (System.IntPtr obj, System.IntPtr methodID, System.Span`1[T] args) [0x00000] in <00000000000000000000000000000000>:0 
+11-08 22:11:29.075  7035  7124 E Unity   :   at UnityEngine.AndroidJavaObject._Call[ReturnType] (System.IntPtr methodID, System.Object[] args) [0x00000] in <00000000000000000000000000000000>:0 
+11-08 22:11:29.075  7035  7124 E Unity   :   at BaseProcLua.V_Update (System.Single dTime) [0x00000] in <00000000000000000000000000000000>:0 
+11-08 22:11:29.075  7035  7124 E Unity   :   at CProcManager.Update (System.Single dTime) [0x00000] in <00000000000000000000000000000000>:0 
+11-08 22:11:29.075  7035  7124 E Unity   :   at Main.Update () [0x00000] in <00000000000000000000000000000000>:0 
+11-08 22:11:29.075  7035  7124 E Unity   : UJDebug:LogError(Object, Boolean, UJLogType)
+11-08 22:11:29.075  7035  7124 E Unity   : Main:Update()
+11-08 22:11:29.075  7035  7124 E Unity   : 
+11-08 22:11:29.079  7035  7124 E Unity   : AndroidJavaException: java.lang.NullPointerException: Attempt to invoke virtual method 'android.content.Context com.userjoy.mars.core.plugin.PluginBase.GetContext()' on a null object reference
+11-08 22:11:29.079  7035  7124 E Unity   : java.lang.NullPointerException: Attempt to invoke virtual method 'android.content.Context com.userjoy.mars.core.plugin.PluginBase.GetContext()' on a null object reference
+11-08 22:11:29.079  7035  7124 E Unity   : 	at com.userjoy.mars.core.MarsMain.GetContext(SourceFile:1)
+11-08 22:11:29.079  7035  7124 E Unity   : 	at com.userjoy.mars.NetworkState.NetworkState.<init>(SourceFile:253)
+11-08 22:11:29.079  7035  7124 E Unity   : 	at com.userjoy.mars.NetworkState.NetworkState.if(SourceFile:2)
+11-08 22:11:29.079  7035  7124 E Unity   : 	at com.userjoy.mars.bridge.NetworkStateBridge.GetNetworkType(SourceFile:1)
+11-08 22:11:29.079  7035  7124 E Unity   : 	at com.unity3d.player.UnityPlayer.nativeRender(Native Method)
+11-08 22:11:29.079  7035  7124 E Unity   : 	at com.unity3d.player.UnityPlayer.-$$Nest$mnativeRender(Unknown Source:0)
+11-08 22:11:29.079  7035  7124 E Unity   : 	at com.unity3d.player.T0.handleMessage(Unknown Source:122)
+11-08 22:11:29.079  7035  7124 E Unity   : 	at android.os.Handler.dispatchMessage(Handler.java:102)
+11-08 22:11:29.079  7035  7124 E Unity   : 	at android.os.Looper.loop(Looper.java:223)
+11-08 22:11:29.079  7035  7124 E Unity   : 	at com.unity3d.player.U0.run(Unknown Source:24)
+11-08 22:11:29.079  7035  7124 E Unity   :   at UnityEngine.AndroidJNISafe.CheckExce
+11-08 22:11:29.210  7035  7124 E Unity   : UnityEngine.AndroidJavaException: java.lang.NullPointerException: Attempt to invoke virtual method 'android.content.Context com.userjoy.mars.core.plugin.PluginBase.GetContext()' on a null object reference
+11-08 22:11:29.210  7035  7124 E Unity   :   at UnityEngine.AndroidJNISafe.CheckException () [0x00000] in <00000000000000000000000000000000>:0 
+11-08 22:11:29.210  7035  7124 E Unity   :   at UnityEngine.AndroidJNISafe.CallStringMethod (System.IntPtr obj, System.IntPtr methodID, System.Span`1[T] args) [0x00000] in <00000000000000000000000000000000>:0 
+11-08 22:11:29.210  7035  7124 E Unity   :   at UnityEngine.AndroidJavaObject._Call[ReturnType] (System.IntPtr methodID, System.Object[] args) [0x00000] in <00000000000000000000000000000000>:0 
+11-08 22:11:29.210  7035  7124 E Unity   :   at BaseProcLua.V_Update (System.Single dTime) [0x00000] in <00000000000000000000000000000000>:0 
+11-08 22:11:29.210  7035  7124 E Unity   :   at CProcManager.Update (System.Single dTime) [0x00000] in <00000000000000000000000000000000>:0 
+11-08 22:11:29.210  7035  7124 E Unity   :   at Main.Update () [0x00000] in <00000000000000000000000000000000>:0 
+11-08 22:11:29.210  7035  7124 E Unity   : UJDebug:LogError(Object, Boolean, UJLogType)
+11-08 22:11:29.210  7035  7124 E Unity   : Main:Update()
+11-08 22:11:29.210  7035  7124 E Unity   : 
+11-08 22:11:29.214  7035  7124 E Unity   : AndroidJavaException: java.lang.NullPointerException: Attempt to invoke virtual method 'android.content.Context com.userjoy.mars.core.plugin.PluginBase.GetContext()' on a null object reference
+11-08 22:11:29.214  7035  7124 E Unity   : java.lang.NullPointerException: Attempt to invoke virtual method 'android.content.Context com.userjoy.mars.core.plugin.PluginBase.GetContext()' on a null object reference
+11-08 22:11:29.214  7035  7124 E Unity   : 	at com.userjoy.mars.core.MarsMain.GetContext(SourceFile:1)
+11-08 22:11:29.214  7035  7124 E Unity   : 	at com.userjoy.mars.NetworkState.NetworkState.<init>(SourceFile:253)
+11-08 22:11:29.214  7035  7124 E Unity   : 	at com.userjoy.mars.NetworkState.NetworkState.if(SourceFile:2)
+11-08 22:11:29.214  7035  7124 E Unity   : 	at com.userjoy.mars.bridge.NetworkStateBridge.GetNetworkType(SourceFile:1)
+11-08 22:11:29.214  7035  7124 E Unity   : 	at com.unity3d.player.UnityPlayer.nativeRender(Native Method)
+11-08 22:11:29.214  7035  7124 E Unity   : 	at com.unity3d.player.UnityPlayer.-$$Nest$mnativeRender(Unknown Source:0)
+11-08 22:11:29.214  7035  7124 E Unity   : 	at com.unity3d.player.T0.handleMessage(Unknown Source:122)
+11-08 22:11:29.214  7035  7124 E Unity   : 	at android.os.Handler.dispatchMessage(Handler.java:102)
+11-08 22:11:29.214  7035  7124 E Unity   : 	at android.os.Looper.loop(Looper.java:223)
+11-08 22:11:29.214  7035  7124 E Unity   : 	at com.unity3d.player.U0.run(Unknown Source:24)
+11-08 22:11:29.214  7035  7124 E Unity   :   at UnityEngine.AndroidJNISafe.CheckExce
+11-08 22:11:29.345  7035  7124 E Unity   : UnityEngine.AndroidJavaException: java.lang.NullPointerException: Attempt to invoke virtual method 'android.content.Context com.userjoy.mars.core.plugin.PluginBase.GetContext()' on a null object reference
+11-08 22:11:29.345  7035  7124 E Unity   :   at UnityEngine.AndroidJNISafe.CheckException () [0x00000] in <00000000000000000000000000000000>:0 
+11-08 22:11:29.345  7035  7124 E Unity   :   at UnityEngine.AndroidJNISafe.CallStringMethod (System.IntPtr obj, System.IntPtr methodID, System.Span`1[T] args) [0x00000] in <00000000000000000000000000000000>:0 
+11-08 22:11:29.345  7035  7124 E Unity   :   at UnityEngine.AndroidJavaObject._Call[ReturnType] (System.IntPtr methodID, System.Object[] args) [0x00000] in <00000000000000000000000000000000>:0 
+11-08 22:11:29.345  7035  7124 E Unity   :   at BaseProcLua.V_Update (System.Single dTime) [0x00000] in <00000000000000000000000000000000>:0 
+11-08 22:11:29.345  7035  7124 E Unity   :   at CProcManager.Update (System.Single dTime) [0x00000] in <00000000000000000000000000000000>:0 
+11-08 22:11:29.345  7035  7124 E Unity   :   at Main.Update () [0x00000] in <00000000000000000000000000000000>:0 
+11-08 22:11:29.345  7035  7124 E Unity   : UJDebug:LogError(Object, Boolean, UJLogType)
+11-08 22:11:29.345  7035  7124 E Unity   : Main:Update()
+11-08 22:11:29.345  7035  7124 E Unity   : 
+11-08 22:11:29.348  7035  7124 E Unity   : AndroidJavaException: java.lang.NullPointerException: Attempt to invoke virtual method 'android.content.Context com.userjoy.mars.core.plugin.PluginBase.GetContext()' on a null object reference
+11-08 22:11:29.348  7035  7124 E Unity   : java.lang.NullPointerException: Attempt to invoke virtual method 'android.content.Context com.userjoy.mars.core.plugin.PluginBase.GetContext()' on a null object reference
+11-08 22:11:29.348  7035  7124 E Unity   : 	at com.userjoy.mars.core.MarsMain.GetContext(SourceFile:1)
+11-08 22:11:29.348  7035  7124 E Unity   : 	at com.userjoy.mars.NetworkState.NetworkState.<init>(SourceFile:253)
+11-08 22:11:29.348  7035  7124 E Unity   : 	at com.userjoy.mars.NetworkState.NetworkState.if(SourceFile:2)
+11-08 22:11:29.348  7035  7124 E Unity   : 	at com.userjoy.mars.bridge.NetworkStateBridge.GetNetworkType(SourceFile:1)
+11-08 22:11:29.348  7035  7124 E Unity   : 	at com.unity3d.player.UnityPlayer.nativeRender(Native Method)
+11-08 22:11:29.348  7035  7124 E Unity   : 	at com.unity3d.player.UnityPlayer.-$$Nest$mnativeRender(Unknown Source:0)
+11-08 22:11:29.348  7035  7124 E Unity   : 	at com.unity3d.player.T0.handleMessage(Unknown Source:122)
+11-08 22:11:29.348  7035  7124 E Unity   : 	at android.os.Handler.dispatchMessage(Handler.java:102)
+11-08 22:11:29.348  7035  7124 E Unity   : 	at android.os.Looper.loop(Looper.java:223)
+11-08 22:11:29.348  7035  7124 E Unity   : 	at com.unity3d.player.U0.run(Unknown Source:24)
+11-08 22:11:29.348  7035  7124 E Unity   :   at UnityEngine.AndroidJNISafe.CheckExce
+11-08 22:11:29.474  7035  7124 E Unity   : UnityEngine.AndroidJavaException: java.lang.NullPointerException: Attempt to invoke virtual method 'android.content.Context com.userjoy.mars.core.plugin.PluginBase.GetContext()' on a null object reference
+11-08 22:11:29.474  7035  7124 E Unity   :   at UnityEngine.AndroidJNISafe.CheckException () [0x00000] in <00000000000000000000000000000000>:0 
+11-08 22:11:29.474  7035  7124 E Unity   :   at UnityEngine.AndroidJNISafe.CallStringMethod (System.IntPtr obj, System.IntPtr methodID, System.Span`1[T] args) [0x00000] in <00000000000000000000000000000000>:0 
+11-08 22:11:29.474  7035  7124 E Unity   :   at UnityEngine.AndroidJavaObject._Call[ReturnType] (System.IntPtr methodID, System.Object[] args) [0x00000] in <00000000000000000000000000000000>:0 
+11-08 22:11:29.474  7035  7124 E Unity   :   at BaseProcLua.V_Update (System.Single dTime) [0x00000] in <00000000000000000000000000000000>:0 
+11-08 22:11:29.474  7035  7124 E Unity   :   at CProcManager.Update (System.Single dTime) [0x00000] in <00000000000000000000000000000000>:0 
+11-08 22:11:29.474  7035  7124 E Unity   :   at Main.Update () [0x00000] in <00000000000000000000000000000000>:0 
+11-08 22:11:29.474  7035  7124 E Unity   : UJDebug:LogError(Object, Boolean, UJLogType)
+11-08 22:11:29.474  7035  7124 E Unity   : Main:Update()
+11-08 22:11:29.474  7035  7124 E Unity   : 
+11-08 22:11:29.478  7035  7124 E Unity   : AndroidJavaException: java.lang.NullPointerException: Attempt to invoke virtual method 'android.content.Context com.userjoy.mars.core.plugin.PluginBase.GetContext()' on a null object reference
+11-08 22:11:29.478  7035  7124 E Unity   : java.lang.NullPointerException: Attempt to invoke virtual method 'android.content.Context com.userjoy.mars.core.plugin.PluginBase.GetContext()' on a null object reference
+11-08 22:11:29.478  7035  7124 E Unity   : 	at com.userjoy.mars.core.MarsMain.GetContext(SourceFile:1)
+11-08 22:11:29.478  7035  7124 E Unity   : 	at com.userjoy.mars.NetworkState.NetworkState.<init>(SourceFile:253)
+11-08 22:11:29.478  7035  7124 E Unity   : 	at com.userjoy.mars.NetworkState.NetworkState.if(SourceFile:2)
+11-08 22:11:29.478  7035  7124 E Unity   : 	at com.userjoy.mars.bridge.NetworkStateBridge.GetNetworkType(SourceFile:1)
+11-08 22:11:29.478  7035  7124 E Unity   : 	at com.unity3d.player.UnityPlayer.nativeRender(Native Method)
+11-08 22:11:29.478  7035  7124 E Unity   : 	at com.unity3d.player.UnityPlayer.-$$Nest$mnativeRender(Unknown Source:0)
+11-08 22:11:29.478  7035  7124 E Unity   : 	at com.unity3d.player.T0.handleMessage(Unknown Source:122)
+11-08 22:11:29.478  7035  7124 E Unity   : 	at android.os.Handler.dispatchMessage(Handler.java:102)
+11-08 22:11:29.478  7035  7124 E Unity   : 	at android.os.Looper.loop(Looper.java:223)
+11-08 22:11:29.478  7035  7124 E Unity   : 	at com.unity3d.player.U0.run(Unknown Source:24)
+11-08 22:11:29.478  7035  7124 E Unity   :   at UnityEngine.AndroidJNISafe.CheckExce
+11-08 22:11:29.602  7035  7124 E Unity   : UnityEngine.AndroidJavaException: java.lang.NullPointerException: Attempt to invoke virtual method 'android.content.Context com.userjoy.mars.core.plugin.PluginBase.GetContext()' on a null object reference
+11-08 22:11:29.602  7035  7124 E Unity   :   at UnityEngine.AndroidJNISafe.CheckException () [0x00000] in <00000000000000000000000000000000>:0 
+11-08 22:11:29.602  7035  7124 E Unity   :   at UnityEngine.AndroidJNISafe.CallStringMethod (System.IntPtr obj, System.IntPtr methodID, System.Span`1[T] args) [0x00000] in <00000000000000000000000000000000>:0 
+11-08 22:11:29.602  7035  7124 E Unity   :   at UnityEngine.AndroidJavaObject._Call[ReturnType] (System.IntPtr methodID, System.Object[] args) [0x00000] in <00000000000000000000000000000000>:0 
+11-08 22:11:29.602  7035  7124 E Unity   :   at BaseProcLua.V_Update (System.Single dTime) [0x00000] in <00000000000000000000000000000000>:0 
+11-08 22:11:29.602  7035  7124 E Unity   :   at CProcManager.Update (System.Single dTime) [0x00000] in <00000000000000000000000000000000>:0 
+11-08 22:11:29.602  7035  7124 E Unity   :   at Main.Update () [0x00000] in <00000000000000000000000000000000>:0 
+11-08 22:11:29.602  7035  7124 E Unity   : UJDebug:LogError(Object, Boolean, UJLogType)
+11-08 22:11:29.602  7035  7124 E Unity   : Main:Update()
+11-08 22:11:29.602  7035  7124 E Unity   : 
+11-08 22:11:29.606  7035  7124 E Unity   : AndroidJavaException: java.lang.NullPointerException: Attempt to invoke virtual method 'android.content.Context com.userjoy.mars.core.plugin.PluginBase.GetContext()' on a null object reference
+11-08 22:11:29.606  7035  7124 E Unity   : java.lang.NullPointerException: Attempt to invoke virtual method 'android.content.Context com.userjoy.mars.core.plugin.PluginBase.GetContext()' on a null object reference
+11-08 22:11:29.606  7035  7124 E Unity   : 	at com.userjoy.mars.core.MarsMain.GetContext(SourceFile:1)
+11-08 22:11:29.606  7035  7124 E Unity   : 	at com.userjoy.mars.NetworkState.NetworkState.<init>(SourceFile:253)
+11-08 22:11:29.606  7035  7124 E Unity   : 	at com.userjoy.mars.NetworkState.NetworkState.if(SourceFile:2)
+11-08 22:11:29.606  7035  7124 E Unity   : 	at com.userjoy.mars.bridge.NetworkStateBridge.GetNetworkType(SourceFile:1)
+11-08 22:11:29.606  7035  7124 E Unity   : 	at com.unity3d.player.UnityPlayer.nativeRender(Native Method)
+11-08 22:11:29.606  7035  7124 E Unity   : 	at com.unity3d.player.UnityPlayer.-$$Nest$mnativeRender(Unknown Source:0)
+11-08 22:11:29.606  7035  7124 E Unity   : 	at com.unity3d.player.T0.handleMessage(Unknown Source:122)
+11-08 22:11:29.606  7035  7124 E Unity   : 	at android.os.Handler.dispatchMessage(Handler.java:102)
+11-08 22:11:29.606  7035  7124 E Unity   : 	at android.os.Looper.loop(Looper.java:223)
+11-08 22:11:29.606  7035  7124 E Unity   : 	at com.unity3d.player.U0.run(Unknown Source:24)
+11-08 22:11:29.606  7035  7124 E Unity   :   at UnityEngine.AndroidJNISafe.CheckExce
