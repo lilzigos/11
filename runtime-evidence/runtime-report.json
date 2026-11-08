@@ -37,7 +37,7 @@
   "offline_adapters_initialized": true,
   "control": {
     "branch": "refs/heads/sgm-android11-control-42527268029",
-    "last_sequence": 1,
+    "last_sequence": 2,
     "results": [
       {
         "sequence": 1,
@@ -68,6 +68,20 @@
           }
         ],
         "screenshot": "input-001-final.png",
+        "status": "executed"
+      },
+      {
+        "sequence": 2,
+        "actions": [
+          {
+            "op": "wait",
+            "seconds": 15
+          },
+          {
+            "op": "capture"
+          }
+        ],
+        "screenshot": "input-002-final.png",
         "status": "executed"
       }
     ],
