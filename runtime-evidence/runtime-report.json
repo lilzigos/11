@@ -15,6 +15,12 @@
       "screenshot": "screen-045.png",
       "game_pid": "5552",
       "logcat_running": true
+    },
+    {
+      "seconds_after_launch": 90,
+      "screenshot": "screen-090.png",
+      "game_pid": "5552",
+      "logcat_running": true
     }
   ],
   "errors": [],
