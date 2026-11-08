@@ -34,11 +34,12 @@
   "uid": 10167,
   "game_uid_external_traffic_blocked": true,
   "lua_exception_messages": [],
-  "offline_adapters_initialized": true,
+  "offline_adapters_initialized": false,
   "control": {
     "branch": "refs/heads/sgm-android11-control-42442371162",
     "last_sequence": 0,
     "results": [],
-    "active": true
+    "active": false,
+    "end_reason": "time limit"
   }
 }
