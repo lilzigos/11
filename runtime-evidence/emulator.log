@@ -86,3 +86,7 @@ WARNING      | Failed to process .ini file /home/runner/.android/emu-update-last
 INFO         | Boot completed in 27428 ms
 INFO         | Increasing screen off timeout, logcat buffer size to 2M.
 WARNING      | adb command '/usr/local/lib/android/sdk/platform-tools/adb -s emulator-5554 shell logcat -G 2M ' failed: 'adb: device offline'
+INFO         | Wait for emulator (pid 2195) 20 seconds to shutdown gracefully before kill;you can set environment variable ANDROID_EMULATOR_WAIT_TIME_BEFORE_KILL(in seconds) to change the default value (20 seconds)
+
+USER_INFO    | Snapshots have been disabled by the user, save request is ignored.
+INFO         | Saving snapshot 'default_boot' took 0 ms
