@@ -1,0 +1,26 @@
+{
+  "apk_sha256": "90d0e954c450549c81f9186b01bbfbed7717af4a53e06e2abe7a709b04e71b3d",
+  "android_sdk": 30,
+  "installed": true,
+  "gameplay_verified": false,
+  "capture_stages": [
+    {
+      "seconds_after_launch": 15,
+      "screenshot": "screen-015.png",
+      "game_pid": "5552",
+      "logcat_running": true
+    }
+  ],
+  "errors": [],
+  "device": {
+    "ro.build.version.release": "11",
+    "ro.build.version.sdk": "30",
+    "ro.product.cpu.abilist": "x86_64,x86,arm64-v8a,armeabi-v7a,armeabi",
+    "ro.dalvik.vm.native.bridge": "libndk_translation.so",
+    "sys.boot_completed": "1"
+  },
+  "uid": 10167,
+  "game_uid_external_traffic_blocked": true,
+  "lua_exception_messages": [],
+  "offline_adapters_initialized": false
+}
