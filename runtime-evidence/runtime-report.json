@@ -120,6 +120,7 @@
         "status": "executed"
       }
     ],
-    "active": true
+    "active": false,
+    "end_reason": "finish command"
   }
 }
