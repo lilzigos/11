@@ -37,7 +37,7 @@
   "offline_adapters_initialized": true,
   "control": {
     "branch": "refs/heads/sgm-android11-control-42527268029",
-    "last_sequence": 7,
+    "last_sequence": 8,
     "results": [
       {
         "sequence": 1,
@@ -220,6 +220,51 @@
           }
         ],
         "screenshot": "input-007-final.png",
+        "status": "executed"
+      },
+      {
+        "sequence": 8,
+        "actions": [
+          {
+            "op": "restart"
+          },
+          {
+            "op": "wait",
+            "seconds": 15
+          },
+          {
+            "op": "tap",
+            "x": 640,
+            "y": 604
+          },
+          {
+            "op": "wait",
+            "seconds": 5
+          },
+          {
+            "op": "capture"
+          },
+          {
+            "op": "tap",
+            "x": 1140,
+            "y": 650
+          },
+          {
+            "op": "wait",
+            "seconds": 15
+          },
+          {
+            "op": "wait",
+            "seconds": 15
+          },
+          {
+            "op": "capture"
+          },
+          {
+            "op": "finish"
+          }
+        ],
+        "screenshot": "input-008-final.png",
         "status": "executed"
       }
     ],
