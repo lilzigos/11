@@ -18,7 +18,7 @@ apk, out = Path(sys.argv[1]), Path(sys.argv[2])
 out.mkdir(exist_ok=True)
 package = 'com.userjoy.ujjsgc.jp'
 activity = package + '/com.unity3d.player.UnityPlayerActivity'
-expected = '90d0e954c450549c81f9186b01bbfbed7717af4a53e06e2abe7a709b04e71b3d'
+expected = 'b849c12f19f518655e4efea5941896dd3712c80b0a3c55d3c67a56b033d6bb8d'
 
 def adb(*args, timeout=60, check=True):
     p = subprocess.run(['adb', *args], capture_output=True, timeout=timeout)
@@ -107,8 +107,6 @@ def interactive(seconds):
             result['error'] = str(e)
         report['control']['results'].append(result)
         snapshot_logs()
-        if stage == 90:
-            (out / 'startup-logcat.txt').write_bytes((out / 'game-logcat.txt').read_bytes())
         publish()
     report['control']['active'] = False
     report['control']['end_reason'] = 'finish command' if done else 'time limit'
@@ -175,6 +173,8 @@ try:
             report['errors'].append('Android logcat collector exited during test')
         report['capture_stages'].append(capture)
         snapshot_logs()
+        if stage == 90:
+            (out / 'startup-logcat.txt').write_bytes((out / 'game-logcat.txt').read_bytes())
         publish()
     interactive_seconds = int(os.environ.get('SGM_INTERACTIVE_SECONDS', '0'))
     assert 0 <= interactive_seconds <= 900

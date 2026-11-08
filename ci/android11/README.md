@@ -5,7 +5,7 @@ branch and its existing APK are not changed by the test.
 
 The SHA-bound 21 MB patch reconstructs the already signed internal APK from the
 existing candidate 004. The reconstructed file must have SHA256
-`90d0e954c450549c81f9186b01bbfbed7717af4a53e06e2abe7a709b04e71b3d`.
+`b849c12f19f518655e4efea5941896dd3712c80b0a3c55d3c67a56b033d6bb8d`.
 No signing key is included. Standard Android package installation remains enabled.
 
 This internal build removes the multiplayer voice-volume call into the absent
@@ -14,6 +14,14 @@ MARS plugin. Run 2 reached the original login process but repeatedly threw
 Original music, sound effects and character dubbing functions are retained.
 The regression is covered by the 43-assertion host integration test; actual
 Android login and gameplay still require the current runtime evidence.
+
+Run 4 confirmed original login, original Traditional Chinese character creation,
+and recovery of the created character after force-stop/restart. Map initialization
+then repeatedly threw in the absent MARS notification provider. This build keeps
+the original notification-state function and makes CancelAllNotify/Notify/
+NotifyWithImage/NotifyWithBanner local no-ops. The original map, movement, combat
+and map-progress save/load are still unverified. It uses a new local development
+certificate after workspace recovery; the private key is not uploaded.
 
 The workflow requires KVM and an official Android 11 Google APIs image with its
 ARM compatibility layer. It launches the actual Unity activity, blocks only the
