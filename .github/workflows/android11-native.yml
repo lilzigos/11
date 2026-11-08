@@ -39,6 +39,8 @@ jobs:
           printf 'no\n' | "$ANDROID_HOME/cmdline-tools/latest/bin/avdmanager" create avd --name sgm-r11 --package 'system-images;android-30;google_apis;x86_64' --force
           "$ANDROID_HOME/emulator/emulator" -accel-check > runtime-evidence/acceleration.txt
       - name: Run original Android client and collect evidence
+        env:
+          SGM_INTERACTIVE_SECONDS: '900'
         run: bash ci/android11/run.sh
       - name: Preserve test evidence on a separate branch
         if: always()
@@ -47,9 +49,4 @@ jobs:
         run: |
           mkdir -p runtime-evidence
           python3 ci/android11/write_run_status.py
-          git config user.name 'SGM runtime validation'
-          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
-          git switch --orphan "sgm-android11-evidence-${GITHUB_RUN_NUMBER}-${GITHUB_RUN_ATTEMPT}"
-          git add -- runtime-evidence
-          git commit -m "Record Android 11 native runtime evidence ${GITHUB_RUN_NUMBER}"
-          git push origin HEAD
+          python3 ci/android11/publish_evidence.py

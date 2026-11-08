@@ -2,7 +2,7 @@
 set -euo pipefail
 export PATH="$ANDROID_HOME/platform-tools:$ANDROID_HOME/emulator:$PATH"
 mkdir -p runtime-evidence
-emulator -avd sgm-r11 -accel on -gpu swiftshader_indirect -no-window -no-audio -no-boot-anim -no-snapshot -cores 2 -memory 4096 -skin 640x360 -feature -Vulkan > runtime-evidence/emulator.log 2>&1 &
+emulator -avd sgm-r11 -accel on -gpu swiftshader_indirect -no-window -no-audio -no-boot-anim -no-snapshot -cores 2 -memory 4096 -skin 1280x720 -feature -Vulkan > runtime-evidence/emulator.log 2>&1 &
 emulator_pid=$!
 trap 'kill "$emulator_pid" 2>/dev/null || true' EXIT
 timeout 180 adb wait-for-device
