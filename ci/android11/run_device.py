@@ -43,10 +43,10 @@ def snapshot_logs():
     if raw.exists():
         log_text = sanitized(raw.read_bytes()[-8 * 1024 * 1024:])
         (out / 'game-logcat.txt').write_text(log_text)
-        report['lua_exception_messages'] = sorted(set(
+        report['lua_exception_messages'] = sorted(set(report.get('lua_exception_messages', [])) | set(
             line.split('LuaException:', 1)[1].strip() for line in log_text.splitlines()
             if 'LuaException:' in line))[:30]
-        report['offline_adapters_initialized'] = 'Original client offline adapters installed' in log_text
+        report['offline_adapters_initialized'] = report.get('offline_adapters_initialized', False) or 'Original client offline adapters installed' in log_text
     (out / 'runtime-report.json').write_text(json.dumps(report, indent=2) + '\n')
 
 def take_capture(name):
@@ -107,6 +107,8 @@ def interactive(seconds):
             result['error'] = str(e)
         report['control']['results'].append(result)
         snapshot_logs()
+        if stage == 90:
+            (out / 'startup-logcat.txt').write_bytes((out / 'game-logcat.txt').read_bytes())
         publish()
     report['control']['active'] = False
     report['control']['end_reason'] = 'finish command' if done else 'time limit'
