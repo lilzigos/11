@@ -9,6 +9,12 @@
       "screenshot": "screen-015.png",
       "game_pid": "5354",
       "logcat_running": true
+    },
+    {
+      "seconds_after_launch": 45,
+      "screenshot": "screen-045.png",
+      "game_pid": "5354",
+      "logcat_running": true
     }
   ],
   "errors": [],
@@ -22,5 +28,5 @@
   "uid": 10167,
   "game_uid_external_traffic_blocked": true,
   "lua_exception_messages": [],
-  "offline_adapters_initialized": false
+  "offline_adapters_initialized": true
 }
