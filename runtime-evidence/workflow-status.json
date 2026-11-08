@@ -1,0 +1,9 @@
+{
+  "GITHUB_SHA": "bc6f58e711b9f9e432603cb57c49fdfd0d2eeeb5",
+  "GITHUB_RUN_ID": "42464063196",
+  "GITHUB_RUN_NUMBER": "4",
+  "GITHUB_RUN_ATTEMPT": "1",
+  "DIAGNOSTIC_STATUS": "success",
+  "gameplay_verified": false,
+  "scope": "Native Android startup diagnostic; screenshots and logs require review."
+}
