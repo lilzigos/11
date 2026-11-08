@@ -1,10 +1,27 @@
 {
   "run_id": "42527268029",
-  "sequence": 2,
+  "sequence": 3,
   "actions": [
     {
+      "op": "tap",
+      "x": 1010,
+      "y": 340
+    },
+    {
       "op": "wait",
-      "seconds": 15
+      "seconds": 8
+    },
+    {
+      "op": "capture"
+    },
+    {
+      "op": "tap",
+      "x": 1050,
+      "y": 330
+    },
+    {
+      "op": "wait",
+      "seconds": 8
     },
     {
       "op": "capture"
