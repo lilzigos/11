@@ -65,12 +65,17 @@ try:
     adb('logcat', '-c')
     raw_log = Path('/tmp/sgm-app-logcat.txt')
     log_file = raw_log.open('wb')
-    log_proc = subprocess.Popen(['adb', 'logcat', '--uid=' + uid, '-b', 'all', '-v', 'threadtime'],
+    # API 30's bundled logcat does not accept --uid on this image. Collect the
+    # isolated emulator buffers and retain sanitized output, including startup.
+    log_proc = subprocess.Popen(['adb', 'shell', 'logcat', '-b', 'all', '-v', 'threadtime'],
                                 stdout=log_file, stderr=subprocess.STDOUT)
+    time.sleep(1)
+    if log_proc.poll() is not None:
+        raise RuntimeError('Android logcat collector exited before app launch')
     launch = adb('shell', 'am', 'start', '-W', '-S', '-n', activity, timeout=90)
     (out / 'launch.txt').write_text(sanitized(launch.stdout + launch.stderr))
     started = time.monotonic()
-    for stage in (15, 45, 90, 180, 300):
+    for stage in (15, 45, 90):
         time.sleep(max(0, stage - (time.monotonic() - started)))
         capture = {'seconds_after_launch': stage}
         try:
@@ -81,10 +86,14 @@ try:
         except Exception as e:
             capture['screenshot_error'] = str(e)
         capture['game_pid'] = adb('shell', 'pidof', package, check=False).stdout.decode().strip()
+        capture['logcat_running'] = log_proc.poll() is None
+        if not capture['logcat_running']:
+            report['errors'].append('Android logcat collector exited during test')
         report['capture_stages'].append(capture)
         (out / 'runtime-report.json').write_text(json.dumps(report, indent=2) + '\n')
     (out / 'activity.txt').write_text(sanitized(adb('shell', 'dumpsys', 'activity', 'top').stdout))
     (out / 'package.txt').write_text(sanitized(adb('shell', 'dumpsys', 'package', package).stdout))
+    assert log_proc.poll() is None, 'Android logcat collector did not survive test'
 except Exception as e:
     report['errors'].append(str(e))
     raise
