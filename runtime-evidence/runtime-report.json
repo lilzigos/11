@@ -33,11 +33,14 @@
   },
   "uid": 10167,
   "game_uid_external_traffic_blocked": true,
-  "lua_exception_messages": [],
+  "lua_exception_messages": [
+    "Object reference not set to an instance of an object.",
+    "java.lang.NullPointerException: Attempt to invoke virtual method 'android.content.Context com.userjoy.mars.core.plugin.PluginBase.GetContext()' on a null object reference"
+  ],
   "offline_adapters_initialized": true,
   "control": {
     "branch": "refs/heads/sgm-android11-control-42464063196",
-    "last_sequence": 1,
+    "last_sequence": 2,
     "results": [
       {
         "sequence": 1,
@@ -56,6 +59,25 @@
           }
         ],
         "screenshot": "input-001-final.png",
+        "status": "executed"
+      },
+      {
+        "sequence": 2,
+        "actions": [
+          {
+            "op": "tap",
+            "x": 200,
+            "y": 617
+          },
+          {
+            "op": "wait",
+            "seconds": 12
+          },
+          {
+            "op": "capture"
+          }
+        ],
+        "screenshot": "input-002-final.png",
         "status": "executed"
       }
     ],
