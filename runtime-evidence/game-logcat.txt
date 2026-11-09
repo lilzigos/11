@@ -12752,3 +12752,499 @@
 11-09 08:16:39.587   956  6691 D NetworkMonitor/101: isCaptivePortal: isSuccessful()=true isPortal()=false RedirectUrl=null isPartialConnectivity()=false Time=544ms
 11-09 08:16:39.588   499   647 D ConnectivityService: [101 WIFI] validation passed
 11-09 08:16:39.735   499   537 I am_pss  : [6457,10167,com.userjoy.ujjsgc.jp,871425024,839512064,0,1100468224,0,2,22]
+11-09 08:16:41.575   380   460 D AudioFlinger: mixer(0x78b138c24040) throttle end: throttle time(17)
+11-09 08:16:44.411   380   460 D AudioFlinger: mixer(0x78b138c24040) throttle end: throttle time(47)
+11-09 08:16:47.246  1158  6704 I NetworkManagementSocketTagger: tagSocketFd(-1, 805307399, -1) failed with errno-9
+11-09 08:16:47.757  1158  6704 I c2dm    : [-2,,1,1]
+11-09 08:16:47.802  1158  6707 I c2dm    : [3,,1,1]
+11-09 08:16:47.804  1158  6707 I gtalk_heartbeat_reset: [66086,172.253.63.188:5228]
+11-09 08:16:47.804  1158  6707 E WakeLock: GCM_CONN_ALARM release without a matched acquire!
+11-09 08:16:47.805  1158  6707 I gtalk_connection: 0
+11-09 08:16:47.807  1158  6707 I c2dm    : [7,,1,1]
+11-09 08:16:48.817  6127  6279 W System  : A resource failed to call response.body().close(). 
+11-09 08:16:48.817  6127  6279 I chatty  : uid=10146(com.google.android.apps.messaging) OkHttp Connecti identical 7 lines
+11-09 08:16:48.817  6127  6279 W System  : A resource failed to call response.body().close(). 
+11-09 08:16:51.712   380   460 D AudioFlinger: mixer(0x78b138c24040) throttle end: throttle time(52)
+11-09 08:16:59.242  1039  1039 D RILJ    : [0216]> SIGNAL_STRENGTH [PHONE0]
+11-09 08:16:59.242   436   436 D RIL     : onRequest: SIGNAL_STRENGTH
+11-09 08:16:59.242   436   436 D AT      : AT> AT+CSQ
+11-09 08:16:59.243   436   495 D AT      : AT< %CGFPCCFG: 1,5000,14,0,1
+11-09 08:16:59.243   436   495 D RIL     : got CGFPCCFG line %CGFPCCFG: 1,5000,14,0,1 and %CGFPCCFG: 1,5000,14,0,1
+11-09 08:16:59.243   436   495 D RIL     : got i 0, val = 1
+11-09 08:16:59.243   436   495 D RIL     : got i 1, val = 5000
+11-09 08:16:59.243   436   495 D RIL     : got i 2, val = 14
+11-09 08:16:59.243   436   495 D RIL     : got i 3, val = 0
+11-09 08:16:59.243   436   495 D RIL     : got i 4, val = 1
+11-09 08:16:59.243   436   495 D RILC    : reportPhysicalChannelConfigs: 1 5000 14 0 1
+11-09 08:16:59.243   436   495 D AT      : AT< %CGFPCCFG: 2,5000,14,0,1
+11-09 08:16:59.243   436   495 D RIL     : got CGFPCCFG line %CGFPCCFG: 2,5000,14,0,1 and %CGFPCCFG: 2,5000,14,0,1
+11-09 08:16:59.243   436   495 D RIL     : got i 0, val = 2
+11-09 08:16:59.243   436   495 D RIL     : got i 1, val = 5000
+11-09 08:16:59.243   436   495 D RIL     : got i 2, val = 14
+11-09 08:16:59.243   436   495 D RIL     : got i 3, val = 0
+11-09 08:16:59.243   436   495 D RIL     : got i 4, val = 1
+11-09 08:16:59.243   436   495 D RILC    : reportPhysicalChannelConfigs: 2 5000 14 0 1
+11-09 08:16:59.243   436   495 D AT      : AT< +CSQ: 12,4,90,120,80,120,4,90,100,10,30,7,200
+11-09 08:16:59.243   436   495 D AT      : AT< OK
+11-09 08:16:59.244  1039  1220 D RILJ    : [UNSL]< RIL_UNSOL_PHYSICAL_CHANNEL_CONFIG [{mConnectionStatus=PrimaryServing,mCellBandwidthDownlinkKhz=5000,mRat=LTE,mFrequencyRange=UNKNOWN,mChannelNumber=2147483647,mContextIds=[1],mPhysicalCellId=0}] [PHONE0]
+11-09 08:16:59.244  1039  1220 D RILJ    : [UNSL]< RIL_UNSOL_PHYSICAL_CHANNEL_CONFIG [{mConnectionStatus=SecondaryServing,mCellBandwidthDownlinkKhz=5000,mRat=LTE,mFrequencyRange=UNKNOWN,mChannelNumber=2147483647,mContextIds=[1],mPhysicalCellId=0}] [PHONE0]
+11-09 08:16:59.245  1039  1220 E CellSignalStrengthLte: convertRssiAsuToDBm: invalid RSSI in ASU=90
+11-09 08:16:59.245  1039  1220 D RILJ    : [0216]< SIGNAL_STRENGTH SignalStrength:{mCdma=CellSignalStrengthCdma: cdmaDbm=2147483647 cdmaEcio=2147483647 evdoDbm=2147483647 evdoEcio=2147483647 evdoSnr=2147483647 level=0,mGsm=CellSignalStrengthGsm: rssi=2147483647 ber=2147483647 mTa=2147483647 mLevel=0,mWcdma=CellSignalStrengthWcdma: ss=2147483647 ber=2147483647 rscp=2147483647 ecno=2147483647 level=0,mTdscdma=CellSignalStrengthTdscdma: rssi=2147483647 ber=2147483647 rscp=2147483647 level=0,mLte=CellSignalStrengthLte: rssi=2147483647 rsrp=-100 rsrq=-10 rssnr=3 cqi=7 ta=200 level=2 parametersUseForLevel=1,mNr=CellSignalStrengthNr:{ csiRsrp = 2147483647 csiRsrq = 2147483647 csiSinr = 2147483647 ssRsrp = 2147483647 ssRsrq = 2147483647 ssSinr = 2147483647 level = 0 parametersUseForLevel = 1 },primary=CellSignalStrengthLte} [PHONE0]
+11-09 08:17:00.004   713   713 D KeyguardClockSwitch: Updating clock: 817
+11-09 08:17:08.488   380   460 D AudioFlinger: mixer(0x78b138c24040) throttle end: throttle time(32)
+11-09 08:17:09.924     0     0 W healthd : battery l=100 v=5000 t=25.0 h=2 st=2 c=900000 fc=300000 cc=10 chg=a
+11-09 08:17:11.763   380   460 D AudioFlinger: mixer(0x78b138c24040) throttle end: throttle time(4)
+11-09 08:17:13.979   380   460 D AudioFlinger: mixer(0x78b138c24040) throttle end: throttle time(53)
+11-09 08:17:18.574   499   499 I JobServiceContext: Client timed out while executing (no jobFinished received), sending onStop: d42a099 #1000/1 com.android.providers.settings/.WriteFallbackSettingsFilesJobService
+11-09 08:17:19.247  1039  1039 D RILJ    : [0217]> SIGNAL_STRENGTH [PHONE0]
+11-09 08:17:19.247   436   436 D RIL     : onRequest: SIGNAL_STRENGTH
+11-09 08:17:19.247   436   436 D AT      : AT> AT+CSQ
+11-09 08:17:19.247   436   495 D AT      : AT< %CGFPCCFG: 1,5000,14,0,1
+11-09 08:17:19.247   436   495 D RIL     : got CGFPCCFG line %CGFPCCFG: 1,5000,14,0,1 and %CGFPCCFG: 1,5000,14,0,1
+11-09 08:17:19.247   436   495 D RIL     : got i 0, val = 1
+11-09 08:17:19.247   436   495 D RIL     : got i 1, val = 5000
+11-09 08:17:19.247   436   495 D RIL     : got i 2, val = 14
+11-09 08:17:19.247   436   495 D RIL     : got i 3, val = 0
+11-09 08:17:19.247   436   495 D RIL     : got i 4, val = 1
+11-09 08:17:19.247   436   495 D RILC    : reportPhysicalChannelConfigs: 1 5000 14 0 1
+11-09 08:17:19.247   436   495 D AT      : AT< %CGFPCCFG: 2,5000,14,0,1
+11-09 08:17:19.247   436   495 D RIL     : got CGFPCCFG line %CGFPCCFG: 2,5000,14,0,1 and %CGFPCCFG: 2,5000,14,0,1
+11-09 08:17:19.247   436   495 D RIL     : got i 0, val = 2
+11-09 08:17:19.247   436   495 D RIL     : got i 1, val = 5000
+11-09 08:17:19.247   436   495 D RIL     : got i 2, val = 14
+11-09 08:17:19.247   436   495 D RIL     : got i 3, val = 0
+11-09 08:17:19.247   436   495 D RIL     : got i 4, val = 1
+11-09 08:17:19.247   436   495 D RILC    : reportPhysicalChannelConfigs: 2 5000 14 0 1
+11-09 08:17:19.247   436   495 D AT      : AT< +CSQ: 12,4,90,120,80,120,4,90,100,10,30,7,200
+11-09 08:17:19.247   436   495 D AT      : AT< OK
+11-09 08:17:19.247  1039  1220 D RILJ    : [UNSL]< RIL_UNSOL_PHYSICAL_CHANNEL_CONFIG [{mConnectionStatus=PrimaryServing,mCellBandwidthDownlinkKhz=5000,mRat=LTE,mFrequencyRange=UNKNOWN,mChannelNumber=2147483647,mContextIds=[1],mPhysicalCellId=0}] [PHONE0]
+11-09 08:17:19.247  1039  1220 D RILJ    : [UNSL]< RIL_UNSOL_PHYSICAL_CHANNEL_CONFIG [{mConnectionStatus=SecondaryServing,mCellBandwidthDownlinkKhz=5000,mRat=LTE,mFrequencyRange=UNKNOWN,mChannelNumber=2147483647,mContextIds=[1],mPhysicalCellId=0}] [PHONE0]
+11-09 08:17:19.248  1039  1220 E CellSignalStrengthLte: convertRssiAsuToDBm: invalid RSSI in ASU=90
+11-09 08:17:19.248  1039  1220 D RILJ    : [0217]< SIGNAL_STRENGTH SignalStrength:{mCdma=CellSignalStrengthCdma: cdmaDbm=2147483647 cdmaEcio=2147483647 evdoDbm=2147483647 evdoEcio=2147483647 evdoSnr=2147483647 level=0,mGsm=CellSignalStrengthGsm: rssi=2147483647 ber=2147483647 mTa=2147483647 mLevel=0,mWcdma=CellSignalStrengthWcdma: ss=2147483647 ber=2147483647 rscp=2147483647 ecno=2147483647 level=0,mTdscdma=CellSignalStrengthTdscdma: rssi=2147483647 ber=2147483647 rscp=2147483647 level=0,mLte=CellSignalStrengthLte: rssi=2147483647 rsrp=-100 rsrq=-10 rssnr=3 cqi=7 ta=200 level=2 parametersUseForLevel=1,mNr=CellSignalStrengthNr:{ csiRsrp = 2147483647 csiRsrq = 2147483647 csiSinr = 2147483647 ssRsrp = 2147483647 ssRsrq = 2147483647 ssSinr = 2147483647 level = 0 parametersUseForLevel = 1 },primary=CellSignalStrengthLte} [PHONE0]
+11-09 08:17:19.685   380   460 D AudioFlinger: mixer(0x78b138c24040) throttle end: throttle time(30)
+11-09 08:17:20.584   499   531 I commit_sys_config_file: [jobs,6]
+11-09 08:17:33.850   380   460 D AudioFlinger: mixer(0x78b138c24040) throttle end: throttle time(64)
+11-09 08:17:34.086   380   460 D AudioFlinger: mixer(0x78b138c24040) throttle end: throttle time(56)
+11-09 08:17:34.250  6710  6710 D AndroidRuntime: >>>>>> START com.android.internal.os.RuntimeInit uid 0 <<<<<<
+11-09 08:17:34.252  6710  6710 I AndroidRuntime: Using default boot image
+11-09 08:17:34.252  6710  6710 I AndroidRuntime: Leaving lock profiling enabled
+11-09 08:17:34.254  6710  6710 I app_process: Core platform API reporting enabled, enforcing=false
+11-09 08:17:34.297  6710  6710 D app_process: Time zone APEX ICU file found: /apex/com.android.tzdata/etc/icu/icu_tzdata.dat
+11-09 08:17:34.297  6710  6710 D app_process: I18n APEX ICU file found: /apex/com.android.i18n/etc/icu/icudt66l.dat
+11-09 08:17:34.302  6710  6710 W app_process: Unexpected CPU variant for X86 using defaults: x86_64
+11-09 08:17:34.303  6710  6710 I app_process: The ClassLoaderContext is a special shared library.
+11-09 08:17:34.314  6710  6710 W app_process: JNI RegisterNativeMethods: attempt to register 0 native methods for android.media.AudioAttributes
+11-09 08:17:34.326  6710  6710 D AndroidRuntime: Calling main entry com.android.commands.input.Input
+11-09 08:17:34.335  6710  6710 D AndroidRuntime: Shutting down VM
+11-09 08:17:34.342  6710  6721 W app_process: Thread attaching while runtime is shutting down: Binder:6710_1
+11-09 08:17:34.342  6710  6721 I AndroidRuntime: NOTE: attach of thread 'Binder:6710_1' failed
+11-09 08:17:34.602  6457  6524 E Unity   : ProcessBase:ShowConnectingTip = 1
+11-09 08:17:34.602  6457  6524 E Unity   : stack traceback:
+11-09 08:17:34.602  6457  6524 E Unity   : 	/Users/userjoy/Desktop/JenkinsRoot/workspace/SGC_BuildData/JP_OFFICIAL_Android/Unity/Assets/LuaScript/Process/ProcessBase.lua:847: in function 'ShowConnectingTip'
+11-09 08:17:34.602  6457  6524 E Unity   : 	offline/boot.lua:132: in function <offline/boot.lua:124>
+11-09 08:17:34.602  6457  6524 E Unity   : LuaFramework_UtilWrap:LogError(IntPtr)
+11-09 08:17:34.602  6457  6524 E Unity   : 
+11-09 08:17:34.886  6457  6524 E Unity   : ProcessBase:ShowConnectingTip = 0
+11-09 08:17:34.886  6457  6524 E Unity   : stack traceback:
+11-09 08:17:34.886  6457  6524 E Unity   : 	/Users/userjoy/Desktop/JenkinsRoot/workspace/SGC_BuildData/JP_OFFICIAL_Android/Unity/Assets/LuaScript/Process/ProcessBase.lua:847: in function 'ShowConnectingTip'
+11-09 08:17:34.886  6457  6524 E Unity   : 	offline/lobby.lua:310: in function 'fn'
+11-09 08:17:34.886  6457  6524 E Unity   : 	offline/lobby.lua:73: in function 'tick'
+11-09 08:17:34.886  6457  6524 E Unity   : 	offline/boot.lua:174: in function 'V_Update'
+11-09 08:17:34.886  6457  6524 E Unity   : 	.../userjoy/Desktop/JenkinsRoot/workspace/SGC_BuildData/JP_OFFICIAL_Android/Unity/Assets/LuaScript/Process/ProcessLoginGame.lua:258: in function <.../userjoy/Desktop/JenkinsRoot/workspace/SGC_BuildData/JP_OFFICIAL_Android/Unity/Assets/LuaScript/Process/ProcessLoginGame.lua:257>
+11-09 08:17:34.886  6457  6524 E Unity   : LuaFramework_UtilWrap:LogError(IntPtr)
+11-09 08:17:34.886  6457  6524 E Unity   : 
+11-09 08:17:35.182  6457  6524 I Unity   : 08:17:35.181-358: [SGM Offline] Unsupported local protocol: 3315
+11-09 08:17:35.182  6457  6524 I Unity   : LuaInterface.Debugger:Log(String)
+11-09 08:17:35.182  6457  6524 I Unity   : LuaInterface.ToLua:Print(IntPtr)
+11-09 08:17:35.182  6457  6524 I Unity   : 
+11-09 08:17:35.901   380   460 D AudioFlinger: mixer(0x78b138c24040) throttle end: throttle time(22)
+11-09 08:17:36.434   380   460 D AudioFlinger: mixer(0x78b138c24040) throttle end: throttle time(13)
+11-09 08:17:36.523   380   460 D AudioFlinger: mixer(0x78b138c24040) throttle end: throttle time(4)
+11-09 08:17:36.631   380   460 D AudioFlinger: mixer(0x78b138c24040) throttle end: throttle time(10)
+11-09 08:17:37.127   380   460 D AudioFlinger: mixer(0x78b138c24040) throttle end: throttle time(4)
+11-09 08:17:37.366   380   460 D AudioFlinger: mixer(0x78b138c24040) throttle end: throttle time(24)
+11-09 08:17:37.406   380   460 D AudioFlinger: mixer(0x78b138c24040) throttle end: throttle time(15)
+11-09 08:17:38.026   380   460 D AudioFlinger: mixer(0x78b138c24040) throttle end: throttle time(9)
+11-09 08:17:38.269   380   460 D AudioFlinger: mixer(0x78b138c24040) throttle end: throttle time(11)
+11-09 08:17:38.579   380   460 D AudioFlinger: mixer(0x78b138c24040) throttle end: throttle time(9)
+11-09 08:17:38.645   380   460 D AudioFlinger: mixer(0x78b138c24040) throttle end: throttle time(3)
+11-09 08:17:39.253  1039  1039 D RILJ    : [0218]> SIGNAL_STRENGTH [PHONE0]
+11-09 08:17:39.254   436   436 D RIL     : onRequest: SIGNAL_STRENGTH
+11-09 08:17:39.254   436   436 D AT      : AT> AT+CSQ
+11-09 08:17:39.254   436   495 D AT      : AT< %CGFPCCFG: 1,5000,14,0,1
+11-09 08:17:39.254   436   495 D RIL     : got CGFPCCFG line %CGFPCCFG: 1,5000,14,0,1 and %CGFPCCFG: 1,5000,14,0,1
+11-09 08:17:39.254   436   495 D RIL     : got i 0, val = 1
+11-09 08:17:39.254   436   495 D RIL     : got i 1, val = 5000
+11-09 08:17:39.254   436   495 D RIL     : got i 2, val = 14
+11-09 08:17:39.254   436   495 D RIL     : got i 3, val = 0
+11-09 08:17:39.254   436   495 D RIL     : got i 4, val = 1
+11-09 08:17:39.257   436   495 D RILC    : reportPhysicalChannelConfigs: 1 5000 14 0 1
+11-09 08:17:39.257   436   495 D AT      : AT< %CGFPCCFG: 2,5000,14,0,1
+11-09 08:17:39.257   436   495 D RIL     : got CGFPCCFG line %CGFPCCFG: 2,5000,14,0,1 and %CGFPCCFG: 2,5000,14,0,1
+11-09 08:17:39.257   436   495 D RIL     : got i 0, val = 2
+11-09 08:17:39.257   436   495 D RIL     : got i 1, val = 5000
+11-09 08:17:39.257   436   495 D RIL     : got i 2, val = 14
+11-09 08:17:39.257   436   495 D RIL     : got i 3, val = 0
+11-09 08:17:39.257   436   495 D RIL     : got i 4, val = 1
+11-09 08:17:39.257   436   495 D RILC    : reportPhysicalChannelConfigs: 2 5000 14 0 1
+11-09 08:17:39.257   436   495 D AT      : AT< +CSQ: 12,4,90,120,80,120,4,90,100,10,30,7,200
+11-09 08:17:39.257   436   495 D AT      : AT< OK
+11-09 08:17:39.257  1039  1220 D RILJ    : [UNSL]< RIL_UNSOL_PHYSICAL_CHANNEL_CONFIG [{mConnectionStatus=PrimaryServing,mCellBandwidthDownlinkKhz=5000,mRat=LTE,mFrequencyRange=UNKNOWN,mChannelNumber=2147483647,mContextIds=[1],mPhysicalCellId=0}] [PHONE0]
+11-09 08:17:39.258  1039  1220 E CellSignalStrengthLte: convertRssiAsuToDBm: invalid RSSI in ASU=90
+11-09 08:17:39.258  1039  1220 D RILJ    : [0218]< SIGNAL_STRENGTH SignalStrength:{mCdma=CellSignalStrengthCdma: cdmaDbm=2147483647 cdmaEcio=2147483647 evdoDbm=2147483647 evdoEcio=2147483647 evdoSnr=2147483647 level=0,mGsm=CellSignalStrengthGsm: rssi=2147483647 ber=2147483647 mTa=2147483647 mLevel=0,mWcdma=CellSignalStrengthWcdma: ss=2147483647 ber=2147483647 rscp=2147483647 ecno=2147483647 level=0,mTdscdma=CellSignalStrengthTdscdma: rssi=2147483647 ber=2147483647 rscp=2147483647 level=0,mLte=CellSignalStrengthLte: rssi=2147483647 rsrp=-100 rsrq=-10 rssnr=3 cqi=7 ta=200 level=2 parametersUseForLevel=1,mNr=CellSignalStrengthNr:{ csiRsrp = 2147483647 csiRsrq = 2147483647 csiSinr = 2147483647 ssRsrp = 2147483647 ssRsrq = 2147483647 ssSinr = 2147483647 level = 0 parametersUseForLevel = 1 },primary=CellSignalStrengthLte} [PHONE0]
+11-09 08:17:39.258  1039  1220 D RILJ    : [UNSL]< RIL_UNSOL_PHYSICAL_CHANNEL_CONFIG [{mConnectionStatus=SecondaryServing,mCellBandwidthDownlinkKhz=5000,mRat=LTE,mFrequencyRange=UNKNOWN,mChannelNumber=2147483647,mContextIds=[1],mPhysicalCellId=0}] [PHONE0]
+11-09 08:17:39.346   380   460 D AudioFlinger: mixer(0x78b138c24040) throttle end: throttle time(3)
+11-09 08:17:39.377   380   460 D AudioFlinger: mixer(0x78b138c24040) throttle end: throttle time(2)
+11-09 08:17:39.619   380   460 D AudioFlinger: mixer(0x78b138c24040) throttle end: throttle time(7)
+11-09 08:17:39.828   380   460 D AudioFlinger: mixer(0x78b138c24040) throttle end: throttle time(1)
+11-09 08:17:40.837   380   460 D AudioFlinger: mixer(0x78b138c24040) throttle end: throttle time(8)
+11-09 08:17:41.397   380   460 D AudioFlinger: mixer(0x78b138c24040) throttle end: throttle time(2)
+11-09 08:17:42.035   380   460 D AudioFlinger: mixer(0x78b138c24040) throttle end: throttle time(11)
+11-09 08:17:42.696   380   460 D AudioFlinger: mixer(0x78b138c24040) throttle end: throttle time(3)
+11-09 08:17:43.182   380   460 D AudioFlinger: mixer(0x78b138c24040) throttle end: throttle time(7)
+11-09 08:17:43.343   166   166 I hwservicemanager: getTransport: Cannot find entry android.hardware.graphics.mapper@4.0::IMapper/default in either framework or device manifest.
+11-09 08:17:43.344  6725  6725 I Gralloc4: mapper 4.x is not supported
+11-09 08:17:43.353  6725  6725 D HostConnection: createUnique: call
+11-09 08:17:43.353  6725  6725 D HostConnection: HostConnection::get() New Host Connection established 0x7132a76210d0, tid 6725
+11-09 08:17:43.366  6725  6725 D HostConnection: HostComposition ext ANDROID_EMU_CHECKSUM_HELPER_v1 ANDROID_EMU_native_sync_v2 ANDROID_EMU_dma_v1 ANDROID_EMU_direct_mem ANDROID_EMU_host_composition_v1 ANDROID_EMU_host_composition_v2 ANDROID_EMU_YUV_Cache ANDROID_EMU_has_shared_slots_host_memory_allocator ANDROID_EMU_sync_buffer_data ANDROID_EMU_read_color_buffer_dma ANDROID_EMU_hwc_color_transform GL_OES_EGL_image_external_essl3 GL_OES_vertex_array_object GL_KHR_texture_compression_astc_ldr ANDROID_EMU_host_side_tracing ANDROID_EMU_gles_max_version_3_0 
+11-09 08:17:43.535  1806  2773 W ProcessReaper: Memory state is: 400
+11-09 08:17:43.536  1806  2773 W ProcessReaper: Killing process to refresh experiment configuration
+11-09 08:17:43.536  1806  2773 I Process : Sending signal. PID: 1806 SIG: 9
+11-09 08:17:43.549   499   792 D ConnectivityService: ConnectivityService NetworkRequestInfo binderDied(NetworkRequest [ LISTEN id=24, [ Capabilities: INTERNET&NOT_RESTRICTED&TRUSTED Uid: 10123 AdministratorUids: [] RequestorUid: 10123 RequestorPackageName: com.google.android.googlequicksearchbox] ], android.os.BinderProxy@858b0c5)
+11-09 08:17:43.550   499  1639 I ActivityManager: Process com.google.android.googlequicksearchbox:search (pid 1806) has died: cch CACC
+11-09 08:17:43.550   499  1639 I am_proc_died: [0,1806,com.google.android.googlequicksearchbox:search,900,17]
+11-09 08:17:43.551   499   950 D ConnectivityService: ConnectivityService NetworkRequestInfo binderDied(NetworkRequest [ TRACK_DEFAULT id=23, [ Capabilities: INTERNET&NOT_RESTRICTED&TRUSTED Uid: 10123 AdministratorUids: [] RequestorUid: 10123 RequestorPackageName: com.google.android.googlequicksearchbox] ], android.os.BinderProxy@fd7a1a)
+11-09 08:17:43.551   499   647 D ConnectivityService: releasing NetworkRequest [ TRACK_DEFAULT id=23, [ Capabilities: INTERNET&NOT_RESTRICTED&TRUSTED Uid: 10123 AdministratorUids: [] RequestorUid: 10123 RequestorPackageName: com.google.android.googlequicksearchbox] ] (release request)
+11-09 08:17:43.552   499  1639 W ActivityManager: Scheduling restart of crashed service com.google.android.googlequicksearchbox/com.google.android.apps.gsa.nowoverlayservice.DrawerOverlayService in 1000ms for connection
+11-09 08:17:43.552   499  1639 I am_schedule_service_restart: [0,com.google.android.googlequicksearchbox/com.google.android.apps.gsa.nowoverlayservice.DrawerOverlayService,1000]
+11-09 08:17:43.552   499   792 I WindowManager: WIN DEATH: Window{9b72cc0 u0 com.google.android.apps.nexuslauncher/com.google.android.apps.nexuslauncher.NexusLauncherActivity}
+11-09 08:17:43.552   499   792 W InputDispatcher: Attempted to unregister already unregistered input channel '9b72cc0 com.google.android.apps.nexuslauncher/com.google.android.apps.nexuslauncher.NexusLauncherActivity (server)'
+11-09 08:17:43.554  1039  1039 D DcRequest: Cellular request confirmed: NetworkRequest [ TRACK_DEFAULT id=23, [ Capabilities: INTERNET&NOT_RESTRICTED&TRUSTED Uid: 10123 AdministratorUids: [] RequestorUid: 10123 RequestorPackageName: com.google.android.googlequicksearchbox] ]
+11-09 08:17:43.555  1039  1039 D PhoneSwitcher: evaluating due to netReleased
+11-09 08:17:43.555  1039  1039 D PhoneSwitcher: notifyPreferredDataSubIdChanged to 1
+11-09 08:17:43.556   713   713 V KeyguardUpdateMonitor: onSubscriptionInfoChanged()
+11-09 08:17:43.556   499   532 W ActivityManager: setHasOverlayUi called on unknown pid: 1806
+11-09 08:17:43.556   713   713 V KeyguardUpdateMonitor: SubInfo:{id=1 iccId=89014103211118510720 simSlotIndex=0 carrierId=1 displayName=T-Mobile carrierName=T-Mobile nameSource=3 iconTint=-16746133 number=+15555215554 dataRoaming=0 iconBitmap=android.graphics.Bitmap@4818f4f mcc=310 mnc=260 countryIso=us isEmbedded=false nativeAccessRules=null cardString=89014103211118510720 cardId=-1 isOpportunistic=false groupUUID=null isGroupDisabled=false profileClass=-1 ehplmns=null hplmns=null subscriptionType=0 groupOwner=null carrierConfigAccessRules=null areUiccApplicationsEnabled=true}
+11-09 08:17:43.557  1039  1039 D PhoneSwitcher: Removed DcRequest, size: 11
+11-09 08:17:43.557  1039  1039 D Telephony: isEmergencyPreferredAccount: subId=1, activeData=1
+11-09 08:17:43.557  1039  1039 D Telephony: isEmergencyPreferredAccount: Device does not require preference.
+11-09 08:17:43.559   290   290 I Zygote  : Process 1806 exited due to signal 9 (Killed)
+11-09 08:17:43.592   499   540 I libprocessgroup: Successfully killed process cgroup uid 10123 pid 1806 in 41ms
+11-09 08:17:43.878  6727  6727 D AndroidRuntime: >>>>>> START com.android.internal.os.RuntimeInit uid 0 <<<<<<
+11-09 08:17:43.880  6727  6727 I AndroidRuntime: Using default boot image
+11-09 08:17:43.880  6727  6727 I AndroidRuntime: Leaving lock profiling enabled
+11-09 08:17:43.893  6727  6727 I app_process: Core platform API reporting enabled, enforcing=false
+11-09 08:17:43.947  6727  6727 D app_process: Time zone APEX ICU file found: /apex/com.android.tzdata/etc/icu/icu_tzdata.dat
+11-09 08:17:43.947  6727  6727 D app_process: I18n APEX ICU file found: /apex/com.android.i18n/etc/icu/icudt66l.dat
+11-09 08:17:43.956  6727  6727 W app_process: Unexpected CPU variant for X86 using defaults: x86_64
+11-09 08:17:43.957  6727  6727 I app_process: The ClassLoaderContext is a special shared library.
+11-09 08:17:43.966  6727  6727 W app_process: JNI RegisterNativeMethods: attempt to register 0 native methods for android.media.AudioAttributes
+11-09 08:17:43.970  6727  6727 D AndroidRuntime: Calling main entry com.android.commands.input.Input
+11-09 08:17:43.973  6727  6727 D AndroidRuntime: Shutting down VM
+11-09 08:17:44.444  6457  6524 I Unity   : 400
+11-09 08:17:44.444  6457  6524 I Unity   : WrdFileTool:readWRDFile(Int32, tagmapHEADER&)
+11-09 08:17:44.444  6457  6524 I Unity   : WrdData:LoadFile(Int32)
+11-09 08:17:44.444  6457  6524 I Unity   : WrdFileMgr:loadLevel(Int32)
+11-09 08:17:44.444  6457  6524 I Unity   : WrdFileMgrWrap:loadLevel(IntPtr)
+11-09 08:17:44.444  6457  6524 I Unity   : 
+11-09 08:17:44.444  6457  6524 I Unity   : 50
+11-09 08:17:44.444  6457  6524 I Unity   : WrdFileTool:readWRDFile(Int32, tagmapHEADER&)
+11-09 08:17:44.444  6457  6524 I Unity   : WrdData:LoadFile(Int32)
+11-09 08:17:44.444  6457  6524 I Unity   : WrdFileMgr:loadLevel(Int32)
+11-09 08:17:44.444  6457  6524 I Unity   : WrdFileMgrWrap:loadLevel(IntPtr)
+11-09 08:17:44.444  6457  6524 I Unity   : 
+11-09 08:17:44.479  6457  6524 I Unity   : !=null
+11-09 08:17:44.479  6457  6524 I Unity   : BinFileTool:LoadMapDataFromBundle(String)
+11-09 08:17:44.479  6457  6524 I Unity   : BinFileTool:readFile(Int32, tageventHEADER)
+11-09 08:17:44.479  6457  6524 I Unity   : BinData:loadFile()
+11-09 08:17:44.479  6457  6524 I Unity   : BinFileMgr:loadLevel(Int32)
+11-09 08:17:44.479  6457  6524 I Unity   : BinFileMgrWrap:loadLevel(IntPtr)
+11-09 08:17:44.479  6457  6524 I Unity   : 
+11-09 08:17:45.192  6457  6524 I Unity   : SceneMgr::SwitchScene stage1
+11-09 08:17:45.192  6457  6524 I Unity   : LuaFramework_UtilWrap:Log(IntPtr)
+11-09 08:17:45.192  6457  6524 I Unity   : 
+11-09 08:17:45.462   380   460 D AudioFlinger: mixer(0x78b138c24040) throttle end: throttle time(13)
+11-09 08:17:45.662  6457  6524 W Unity   : 08:17:45.661-527: Type TweenScale not wrap to lua, push as UITweener, the warning is only raised once
+11-09 08:17:45.662  6457  6524 W Unity   : LuaInterface.Debugger:LogWarning(String)
+11-09 08:17:45.662  6457  6524 W Unity   : LuaInterface.LuaState:GetMissMetaReference(Type)
+11-09 08:17:45.662  6457  6524 W Unity   : LuaInterface.ToLua:PushUserObject(IntPtr, Object)
+11-09 08:17:45.662  6457  6524 W Unity   : WndSubProperty_PropertyDeclWrap:get__object(IntPtr)
+11-09 08:17:45.662  6457  6524 W Unity   : 
+11-09 08:17:45.953  6457  6524 I Unity   : UISafeArea.CurrentResolutionWidth : 1280
+11-09 08:17:45.953  6457  6524 I Unity   : LuaFramework_UtilWrap:Log(IntPtr)
+11-09 08:17:45.953  6457  6524 I Unity   : 
+11-09 08:17:45.953  6457  6524 I Unity   : UISafeArea.ScreenOriginWidth : 1280
+11-09 08:17:45.953  6457  6524 I Unity   : LuaFramework_UtilWrap:Log(IntPtr)
+11-09 08:17:45.953  6457  6524 I Unity   : 
+11-09 08:17:45.954  6457  6524 I Unity   : safeArea.x : 0
+11-09 08:17:45.954  6457  6524 I Unity   : LuaFramework_UtilWrap:Log(IntPtr)
+11-09 08:17:45.954  6457  6524 I Unity   : 
+11-09 08:17:45.954  6457  6524 I Unity   : safeArea.y : 0
+11-09 08:17:45.954  6457  6524 I Unity   : LuaFramework_UtilWrap:Log(IntPtr)
+11-09 08:17:45.954  6457  6524 I Unity   : 
+11-09 08:17:45.955  6457  6524 I Unity   : safeArea.width : 1280
+11-09 08:17:45.955  6457  6524 I Unity   : LuaFramework_UtilWrap:Log(IntPtr)
+11-09 08:17:45.955  6457  6524 I Unity   : 
+11-09 08:17:45.956  6457  6524 I Unity   : safeArea.height : 720
+11-09 08:17:45.956  6457  6524 I Unity   : LuaFramework_UtilWrap:Log(IntPtr)
+11-09 08:17:45.956  6457  6524 I Unity   : 
+11-09 08:17:45.956  6457  6524 I Unity   : widthScale : 1
+11-09 08:17:45.956  6457  6524 I Unity   : LuaFramework_UtilWrap:Log(IntPtr)
+11-09 08:17:45.956  6457  6524 I Unity   : 
+11-09 08:17:49.865  6457  6524 I Unity   : 08:17:49.864-549: [SGM Offline] Unsupported local protocol: 3340
+11-09 08:17:49.865  6457  6524 I Unity   : LuaInterface.Debugger:Log(String)
+11-09 08:17:49.865  6457  6524 I Unity   : LuaInterface.ToLua:Print(IntPtr)
+11-09 08:17:49.865  6457  6524 I Unity   : 
+11-09 08:17:49.866  6457  6524 I Unity   : 08:17:49.865-549: [SGM Offline] Unsupported local protocol: 3446
+11-09 08:17:49.866  6457  6524 I Unity   : LuaInterface.Debugger:Log(String)
+11-09 08:17:49.866  6457  6524 I Unity   : LuaInterface.ToLua:Print(IntPtr)
+11-09 08:17:49.866  6457  6524 I Unity   : 
+11-09 08:17:49.867  6457  6524 I Unity   : SceneMgr::SwitchScene finish
+11-09 08:17:49.867  6457  6524 I Unity   : LuaFramework_UtilWrap:Log(IntPtr)
+11-09 08:17:49.867  6457  6524 I Unity   : 
+11-09 08:17:49.914  6457  6524 I Unity   : 08:17:49.913-549: [SGM Offline World] actor-type 1001 23 202500001 0 5 5 0 true 23808 2560
+11-09 08:17:49.914  6457  6524 I Unity   : LuaInterface.Debugger:Log(String)
+11-09 08:17:49.914  6457  6524 I Unity   : LuaInterface.ToLua:Print(IntPtr)
+11-09 08:17:49.914  6457  6524 I Unity   : 
+11-09 08:17:49.916  6457  6524 I Unity   : 08:17:49.915-549: [SGM Offline World] actor-type 10502 22 202500005 4 6 6 1 false 12736 2048
+11-09 08:17:49.916  6457  6524 I Unity   : LuaInterface.Debugger:Log(String)
+11-09 08:17:49.916  6457  6524 I Unity   : LuaInterface.ToLua:Print(IntPtr)
+11-09 08:17:49.916  6457  6524 I Unity   : 
+11-09 08:17:49.917  6457  6524 I Unity   : 08:17:49.917-549: [SGM Offline World] actor-type 10004 22 202500006 4 6 6 1 false 12352 1792
+11-09 08:17:49.917  6457  6524 I Unity   : LuaInterface.Debugger:Log(String)
+11-09 08:17:49.917  6457  6524 I Unity   : LuaInterface.ToLua:Print(IntPtr)
+11-09 08:17:49.917  6457  6524 I Unity   : 
+11-09 08:17:49.918  6457  6524 I Unity   : 08:17:49.918-549: [SGM Offline World] actor-type 1005 23 202500007 0 5 5 0 true 16896 2176
+11-09 08:17:49.918  6457  6524 I Unity   : LuaInterface.Debugger:Log(String)
+11-09 08:17:49.918  6457  6524 I Unity   : LuaInterface.ToLua:Print(IntPtr)
+11-09 08:17:49.918  6457  6524 I Unity   : 
+11-09 08:17:49.925  6457  6524 I Unity   : 08:17:49.924-549: [SGM Offline World] actor-type 10002 22 202500040 4 6 6 1 false 12992 832
+11-09 08:17:49.925  6457  6524 I Unity   : LuaInterface.Debugger:Log(String)
+11-09 08:17:49.925  6457  6524 I Unity   : LuaInterface.ToLua:Print(IntPtr)
+11-09 08:17:49.925  6457  6524 I Unity   : 
+11-09 08:17:49.926  6457  6524 I Unity   : 08:17:49.925-549: [SGM Offline World] actor-type 10003 22 202500041 4 6 6 1 false 11584 640
+11-09 08:17:49.926  6457  6524 I Unity   : LuaInterface.Debugger:Log(String)
+11-09 08:17:49.926  6457  6524 I Unity   : LuaInterface.ToLua:Print(IntPtr)
+11-09 08:17:49.926  6457  6524 I Unity   : 
+11-09 08:17:49.927  6457  6524 I Unity   : 08:17:49.926-549: [SGM Offline World] actor-type 10001 22 202500042 4 6 6 1 false 13248 1472
+11-09 08:17:49.927  6457  6524 I Unity   : LuaInterface.Debugger:Log(String)
+11-09 08:17:49.927  6457  6524 I Unity   : LuaInterface.ToLua:Print(IntPtr)
+11-09 08:17:49.927  6457  6524 I Unity   : 
+11-09 08:17:49.928  6457  6524 I Unity   : 08:17:49.927-549: [SGM Offline World] actor-type 1004 23 202500043 0 5 5 0 true 17664 640
+11-09 08:17:49.928  6457  6524 I Unity   : LuaInterface.Debugger:Log(String)
+11-09 08:17:49.928  6457  6524 I Unity   : LuaInterface.ToLua:Print(IntPtr)
+11-09 08:17:49.928  6457  6524 I Unity   : 
+11-09 08:17:49.935  6457  6524 I Unity   : 08:17:49.934-549: [SGM Offline World] actor-type 1002 23 202500076 0 5 5 0 true 3968 2176
+11-09 08:17:49.935  6457  6524 I Unity   : LuaInterface.Debugger:Log(String)
+11-09 08:17:49.935  6457  6524 I Unity   : LuaInterface.ToLua:Print(IntPtr)
+11-09 08:17:49.935  6457  6524 I Unity   : 
+11-09 08:17:49.949  6457  6524 I Unity   : 08:17:49.948-549: [SGM Offline World] actor-type 10296 22 202500150 4 6 6 1 false 11584 2048
+11-09 08:17:49.949  6457  6524 I Unity   : LuaInterface.Debugger:Log(String)
+11-09 08:17:49.949  6457  6524 I Unity   : LuaInterface.ToLua:Print(IntPtr)
+11-09 08:17:49.949  6457  6524 I Unity   : 
+11-09 08:17:49.950  6457  6524 I Unity   : 08:17:49.950-549: [SGM Offline World] actor-type 10328 22 202500151 4 6 6 1 false 13440 1792
+11-09 08:17:49.950  6457  6524 I Unity   : LuaInterface.Debugger:Log(String)
+11-09 08:17:49.950  6457  6524 I Unity   : LuaInterface.ToLua:Print(IntPtr)
+11-09 08:17:49.950  6457  6524 I Unity   : 
+11-09 08:17:49.960  6457  6524 I Unity   : 08:17:49.960-549: [SGM Offline World] saved 1001 250 23712 2080 6 0
+11-09 08:17:49.960  6457  6524 I Unity   : LuaInterface.Debugger:Log(String)
+11-09 08:17:49.960  6457  6524 I Unity   : LuaInterface.ToLua:Print(IntPtr)
+11-09 08:17:49.960  6457  6524 I Unity   : 
+11-09 08:17:53.221   499  1639 D WifiNl80211Manager: Scan result ready event
+11-09 08:17:53.221   499  1639 D WifiNative: Scan result ready event
+11-09 08:17:53.239  5853  5869 E libc    : Access denied finding property "persist.adb.tls_server.enable"
+11-09 08:17:53.239  5853  5869 E libc    : Access denied finding property "service.adb.tls.port"
+11-09 08:17:53.253   499   537 I am_pss  : [1158,10122,com.google.android.gms.persistent,60836864,48476160,0,193249280,0,5,3]
+11-09 08:17:53.236  5853  5853 I auditd  : type=1400 audit(0.0:51): avc: denied { read } for comm="Binder:5853_1" name="u:object_r:system_adbd_prop:s0" dev="tmpfs" ino=1610 scontext=u:r:gmscore_app:s0:c512,c768 tcontext=u:object_r:system_adbd_prop:s0 tclass=file permissive=0 app=com.google.android.gms
+11-09 08:17:53.236  5853  5853 W Binder:5853_1: type=1400 audit(0.0:51): avc: denied { read } for name="u:object_r:system_adbd_prop:s0" dev="tmpfs" ino=1610 scontext=u:r:gmscore_app:s0:c512,c768 tcontext=u:object_r:system_adbd_prop:s0 tclass=file permissive=0 app=com.google.android.gms
+11-09 08:17:53.286   499   537 I am_pss  : [1393,10133,com.google.android.inputmethod.latin,41279488,36089856,0,154468352,0,7,2]
+11-09 08:17:53.289   499   537 I am_pss  : [1415,10159,com.google.android.ext.services,9922560,4493312,0,136863744,0,5,2]
+11-09 08:17:53.291   499   537 I am_pss  : [1594,10123,com.google.android.googlequicksearchbox:interactor,23129088,13692928,0,100872192,0,5,2]
+11-09 08:17:53.300  6457  6524 W Unity   : 08:17:53.299-553: Type BoxOutline not wrap to lua, push as UnityEngine.UI.BaseMeshEffect, the warning is only raised once
+11-09 08:17:53.300  6457  6524 W Unity   : LuaInterface.Debugger:LogWarning(String)
+11-09 08:17:53.300  6457  6524 W Unity   : LuaInterface.LuaState:GetMissMetaReference(Type)
+11-09 08:17:53.300  6457  6524 W Unity   : LuaInterface.ToLua:PushUserObject(IntPtr, Object)
+11-09 08:17:53.300  6457  6524 W Unity   : UnityEngine_GameObjectWrap:GetComponent(IntPtr)
+11-09 08:17:53.300  6457  6524 W Unity   : 
+11-09 08:17:53.304  1158  4414 W Conscrypt: Could not set socket write timeout: java.net.SocketException: Socket closed
+11-09 08:17:53.304  1158  4414 W Conscrypt: 	at com.google.android.gms.org.conscrypt.Platform.setSocketWriteTimeout(:com.google.android.gms@201817023@20.18.17 (040800-311416286):2)
+11-09 08:17:53.304  1158  4414 W Conscrypt: 	at com.google.android.gms.org.conscrypt.ConscryptFileDescriptorSocket.setSoWriteTimeout(:com.google.android.gms@201817023@20.18.17 (040800-311416286):0)
+11-09 08:17:53.361  6457  6524 W Unity   : 08:17:53.360-553: Type CSpriteFrame not wrap to lua, push as object, the warning is only raised once
+11-09 08:17:53.361  6457  6524 W Unity   : LuaInterface.Debugger:LogWarning(String)
+11-09 08:17:53.361  6457  6524 W Unity   : LuaInterface.LuaState:GetMissMetaReference(Type)
+11-09 08:17:53.361  6457  6524 W Unity   : LuaInterface.ToLua:PushUserObject(IntPtr, Object)
+11-09 08:17:53.361  6457  6524 W Unity   : LuaInterface.ToLua:Push(IntPtr, Object)
+11-09 08:17:53.361  6457  6524 W Unity   : System_ArrayWrap:get_Item(IntPtr)
+11-09 08:17:53.361  6457  6524 W Unity   : 
+11-09 08:17:53.804  1158  4414 W Conscrypt: Could not set socket write timeout: java.net.SocketException: Socket closed
+11-09 08:17:53.804  1158  4414 W Conscrypt: 	at com.google.android.gms.org.conscrypt.Platform.setSocketWriteTimeout(:com.google.android.gms@201817023@20.18.17 (040800-311416286):2)
+11-09 08:17:53.804  1158  4414 W Conscrypt: 	at com.google.android.gms.org.conscrypt.ConscryptFileDescriptorSocket.setSoWriteTimeout(:com.google.android.gms@201817023@20.18.17 (040800-311416286):0)
+11-09 08:17:53.835  1158  2408 W GLSUser : [AppCertManager] Failed to get security token.
+11-09 08:17:53.835  1158  2408 W GLSUser : java.io.IOException: Invalid scope
+11-09 08:17:53.835  1158  2408 W GLSUser : 	at adac.b(:com.google.android.gms@201817023@20.18.17 (040800-311416286):23)
+11-09 08:17:53.835  1158  2408 W GLSUser : 	at adac.a(:com.google.android.gms@201817023@20.18.17 (040800-311416286):18)
+11-09 08:17:53.835  1158  2408 W GLSUser : 	at adac.a(:com.google.android.gms@201817023@20.18.17 (040800-311416286):11)
+11-09 08:17:53.835  1158  2408 W GLSUser : 	at huk.a(:com.google.android.gms@201817023@20.18.17 (040800-311416286):16)
+11-09 08:17:53.835  1158  2408 W GLSUser : 	at hui.a(:com.google.android.gms@201817023@20.18.17 (040800-311416286):41)
+11-09 08:17:53.835  1158  2408 W GLSUser : 	at hud.a(:com.google.android.gms@201817023@20.18.17 (040800-311416286):0)
+11-09 08:17:53.835  1158  2408 W GLSUser : 	at hug.a(:com.google.android.gms@201817023@20.18.17 (040800-311416286):10)
+11-09 08:17:53.835  1158  2408 W GLSUser : 	at fzn.call(:com.google.android.gms@201817023@20.18.17 (040800-311416286):5)
+11-09 08:17:53.835  1158  2408 W GLSUser : 	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+11-09 08:17:53.835  1158  2408 W GLSUser : 	at sji.b(:com.google.android.gms@201817023@20.18.17 (040800-311416286):12)
+11-09 08:17:53.835  1158  2408 W GLSUser : 	at sji.run(:com.google.android.gms@201817023@20.18.17 (040800-311416286):7)
+11-09 08:17:53.835  1158  2408 W GLSUser : 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1167)
+11-09 08:17:53.835  1158  2408 W GLSUser : 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:641)
+11-09 08:17:53.835  1158  2408 W GLSUser : 	at spj.run(:com.google.android.gms@201817023@20.18.17 (040800-311416286):0)
+11-09 08:17:53.835  1158  2408 W GLSUser : 	at java.lang.Thread.run(Thread.java:923)
+11-09 08:17:53.854  1158  2408 W Conscrypt: Could not set socket write timeout: java.net.SocketException: Socket closed
+11-09 08:17:53.854  1158  2408 W Conscrypt: 	at com.google.android.gms.org.conscrypt.Platform.setSocketWriteTimeout(:com.google.android.gms@201817023@20.18.17 (040800-311416286):2)
+11-09 08:17:53.854  1158  2408 W Conscrypt: 	at com.google.android.gms.org.conscrypt.ConscryptFileDescriptorSocket.setSoWriteTimeout(:com.google.android.gms@201817023@20.18.17 (040800-311416286):0)
+11-09 08:17:54.073  6457  6524 I Unity   : 08:17:54.73-554: [SGM Offline] Unsupported local protocol: 3487
+11-09 08:17:54.073  6457  6524 I Unity   : LuaInterface.Debugger:Log(String)
+11-09 08:17:54.073  6457  6524 I Unity   : LuaInterface.ToLua:Print(IntPtr)
+11-09 08:17:54.073  6457  6524 I Unity   : 
+11-09 08:17:54.074  6457  6524 I Unity   : 08:17:54.74-554: [SGM Offline] Unsupported local protocol: 3358
+11-09 08:17:54.074  6457  6524 I Unity   : LuaInterface.Debugger:Log(String)
+11-09 08:17:54.074  6457  6524 I Unity   : LuaInterface.ToLua:Print(IntPtr)
+11-09 08:17:54.074  6457  6524 I Unity   : 
+11-09 08:17:54.354  1158  2408 W Conscrypt: Could not set socket write timeout: java.net.SocketException: Socket closed
+11-09 08:17:54.354  1158  2408 W Conscrypt: 	at com.google.android.gms.org.conscrypt.Platform.setSocketWriteTimeout(:com.google.android.gms@201817023@20.18.17 (040800-311416286):2)
+11-09 08:17:54.354  1158  2408 W Conscrypt: 	at com.google.android.gms.org.conscrypt.ConscryptFileDescriptorSocket.setSoWriteTimeout(:com.google.android.gms@201817023@20.18.17 (040800-311416286):0)
+11-09 08:17:54.383  1158  2408 W GLSUser : [AppCertManager] IOException while requesting key: 
+11-09 08:17:54.383  1158  2408 W GLSUser : java.io.IOException: Invalid device key response.
+11-09 08:17:54.383  1158  2408 W GLSUser : 	at huk.a(:com.google.android.gms@201817023@20.18.17 (040800-311416286):46)
+11-09 08:17:54.383  1158  2408 W GLSUser : 	at hui.a(:com.google.android.gms@201817023@20.18.17 (040800-311416286):41)
+11-09 08:17:54.383  1158  2408 W GLSUser : 	at hud.a(:com.google.android.gms@201817023@20.18.17 (040800-311416286):0)
+11-09 08:17:54.383  1158  2408 W GLSUser : 	at hug.a(:com.google.android.gms@201817023@20.18.17 (040800-311416286):10)
+11-09 08:17:54.383  1158  2408 W GLSUser : 	at fzn.call(:com.google.android.gms@201817023@20.18.17 (040800-311416286):5)
+11-09 08:17:54.383  1158  2408 W GLSUser : 	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+11-09 08:17:54.383  1158  2408 W GLSUser : 	at sji.b(:com.google.android.gms@201817023@20.18.17 (040800-311416286):12)
+11-09 08:17:54.383  1158  2408 W GLSUser : 	at sji.run(:com.google.android.gms@201817023@20.18.17 (040800-311416286):7)
+11-09 08:17:54.383  1158  2408 W GLSUser : 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1167)
+11-09 08:17:54.383  1158  2408 W GLSUser : 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:641)
+11-09 08:17:54.383  1158  2408 W GLSUser : 	at spj.run(:com.google.android.gms@201817023@20.18.17 (040800-311416286):0)
+11-09 08:17:54.383  1158  2408 W GLSUser : 	at java.lang.Thread.run(Thread.java:923)
+11-09 08:17:58.282   499   537 I am_pss  : [1573,10160,com.google.android.providers.media.module,19265536,14974976,0,127758336,0,0,2]
+11-09 08:17:58.284   499   537 I am_pss  : [693,1002,com.android.bluetooth,15870976,11952128,0,123342848,0,0,2]
+11-09 08:17:58.287   499   537 I am_pss  : [956,1073,com.android.networkstack.process,20975616,16695296,0,130732032,0,0,2]
+11-09 08:17:58.290   499   537 I am_pss  : [713,10157,com.android.systemui,70719488,62246912,0,211582976,0,0,2]
+11-09 08:17:58.294   499   537 I am_pss  : [499,1000,system,136025088,119721984,0,289271808,0,0,3]
+11-09 08:17:58.296   499   537 I am_pss  : [1676,1000,com.android.emulator.multidisplay,6701056,3198976,0,106065920,0,0,1]
+11-09 08:17:58.298   499   537 I am_pss  : [1648,1001,com.android.ims.rcsservice,6776832,3547136,0,100761600,0,0,1]
+11-09 08:17:58.301   499   537 I am_pss  : [1039,1001,com.android.phone,22944768,17547264,0,133943296,0,0,1]
+11-09 08:17:58.302   499   537 I am_pss  : [1017,1068,com.android.se,6835200,3506176,0,102879232,0,0,1]
+11-09 08:17:59.258  1039  1039 D RILJ    : [0219]> SIGNAL_STRENGTH [PHONE0]
+11-09 08:17:59.259   436   436 D RIL     : onRequest: SIGNAL_STRENGTH
+11-09 08:17:59.259   436   436 D AT      : AT> AT+CSQ
+11-09 08:17:59.259   436   495 D AT      : AT< %CGFPCCFG: 1,5000,14,0,1
+11-09 08:17:59.259   436   495 D RIL     : got CGFPCCFG line %CGFPCCFG: 1,5000,14,0,1 and %CGFPCCFG: 1,5000,14,0,1
+11-09 08:17:59.259   436   495 D RIL     : got i 0, val = 1
+11-09 08:17:59.259   436   495 D RIL     : got i 1, val = 5000
+11-09 08:17:59.259   436   495 D RIL     : got i 2, val = 14
+11-09 08:17:59.259   436   495 D RIL     : got i 3, val = 0
+11-09 08:17:59.259   436   495 D RIL     : got i 4, val = 1
+11-09 08:17:59.259   436   495 D RILC    : reportPhysicalChannelConfigs: 1 5000 14 0 1
+11-09 08:17:59.259   436   495 D AT      : AT< %CGFPCCFG: 2,5000,14,0,1
+11-09 08:17:59.259   436   495 D RIL     : got CGFPCCFG line %CGFPCCFG: 2,5000,14,0,1 and %CGFPCCFG: 2,5000,14,0,1
+11-09 08:17:59.259   436   495 D RIL     : got i 0, val = 2
+11-09 08:17:59.259   436   495 D RIL     : got i 1, val = 5000
+11-09 08:17:59.259   436   495 D RIL     : got i 2, val = 14
+11-09 08:17:59.259   436   495 D RIL     : got i 3, val = 0
+11-09 08:17:59.259   436   495 D RIL     : got i 4, val = 1
+11-09 08:17:59.259   436   495 D RILC    : reportPhysicalChannelConfigs: 2 5000 14 0 1
+11-09 08:17:59.259   436   495 D AT      : AT< +CSQ: 12,4,90,120,80,120,4,90,100,10,30,7,200
+11-09 08:17:59.259   436   495 D AT      : AT< OK
+11-09 08:17:59.259  1039  1220 D RILJ    : [UNSL]< RIL_UNSOL_PHYSICAL_CHANNEL_CONFIG [{mConnectionStatus=PrimaryServing,mCellBandwidthDownlinkKhz=5000,mRat=LTE,mFrequencyRange=UNKNOWN,mChannelNumber=2147483647,mContextIds=[1],mPhysicalCellId=0}] [PHONE0]
+11-09 08:17:59.259  1039  1220 D RILJ    : [UNSL]< RIL_UNSOL_PHYSICAL_CHANNEL_CONFIG [{mConnectionStatus=SecondaryServing,mCellBandwidthDownlinkKhz=5000,mRat=LTE,mFrequencyRange=UNKNOWN,mChannelNumber=2147483647,mContextIds=[1],mPhysicalCellId=0}] [PHONE0]
+11-09 08:17:59.259  1039  1220 E CellSignalStrengthLte: convertRssiAsuToDBm: invalid RSSI in ASU=90
+11-09 08:17:59.260  1039  1220 D RILJ    : [0219]< SIGNAL_STRENGTH SignalStrength:{mCdma=CellSignalStrengthCdma: cdmaDbm=2147483647 cdmaEcio=2147483647 evdoDbm=2147483647 evdoEcio=2147483647 evdoSnr=2147483647 level=0,mGsm=CellSignalStrengthGsm: rssi=2147483647 ber=2147483647 mTa=2147483647 mLevel=0,mWcdma=CellSignalStrengthWcdma: ss=2147483647 ber=2147483647 rscp=2147483647 ecno=2147483647 level=0,mTdscdma=CellSignalStrengthTdscdma: rssi=2147483647 ber=2147483647 rscp=2147483647 level=0,mLte=CellSignalStrengthLte: rssi=2147483647 rsrp=-100 rsrq=-10 rssnr=3 cqi=7 ta=200 level=2 parametersUseForLevel=1,mNr=CellSignalStrengthNr:{ csiRsrp = 2147483647 csiRsrq = 2147483647 csiSinr = 2147483647 ssRsrp = 2147483647 ssRsrq = 2147483647 ssSinr = 2147483647 level = 0 parametersUseForLevel = 1 },primary=CellSignalStrengthLte} [PHONE0]
+11-09 08:18:00.001   713   713 D KeyguardClockSwitch: Updating clock: 818
+11-09 08:18:19.262  1039  1039 D RILJ    : [0220]> SIGNAL_STRENGTH [PHONE0]
+11-09 08:18:19.262   436   436 D RIL     : onRequest: SIGNAL_STRENGTH
+11-09 08:18:19.262   436   436 D AT      : AT> AT+CSQ
+11-09 08:18:19.263   436   495 D AT      : AT< %CGFPCCFG: 1,5000,14,0,1
+11-09 08:18:19.263   436   495 D RIL     : got CGFPCCFG line %CGFPCCFG: 1,5000,14,0,1 and %CGFPCCFG: 1,5000,14,0,1
+11-09 08:18:19.263   436   495 D RIL     : got i 0, val = 1
+11-09 08:18:19.263   436   495 D RIL     : got i 1, val = 5000
+11-09 08:18:19.263   436   495 D RIL     : got i 2, val = 14
+11-09 08:18:19.263   436   495 D RIL     : got i 3, val = 0
+11-09 08:18:19.263   436   495 D RIL     : got i 4, val = 1
+11-09 08:18:19.263   436   495 D RILC    : reportPhysicalChannelConfigs: 1 5000 14 0 1
+11-09 08:18:19.263   436   495 D AT      : AT< %CGFPCCFG: 2,5000,14,0,1
+11-09 08:18:19.263   436   495 D RIL     : got CGFPCCFG line %CGFPCCFG: 2,5000,14,0,1 and %CGFPCCFG: 2,5000,14,0,1
+11-09 08:18:19.263   436   495 D RIL     : got i 0, val = 2
+11-09 08:18:19.263   436   495 D RIL     : got i 1, val = 5000
+11-09 08:18:19.263   436   495 D RIL     : got i 2, val = 14
+11-09 08:18:19.263   436   495 D RIL     : got i 3, val = 0
+11-09 08:18:19.263   436   495 D RIL     : got i 4, val = 1
+11-09 08:18:19.263   436   495 D RILC    : reportPhysicalChannelConfigs: 2 5000 14 0 1
+11-09 08:18:19.263   436   495 D AT      : AT< +CSQ: 12,4,90,120,80,120,4,90,100,10,30,7,200
+11-09 08:18:19.263   436   495 D AT      : AT< OK
+11-09 08:18:19.263  1039  1220 D RILJ    : [UNSL]< RIL_UNSOL_PHYSICAL_CHANNEL_CONFIG [{mConnectionStatus=PrimaryServing,mCellBandwidthDownlinkKhz=5000,mRat=LTE,mFrequencyRange=UNKNOWN,mChannelNumber=2147483647,mContextIds=[1],mPhysicalCellId=0}] [PHONE0]
+11-09 08:18:19.263  1039  1220 D RILJ    : [UNSL]< RIL_UNSOL_PHYSICAL_CHANNEL_CONFIG [{mConnectionStatus=SecondaryServing,mCellBandwidthDownlinkKhz=5000,mRat=LTE,mFrequencyRange=UNKNOWN,mChannelNumber=2147483647,mContextIds=[1],mPhysicalCellId=0}] [PHONE0]
+11-09 08:18:19.263  1039  1220 E CellSignalStrengthLte: convertRssiAsuToDBm: invalid RSSI in ASU=90
+11-09 08:18:19.264  1039  1220 D RILJ    : [0220]< SIGNAL_STRENGTH SignalStrength:{mCdma=CellSignalStrengthCdma: cdmaDbm=2147483647 cdmaEcio=2147483647 evdoDbm=2147483647 evdoEcio=2147483647 evdoSnr=2147483647 level=0,mGsm=CellSignalStrengthGsm: rssi=2147483647 ber=2147483647 mTa=2147483647 mLevel=0,mWcdma=CellSignalStrengthWcdma: ss=2147483647 ber=2147483647 rscp=2147483647 ecno=2147483647 level=0,mTdscdma=CellSignalStrengthTdscdma: rssi=2147483647 ber=2147483647 rscp=2147483647 level=0,mLte=CellSignalStrengthLte: rssi=2147483647 rsrp=-100 rsrq=-10 rssnr=3 cqi=7 ta=200 level=2 parametersUseForLevel=1,mNr=CellSignalStrengthNr:{ csiRsrp = 2147483647 csiRsrq = 2147483647 csiSinr = 2147483647 ssRsrp = 2147483647 ssRsrq = 2147483647 ssSinr = 2147483647 level = 0 parametersUseForLevel = 1 },primary=CellSignalStrengthLte} [PHONE0]
+11-09 08:18:39.266  1039  1039 D RILJ    : [0221]> SIGNAL_STRENGTH [PHONE0]
+11-09 08:18:39.266   436   436 D RIL     : onRequest: SIGNAL_STRENGTH
+11-09 08:18:39.266   436   436 D AT      : AT> AT+CSQ
+11-09 08:18:39.266   436   495 D AT      : AT< %CGFPCCFG: 1,5000,14,0,1
+11-09 08:18:39.266   436   495 D RIL     : got CGFPCCFG line %CGFPCCFG: 1,5000,14,0,1 and %CGFPCCFG: 1,5000,14,0,1
+11-09 08:18:39.266   436   495 D RIL     : got i 0, val = 1
+11-09 08:18:39.266   436   495 D RIL     : got i 1, val = 5000
+11-09 08:18:39.266   436   495 D RIL     : got i 2, val = 14
+11-09 08:18:39.266   436   495 D RIL     : got i 3, val = 0
+11-09 08:18:39.266   436   495 D RIL     : got i 4, val = 1
+11-09 08:18:39.267   436   495 D RILC    : reportPhysicalChannelConfigs: 1 5000 14 0 1
+11-09 08:18:39.267   436   495 D AT      : AT< %CGFPCCFG: 2,5000,14,0,1
+11-09 08:18:39.267   436   495 D RIL     : got CGFPCCFG line %CGFPCCFG: 2,5000,14,0,1 and %CGFPCCFG: 2,5000,14,0,1
+11-09 08:18:39.267   436   495 D RIL     : got i 0, val = 2
+11-09 08:18:39.267   436   495 D RIL     : got i 1, val = 5000
+11-09 08:18:39.267   436   495 D RIL     : got i 2, val = 14
+11-09 08:18:39.267   436   495 D RIL     : got i 3, val = 0
+11-09 08:18:39.267   436   495 D RIL     : got i 4, val = 1
+11-09 08:18:39.267   436   495 D RILC    : reportPhysicalChannelConfigs: 2 5000 14 0 1
+11-09 08:18:39.267   436   495 D AT      : AT< +CSQ: 12,4,90,120,80,120,4,90,100,10,30,7,200
+11-09 08:18:39.267   436   495 D AT      : AT< OK
+11-09 08:18:39.267  1039  1220 D RILJ    : [UNSL]< RIL_UNSOL_PHYSICAL_CHANNEL_CONFIG [{mConnectionStatus=PrimaryServing,mCellBandwidthDownlinkKhz=5000,mRat=LTE,mFrequencyRange=UNKNOWN,mChannelNumber=2147483647,mContextIds=[1],mPhysicalCellId=0}] [PHONE0]
+11-09 08:18:39.267  1039  1220 D RILJ    : [UNSL]< RIL_UNSOL_PHYSICAL_CHANNEL_CONFIG [{mConnectionStatus=SecondaryServing,mCellBandwidthDownlinkKhz=5000,mRat=LTE,mFrequencyRange=UNKNOWN,mChannelNumber=2147483647,mContextIds=[1],mPhysicalCellId=0}] [PHONE0]
+11-09 08:18:39.267  1039  1220 E CellSignalStrengthLte: convertRssiAsuToDBm: invalid RSSI in ASU=90
+11-09 08:18:39.267  1039  1220 D RILJ    : [0221]< SIGNAL_STRENGTH SignalStrength:{mCdma=CellSignalStrengthCdma: cdmaDbm=2147483647 cdmaEcio=2147483647 evdoDbm=2147483647 evdoEcio=2147483647 evdoSnr=2147483647 level=0,mGsm=CellSignalStrengthGsm: rssi=2147483647 ber=2147483647 mTa=2147483647 mLevel=0,mWcdma=CellSignalStrengthWcdma: ss=2147483647 ber=2147483647 rscp=2147483647 ecno=2147483647 level=0,mTdscdma=CellSignalStrengthTdscdma: rssi=2147483647 ber=2147483647 rscp=2147483647 level=0,mLte=CellSignalStrengthLte: rssi=2147483647 rsrp=-100 rsrq=-10 rssnr=3 cqi=7 ta=200 level=2 parametersUseForLevel=1,mNr=CellSignalStrengthNr:{ csiRsrp = 2147483647 csiRsrq = 2147483647 csiSinr = 2147483647 ssRsrp = 2147483647 ssRsrq = 2147483647 ssSinr = 2147483647 level = 0 parametersUseForLevel = 1 },primary=CellSignalStrengthLte} [PHONE0]
+11-09 08:18:47.774   499   537 I am_pss  : [6457,10167,com.userjoy.ujjsgc.jp,1147779072,1116172288,0,1378697216,0,2,18]
+11-09 08:18:59.270  1039  1039 D RILJ    : [0222]> SIGNAL_STRENGTH [PHONE0]
+11-09 08:18:59.270   436   436 D RIL     : onRequest: SIGNAL_STRENGTH
+11-09 08:18:59.270   436   436 D AT      : AT> AT+CSQ
+11-09 08:18:59.271   436   495 D AT      : AT< %CGFPCCFG: 1,5000,14,0,1
+11-09 08:18:59.271   436   495 D RIL     : got CGFPCCFG line %CGFPCCFG: 1,5000,14,0,1 and %CGFPCCFG: 1,5000,14,0,1
+11-09 08:18:59.271   436   495 D RIL     : got i 0, val = 1
+11-09 08:18:59.271   436   495 D RIL     : got i 1, val = 5000
+11-09 08:18:59.271   436   495 D RIL     : got i 2, val = 14
+11-09 08:18:59.271   436   495 D RIL     : got i 3, val = 0
+11-09 08:18:59.271   436   495 D RIL     : got i 4, val = 1
+11-09 08:18:59.271   436   495 D RILC    : reportPhysicalChannelConfigs: 1 5000 14 0 1
+11-09 08:18:59.271   436   495 D AT      : AT< %CGFPCCFG: 2,5000,14,0,1
+11-09 08:18:59.271   436   495 D RIL     : got CGFPCCFG line %CGFPCCFG: 2,5000,14,0,1 and %CGFPCCFG: 2,5000,14,0,1
+11-09 08:18:59.271   436   495 D RIL     : got i 0, val = 2
+11-09 08:18:59.271   436   495 D RIL     : got i 1, val = 5000
+11-09 08:18:59.271   436   495 D RIL     : got i 2, val = 14
+11-09 08:18:59.271   436   495 D RIL     : got i 3, val = 0
+11-09 08:18:59.271   436   495 D RIL     : got i 4, val = 1
+11-09 08:18:59.271   436   495 D RILC    : reportPhysicalChannelConfigs: 2 5000 14 0 1
+11-09 08:18:59.271   436   495 D AT      : AT< +CSQ: 12,4,90,120,80,120,4,90,100,10,30,7,200
+11-09 08:18:59.271   436   495 D AT      : AT< OK
+11-09 08:18:59.272  1039  1220 D RILJ    : [UNSL]< RIL_UNSOL_PHYSICAL_CHANNEL_CONFIG [{mConnectionStatus=PrimaryServing,mCellBandwidthDownlinkKhz=5000,mRat=LTE,mFrequencyRange=UNKNOWN,mChannelNumber=2147483647,mContextIds=[1],mPhysicalCellId=0}] [PHONE0]
+11-09 08:18:59.272  1039  1220 E CellSignalStrengthLte: convertRssiAsuToDBm: invalid RSSI in ASU=90
+11-09 08:18:59.272  1039  1220 D RILJ    : [0222]< SIGNAL_STRENGTH SignalStrength:{mCdma=CellSignalStrengthCdma: cdmaDbm=2147483647 cdmaEcio=2147483647 evdoDbm=2147483647 evdoEcio=2147483647 evdoSnr=2147483647 level=0,mGsm=CellSignalStrengthGsm: rssi=2147483647 ber=2147483647 mTa=2147483647 mLevel=0,mWcdma=CellSignalStrengthWcdma: ss=2147483647 ber=2147483647 rscp=2147483647 ecno=2147483647 level=0,mTdscdma=CellSignalStrengthTdscdma: rssi=2147483647 ber=2147483647 rscp=2147483647 level=0,mLte=CellSignalStrengthLte: rssi=2147483647 rsrp=-100 rsrq=-10 rssnr=3 cqi=7 ta=200 level=2 parametersUseForLevel=1,mNr=CellSignalStrengthNr:{ csiRsrp = 2147483647 csiRsrq = 2147483647 csiSinr = 2147483647 ssRsrp = 2147483647 ssRsrq = 2147483647 ssSinr = 2147483647 level = 0 parametersUseForLevel = 1 },primary=CellSignalStrengthLte} [PHONE0]
+11-09 08:18:59.272  1039  1220 D RILJ    : [UNSL]< RIL_UNSOL_PHYSICAL_CHANNEL_CONFIG [{mConnectionStatus=SecondaryServing,mCellBandwidthDownlinkKhz=5000,mRat=LTE,mFrequencyRange=UNKNOWN,mChannelNumber=2147483647,mContextIds=[1],mPhysicalCellId=0}] [PHONE0]
+11-09 08:19:00.002   713   713 D KeyguardClockSwitch: Updating clock: 819
+11-09 08:18:09.921     0     0 W healthd : battery l=100 v=5000 t=25.0 h=2 st=2 c=900000 fc=300000 cc=10 chg=a
+11-09 08:19:09.922     0     0 W healthd : battery l=100 v=5000 t=25.0 h=2 st=2 c=900000 fc=300000 cc=10 chg=a
+11-09 08:19:15.023   166   166 I hwservicemanager: getTransport: Cannot find entry android.hardware.graphics.mapper@4.0::IMapper/default in either framework or device manifest.
+11-09 08:19:15.024  6751  6751 I Gralloc4: mapper 4.x is not supported
+11-09 08:19:15.027  6751  6751 D HostConnection: createUnique: call
+11-09 08:19:15.030  6751  6751 D HostConnection: HostConnection::get() New Host Connection established 0x76600a148110, tid 6751
+11-09 08:19:15.042  6751  6751 D HostConnection: HostComposition ext ANDROID_EMU_CHECKSUM_HELPER_v1 ANDROID_EMU_native_sync_v2 ANDROID_EMU_dma_v1 ANDROID_EMU_direct_mem ANDROID_EMU_host_composition_v1 ANDROID_EMU_host_composition_v2 ANDROID_EMU_YUV_Cache ANDROID_EMU_has_shared_slots_host_memory_allocator ANDROID_EMU_sync_buffer_data ANDROID_EMU_read_color_buffer_dma ANDROID_EMU_hwc_color_transform GL_OES_EGL_image_external_essl3 GL_OES_vertex_array_object GL_KHR_texture_compression_astc_ldr ANDROID_EMU_host_side_tracing ANDROID_EMU_gles_max_version_3_0 
+11-09 08:19:17.504   166   166 I hwservicemanager: getTransport: Cannot find entry android.hardware.graphics.mapper@4.0::IMapper/default in either framework or device manifest.
+11-09 08:19:17.504  6755  6755 I Gralloc4: mapper 4.x is not supported
+11-09 08:19:17.509  6755  6755 D HostConnection: createUnique: call
+11-09 08:19:17.509  6755  6755 D HostConnection: HostConnection::get() New Host Connection established 0x769cd7d960d0, tid 6755
+11-09 08:19:17.523  6755  6755 D HostConnection: HostComposition ext ANDROID_EMU_CHECKSUM_HELPER_v1 ANDROID_EMU_native_sync_v2 ANDROID_EMU_dma_v1 ANDROID_EMU_direct_mem ANDROID_EMU_host_composition_v1 ANDROID_EMU_host_composition_v2 ANDROID_EMU_YUV_Cache ANDROID_EMU_has_shared_slots_host_memory_allocator ANDROID_EMU_sync_buffer_data ANDROID_EMU_read_color_buffer_dma ANDROID_EMU_hwc_color_transform GL_OES_EGL_image_external_essl3 GL_OES_vertex_array_object GL_KHR_texture_compression_astc_ldr ANDROID_EMU_host_side_tracing ANDROID_EMU_gles_max_version_3_0 
