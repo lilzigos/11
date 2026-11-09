@@ -1,0 +1,38 @@
+{
+  "run_id": "42553798842",
+  "sequence": 1,
+  "actions": [
+    {
+      "op": "tap",
+      "x": 640,
+      "y": 604
+    },
+    {
+      "op": "wait",
+      "seconds": 8
+    },
+    {
+      "op": "capture"
+    },
+    {
+      "op": "tap",
+      "x": 200,
+      "y": 617
+    },
+    {
+      "op": "wait",
+      "seconds": 15
+    },
+    {
+      "op": "wait",
+      "seconds": 15
+    },
+    {
+      "op": "wait",
+      "seconds": 15
+    },
+    {
+      "op": "capture"
+    }
+  ]
+}
