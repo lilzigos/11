@@ -11768,3 +11768,162 @@
 11-09 08:13:29.002  6370  6370 D HostConnection: createUnique: call
 11-09 08:13:29.003  6370  6370 D HostConnection: HostConnection::get() New Host Connection established 0x7b3cefa50a90, tid 6370
 11-09 08:13:29.018  6370  6370 D HostConnection: HostComposition ext ANDROID_EMU_CHECKSUM_HELPER_v1 ANDROID_EMU_native_sync_v2 ANDROID_EMU_dma_v1 ANDROID_EMU_direct_mem ANDROID_EMU_host_composition_v1 ANDROID_EMU_host_composition_v2 ANDROID_EMU_YUV_Cache ANDROID_EMU_has_shared_slots_host_memory_allocator ANDROID_EMU_sync_buffer_data ANDROID_EMU_read_color_buffer_dma ANDROID_EMU_hwc_color_transform GL_OES_EGL_image_external_essl3 GL_OES_vertex_array_object GL_KHR_texture_compression_astc_ldr ANDROID_EMU_host_side_tracing ANDROID_EMU_gles_max_version_3_0 
+11-09 08:13:34.862   499   527 D WifiNl80211Manager: Scan result ready event
+11-09 08:13:34.862   499   527 D WifiNative: Scan result ready event
+11-09 08:13:37.072  6372  6372 D AndroidRuntime: >>>>>> START com.android.internal.os.RuntimeInit uid 0 <<<<<<
+11-09 08:13:37.074  6372  6372 I AndroidRuntime: Using default boot image
+11-09 08:13:37.074  6372  6372 I AndroidRuntime: Leaving lock profiling enabled
+11-09 08:13:37.076  6372  6372 I app_process: Core platform API reporting enabled, enforcing=false
+11-09 08:13:37.139  6372  6372 D app_process: Time zone APEX ICU file found: /apex/com.android.tzdata/etc/icu/icu_tzdata.dat
+11-09 08:13:37.139  6372  6372 D app_process: I18n APEX ICU file found: /apex/com.android.i18n/etc/icu/icudt66l.dat
+11-09 08:13:37.142  6372  6372 W app_process: Unexpected CPU variant for X86 using defaults: x86_64
+11-09 08:13:37.143  6372  6372 I app_process: The ClassLoaderContext is a special shared library.
+11-09 08:13:37.149  6372  6372 W app_process: JNI RegisterNativeMethods: attempt to register 0 native methods for android.media.AudioAttributes
+11-09 08:13:37.151  6372  6372 D AndroidRuntime: Calling main entry com.android.commands.input.Input
+11-09 08:13:37.154  6372  6372 D AndroidRuntime: Shutting down VM
+11-09 08:13:37.541  5353  5417 I Unity   : 08:13:37.539-873: [SGM Offline World] attack-request 1001 202500089
+11-09 08:13:37.541  5353  5417 I Unity   : LuaInterface.Debugger:Log(String)
+11-09 08:13:37.541  5353  5417 I Unity   : LuaInterface.ToLua:Print(IntPtr)
+11-09 08:13:37.541  5353  5417 I Unity   : 
+11-09 08:13:37.550  5353  5417 I Unity   : 08:13:37.550-873: [SGM Offline World] attack-start 1001 202500089 3 0.45 1
+11-09 08:13:37.550  5353  5417 I Unity   : LuaInterface.Debugger:Log(String)
+11-09 08:13:37.550  5353  5417 I Unity   : LuaInterface.ToLua:Print(IntPtr)
+11-09 08:13:37.550  5353  5417 I Unity   : 
+11-09 08:13:37.872  5353  5417 I Unity   : 08:13:37.871-876: [SGM Offline World] attack-damage 202500089 1 0
+11-09 08:13:37.872  5353  5417 I Unity   : LuaInterface.Debugger:Log(String)
+11-09 08:13:37.872  5353  5417 I Unity   : LuaInterface.ToLua:Print(IntPtr)
+11-09 08:13:37.872  5353  5417 I Unity   : 
+11-09 08:13:37.922  5353  5417 I Unity   : 08:13:37.921-876: [SGM Offline World] saved 1001 250 23712 2080 6 0
+11-09 08:13:37.922  5353  5417 I Unity   : LuaInterface.Debugger:Log(String)
+11-09 08:13:37.922  5353  5417 I Unity   : LuaInterface.ToLua:Print(IntPtr)
+11-09 08:13:37.922  5353  5417 I Unity   : 
+11-09 08:13:39.178  1039  1039 D RILJ    : [0206]> SIGNAL_STRENGTH [PHONE0]
+11-09 08:13:39.178   436   436 D RIL     : onRequest: SIGNAL_STRENGTH
+11-09 08:13:39.178   436   436 D AT      : AT> AT+CSQ
+11-09 08:13:39.179   436   495 D AT      : AT< %CGFPCCFG: 1,5000,14,0,1
+11-09 08:13:39.179   436   495 D RIL     : got CGFPCCFG line %CGFPCCFG: 1,5000,14,0,1 and %CGFPCCFG: 1,5000,14,0,1
+11-09 08:13:39.179   436   495 D RIL     : got i 0, val = 1
+11-09 08:13:39.179   436   495 D RIL     : got i 1, val = 5000
+11-09 08:13:39.179   436   495 D RIL     : got i 2, val = 14
+11-09 08:13:39.179   436   495 D RIL     : got i 3, val = 0
+11-09 08:13:39.179   436   495 D RIL     : got i 4, val = 1
+11-09 08:13:39.179   436   495 D RILC    : reportPhysicalChannelConfigs: 1 5000 14 0 1
+11-09 08:13:39.179   436   495 D AT      : AT< %CGFPCCFG: 2,5000,14,0,1
+11-09 08:13:39.179   436   495 D RIL     : got CGFPCCFG line %CGFPCCFG: 2,5000,14,0,1 and %CGFPCCFG: 2,5000,14,0,1
+11-09 08:13:39.179   436   495 D RIL     : got i 0, val = 2
+11-09 08:13:39.179   436   495 D RIL     : got i 1, val = 5000
+11-09 08:13:39.179   436   495 D RIL     : got i 2, val = 14
+11-09 08:13:39.179   436   495 D RIL     : got i 3, val = 0
+11-09 08:13:39.179   436   495 D RIL     : got i 4, val = 1
+11-09 08:13:39.179   436   495 D RILC    : reportPhysicalChannelConfigs: 2 5000 14 0 1
+11-09 08:13:39.179   436   495 D AT      : AT< +CSQ: 12,4,90,120,80,120,4,90,100,10,30,7,200
+11-09 08:13:39.179   436   495 D AT      : AT< OK
+11-09 08:13:39.179  1039  1220 D RILJ    : [UNSL]< RIL_UNSOL_PHYSICAL_CHANNEL_CONFIG [{mConnectionStatus=PrimaryServing,mCellBandwidthDownlinkKhz=5000,mRat=LTE,mFrequencyRange=UNKNOWN,mChannelNumber=2147483647,mContextIds=[1],mPhysicalCellId=0}] [PHONE0]
+11-09 08:13:39.179  1039  1220 E CellSignalStrengthLte: convertRssiAsuToDBm: invalid RSSI in ASU=90
+11-09 08:13:39.179  1039  1220 D RILJ    : [0206]< SIGNAL_STRENGTH SignalStrength:{mCdma=CellSignalStrengthCdma: cdmaDbm=2147483647 cdmaEcio=2147483647 evdoDbm=2147483647 evdoEcio=2147483647 evdoSnr=2147483647 level=0,mGsm=CellSignalStrengthGsm: rssi=2147483647 ber=2147483647 mTa=2147483647 mLevel=0,mWcdma=CellSignalStrengthWcdma: ss=2147483647 ber=2147483647 rscp=2147483647 ecno=2147483647 level=0,mTdscdma=CellSignalStrengthTdscdma: rssi=2147483647 ber=2147483647 rscp=2147483647 level=0,mLte=CellSignalStrengthLte: rssi=2147483647 rsrp=-100 rsrq=-10 rssnr=3 cqi=7 ta=200 level=2 parametersUseForLevel=1,mNr=CellSignalStrengthNr:{ csiRsrp = 2147483647 csiRsrq = 2147483647 csiSinr = 2147483647 ssRsrp = 2147483647 ssRsrq = 2147483647 ssSinr = 2147483647 level = 0 parametersUseForLevel = 1 },primary=CellSignalStrengthLte} [PHONE0]
+11-09 08:13:39.180  1039  1220 D RILJ    : [UNSL]< RIL_UNSOL_PHYSICAL_CHANNEL_CONFIG [{mConnectionStatus=SecondaryServing,mCellBandwidthDownlinkKhz=5000,mRat=LTE,mFrequencyRange=UNKNOWN,mChannelNumber=2147483647,mContextIds=[1],mPhysicalCellId=0}] [PHONE0]
+11-09 08:13:40.123   166   166 I hwservicemanager: getTransport: Cannot find entry android.hardware.graphics.mapper@4.0::IMapper/default in either framework or device manifest.
+11-09 08:13:40.124  6387  6387 I Gralloc4: mapper 4.x is not supported
+11-09 08:13:40.129  6387  6387 D HostConnection: createUnique: call
+11-09 08:13:40.130  6387  6387 D HostConnection: HostConnection::get() New Host Connection established 0x79674f347950, tid 6387
+11-09 08:13:40.144  6387  6387 D HostConnection: HostComposition ext ANDROID_EMU_CHECKSUM_HELPER_v1 ANDROID_EMU_native_sync_v2 ANDROID_EMU_dma_v1 ANDROID_EMU_direct_mem ANDROID_EMU_host_composition_v1 ANDROID_EMU_host_composition_v2 ANDROID_EMU_YUV_Cache ANDROID_EMU_has_shared_slots_host_memory_allocator ANDROID_EMU_sync_buffer_data ANDROID_EMU_read_color_buffer_dma ANDROID_EMU_hwc_color_transform GL_OES_EGL_image_external_essl3 GL_OES_vertex_array_object GL_KHR_texture_compression_astc_ldr ANDROID_EMU_host_side_tracing ANDROID_EMU_gles_max_version_3_0 
+11-09 08:13:40.570  6127  6127 W BugleDataModel: ActionExecutorImpl: Action started execution, but we can't guarantee it will complete, the app may be killed. Action: class com.google.android.apps.messaging.shared.datamodel.action.GenericWorkerQueueAction-GenericWorkerQueueAction:271779010
+11-09 08:13:40.570  6127  6127 W BugleDataModel: java.lang.IllegalStateException: Not allowed to start service Intent { cmp=com.google.android.apps.messaging/.shared.datamodel.action.execution.ActionExecutorImpl$EmptyService }: app is in background uid UidRecord{23d10ec u0a146 CEM  idle procs:1 seq(0,0,0)}
+11-09 08:13:40.570  6127  6127 W BugleDataModel: 	at android.app.ContextImpl.startServiceCommon(ContextImpl.java:1715)
+11-09 08:13:40.570  6127  6127 W BugleDataModel: 	at android.app.ContextImpl.startService(ContextImpl.java:1670)
+11-09 08:13:40.570  6127  6127 W BugleDataModel: 	at android.content.ContextWrapper.startService(ContextWrapper.java:720)
+11-09 08:13:40.570  6127  6127 W BugleDataModel: 	at com.google.android.apps.messaging.shared.datamodel.action.execution.ActionExecutorImpl.a(PG:98)
+11-09 08:13:40.570  6127  6127 W BugleDataModel: 	at com.google.android.apps.messaging.shared.datamodel.action.execution.ActionExecutorImpl.a(PG:93)
+11-09 08:13:40.570  6127  6127 W BugleDataModel: 	at gjl.c(PG:119)
+11-09 08:13:40.570  6127  6127 W BugleDataModel: 	at gji.run(Unknown Source:1)
+11-09 08:13:40.570  6127  6127 W BugleDataModel: 	at afou.run(PG:3)
+11-09 08:13:40.570  6127  6127 W BugleDataModel: 	at android.os.Handler.handleCallback(Handler.java:938)
+11-09 08:13:40.570  6127  6127 W BugleDataModel: 	at android.os.Handler.dispatchMessage(Handler.java:99)
+11-09 08:13:40.570  6127  6127 W BugleDataModel: 	at android.os.Looper.loop(Looper.java:223)
+11-09 08:13:40.570  6127  6127 W BugleDataModel: 	at android.app.ActivityThread.main(ActivityThread.java:7656)
+11-09 08:13:40.570  6127  6127 W BugleDataModel: 	at java.lang.reflect.Method.invoke(Native Method)
+11-09 08:13:40.570  6127  6127 W BugleDataModel: 	at com.android.internal.os.RuntimeInit$MethodAndArgsCaller.run(RuntimeInit.java:592)
+11-09 08:13:40.570  6127  6127 W BugleDataModel: 	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:947)
+11-09 08:13:40.574  6127  6366 I BugleJobs: GenericWorkerQueueAction: Work found
+11-09 08:13:40.624  6127  6365 I BugleJobs: GenericWorkerQueueAction: Rescheduling immediately
+11-09 08:13:28.396   499   527 I chatty  : uid=1000(system) Binder:499_2 identical 1 line
+11-09 08:13:40.569   499   527 W ActivityManager: Background start not allowed: service Intent { cmp=com.google.android.apps.messaging/.shared.datamodel.action.execution.ActionExecutorImpl$EmptyService } to com.google.android.apps.messaging/.shared.datamodel.action.execution.ActionExecutorImpl$EmptyService from pid=6127 uid=10146 pkg=com.google.android.apps.messaging startFg?=false
+11-09 08:13:40.638   499  3201 W ActivityManager: Background start not allowed: service Intent { cmp=com.google.android.apps.messaging/.shared.datamodel.action.execution.ActionExecutorImpl$EmptyService } to com.google.android.apps.messaging/.shared.datamodel.action.execution.ActionExecutorImpl$EmptyService from pid=6127 uid=10146 pkg=com.google.android.apps.messaging startFg?=false
+11-09 08:13:40.640  6127  6389 I BugleJobs: GenericWorkerQueueAction: Bailing early, no work found, no failed work found
+11-09 08:13:40.673   499  3201 D WifiNl80211Manager: Scan result ready event
+11-09 08:13:40.673   499  3201 D WifiNative: Scan result ready event
+11-09 08:13:44.649   499   499 I am_uid_running: 10113
+11-09 08:13:44.650   499   499 D CompatibilityChangeReporter: Compat change id reported: 135634846; UID 10113; state: DISABLED
+11-09 08:13:44.650   499   539 D CompatibilityChangeReporter: Compat change id reported: 143937733; UID 10113; state: DISABLED
+11-09 08:13:44.655   286   286 D Zygote  : Forked child process 6390
+11-09 08:13:44.655   499   539 I am_proc_start: [0,6390,10113,com.google.android.projection.gearhead:shared,service,{com.google.android.projection.gearhead/com.google.android.apps.auto.components.app.fzero.LauncherIconStateVerificationService}]
+11-09 08:13:44.655   499   539 I ActivityManager: Start proc 6390:com.google.android.projection.gearhead:shared/u0a113 for service {com.google.android.projection.gearhead/com.google.android.apps.auto.components.app.fzero.LauncherIconStateVerificationService}
+11-09 08:13:44.661  6390  6390 W gearhead:share: Unexpected CPU variant for X86 using defaults: x86_64
+11-09 08:13:44.669  2224  2241 I adbd    : jdwp connection from 6390
+11-09 08:13:44.670   499   527 I am_proc_bound: [0,6390,com.google.android.projection.gearhead:shared]
+11-09 08:13:44.676  6390  6390 D ApplicationLoaders: Returning zygote-cached class loader: /system/framework/android.test.base.jar
+11-09 08:13:44.677  6390  6390 I gearhead:share: The ClassLoaderContext is a special shared library.
+11-09 08:13:44.679  6390  6390 I gearhead:share: The ClassLoaderContext is a special shared library.
+11-09 08:13:44.680  6390  6390 D nativeloader: classloader namespace configured for unbundled product apk. library_path=/product/priv-app/AndroidAutoFullPrebuilt/lib/x86_64:/product/priv-app/AndroidAutoFullPrebuilt/AndroidAutoFullPrebuilt.apk!/lib/x86_64:/product/lib64:/system/product/lib64
+11-09 08:13:44.685  6390  6390 D NetworkSecurityConfig: No Network Security Config specified, using platform default
+11-09 08:13:44.685  6390  6390 D NetworkSecurityConfig: No Network Security Config specified, using platform default
+11-09 08:13:44.702  6390  6390 I MultiDex: VM with version 2.1.0 has multidex support
+11-09 08:13:44.702  6390  6390 I MultiDex: install
+11-09 08:13:44.702  6390  6390 I MultiDex: VM has multidex support, MultiDex support library is disabled.
+11-09 08:13:44.704  6390  6390 W Primes  : Primes not initialized, returning default (no-op) Primes instance which will ignore all calls. Please call Primes.initialize(...) before using any Primes API.
+11-09 08:13:44.706  6390  6390 I CAR.GH  : onCreate
+11-09 08:13:44.713  6390  6390 I CAR.GH  : Process: SHARED_SERVICE
+11-09 08:13:44.716  6390  6390 V PrimesApiImpl: Primes instant initialization
+11-09 08:13:44.718  6390  6409 W gearhead:share: Accessing hidden field Ljava/util/Collections$SynchronizedCollection;->mutex:Ljava/lang/Object; (greylist-max-o, reflection, denied)
+11-09 08:13:44.718  6390  6409 W gearhead:share: Accessing hidden method Ljava/util/Collections$SynchronizedSet;-><init>(Ljava/util/Set;Ljava/lang/Object;)V (greylist-max-o, reflection, denied)
+11-09 08:13:44.718  6390  6409 W gearhead:share: Accessing hidden method Ljava/util/Collections$SynchronizedCollection;-><init>(Ljava/util/Collection;Ljava/lang/Object;)V (greylist-max-o, reflection, denied)
+11-09 08:13:44.720  6390  6410 I PrimesApiImpl: background initialization
+11-09 08:13:44.760  6390  6390 I CAR.TOKEN: useTransitionalToken: true
+11-09 08:13:44.765  6390  6390 I GAv4    : Google Analytics 201.7.02 is starting up. To enable debug logging on a device run:
+11-09 08:13:44.765  6390  6390 I GAv4    :   adb shell setprop log.tag.GAv4 DEBUG
+11-09 08:13:44.765  6390  6390 I GAv4    :   adb logcat -s GAv4
+11-09 08:13:44.769  6390  6390 W GH.CarClientManager: getToken() called while client was disconnected!
+11-09 08:13:44.769  6390  6390 W GH.CarClientManager: java.lang.RuntimeException: Current stack
+11-09 08:13:44.769  6390  6390 W GH.CarClientManager: 	at btj.e(SourceFile:25)
+11-09 08:13:44.769  6390  6390 W GH.CarClientManager: 	at dpo.<init>(SourceFile:17)
+11-09 08:13:44.769  6390  6390 W GH.CarClientManager: 	at epd.a(Unknown Source:2)
+11-09 08:13:44.769  6390  6390 W GH.CarClientManager: 	at hrz.a(Unknown Source:11)
+11-09 08:13:44.769  6390  6390 W GH.CarClientManager: 	at hsw.a(SourceFile:23)
+11-09 08:13:44.769  6390  6390 W GH.CarClientManager: 	at hry.apply(Unknown Source:2)
+11-09 08:13:44.769  6390  6390 W GH.CarClientManager: 	at j$.util.Map$$CC.computeIfAbsent$$dflt$$(Unknown Source:957)
+11-09 08:13:44.769  6390  6390 W GH.CarClientManager: 	at mg.computeIfAbsent(Unknown Source:0)
+11-09 08:13:44.769  6390  6390 W GH.CarClientManager: 	at j$.util.Map$$Dispatch.computeIfAbsent(Unknown Source:6)
+11-09 08:13:44.769  6390  6390 W GH.CarClientManager: 	at hsa.a(SourceFile:9)
+11-09 08:13:44.769  6390  6390 W GH.CarClientManager: 	at hsa.c(SourceFile:11)
+11-09 08:13:44.769  6390  6390 W GH.CarClientManager: 	at cxf.a(SourceFile:43)
+11-09 08:13:44.769  6390  6390 W GH.CarClientManager: 	at eqg.a(SourceFile:32)
+11-09 08:13:44.769  6390  6390 W GH.CarClientManager: 	at com.google.android.projection.gearhead.GhApplication.onCreate(SourceFile:78)
+11-09 08:13:44.769  6390  6390 W GH.CarClientManager: 	at android.app.Instrumentation.callApplicationOnCreate(Instrumentation.java:1192)
+11-09 08:13:44.769  6390  6390 W GH.CarClientManager: 	at android.app.ActivityThread.handleBindApplication(ActivityThread.java:6712)
+11-09 08:13:44.769  6390  6390 W GH.CarClientManager: 	at android.app.ActivityThread.access$1300(ActivityThread.java:237)
+11-09 08:13:44.769  6390  6390 W GH.CarClientManager: 	at android.app.ActivityThread$H.handleMessage(ActivityThread.java:1913)
+11-09 08:13:44.769  6390  6390 W GH.CarClientManager: 	at android.os.Handler.dispatchMessage(Handler.java:106)
+11-09 08:13:44.769  6390  6390 W GH.CarClientManager: 	at android.os.Looper.loop(Looper.java:223)
+11-09 08:13:44.769  6390  6390 W GH.CarClientManager: 	at android.app.ActivityThread.main(ActivityThread.java:7656)
+11-09 08:13:44.769  6390  6390 W GH.CarClientManager: 	at java.lang.reflect.Method.invoke(Native Method)
+11-09 08:13:44.769  6390  6390 W GH.CarClientManager: 	at com.android.internal.os.RuntimeInit$MethodAndArgsCaller.run(RuntimeInit.java:592)
+11-09 08:13:44.769  6390  6390 W GH.CarClientManager: 	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:947)
+11-09 08:13:44.769  6390  6415 W GAv4    : AnalyticsReceiver is not registered or is disabled. Register the receiver for reliable dispatching on non-Google Play devices. See http://goo.gl/8Rd3yj for instructions.
+11-09 08:13:44.771  6390  6415 W GAv4    : CampaignTrackingReceiver is not registered, not exported or is disabled. Installation campaign tracking is not possible. See http://goo.gl/8Rd3yj for instructions.
+11-09 08:13:44.771  6390  6415 W GAv4    : AnalyticsService not registered in the app manifest. Hits might not be delivered reliably. See http://goo.gl/8Rd3yj for instructions.
+11-09 08:13:44.787  6390  6390 I GH.CONFIG: groups:
+11-09 08:13:44.787  6390  6390 I GH.CONFIG: everyone
+11-09 08:13:44.792  6390  6390 I GH.IconVerifyService: triggerSource = BOOT_COMPLETE, componentState = 2
+11-09 08:13:44.802  6390  6390 I CAR.ANALYTICS: Flushing event queue to clearcut
+11-09 08:13:45.747   166   166 I hwservicemanager: getTransport: Cannot find entry android.hardware.graphics.mapper@4.0::IMapper/default in either framework or device manifest.
+11-09 08:13:45.747  6423  6423 I Gralloc4: mapper 4.x is not supported
+11-09 08:13:45.761  6423  6423 D HostConnection: createUnique: call
+11-09 08:13:45.762  6423  6423 D HostConnection: HostConnection::get() New Host Connection established 0x70510310f550, tid 6423
+11-09 08:13:45.779  6423  6423 D HostConnection: HostComposition ext ANDROID_EMU_CHECKSUM_HELPER_v1 ANDROID_EMU_native_sync_v2 ANDROID_EMU_dma_v1 ANDROID_EMU_direct_mem ANDROID_EMU_host_composition_v1 ANDROID_EMU_host_composition_v2 ANDROID_EMU_YUV_Cache ANDROID_EMU_has_shared_slots_host_memory_allocator ANDROID_EMU_sync_buffer_data ANDROID_EMU_read_color_buffer_dma ANDROID_EMU_hwc_color_transform GL_OES_EGL_image_external_essl3 GL_OES_vertex_array_object GL_KHR_texture_compression_astc_ldr ANDROID_EMU_host_side_tracing ANDROID_EMU_gles_max_version_3_0 
+11-09 08:13:45.857   499   537 I am_pss  : [1445,10121,com.android.dialer,10565632,7389184,0,107532288,0,19,2]
+11-09 08:13:46.815   499   531 I commit_sys_config_file: [jobs,6]
+11-09 08:13:48.288   166   166 I hwservicemanager: getTransport: Cannot find entry android.hardware.graphics.mapper@4.0::IMapper/default in either framework or device manifest.
+11-09 08:13:48.288  6427  6427 I Gralloc4: mapper 4.x is not supported
+11-09 08:13:48.293  6427  6427 D HostConnection: createUnique: call
+11-09 08:13:48.294  6427  6427 D HostConnection: HostConnection::get() New Host Connection established 0x7a954231b250, tid 6427
+11-09 08:13:48.312  6427  6427 D HostConnection: HostComposition ext ANDROID_EMU_CHECKSUM_HELPER_v1 ANDROID_EMU_native_sync_v2 ANDROID_EMU_dma_v1 ANDROID_EMU_direct_mem ANDROID_EMU_host_composition_v1 ANDROID_EMU_host_composition_v2 ANDROID_EMU_YUV_Cache ANDROID_EMU_has_shared_slots_host_memory_allocator ANDROID_EMU_sync_buffer_data ANDROID_EMU_read_color_buffer_dma ANDROID_EMU_hwc_color_transform GL_OES_EGL_image_external_essl3 GL_OES_vertex_array_object GL_KHR_texture_compression_astc_ldr ANDROID_EMU_host_side_tracing ANDROID_EMU_gles_max_version_3_0 
