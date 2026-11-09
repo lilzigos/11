@@ -18,7 +18,7 @@ apk, out = Path(sys.argv[1]), Path(sys.argv[2])
 out.mkdir(exist_ok=True)
 package = 'com.userjoy.ujjsgc.jp'
 activity = package + '/com.unity3d.player.UnityPlayerActivity'
-expected = 'ca42daf64a3463411023f60aeec34e37f473a05db42b071fffb1a0080bdd1bb6'
+expected = 'f1367e331a7cf21057b073f7f61b61e7630a7853c1d96ffc3b09c738cb2875f0'
 
 def adb(*args, timeout=60, check=True):
     p = subprocess.run(['adb', *args], capture_output=True, timeout=timeout)
@@ -72,8 +72,16 @@ def interactive(seconds):
     deadline = time.monotonic() + seconds
     seen_document = None
     done = False
+    next_capture = time.monotonic() + 60
+    checkpoint = 0
     while time.monotonic() < deadline and not done:
         assert log_proc.poll() is None, 'Android logger exited during interactive test'
+        if time.monotonic() >= next_capture:
+            checkpoint += 1
+            take_capture(f'checkpoint-{checkpoint:03}.png')
+            snapshot_logs()
+            publish()
+            next_capture = time.monotonic() + 60
         p = subprocess.run(['git', 'fetch', '--no-tags', 'origin', branch],
                            capture_output=True, timeout=40)
         if p.returncode:
@@ -118,6 +126,7 @@ def interactive(seconds):
         publish()
     report['control']['active'] = False
     report['control']['end_reason'] = 'finish command' if done else 'time limit'
+    take_capture('interactive-final.png')
     snapshot_logs()
     publish()
 

@@ -5,7 +5,7 @@
   "source_sha256": "613c092cd780b49eeb4fcbf736ff427fcc7622e475937d2a3178f2821f181202",
   "target_name": "sgm-offline.apk",
   "target_size": 1737826175,
-  "target_sha256": "ca42daf64a3463411023f60aeec34e37f473a05db42b071fffb1a0080bdd1bb6",
+  "target_sha256": "f1367e331a7cf21057b073f7f61b61e7630a7853c1d96ffc3b09c738cb2875f0",
   "operation_count": 10,
   "unchanged_compressed_entries": 5982,
   "changed_entries": [
@@ -13,6 +13,6 @@
     "assets/BundleData/unload.uab",
     "assets/BundleData/unload64.uab"
   ],
-  "patch_sha256": "57d9aa1e4e05df916a81470e30bfa9f9cea2adabcabda680db29f44f0b2140a1",
-  "patch_size": 24795536
+  "patch_sha256": "8a68ae48adbcb54a7c836cee44cac537ede4059a1bd3ccc7dd69a5e17bfd3049",
+  "patch_size": 24795745
 }

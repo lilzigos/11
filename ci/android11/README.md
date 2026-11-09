@@ -5,7 +5,7 @@ branch and its existing APK are not changed by the test.
 
 The SHA-bound binary patch reconstructs the already signed internal APK from the
 existing candidate 004. The reconstructed file must have SHA256
-`ca42daf64a3463411023f60aeec34e37f473a05db42b071fffb1a0080bdd1bb6`.
+`f1367e331a7cf21057b073f7f61b61e7630a7853c1d96ffc3b09c738cb2875f0`.
 No signing key is included. Standard Android package installation remains enabled.
 
 This internal build removes the multiplayer voice-volume call into the absent
@@ -56,3 +56,8 @@ names, limited key events, waits, capture, restart, or finish operations. No
 arbitrary shell commands or supplied file paths are executed. Evidence records
 each consumed sequence; failed commands are not replayed. The `gameplay_verified`
 field remains false until the actual images and behavior are reviewed.
+
+Run 6 reached login and character creation with no recorded Unity exceptions.
+Its last input capture was still loading. This test uses normal Lua print for
+world diagnostics and adds periodic/final captures throughout interaction.
+Map, combat and save/load for this exact APK must still be reviewed.
