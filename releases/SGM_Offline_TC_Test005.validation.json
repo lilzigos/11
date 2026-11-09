@@ -1,0 +1,28 @@
+{
+  "apk": "SGM_Offline_TC_Test005.apk",
+  "sha256": "f1367e331a7cf21057b073f7f61b61e7630a7853c1d96ffc3b09c738cb2875f0",
+  "size": 1737826175,
+  "review_date": "2026-11-09",
+  "android": "11 / API 30, official emulator with ARM translation",
+  "game_external_ipv4_ipv6_blocked": true,
+  "ci_run": "https://github.com/lilzigos/11/actions/runs/42583353044",
+  "evidence_commit": "1fedfdd7f02b4c58ed2734dc560747b0b1bb9dfd",
+  "verified_milestones": {
+    "original_login_and_creation": "input-001-02.png",
+    "original_map_and_movement": "input-001-10.png, input-001-final.png; saved position 13152,1504 -> 23712,2080",
+    "original_normal_attack_and_death": "input-002-02.png; target 202500089 HP 1 -> 0",
+    "earned_rewards": "input-002-02.png; experience 6, skill points 3, premium currency 22",
+    "force_stop_restart_and_load": "input-004-final.png, input-005-final.png; new PID 6457 versus 5353; saved position and EXP recovered, currency 22 retained"
+  },
+  "recorded_unity_exceptions": [],
+  "full_single_player_game_complete": false,
+  "unverified_or_incomplete": [
+    "level progression",
+    "cross-map travel",
+    "later quests",
+    "full skill combat and AI",
+    "equipment use",
+    "Android device compatibility outside the emulator"
+  ],
+  "note": "The CI report deliberately never auto-sets gameplay_verified; these milestones were reviewed from its actual screenshots and logs. The published APK is byte-identical to the APK installed in that run."
+}
