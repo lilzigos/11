@@ -12046,3 +12046,662 @@
 11-09 08:14:32.893  6432  6432 D HostConnection: createUnique: call
 11-09 08:14:32.893  6432  6432 D HostConnection: HostConnection::get() New Host Connection established 0x7a1f127d1510, tid 6432
 11-09 08:14:32.911  6432  6432 D HostConnection: HostComposition ext ANDROID_EMU_CHECKSUM_HELPER_v1 ANDROID_EMU_native_sync_v2 ANDROID_EMU_dma_v1 ANDROID_EMU_direct_mem ANDROID_EMU_host_composition_v1 ANDROID_EMU_host_composition_v2 ANDROID_EMU_YUV_Cache ANDROID_EMU_has_shared_slots_host_memory_allocator ANDROID_EMU_sync_buffer_data ANDROID_EMU_read_color_buffer_dma ANDROID_EMU_hwc_color_transform GL_OES_EGL_image_external_essl3 GL_OES_vertex_array_object GL_KHR_texture_compression_astc_ldr ANDROID_EMU_host_side_tracing ANDROID_EMU_gles_max_version_3_0 
+11-09 08:14:39.199  1039  1039 D RILJ    : [0209]> SIGNAL_STRENGTH [PHONE0]
+11-09 08:14:39.200   436   436 D RIL     : onRequest: SIGNAL_STRENGTH
+11-09 08:14:39.200   436   436 D AT      : AT> AT+CSQ
+11-09 08:14:39.200   436   495 D AT      : AT< %CGFPCCFG: 1,5000,14,0,1
+11-09 08:14:39.200   436   495 D RIL     : got CGFPCCFG line %CGFPCCFG: 1,5000,14,0,1 and %CGFPCCFG: 1,5000,14,0,1
+11-09 08:14:39.200   436   495 D RIL     : got i 0, val = 1
+11-09 08:14:39.200   436   495 D RIL     : got i 1, val = 5000
+11-09 08:14:39.200   436   495 D RIL     : got i 2, val = 14
+11-09 08:14:39.200   436   495 D RIL     : got i 3, val = 0
+11-09 08:14:39.200   436   495 D RIL     : got i 4, val = 1
+11-09 08:14:39.200   436   495 D RILC    : reportPhysicalChannelConfigs: 1 5000 14 0 1
+11-09 08:14:39.200   436   495 D AT      : AT< %CGFPCCFG: 2,5000,14,0,1
+11-09 08:14:39.200   436   495 D RIL     : got CGFPCCFG line %CGFPCCFG: 2,5000,14,0,1 and %CGFPCCFG: 2,5000,14,0,1
+11-09 08:14:39.200   436   495 D RIL     : got i 0, val = 2
+11-09 08:14:39.200   436   495 D RIL     : got i 1, val = 5000
+11-09 08:14:39.200   436   495 D RIL     : got i 2, val = 14
+11-09 08:14:39.200   436   495 D RIL     : got i 3, val = 0
+11-09 08:14:39.200   436   495 D RIL     : got i 4, val = 1
+11-09 08:14:39.200   436   495 D RILC    : reportPhysicalChannelConfigs: 2 5000 14 0 1
+11-09 08:14:39.200   436   495 D AT      : AT< +CSQ: 12,4,90,120,80,120,4,90,100,10,30,7,200
+11-09 08:14:39.200   436   495 D AT      : AT< OK
+11-09 08:14:39.200  1039  1220 D RILJ    : [UNSL]< RIL_UNSOL_PHYSICAL_CHANNEL_CONFIG [{mConnectionStatus=PrimaryServing,mCellBandwidthDownlinkKhz=5000,mRat=LTE,mFrequencyRange=UNKNOWN,mChannelNumber=2147483647,mContextIds=[1],mPhysicalCellId=0}] [PHONE0]
+11-09 08:14:39.201  1039  1220 D RILJ    : [UNSL]< RIL_UNSOL_PHYSICAL_CHANNEL_CONFIG [{mConnectionStatus=SecondaryServing,mCellBandwidthDownlinkKhz=5000,mRat=LTE,mFrequencyRange=UNKNOWN,mChannelNumber=2147483647,mContextIds=[1],mPhysicalCellId=0}] [PHONE0]
+11-09 08:14:39.201  1039  1220 E CellSignalStrengthLte: convertRssiAsuToDBm: invalid RSSI in ASU=90
+11-09 08:14:39.201  1039  1220 D RILJ    : [0209]< SIGNAL_STRENGTH SignalStrength:{mCdma=CellSignalStrengthCdma: cdmaDbm=2147483647 cdmaEcio=2147483647 evdoDbm=2147483647 evdoEcio=2147483647 evdoSnr=2147483647 level=0,mGsm=CellSignalStrengthGsm: rssi=2147483647 ber=2147483647 mTa=2147483647 mLevel=0,mWcdma=CellSignalStrengthWcdma: ss=2147483647 ber=2147483647 rscp=2147483647 ecno=2147483647 level=0,mTdscdma=CellSignalStrengthTdscdma: rssi=2147483647 ber=2147483647 rscp=2147483647 level=0,mLte=CellSignalStrengthLte: rssi=2147483647 rsrp=-100 rsrq=-10 rssnr=3 cqi=7 ta=200 level=2 parametersUseForLevel=1,mNr=CellSignalStrengthNr:{ csiRsrp = 2147483647 csiRsrq = 2147483647 csiSinr = 2147483647 ssRsrp = 2147483647 ssRsrq = 2147483647 ssSinr = 2147483647 level = 0 parametersUseForLevel = 1 },primary=CellSignalStrengthLte} [PHONE0]
+11-09 08:14:47.812   499   537 I am_pss  : [6390,10113,com.google.android.projection.gearhead:shared,24395776,19496960,0,131338240,0,19,3]
+11-09 08:14:47.815   499   537 I am_pss  : [1525,10122,com.google.android.gms,39892992,28385280,0,173182976,0,19,3]
+11-09 08:14:51.276   499  2074 I ActivityManager: Force stopping com.userjoy.ujjsgc.jp appid=10167 user=0: from pid 6436
+11-09 08:14:51.277   499  2074 I am_uid_stopped: 10167
+11-09 08:14:51.277   499  2074 I ActivityManager: Killing 5353:com.userjoy.ujjsgc.jp/u0a167 (adj 0): stop com.userjoy.ujjsgc.jp due to from pid 6436
+11-09 08:14:51.277   499  2074 I am_kill : [0,5353,com.userjoy.ujjsgc.jp,0,stop com.userjoy.ujjsgc.jp due to from pid 6436]
+11-09 08:14:51.293   499  2074 W ActivityTaskManager: Force removing ActivityRecord{51b1e89 u0 com.userjoy.ujjsgc.jp/com.unity3d.player.UnityPlayerActivity t9 f}}: app died, no saved state
+11-09 08:14:51.293   499  2074 I wm_finish_activity: [0,85663369,9,com.userjoy.ujjsgc.jp/com.unity3d.player.UnityPlayerActivity,proc died without state saved]
+11-09 08:14:51.305   499  2074 I wm_task_removed: [9,removeChild: last r=ActivityRecord{51b1e89 u0 com.userjoy.ujjsgc.jp/com.unity3d.player.UnityPlayerActivity t-1 f}} in t=Task{ce0659a #9 visible=false type=standard mode=fullscreen translucent=true A=10167:com.userjoy.ujjsgc.jp U=0 StackId=9 sz=0}]
+11-09 08:14:51.305   499  2074 I wm_task_removed: [9,removeTask]
+11-09 08:14:51.305   499  2074 I wm_task_removed: [9,removeTask]
+11-09 08:14:51.305   499  2074 I wm_stack_removed: 9
+11-09 08:14:51.308   499  2074 I wm_set_resumed_activity: [0,com.google.android.apps.nexuslauncher/.NexusLauncherActivity,resumeTopActivityInnerLocked]
+11-09 08:14:51.308   499  2074 I wm_resume_activity: [0,145838918,8,com.google.android.apps.nexuslauncher/.NexusLauncherActivity]
+11-09 08:14:51.312   499   499 I notification_cancel_all: [1000,499,com.userjoy.ujjsgc.jp,0,0,0,5,NULL]
+11-09 08:14:51.315   323   390 W EmuHWC2 : No layers, exit, buffer 0x0
+11-09 08:14:51.317   901   901 I wm_on_restart_called: [145838918,com.google.android.apps.nexuslauncher.NexusLauncherActivity,performRestartActivity]
+11-09 08:14:51.318  1039  1039 D CarrierSvcBindHelper: No carrier app for: 0
+11-09 08:14:51.318   901   901 I wm_on_start_called: [145838918,com.google.android.apps.nexuslauncher.NexusLauncherActivity,handleStartActivity]
+11-09 08:14:51.319   901   901 I wm_on_resume_called: [145838918,com.google.android.apps.nexuslauncher.NexusLauncherActivity,RESUME_ACTIVITY]
+11-09 08:14:51.319   901   901 I wm_on_top_resumed_gained_called: [145838918,com.google.android.apps.nexuslauncher.NexusLauncherActivity,topWhenResuming]
+11-09 08:14:51.331   323   390 W EmuHWC2 : No layers, exit, buffer 0x0
+11-09 08:14:51.500   499  3201 D ConnectivityService: ConnectivityService NetworkRequestInfo binderDied(NetworkRequest [ TRACK_DEFAULT id=38, [ Capabilities: INTERNET&NOT_RESTRICTED&TRUSTED Uid: 10167 AdministratorUids: [] RequestorUid: 10167 RequestorPackageName: com.userjoy.ujjsgc.jp] ], android.os.BinderProxy@f01085a)
+11-09 08:14:51.500   499  3201 D ConnectivityService: ConnectivityService NetworkRequestInfo binderDied(NetworkRequest [ TRACK_DEFAULT id=39, [ Capabilities: INTERNET&NOT_RESTRICTED&TRUSTED Uid: 10167 AdministratorUids: [] RequestorUid: 10167 RequestorPackageName: com.userjoy.ujjsgc.jp] ], android.os.BinderProxy@3982a8b)
+11-09 08:14:51.711     0     0 I binder  : undelivered transaction 510325, process died.
+11-09 08:14:51.508   499   647 D ConnectivityService: releasing NetworkRequest [ TRACK_DEFAULT id=38, [ Capabilities: INTERNET&NOT_RESTRICTED&TRUSTED Uid: 10167 AdministratorUids: [] RequestorUid: 10167 RequestorPackageName: com.userjoy.ujjsgc.jp] ] (release request)
+11-09 08:14:51.509   499   647 D ConnectivityService: releasing NetworkRequest [ TRACK_DEFAULT id=39, [ Capabilities: INTERNET&NOT_RESTRICTED&TRUSTED Uid: 10167 AdministratorUids: [] RequestorUid: 10167 RequestorPackageName: com.userjoy.ujjsgc.jp] ] (release request)
+11-09 08:14:51.509  1039  1039 I service_manager_stats: [100,24,203141]
+11-09 08:14:51.512  1039  1039 D DcRequest: Cellular request confirmed: NetworkRequest [ TRACK_DEFAULT id=38, [ Capabilities: INTERNET&NOT_RESTRICTED&TRUSTED Uid: 10167 AdministratorUids: [] RequestorUid: 10167 RequestorPackageName: com.userjoy.ujjsgc.jp] ]
+11-09 08:14:51.348   323   390 I chatty  : uid=1000(system) HwBinder:323_3 identical 1 line
+11-09 08:14:51.365   323   390 W EmuHWC2 : No layers, exit, buffer 0x0
+11-09 08:14:51.513   286   286 I Zygote  : Process 5353 exited due to signal 9 (Killed)
+11-09 08:14:51.511   499   532 W ActivityManager: setHasOverlayUi called on unknown pid: 5353
+11-09 08:14:51.519   499   540 I libprocessgroup: Successfully killed process cgroup uid 10167 pid 5353 in 236ms
+11-09 08:14:51.519  1039  1039 D PhoneSwitcher: evaluating due to netReleased
+11-09 08:14:51.519  1039  1039 D PhoneSwitcher: notifyPreferredDataSubIdChanged to 1
+11-09 08:14:51.522  1039  1039 D PhoneSwitcher: Removed DcRequest, size: 11
+11-09 08:14:51.523  1039  1039 D DcRequest: Cellular request confirmed: NetworkRequest [ TRACK_DEFAULT id=39, [ Capabilities: INTERNET&NOT_RESTRICTED&TRUSTED Uid: 10167 AdministratorUids: [] RequestorUid: 10167 RequestorPackageName: com.userjoy.ujjsgc.jp] ]
+11-09 08:14:51.524  1039  1039 D PhoneSwitcher: evaluating due to netReleased
+11-09 08:14:51.524  1039  1039 D PhoneSwitcher: notifyPreferredDataSubIdChanged to 1
+11-09 08:14:51.524  1039  1039 D PhoneSwitcher: Removed DcRequest, size: 10
+11-09 08:14:51.524  1039  1039 D Telephony: isEmergencyPreferredAccount: subId=1, activeData=1
+11-09 08:14:51.524  1039  1039 D Telephony: isEmergencyPreferredAccount: Device does not require preference.
+11-09 08:14:51.524  1039  1039 D Telephony: isEmergencyPreferredAccount: subId=1, activeData=1
+11-09 08:14:51.524  1039  1039 D Telephony: isEmergencyPreferredAccount: Device does not require preference.
+11-09 08:14:51.526   499   824 I system_server: oneway function results will be dropped but finished with status OK and parcel size 4
+11-09 08:14:51.528   380   454 W APM::AudioPolicyEngine: getDevicesForStrategy() unknown strategy: -1
+11-09 08:14:51.528   380   454 W APM::AudioPolicyEngine: getDevicesForStrategy() unknown strategy: -1
+11-09 08:14:51.577  1806  2037 W ThreadPoolDumper: Queue length for executor EventBus is now 11. Perhaps some tasks are too long, or the pool is too small.
+11-09 08:14:51.620  1806  2040 W LocationOracle: No location history returned by ContextManager
+11-09 08:14:51.640   499   532 D EventSequenceValidator: Transition from REPORT_FULLY_DRAWN to INTENT_STARTED
+11-09 08:14:51.641   713   713 V KeyguardUpdateMonitor: onSubscriptionInfoChanged()
+11-09 08:14:51.642   499   824 I ActivityTaskManager: START u0 {flg=0x10000000 cmp=com.userjoy.ujjsgc.jp/com.unity3d.player.UnityPlayerActivity} from uid 0
+11-09 08:14:51.645   499   824 I wm_task_created: [10,-1]
+11-09 08:14:51.645   499   824 I wm_stack_created: 10
+11-09 08:14:51.645   713   713 V KeyguardUpdateMonitor: SubInfo:{id=1 iccId=89014103211118510720 simSlotIndex=0 carrierId=1 displayName=T-Mobile carrierName=T-Mobile nameSource=3 iconTint=-16746133 number=+15555215554 dataRoaming=0 iconBitmap=android.graphics.Bitmap@3754695 mcc=310 mnc=260 countryIso=us isEmbedded=false nativeAccessRules=null cardString=89014103211118510720 cardId=-1 isOpportunistic=false groupUUID=null isGroupDisabled=false profileClass=-1 ehplmns=null hplmns=null subscriptionType=0 groupOwner=null carrierConfigAccessRules=null areUiccApplicationsEnabled=true}
+11-09 08:14:51.647   499   824 I wm_create_task: [0,10]
+11-09 08:14:51.647   499   824 I wm_create_activity: [0,153270936,10,com.userjoy.ujjsgc.jp/com.unity3d.player.UnityPlayerActivity,NULL,NULL,NULL,268435456]
+11-09 08:14:51.647   901   901 I wm_on_top_resumed_lost_called: [145838918,com.google.android.apps.nexuslauncher.NexusLauncherActivity,topStateChangedWhenResumed]
+11-09 08:14:51.647   499   824 I wm_pause_activity: [0,145838918,com.google.android.apps.nexuslauncher/.NexusLauncherActivity,userLeaving=true]
+11-09 08:14:51.647   421   421 I perfetto: ing_service_impl.cc:758 Configured tracing session 6, #sources:1, duration:5000 ms, #buffers:1, total buffer size:4096 KB, total sessions:1, uid:1071 session name: ""
+11-09 08:14:51.648   420   420 I perfetto: probes_producer.cc:230  Ftrace setup (target_buf=6)
+11-09 08:14:51.650   499   532 I am_uid_running: 10167
+11-09 08:14:51.650   499   532 D CompatibilityChangeReporter: Compat change id reported: 135634846; UID 10167; state: DISABLED
+11-09 08:14:51.651   499   539 D CompatibilityChangeReporter: Compat change id reported: 143937733; UID 10167; state: ENABLED
+11-09 08:14:51.651   713   713 V KeyguardUpdateMonitor: onSubscriptionInfoChanged()
+11-09 08:14:51.654   901   901 I wm_on_paused_called: [145838918,com.google.android.apps.nexuslauncher.NexusLauncherActivity,performPause]
+11-09 08:14:51.655   499  1639 I wm_add_to_stopping: [0,145838918,com.google.android.apps.nexuslauncher/.NexusLauncherActivity,makeInvisible]
+11-09 08:14:51.655   499   532 D EventSequenceValidator: Transition from INTENT_STARTED to ACTIVITY_LAUNCHED
+11-09 08:14:51.656   713   713 V KeyguardUpdateMonitor: SubInfo:{id=1 iccId=89014103211118510720 simSlotIndex=0 carrierId=1 displayName=T-Mobile carrierName=T-Mobile nameSource=3 iconTint=-16746133 number=+15555215554 dataRoaming=0 iconBitmap=android.graphics.Bitmap@aea3aa mcc=310 mnc=260 countryIso=us isEmbedded=false nativeAccessRules=null cardString=89014103211118510720 cardId=-1 isOpportunistic=false groupUUID=null isGroupDisabled=false profileClass=-1 ehplmns=null hplmns=null subscriptionType=0 groupOwner=null carrierConfigAccessRules=null areUiccApplicationsEnabled=true}
+11-09 08:14:51.657   499   532 I sysui_multi_action: [757,803,799,window_time_0,802,413]
+11-09 08:14:51.670   286   286 D Zygote  : Forked child process 6457
+11-09 08:14:51.674   499   539 I am_proc_start: [0,6457,10167,com.userjoy.ujjsgc.jp,pre-top-activity,{com.userjoy.ujjsgc.jp/com.unity3d.player.UnityPlayerActivity}]
+11-09 08:14:51.674   499   539 I ActivityManager: Start proc 6457:com.userjoy.ujjsgc.jp/u0a167 for pre-top-activity {com.userjoy.ujjsgc.jp/com.unity3d.player.UnityPlayerActivity}
+11-09 08:14:51.909     0     0 W perfetto: enabled ftrace
+11-09 08:14:51.690  6457  6457 W erjoy.ujjsgc.j: Unexpected CPU variant for X86 using defaults: x86_64
+11-09 08:14:51.697   420   420 I perfetto: ftrace_procfs.cc:176    enabled ftrace
+11-09 08:14:51.738  1806  1806 I BgTaskExecutorImpl: Starting EXCLUSIVE background task TNG_MINUS_ONE_SYNC.
+11-09 08:14:51.759  1806  2037 I TngMinusOneSync: Syncing TNG:-1
+11-09 08:14:51.761  6457  6457 I ndk_translation: Initialized NDK translation (aarch64), version 0.2.2
+11-09 08:14:51.770  1806  2034 E MDD     : DownloadProgressMonitor: Can't find file group for uri: android://com.google.android.googlequicksearchbox/files/sharedminusonemodule/shared/SharedMinusOneData.pb.tmp
+11-09 08:14:51.859  2224  2241 I adbd    : jdwp connection from 6457
+11-09 08:14:51.861   499  4646 I am_proc_bound: [0,6457,com.userjoy.ujjsgc.jp]
+11-09 08:14:51.862   499  4646 I wm_restart_activity: [0,153270936,10,com.userjoy.ujjsgc.jp/com.unity3d.player.UnityPlayerActivity]
+11-09 08:14:51.862   499  4646 I wm_set_resumed_activity: [0,com.userjoy.ujjsgc.jp/com.unity3d.player.UnityPlayerActivity,minimalResumeActivityLocked]
+11-09 08:14:51.870   499   532 I am_uid_active: 10167
+11-09 08:14:51.874  6457  6457 I erjoy.ujjsgc.j: The ClassLoaderContext is a special shared library.
+11-09 08:14:51.880  6457  6457 I erjoy.ujjsgc.j: The ClassLoaderContext is a special shared library.
+11-09 08:14:51.917  6457  6457 D NetworkSecurityConfig: No Network Security Config specified, using platform default
+11-09 08:14:51.917  6457  6457 D NetworkSecurityConfig: No Network Security Config specified, using platform default
+11-09 08:14:51.937  6457  6457 I MultiDex: VM with version 2.1.0 has multidex support
+11-09 08:14:51.937  6457  6457 I MultiDex: Installing application
+11-09 08:14:51.937  6457  6457 I MultiDex: VM has multidex support, MultiDex support library is disabled.
+11-09 08:14:52.048  6457  6457 I FirebaseApp: Device unlocked: initializing all Firebase APIs for app [DEFAULT]
+11-09 08:14:52.068  6457  6457 I FirebaseInitProvider: FirebaseApp initialization successful
+11-09 08:14:52.213  6457  6457 D WM-WrkMgrInitializer: Initializing WorkManager with default configuration.
+11-09 08:14:52.228  6457  6483 I DynamiteModule: Considering local module com.google.android.gms.measurement.dynamite:155 and remote module com.google.android.gms.measurement.dynamite:13
+11-09 08:14:52.228  6457  6483 I DynamiteModule: Selected local version of com.google.android.gms.measurement.dynamite
+11-09 08:14:52.324  6457  6457 I service_manager_slow: [88,tethering]
+11-09 08:14:52.326  6457  6457 I TetheringManager: registerTetheringEventCallback:com.userjoy.ujjsgc.jp
+11-09 08:14:52.327  6457  6457 D WM-PackageManagerHelper: Skipping component enablement for androidx.work.impl.background.systemjob.SystemJobService
+11-09 08:14:52.327  6457  6457 D WM-Schedulers: Created SystemJobScheduler and enabled SystemJobService
+11-09 08:14:52.340   499  4646 W ActivityManager: Unable to start service Intent { act=com.google.android.gms.games.internal.appshortcuts.service.START pkg=com.google.android.gms } U=0: not found
+11-09 08:14:52.341   499  4646 W ActivityManager: Unbind failed: could not find connection for android.os.BinderProxy@90118be
+11-09 08:14:52.342  6457  6487 W GmsClient: unable to connect to service: com.google.android.gms.games.internal.appshortcuts.service.START on com.google.android.gms
+11-09 08:14:52.347  6457  6457 W com.facebook.UserSettingsManager: You haven't set a value for AdvertiserIDCollectionEnabled. Set the flag to TRUE if you want to collect Advertiser ID for better advertising and analytics results. To request user consent before collecting data, set the flag value to FALSE, then change to TRUE once user consent is received. Learn more: https://developers.facebook.com/docs/app-events/getting-started-app-events-android#disable-auto-events.
+11-09 08:14:52.358  6457  6500 W com.facebook.internal.NativeProtocol: Apps that target Android API 30+ (Android 11+) cannot call Facebook native apps unless the package visibility needs are declared. Please follow https://developers.facebook.com/docs/android/troubleshooting/#faq_267321845055988 to make the declaration.
+11-09 08:14:52.370  6457  6487 W GooglePlayServicesUtil: Google Play services out of date for com.userjoy.ujjsgc.jp.  Requires 213000000 but found 201817023
+11-09 08:14:52.370  6457  6487 W GoogleApiManager: The service for com.google.android.gms.internal.games_v2.zzp is not available: ConnectionResult{statusCode=SERVICE_VERSION_UPDATE_REQUIRED, resolution=null, message=null}
+11-09 08:14:52.372  6457  6487 W GooglePlayServicesUtil: Google Play services out of date for com.userjoy.ujjsgc.jp.  Requires 213000000 but found 201817023
+11-09 08:14:52.372  6457  6487 W GoogleApiManager: The service for com.google.android.gms.internal.games_v2.zzp is not available: ConnectionResult{statusCode=SERVICE_VERSION_UPDATE_REQUIRED, resolution=null, message=null}
+11-09 08:14:52.375   499  3201 D CompatibilityChangeReporter: Compat change id reported: 136274596; UID 10167; state: ENABLED
+11-09 08:14:52.426  6457  6489 I FA      : App measurement initialized, version: 133005
+11-09 08:14:52.426  6457  6489 I FA      : To enable debug logging run: adb shell setprop log.tag.FA VERBOSE
+11-09 08:14:52.426  6457  6489 I FA      : To enable faster debug mode event logging run:
+11-09 08:14:52.426  6457  6489 I FA      :   adb shell setprop debug.firebase.analytics.app com.userjoy.ujjsgc.jp
+11-09 08:14:52.606  6457  6457 I IL2CPP  : JNI_OnLoad
+11-09 08:14:52.617  6457  6457 I wm_on_create_called: [153270936,com.unity3d.player.UnityPlayerActivity,performCreate]
+11-09 08:14:52.617  6457  6457 I wm_on_start_called: [153270936,com.unity3d.player.UnityPlayerActivity,handleStartActivity]
+11-09 08:14:52.619  6457  6489 I FA      : Tag Manager is not found and thus will not be used
+11-09 08:14:52.623  6457  6457 I wm_on_resume_called: [153270936,com.unity3d.player.UnityPlayerActivity,RESUME_ACTIVITY]
+11-09 08:14:52.627  6457  6457 I wm_on_top_resumed_gained_called: [153270936,com.unity3d.player.UnityPlayerActivity,topStateChangedWhenResumed]
+11-09 08:14:52.631   166   166 I hwservicemanager: getTransport: Cannot find entry android.hardware.graphics.mapper@4.0::IMapper/default in either framework or device manifest.
+11-09 08:14:52.631  6457  6457 I Gralloc4: mapper 4.x is not supported
+11-09 08:14:52.639  6457  6457 D HostConnection: createUnique: call
+11-09 08:14:52.641  6457  6457 D HostConnection: HostConnection::get() New Host Connection established 0x7ef08c476590, tid 6457
+11-09 08:14:52.656  6457  6457 D HostConnection: HostComposition ext ANDROID_EMU_CHECKSUM_HELPER_v1 ANDROID_EMU_native_sync_v2 ANDROID_EMU_dma_v1 ANDROID_EMU_direct_mem ANDROID_EMU_host_composition_v1 ANDROID_EMU_host_composition_v2 ANDROID_EMU_YUV_Cache ANDROID_EMU_has_shared_slots_host_memory_allocator ANDROID_EMU_sync_buffer_data ANDROID_EMU_read_color_buffer_dma ANDROID_EMU_hwc_color_transform GL_OES_EGL_image_external_essl3 GL_OES_vertex_array_object GL_KHR_texture_compression_astc_ldr ANDROID_EMU_host_side_tracing ANDROID_EMU_gles_max_version_3_0 
+11-09 08:14:52.683  6457  6457 W PlayGamesServices[GamesApiManager]: PlayStore is too old or not available and the version of GmsCore would attempt PGA installation on automatic sign-in. Skipping it.
+11-09 08:14:52.688   499   532 D EventSequenceValidator: Transition from ACTIVITY_LAUNCHED to ACTIVITY_FINISHED
+11-09 08:14:52.691  6457  6505 W AnalyticsUserIDStore: initStore should have been called before calling setUserID
+11-09 08:14:52.691   499  4646 I wm_stop_activity: [0,145838918,com.google.android.apps.nexuslauncher/.NexusLauncherActivity]
+11-09 08:14:52.691   499   537 W system_server: Failed to determine oat file name for dex location /data/app/~~b0ihfst47b1lLWRBzteb9Q==/com.userjoy.ujjsgc.jp-ZJS2CbrilTSr7fwvBTX21Q==/base.apk: Dalvik cache directory does not exist
+11-09 08:14:52.692  6448  6450 I cmd     : oneway function results will be dropped but finished with status OK and parcel size 4
+11-09 08:14:52.697   901   901 I wm_on_stop_called: [145838918,com.google.android.apps.nexuslauncher.NexusLauncherActivity,STOP_ACTIVITY_ITEM]
+11-09 08:14:52.701   499   537 D ArtManagerInternalImpl: /data/misc/iorapd/com.userjoy.ujjsgc.jp/23017/com.unity3d.player.UnityPlayerActivity/compiled_traces/compiled_trace.pb doesn't exist
+11-09 08:14:52.701   499   537 I sysui_multi_action: [319,225,321,103,322,1041,325,475,757,761,758,7,759,1,806,com.userjoy.ujjsgc.jp,871,com.unity3d.player.UnityPlayerActivity,904,com.android.shell,905,0,945,222,1320,12,1321,1]
+11-09 08:14:52.702   499   537 I wm_activity_launch_time: [0,153270936,com.userjoy.ujjsgc.jp/com.unity3d.player.UnityPlayerActivity,1041]
+11-09 08:14:52.702   499   537 I ActivityTaskManager: Displayed com.userjoy.ujjsgc.jp/com.unity3d.player.UnityPlayerActivity: +1s41ms
+11-09 08:14:52.709  1806  6446 I PBSessionCacheImpl: Deleted sessionId[7944666210696784] from persistence.
+11-09 08:14:52.737  1806  2037 W SearchServiceCore: Abort, client detached.
+11-09 08:14:52.791  6457  6524 I Unity   : MemoryManager: Using 'Dynamic Heap' Allocator.
+11-09 08:14:52.864  1158  2876 I dvm_lock_sample: [com.google.android.gms.persisten,0,netscheduler-queue-handler,23,:com.google.android.gms@201817023@20.18.17 (040800-311416286),92,int apkp.a(apki, aamz),-,199,void apkp.a(aphr, aphr, int),4]
+11-09 08:14:53.557  6457  6524 I PlayCore: UID: [10167]  PID: [6457] AssetPackStateListenerRegistryV2 : registerListener
+11-09 08:14:53.557  6457  6524 I PlayCore: UID: [10167]  PID: [6457] AssetPackServiceListenerRegistry : registerListener
+11-09 08:14:53.558  6457  6531 I PlayCore: UID: [10167]  PID: [6457] AssetPackServiceImpl : syncPacks
+11-09 08:14:53.558  6457  6524 I PlayCore: UID: [10167]  PID: [6457] AssetPackServiceImpl : getPackStates([UnityDataAssetPack])
+11-09 08:14:53.559  6457  6524 I PlayCore: UID: [10167]  PID: [6457] AssetPackServiceImpl : getPackStates([UnityStreamingAssetsPack])
+11-09 08:14:53.560  6457  6532 I PlayCore: UID: [10167]  PID: [6457] AssetPackServiceImpl : Initiate binding to the service.
+11-09 08:14:53.561   499   824 W ActivityManager: Unable to start service Intent { act=com.google.android.play.core.assetmoduleservice.BIND_ASSET_MODULE_SERVICE pkg=com.android.vending } U=0: not found
+11-09 08:14:53.563  6457  6532 I PlayCore: UID: [10167]  PID: [6457] AssetPackServiceImpl : Failed to bind to the service.
+11-09 08:14:53.563  6457  6532 I PlayCore: UID: [10167]  PID: [6457] AssetPackServiceImpl : Already connected to the service.
+11-09 08:14:53.564  6457  6532 I PlayCore: UID: [10167]  PID: [6457] AssetPackServiceImpl : Initiate binding to the service.
+11-09 08:14:53.566  6457  6532 I PlayCore: UID: [10167]  PID: [6457] AssetPackServiceImpl : Failed to bind to the service.
+11-09 08:14:53.567  6457  6532 I PlayCore: UID: [10167]  PID: [6457] AssetPackServiceImpl : Already connected to the service.
+11-09 08:14:53.567  6457  6532 I PlayCore: UID: [10167]  PID: [6457] AssetPackServiceImpl : Initiate binding to the service.
+11-09 08:14:53.567  6457  6532 I PlayCore: UID: [10167]  PID: [6457] AssetPackServiceImpl : Failed to bind to the service.
+11-09 08:14:53.567  6457  6531 W PlayCore: UID: [10167]  PID: [6457] AssetPackManager : Could not sync active asset packs. com.google.android.play.core.assetpacks.internal.aa: Failed to bind to the service.
+11-09 08:14:53.572  6457  6524 I Unity   : SystemInfo CPU = x86-64, Cores = 1, Memory = 3929mb
+11-09 08:14:53.573  6457  6524 I Unity   : SystemInfo ARM big.LITTLE configuration: 1 big (mask: 0x2), 0 little (mask: 0x0)
+11-09 08:14:53.574  6457  6524 I Unity   : ApplicationInfo com.userjoy.ujjsgc.jp version 0.23.17
+11-09 08:14:53.575  6457  6524 I Unity   : Built from '2022.3/respin/2022.3.62f2-4af31df585-v2' branch, Version '2022.3.62f2 (7670c08855a9)', Build type 'Release', Scripting Backend 'il2cpp', CPU 'arm64-v8a', Stripping 'Disabled'
+11-09 08:14:54.142  6457  6524 E libprocessgroup: set_timerslack_ns write failed: Operation not permitted
+11-09 08:14:54.146  6457  6524 I chatty  : uid=10167(com.userjoy.ujjsgc.jp) UnityMain identical 14 lines
+11-09 08:14:54.146  6457  6524 E libprocessgroup: set_timerslack_ns write failed: Operation not permitted
+11-09 08:14:54.252  6457  6524 I Unity   : Company Name: DefaultCompany
+11-09 08:14:54.252  6457  6524 I Unity   : Product Name: 三国群英伝M
+11-09 08:14:54.263  6457  6524 D libEGL  : loaded /vendor/lib64/egl/libEGL_emulation.so
+11-09 08:14:54.264  6457  6524 D libEGL  : loaded /vendor/lib64/egl/libGLESv1_CM_emulation.so
+11-09 08:14:54.264  6457  6524 D libEGL  : loaded /vendor/lib64/egl/libGLESv2_emulation.so
+11-09 08:14:54.273  6457  6524 D HostConnection: HostConnection::get() New Host Connection established 0x7ef08c481210, tid 6524
+11-09 08:14:54.277  6457  6524 D HostConnection: HostComposition ext ANDROID_EMU_CHECKSUM_HELPER_v1 ANDROID_EMU_native_sync_v2 ANDROID_EMU_dma_v1 ANDROID_EMU_direct_mem ANDROID_EMU_host_composition_v1 ANDROID_EMU_host_composition_v2 ANDROID_EMU_YUV_Cache ANDROID_EMU_has_shared_slots_host_memory_allocator ANDROID_EMU_sync_buffer_data ANDROID_EMU_read_color_buffer_dma ANDROID_EMU_hwc_color_transform GL_OES_EGL_image_external_essl3 GL_OES_vertex_array_object GL_KHR_texture_compression_astc_ldr ANDROID_EMU_host_side_tracing ANDROID_EMU_gles_max_version_3_0 
+11-09 08:14:54.278   166   166 I hwservicemanager: getTransport: Cannot find entry android.hardware.configstore@1.0::ISurfaceFlingerConfigs/default in either framework or device manifest.
+11-09 08:14:54.279  6457  6524 E EGL_emulation: eglCreateContext: EGL_BAD_CONFIG: no ES 3.2 support
+11-09 08:14:54.279  6457  6524 E EGL_emulation: tid 6524: eglCreateContext(1696): error 0x3005 (EGL_BAD_CONFIG)
+11-09 08:14:54.280  6457  6524 E EGL_emulation: eglCreateContext: EGL_BAD_CONFIG: no ES 3.1 support
+11-09 08:14:54.280  6457  6524 E EGL_emulation: tid 6524: eglCreateContext(1690): error 0x3005 (EGL_BAD_CONFIG)
+11-09 08:14:54.281  6457  6524 E EGL_emulation: [getAttribValue] Bad attribute idx
+11-09 08:14:54.281  6457  6524 D EGL_emulation: eglGetConfigAttrib: bad attrib 0x1
+11-09 08:14:54.281  6457  6524 E EGL_emulation: tid 6524: eglGetConfigAttrib(1140): error 0x3004 (EGL_BAD_ATTRIBUTE)
+11-09 08:14:54.282  6457  6524 D EGL_emulation: eglCreateContext: 0x7ef07c498700: maj 3 min 0 rcv 3
+11-09 08:14:54.284  6457  6524 I chatty  : uid=10167(com.userjoy.ujjsgc.jp) UnityMain identical 1 line
+11-09 08:14:54.292  6457  6524 D EGL_emulation: eglCreateContext: 0x7ef07c498700: maj 3 min 0 rcv 3
+11-09 08:14:54.293  6457  6524 D EGL_emulation: eglMakeCurrent: 0x7ef07c498700: ver 3 0 (tinfo 0x7ef01c4a6e60) (first time)
+11-09 08:14:54.318  6457  6524 D Unity   :  GL_EXT_debug_marker GL_EXT_robustness GL_OES_EGL_sync GL_OES_EGL_image GL_OES_EGL_image_external GL_OES_depth24 GL_OES_depth32 GL_OES_element_index_uint GL_OES_texture_float GL_OES_texture_float_linear GL_OES_compressed_paletted_texture GL_OES_compressed_ETC1_RGB8_texture GL_OES_depth_texture GL_OES_texture_half_float GL_OES_texture_half_float_linear GL_OES_packed_depth_stencil GL_OES_vertex_half_float GL_OES_standard_derivatives GL_OES_texture_npot GL_OES_rgb8_rgba8 GL_EXT_color_buffer_float GL_EXT_color_buffer_half_float GL_EXT_texture_format_BGRA8888 GL_APPLE_texture_format_BGRA8888 ANDROID_EMU_CHECKSUM_HELPER_v1 ANDROID_EMU_native_sync_v2 ANDROID_EMU_dma_v1 ANDROID_EMU_direct_mem ANDROID_EMU_host_composition_v1 ANDROID_EMU_host_composition_v2 ANDROID_EMU_YUV_Cache ANDROID_EMU_has_shared_slots_host_memory_allocator ANDROID_EMU_sync_buffer_data ANDROID_EMU_read_color_buffer_dma ANDROID_EMU_hwc_color_transform GL_OES_EGL_image_external_essl3 GL_OES_vertex_array_object GL_KHR_texture_compression_astc_ldr AN
+11-09 08:14:54.318  6457  6524 D Unity   : DROID_EMU_host_side_tracing ANDROID_EMU_gles_max_version_3_0
+11-09 08:14:54.432   499  4646 I system_server: oneway function results will be dropped but finished with status OK and parcel size 4
+11-09 08:14:54.433   499  4646 I system_server: oneway function results will be dropped but finished with status OK and parcel size 4
+11-09 08:14:54.444   380  6063 W AudioFlinger: createTrack_l(): mismatch between requested flags (00000008) and output flags (00000002)
+11-09 08:14:54.444   380  6063 D AudioFlinger: Client defaulted notificationFrames to 2048 for frameCount 4096
+11-09 08:14:54.445   380  6063 D AF::TrackHandle: OpPlayAudio: track:56 usage:1 not muted
+11-09 08:14:54.448  6457  6555 W AudioTrack: Use of stream types is deprecated for operations other than volume control
+11-09 08:14:54.448  6457  6555 W AudioTrack: See the documentation of AudioTrack() for what to use instead with android.media.AudioAttributes to qualify your playback use case
+11-09 08:14:54.449   380  6063 W APM::AudioPolicyEngine: getDevicesForStrategy() unknown strategy: -1
+11-09 08:14:54.449   380  6063 W APM::AudioPolicyEngine: getDevicesForStrategy() unknown strategy: -1
+11-09 08:14:54.461   499   824 I system_server: oneway function results will be dropped but finished with status OK and parcel size 4
+11-09 08:14:54.894  6457  6524 V MediaRouter: Selecting route: RouteInfo{ name=Phone, description=null, status=null, category=RouteCategory{ name=System types=ROUTE_TYPE_LIVE_AUDIO ROUTE_TYPE_LIVE_VIDEO  groupable=false }, supportedTypes=ROUTE_TYPE_LIVE_AUDIO ROUTE_TYPE_LIVE_VIDEO , presentationDisplay=null }
+11-09 08:14:55.878  6457  6524 I Unity   : EnableAnalytics : False
+11-09 08:14:55.878  6457  6524 I Unity   : Main:EnableAnalytics(Boolean)
+11-09 08:14:55.878  6457  6524 I Unity   : 
+11-09 08:14:55.972  6457  6524 D CompatibilityChangeReporter: Compat change id reported: 147600208; UID 10167; state: ENABLED
+11-09 08:14:55.975   499   824 W SensorService: sensor 00000000 already enabled in connection 0x7ef0ac4be550 (ignoring)
+11-09 08:14:56.015  6457  6524 I PlayCore: UID: [10167]  PID: [6457] AssetPackStateListenerRegistryV2 : unregisterListener
+11-09 08:14:56.015  6457  6524 I PlayCore: UID: [10167]  PID: [6457] AssetPackServiceListenerRegistry : unregisterListener
+11-09 08:14:56.041  6457  6524 I IL2CPP  : Locale en-US
+11-09 08:14:56.077  6457  6524 I Unity   : Patch Server: http://10.1.138.204:8081/_PatchFolder/Android
+11-09 08:14:56.077  6457  6524 I Unity   : UJDebug:Log(Object, Boolean, UJLogType)
+11-09 08:14:56.077  6457  6524 I Unity   : 
+11-09 08:14:56.108  6457  6524 I Unity   : Bundle name : com.userjoy.ujjsgc.jp
+11-09 08:14:56.108  6457  6524 I Unity   : Main:Start()
+11-09 08:14:56.108  6457  6524 I Unity   : 
+11-09 08:14:56.260  6457  6524 W Unity   : Android API Level = 30
+11-09 08:14:56.260  6457  6524 W Unity   : Main:Start()
+11-09 08:14:56.260  6457  6524 W Unity   : 
+11-09 08:14:56.272  6457  6524 I Unity   : Little endian? : False
+11-09 08:14:56.272  6457  6524 I Unity   : Main:Start()
+11-09 08:14:56.272  6457  6524 I Unity   : 
+11-09 08:14:53.565   499   824 I chatty  : uid=1000(system) Binder:499_7 identical 1 line
+11-09 08:14:53.567   499   824 W ActivityManager: Unable to start service Intent { act=com.google.android.play.core.assetmoduleservice.BIND_ASSET_MODULE_SERVICE pkg=com.android.vending } U=0: not found
+11-09 08:14:56.333   499   824 D ConnectivityService: requestNetwork for uid/pid:10167/6457 NetworkRequest [ TRACK_DEFAULT id=47, [ Capabilities: INTERNET&NOT_RESTRICTED&TRUSTED Uid: 10167 AdministratorUids: [] RequestorUid: 10167 RequestorPackageName: com.userjoy.ujjsgc.jp] ]
+11-09 08:14:56.333   499   647 D ConnectivityService: NetReassign [47 : null → 101]
+11-09 08:14:56.333   499   643 D UntrustedWifiNetworkFactory: got request NetworkRequest [ TRACK_DEFAULT id=47, [ Capabilities: INTERNET&NOT_RESTRICTED&TRUSTED Uid: 10167 AdministratorUids: [] RequestorUid: 10167 RequestorPackageName: com.userjoy.ujjsgc.jp] ] with score 60 and providerId 3
+11-09 08:14:56.333   499   643 D WifiNetworkFactory: got request NetworkRequest [ TRACK_DEFAULT id=47, [ Capabilities: INTERNET&NOT_RESTRICTED&TRUSTED Uid: 10167 AdministratorUids: [] RequestorUid: 10167 RequestorPackageName: com.userjoy.ujjsgc.jp] ] with score 60 and providerId 3
+11-09 08:14:56.333  1039  1039 D TelephonyNetworkFactory[0]: got request NetworkRequest [ TRACK_DEFAULT id=47, [ Capabilities: INTERNET&NOT_RESTRICTED&TRUSTED Uid: 10167 AdministratorUids: [] RequestorUid: 10167 RequestorPackageName: com.userjoy.ujjsgc.jp] ] with score 60 and providerId 3
+11-09 08:14:56.334  1039  1039 D PhoneSwitcherNetworkRequstListener: got request NetworkRequest [ TRACK_DEFAULT id=47, [ Capabilities: INTERNET&NOT_RESTRICTED&TRUSTED Uid: 10167 AdministratorUids: [] RequestorUid: 10167 RequestorPackageName: com.userjoy.ujjsgc.jp] ] with score 60 and providerId 3
+11-09 08:14:56.335  1039  1039 D DcRequest: Cellular request confirmed: NetworkRequest [ TRACK_DEFAULT id=47, [ Capabilities: INTERNET&NOT_RESTRICTED&TRUSTED Uid: 10167 AdministratorUids: [] RequestorUid: 10167 RequestorPackageName: com.userjoy.ujjsgc.jp] ]
+11-09 08:14:56.335  1039  1039 D PhoneSwitcher: evaluating due to netRequest
+11-09 08:14:56.335  1039  1039 D PhoneSwitcher: notifyPreferredDataSubIdChanged to 1
+11-09 08:14:56.335   713   713 V KeyguardUpdateMonitor: onSubscriptionInfoChanged()
+11-09 08:14:56.336  1039  1039 D PhoneSwitcher: Added DcRequest, size: 11
+11-09 08:14:56.336  1039  1039 D Telephony: isEmergencyPreferredAccount: subId=1, activeData=1
+11-09 08:14:56.336  1039  1039 D Telephony: isEmergencyPreferredAccount: Device does not require preference.
+11-09 08:14:56.336   713   713 V KeyguardUpdateMonitor: SubInfo:{id=1 iccId=89014103211118510720 simSlotIndex=0 carrierId=1 displayName=T-Mobile carrierName=T-Mobile nameSource=3 iconTint=-16746133 number=+15555215554 dataRoaming=0 iconBitmap=android.graphics.Bitmap@f857b38 mcc=310 mnc=260 countryIso=us isEmbedded=false nativeAccessRules=null cardString=89014103211118510720 cardId=-1 isOpportunistic=false groupUUID=null isGroupDisabled=false profileClass=-1 ehplmns=null hplmns=null subscriptionType=0 groupOwner=null carrierConfigAccessRules=null areUiccApplicationsEnabled=true}
+11-09 08:14:56.338  6457  6565 I WebViewFactory: Loading com.google.android.webview version 83.0.4103.106 (code 410410686)
+11-09 08:14:56.340  6457  6565 I erjoy.ujjsgc.j: The ClassLoaderContext is a special shared library.
+11-09 08:14:56.341  6457  6565 D nativeloader: classloader namespace configured for unbundled product apk. library_path=/product/app/WebViewGoogle/lib/x86_64:/product/app/WebViewGoogle/WebViewGoogle.apk!/lib/x86_64:/product/app/TrichromeLibrary/TrichromeLibrary.apk!/lib/x86_64:/product/lib64:/system/product/lib64
+11-09 08:14:56.345  6457  6565 I erjoy.ujjsgc.j: The ClassLoaderContext is a special shared library.
+11-09 08:14:56.346  6457  6565 D nativeloader: classloader namespace configured for unbundled product apk. library_path=/product/app/WebViewGoogle/lib/x86_64:/product/app/WebViewGoogle/WebViewGoogle.apk!/lib/x86_64:/product/app/TrichromeLibrary/TrichromeLibrary.apk!/lib/x86_64:/product/lib64:/system/product/lib64
+11-09 08:14:56.375  6457  6457 I cr_LibraryLoader: Loaded native library version number "83.0.4103.106"
+11-09 08:14:56.375  6457  6457 I cr_CachingUmaRecorder: Flushed 3 samples from 3 histograms.
+11-09 08:14:56.380  6457  6457 I cr_VariationsUtils: Loaded seed with age 447s
+11-09 08:14:56.388   499   792 I am_uid_running: 99001
+11-09 08:14:56.388   499   792 D CompatibilityChangeReporter: Compat change id reported: 135634846; UID 10167; state: DISABLED
+11-09 08:14:56.388   499   539 D CompatibilityChangeReporter: Compat change id reported: 143937733; UID 10167; state: ENABLED
+11-09 08:14:56.391   934   934 D Zygote  : Forked child process 6580
+11-09 08:14:56.391   499   539 I am_proc_start: [0,6580,99001,com.google.android.webview:sandboxed_process0:org.chromium.content.app.SandboxedProcessService0:0,,{com.userjoy.ujjsgc.jp/org.chromium.content.app.SandboxedProcessService0:0}]
+11-09 08:14:56.391   499   539 I ActivityManager: Start proc 6580:com.google.android.webview:sandboxed_process0:org.chromium.content.app.SandboxedProcessService0:0/u0i1 for  {com.userjoy.ujjsgc.jp/org.chromium.content.app.SandboxedProcessService0:0}
+11-09 08:14:56.397  6580  6580 W ocessService0:: Unexpected CPU variant for X86 using defaults: x86_64
+11-09 08:14:56.405  2224  2241 I adbd    : jdwp connection from 6580
+11-09 08:14:56.406   499   792 I am_proc_bound: [0,6580,com.google.android.webview:sandboxed_process0:org.chromium.content.app.SandboxedProcessService0:0]
+11-09 08:14:56.406   499   792 D CompatibilityChangeReporter: Compat change id reported: 136274596; UID 10167; state: ENABLED
+11-09 08:14:56.406   499   792 I am_uid_active: 99001
+11-09 08:14:56.411  6580  6580 D NetworkSecurityConfig: No Network Security Config specified, using platform default
+11-09 08:14:56.411  6580  6580 D NetworkSecurityConfig: No Network Security Config specified, using platform default
+11-09 08:14:56.412  6580  6580 I cr_ChildProcessService: Creating new ChildProcessService pid=6580
+11-09 08:14:56.455   499   792 D ConnectivityService: requestNetwork for uid/pid:10167/6457 NetworkRequest [ TRACK_DEFAULT id=48, [ Capabilities: INTERNET&NOT_RESTRICTED&TRUSTED Uid: 10167 AdministratorUids: [] RequestorUid: 10167 RequestorPackageName: com.userjoy.ujjsgc.jp] ]
+11-09 08:14:56.455   499   647 D ConnectivityService: NetReassign [48 : null → 101]
+11-09 08:14:56.455   499   643 D UntrustedWifiNetworkFactory: got request NetworkRequest [ TRACK_DEFAULT id=48, [ Capabilities: INTERNET&NOT_RESTRICTED&TRUSTED Uid: 10167 AdministratorUids: [] RequestorUid: 10167 RequestorPackageName: com.userjoy.ujjsgc.jp] ] with score 60 and providerId 3
+11-09 08:14:56.455   499   643 D WifiNetworkFactory: got request NetworkRequest [ TRACK_DEFAULT id=48, [ Capabilities: INTERNET&NOT_RESTRICTED&TRUSTED Uid: 10167 AdministratorUids: [] RequestorUid: 10167 RequestorPackageName: com.userjoy.ujjsgc.jp] ] with score 60 and providerId 3
+11-09 08:14:56.455  1039  1039 D TelephonyNetworkFactory[0]: got request NetworkRequest [ TRACK_DEFAULT id=48, [ Capabilities: INTERNET&NOT_RESTRICTED&TRUSTED Uid: 10167 AdministratorUids: [] RequestorUid: 10167 RequestorPackageName: com.userjoy.ujjsgc.jp] ] with score 60 and providerId 3
+11-09 08:14:56.455  1039  1039 D PhoneSwitcherNetworkRequstListener: got request NetworkRequest [ TRACK_DEFAULT id=48, [ Capabilities: INTERNET&NOT_RESTRICTED&TRUSTED Uid: 10167 AdministratorUids: [] RequestorUid: 10167 RequestorPackageName: com.userjoy.ujjsgc.jp] ] with score 60 and providerId 3
+11-09 08:14:56.456   499   647 D ConnectivityService: NetReassign [no changes]
+11-09 08:14:56.456  1039  1039 D DcRequest: Cellular request confirmed: NetworkRequest [ TRACK_DEFAULT id=48, [ Capabilities: INTERNET&NOT_RESTRICTED&TRUSTED Uid: 10167 AdministratorUids: [] RequestorUid: 10167 RequestorPackageName: com.userjoy.ujjsgc.jp] ]
+11-09 08:14:56.457  1039  1039 D PhoneSwitcher: evaluating due to netRequest
+11-09 08:14:56.457  1039  1039 D PhoneSwitcher: notifyPreferredDataSubIdChanged to 1
+11-09 08:14:56.457   713   713 V KeyguardUpdateMonitor: onSubscriptionInfoChanged()
+11-09 08:14:56.458   713   713 V KeyguardUpdateMonitor: SubInfo:{id=1 iccId=89014103211118510720 simSlotIndex=0 carrierId=1 displayName=T-Mobile carrierName=T-Mobile nameSource=3 iconTint=-16746133 number=+15555215554 dataRoaming=0 iconBitmap=android.graphics.Bitmap@cb0b711 mcc=310 mnc=260 countryIso=us isEmbedded=false nativeAccessRules=null cardString=89014103211118510720 cardId=-1 isOpportunistic=false groupUUID=null isGroupDisabled=false profileClass=-1 ehplmns=null hplmns=null subscriptionType=0 groupOwner=null carrierConfigAccessRules=null areUiccApplicationsEnabled=true}
+11-09 08:14:56.458  1039  1039 D PhoneSwitcher: Added DcRequest, size: 12
+11-09 08:14:56.458  1039  1039 D Telephony: isEmergencyPreferredAccount: subId=1, activeData=1
+11-09 08:14:56.458  1039  1039 D Telephony: isEmergencyPreferredAccount: Device does not require preference.
+11-09 08:14:56.459   499   792 D ConnectivityService: requestNetwork for uid/pid:10167/6457 NetworkRequest [ TRACK_DEFAULT id=50, [ Capabilities: INTERNET&NOT_RESTRICTED&TRUSTED Uid: 10167 AdministratorUids: [] RequestorUid: 10167 RequestorPackageName: com.userjoy.ujjsgc.jp] ]
+11-09 08:14:56.459   499   647 D ConnectivityService: NetReassign [50 : null → 101]
+11-09 08:14:56.460  1039  1039 D TelephonyNetworkFactory[0]: got request NetworkRequest [ TRACK_DEFAULT id=50, [ Capabilities: INTERNET&NOT_RESTRICTED&TRUSTED Uid: 10167 AdministratorUids: [] RequestorUid: 10167 RequestorPackageName: com.userjoy.ujjsgc.jp] ] with score 60 and providerId 3
+11-09 08:14:56.460   499   643 D UntrustedWifiNetworkFactory: got request NetworkRequest [ TRACK_DEFAULT id=50, [ Capabilities: INTERNET&NOT_RESTRICTED&TRUSTED Uid: 10167 AdministratorUids: [] RequestorUid: 10167 RequestorPackageName: com.userjoy.ujjsgc.jp] ] with score 60 and providerId 3
+11-09 08:14:56.460   499   643 D WifiNetworkFactory: got request NetworkRequest [ TRACK_DEFAULT id=50, [ Capabilities: INTERNET&NOT_RESTRICTED&TRUSTED Uid: 10167 AdministratorUids: [] RequestorUid: 10167 RequestorPackageName: com.userjoy.ujjsgc.jp] ] with score 60 and providerId 3
+11-09 08:14:56.460  1039  1039 D PhoneSwitcherNetworkRequstListener: got request NetworkRequest [ TRACK_DEFAULT id=50, [ Capabilities: INTERNET&NOT_RESTRICTED&TRUSTED Uid: 10167 AdministratorUids: [] RequestorUid: 10167 RequestorPackageName: com.userjoy.ujjsgc.jp] ] with score 60 and providerId 3
+11-09 08:14:56.462  1039  1039 D DcRequest: Cellular request confirmed: NetworkRequest [ TRACK_DEFAULT id=50, [ Capabilities: INTERNET&NOT_RESTRICTED&TRUSTED Uid: 10167 AdministratorUids: [] RequestorUid: 10167 RequestorPackageName: com.userjoy.ujjsgc.jp] ]
+11-09 08:14:56.462  1039  1039 D PhoneSwitcher: evaluating due to netRequest
+11-09 08:14:56.462  1039  1039 D PhoneSwitcher: notifyPreferredDataSubIdChanged to 1
+11-09 08:14:56.462   713   713 V KeyguardUpdateMonitor: onSubscriptionInfoChanged()
+11-09 08:14:56.462  1039  1039 D PhoneSwitcher: Added DcRequest, size: 13
+11-09 08:14:56.462  1039  1039 D Telephony: isEmergencyPreferredAccount: subId=1, activeData=1
+11-09 08:14:56.462  1039  1039 D Telephony: isEmergencyPreferredAccount: Device does not require preference.
+11-09 08:14:56.462   713   713 V KeyguardUpdateMonitor: SubInfo:{id=1 iccId=89014103211118510720 simSlotIndex=0 carrierId=1 displayName=T-Mobile carrierName=T-Mobile nameSource=3 iconTint=-16746133 number=+15555215554 dataRoaming=0 iconBitmap=android.graphics.Bitmap@72b5076 mcc=310 mnc=260 countryIso=us isEmbedded=false nativeAccessRules=null cardString=89014103211118510720 cardId=-1 isOpportunistic=false groupUUID=null isGroupDisabled=false profileClass=-1 ehplmns=null hplmns=null subscriptionType=0 groupOwner=null carrierConfigAccessRules=null areUiccApplicationsEnabled=true}
+11-09 08:14:56.470  6457  6487 W GooglePlayServicesUtil: Google Play services out of date for com.userjoy.ujjsgc.jp.  Requires 212800000 but found 201817023
+11-09 08:14:56.470  6457  6487 W GoogleApiManager: The service for com.google.android.gms.internal.appset.zzd is not available: ConnectionResult{statusCode=SERVICE_VERSION_UPDATE_REQUIRED, resolution=null, message=null}
+11-09 08:14:56.471  6457  6621 W GooglePlayServicesUtil: Google Play services out of date for com.userjoy.ujjsgc.jp.  Requires 212800000 but found 201817023
+11-09 08:14:56.477  6457  6603 W cr_media: Requires BLUETOOTH permission
+11-09 08:14:56.482  6457  6625 D HostConnection: HostConnection::get() New Host Connection established 0x7ef08c480b50, tid 6625
+11-09 08:14:56.490  6457  6625 D HostConnection: HostComposition ext ANDROID_EMU_CHECKSUM_HELPER_v1 ANDROID_EMU_native_sync_v2 ANDROID_EMU_dma_v1 ANDROID_EMU_direct_mem ANDROID_EMU_host_composition_v1 ANDROID_EMU_host_composition_v2 ANDROID_EMU_YUV_Cache ANDROID_EMU_has_shared_slots_host_memory_allocator ANDROID_EMU_sync_buffer_data ANDROID_EMU_read_color_buffer_dma ANDROID_EMU_hwc_color_transform GL_OES_EGL_image_external_essl3 GL_OES_vertex_array_object GL_KHR_texture_compression_astc_ldr ANDROID_EMU_host_side_tracing ANDROID_EMU_gles_max_version_3_0 
+11-09 08:14:56.491  6457  6625 D EGL_emulation: eglCreateContext: 0x7ef07c4d0360: maj 3 min 0 rcv 3
+11-09 08:14:56.495  6457  6625 D EGL_emulation: eglMakeCurrent: 0x7ef07c4d0360: ver 3 0 (tinfo 0x7ef01c4ebf50) (first time)
+11-09 08:14:56.507  6580  6597 I cr_LibraryLoader: Loaded native library version number "83.0.4103.106"
+11-09 08:14:56.509  6580  6597 I cr_CachingUmaRecorder: Flushed 1 samples from 1 histograms.
+11-09 08:14:56.526  6457  6625 I VideoCapabilities: Unsupported profile 4 for video/mp4v-es
+11-09 08:14:56.526  6457  6625 W cr_MediaCodecUtil: HW encoder for video/avc is not available on this device.
+11-09 08:14:56.529  6457  6625 D EGL_emulation: eglCreateContext: 0x7ef07c4caf80: maj 3 min 0 rcv 3
+11-09 08:14:56.538   421   421 E libc    : The property "ro.build.fingerprint" has a value with length 92 that is too large for __system_property_get()/__system_property_read(); use __system_property_read_callback() instead.
+11-09 08:14:56.595  6457  6524 E Unity   : Coroutine couldn't be started because the the game object 'FPSText' is inactive!
+11-09 08:14:56.611  6457  6524 W GooglePlayServicesUtil: Google Play services out of date for com.userjoy.ujjsgc.jp.  Requires 212800000 but found 201817023
+11-09 08:14:56.611  6457  6487 W GooglePlayServicesUtil: Google Play services out of date for com.userjoy.ujjsgc.jp.  Requires 212800000 but found 201817023
+11-09 08:14:56.611  6457  6487 W GoogleApiManager: The service for com.google.android.gms.internal.appset.zzd is not available: ConnectionResult{statusCode=SERVICE_VERSION_UPDATE_REQUIRED, resolution=null, message=null}
+11-09 08:14:56.611  6457  6487 W GooglePlayServicesUtil: Google Play services out of date for com.userjoy.ujjsgc.jp.  Requires 212800000 but found 201817023
+11-09 08:14:56.611  6457  6487 W GoogleApiManager: The service for com.google.android.gms.internal.appset.zzd is not available: ConnectionResult{statusCode=SERVICE_VERSION_UPDATE_REQUIRED, resolution=null, message=null}
+11-09 08:14:56.619  6457  6524 I Unity   : init appsflyer , appID:1566507003
+11-09 08:14:56.619  6457  6524 I Unity   : AppsFlyerObjectScript:Start()
+11-09 08:14:56.619  6457  6524 I Unity   : 
+11-09 08:14:56.631  1393  1484 I PeriodicStatsRunner: PeriodicStatsRunner.call():180 call()
+11-09 08:14:56.632  1393  1484 I PeriodicStatsRunner: PeriodicStatsRunner.call():184 No submit PeriodicStats since input started.
+11-09 08:14:56.648   420   420 I perfetto: probes_producer.cc:329  Producer stop (id=6)
+11-09 08:14:56.650   420   420 I perfetto: ftrace_procfs.cc:183    disabled ftrace
+11-09 08:14:56.652   421   421 I perfetto: ng_service_impl.cc:1948 Tracing session 6 ended, total sessions:0
+11-09 08:14:56.863     0     0 W perfetto: disabled ftrace
+11-09 08:14:56.677   428  6452 I iorapd  : Perfetto TraceBuffer saved to file: /data/misc/iorapd/com.userjoy.ujjsgc.jp/23017/com.unity3d.player.UnityPlayerActivity/raw_traces/1794212096676235365.perfetto_trace.pb
+11-09 08:14:57.176  6457  6472 I erjoy.ujjsgc.j: NativeAlloc concurrent copying GC freed 480079(18MB) AllocSpace objects, 26(856KB) LOS objects, 49% free, 7330KB/14MB, paused 34us total 136.282ms
+11-09 08:14:57.346  6457  6487 W GooglePlayServicesUtil: Google Play services out of date for com.userjoy.ujjsgc.jp.  Requires 203400000 but found 201817023
+11-09 08:14:57.347  6457  6487 W GoogleApiManager: The service for com.google.android.gms.common.internal.service.zap is not available: ConnectionResult{statusCode=SERVICE_VERSION_UPDATE_REQUIRED, resolution=null, message=null}
+11-09 08:14:57.347  6457  6487 W GooglePlayServicesUtil: Google Play services out of date for com.userjoy.ujjsgc.jp.  Requires 203400000 but found 201817023
+11-09 08:14:57.347  6457  6487 W GoogleApiManager: The service for com.google.android.gms.common.internal.service.zap is not available: ConnectionResult{statusCode=SERVICE_VERSION_UPDATE_REQUIRED, resolution=null, message=null}
+11-09 08:14:57.442   499  3201 I system_server: oneway function results will be dropped but finished with status OK and parcel size 4
+11-09 08:14:57.765  1393  1484 I PeriodicStatsRunner: PeriodicStatsRunner.call():180 call()
+11-09 08:14:57.765  1393  1484 I PeriodicStatsRunner: PeriodicStatsRunner.call():184 No submit PeriodicStats since input started.
+11-09 08:14:57.829   499  1639 I sysui_multi_action: [324,0,757,1090,758,12,806,com.userjoy.ujjsgc.jp,871,com.unity3d.player.UnityPlayerActivity,1091,6189]
+11-09 08:14:57.829   499   537 I ActivityTaskManager: Fully drawn com.userjoy.ujjsgc.jp/com.unity3d.player.UnityPlayerActivity: +6s189ms
+11-09 08:14:57.829   499   532 D EventSequenceValidator: Transition from ACTIVITY_FINISHED to REPORT_FULLY_DRAWN
+11-09 08:14:57.881  6457  6564 I firebase: Firebase Analytics API Initializing
+11-09 08:14:57.891  6457  6564 I firebase: analytics API Initialized
+11-09 08:14:57.929  6457  6564 I Unity   : Firebase check dependencies success
+11-09 08:14:57.929  6457  6564 I Unity   : <>c:<Start>b__52_0(Task`1)
+11-09 08:14:57.929  6457  6564 I Unity   : System.Threading.Tasks.Task:Execute()
+11-09 08:14:57.929  6457  6564 I Unity   : System.Threading.ExecutionContext:RunInternal(ExecutionContext, ContextCallback, Object, Boolean)
+11-09 08:14:57.929  6457  6564 I Unity   : System.Threading.Tasks.Task:ExecuteWithThreadLocal(Task&)
+11-09 08:14:57.929  6457  6564 I Unity   : System.Threading.Tasks.Task:ExecuteEntry(Boolean)
+11-09 08:14:57.929  6457  6564 I Unity   : System.Threading.ThreadPoolWorkQueue:Dispatch()
+11-09 08:14:57.929  6457  6564 I Unity   : 
+11-09 08:14:57.932  6457  6564 I Unity   : SendFirebaseEvent:OnDepSuccess
+11-09 08:14:57.932  6457  6564 I Unity   : BaseProcLua:SendFirebaseEvent(String)
+11-09 08:14:57.932  6457  6564 I Unity   : <>c:<Start>b__52_0(Task`1)
+11-09 08:14:57.932  6457  6564 I Unity   : System.Threading.Tasks.Task:Execute()
+11-09 08:14:57.932  6457  6564 I Unity   : System.Threading.ExecutionContext:RunInternal(ExecutionContext, ContextCallback, Object, Boolean)
+11-09 08:14:57.932  6457  6564 I Unity   : System.Threading.Tasks.Task:ExecuteWithThreadLocal(Task&)
+11-09 08:14:57.932  6457  6564 I Unity   : System.Threading.Tasks.Task:ExecuteEntry(Boolean)
+11-09 08:14:57.932  6457  6564 I Unity   : System.Threading.ThreadPoolWorkQueue:Dispatch()
+11-09 08:14:57.932  6457  6564 I Unity   : 
+11-09 08:14:58.000  6457  6564 I firebase: Firebase Analytics API Initializing
+11-09 08:14:58.000  6457  6564 I firebase: analytics API Initialized
+11-09 08:14:58.083  6457  6524 I Unity   : Firebase Analytics API Initializing
+11-09 08:14:58.083  6457  6524 I Unity   : Firebase.AppUtilPINVOKE:PollCallbacks()
+11-09 08:14:58.083  6457  6524 I Unity   : Firebase.AppUtil:PollCallbacks()
+11-09 08:14:58.083  6457  6524 I Unity   : Firebase.Platform.FirebaseHandler:Update()
+11-09 08:14:58.083  6457  6524 I Unity   : 
+11-09 08:14:58.085  6457  6524 I Unity   : analytics API Initialized
+11-09 08:14:58.085  6457  6524 I Unity   : Firebase.AppUtilPINVOKE:PollCallbacks()
+11-09 08:14:58.085  6457  6524 I Unity   : Firebase.AppUtil:PollCallbacks()
+11-09 08:14:58.085  6457  6524 I Unity   : Firebase.Platform.FirebaseHandler:Update()
+11-09 08:14:58.085  6457  6524 I Unity   : 
+11-09 08:14:58.346  6457  6660 D ProfileInstaller: Skipping profile installation for com.userjoy.ujjsgc.jp
+11-09 08:14:58.732   380   460 D AudioFlinger: mixer(0x78b138c24040) throttle end: throttle time(8)
+11-09 08:14:59.204  1039  1039 D RILJ    : [0210]> SIGNAL_STRENGTH [PHONE0]
+11-09 08:14:59.204   436   436 D RIL     : onRequest: SIGNAL_STRENGTH
+11-09 08:14:59.204   436   436 D AT      : AT> AT+CSQ
+11-09 08:14:59.204   436   495 D AT      : AT< %CGFPCCFG: 1,5000,14,0,1
+11-09 08:14:59.204   436   495 D RIL     : got CGFPCCFG line %CGFPCCFG: 1,5000,14,0,1 and %CGFPCCFG: 1,5000,14,0,1
+11-09 08:14:59.204   436   495 D RIL     : got i 0, val = 1
+11-09 08:14:59.204   436   495 D RIL     : got i 1, val = 5000
+11-09 08:14:59.204   436   495 D RIL     : got i 2, val = 14
+11-09 08:14:59.204   436   495 D RIL     : got i 3, val = 0
+11-09 08:14:59.204   436   495 D RIL     : got i 4, val = 1
+11-09 08:14:59.205   436   495 D RILC    : reportPhysicalChannelConfigs: 1 5000 14 0 1
+11-09 08:14:59.205   436   495 D AT      : AT< %CGFPCCFG: 2,5000,14,0,1
+11-09 08:14:59.205   436   495 D RIL     : got CGFPCCFG line %CGFPCCFG: 2,5000,14,0,1 and %CGFPCCFG: 2,5000,14,0,1
+11-09 08:14:59.205   436   495 D RIL     : got i 0, val = 2
+11-09 08:14:59.205   436   495 D RIL     : got i 1, val = 5000
+11-09 08:14:59.205   436   495 D RIL     : got i 2, val = 14
+11-09 08:14:59.205   436   495 D RIL     : got i 3, val = 0
+11-09 08:14:59.205   436   495 D RIL     : got i 4, val = 1
+11-09 08:14:59.205   436   495 D RILC    : reportPhysicalChannelConfigs: 2 5000 14 0 1
+11-09 08:14:59.205   436   495 D AT      : AT< +CSQ: 12,4,90,120,80,120,4,90,100,10,30,7,200
+11-09 08:14:59.205   436   495 D AT      : AT< OK
+11-09 08:14:59.205  1039  1220 D RILJ    : [UNSL]< RIL_UNSOL_PHYSICAL_CHANNEL_CONFIG [{mConnectionStatus=PrimaryServing,mCellBandwidthDownlinkKhz=5000,mRat=LTE,mFrequencyRange=UNKNOWN,mChannelNumber=2147483647,mContextIds=[1],mPhysicalCellId=0}] [PHONE0]
+11-09 08:14:59.205  1039  1220 D RILJ    : [UNSL]< RIL_UNSOL_PHYSICAL_CHANNEL_CONFIG [{mConnectionStatus=SecondaryServing,mCellBandwidthDownlinkKhz=5000,mRat=LTE,mFrequencyRange=UNKNOWN,mChannelNumber=2147483647,mContextIds=[1],mPhysicalCellId=0}] [PHONE0]
+11-09 08:14:59.205  1039  1220 E CellSignalStrengthLte: convertRssiAsuToDBm: invalid RSSI in ASU=90
+11-09 08:14:59.205  1039  1220 D RILJ    : [0210]< SIGNAL_STRENGTH SignalStrength:{mCdma=CellSignalStrengthCdma: cdmaDbm=2147483647 cdmaEcio=2147483647 evdoDbm=2147483647 evdoEcio=2147483647 evdoSnr=2147483647 level=0,mGsm=CellSignalStrengthGsm: rssi=2147483647 ber=2147483647 mTa=2147483647 mLevel=0,mWcdma=CellSignalStrengthWcdma: ss=2147483647 ber=2147483647 rscp=2147483647 ecno=2147483647 level=0,mTdscdma=CellSignalStrengthTdscdma: rssi=2147483647 ber=2147483647 rscp=2147483647 level=0,mLte=CellSignalStrengthLte: rssi=2147483647 rsrp=-100 rsrq=-10 rssnr=3 cqi=7 ta=200 level=2 parametersUseForLevel=1,mNr=CellSignalStrengthNr:{ csiRsrp = 2147483647 csiRsrq = 2147483647 csiSinr = 2147483647 ssRsrp = 2147483647 ssRsrq = 2147483647 ssSinr = 2147483647 level = 0 parametersUseForLevel = 1 },primary=CellSignalStrengthLte} [PHONE0]
+11-09 08:15:00.002   713   713 D KeyguardClockSwitch: Updating clock: 815
+11-09 08:15:01.329   499   554 I commit_sys_config_file: [package-user-0,2]
+11-09 08:15:04.309   380   460 D AudioFlinger: mixer(0x78b138c24040) throttle end: throttle time(2)
+11-09 08:15:04.443   380   460 D AudioFlinger: mixer(0x78b138c24040) throttle end: throttle time(8)
+11-09 08:15:04.641   380   460 D AudioFlinger: mixer(0x78b138c24040) throttle end: throttle time(13)
+11-09 08:15:05.902   380   460 D AudioFlinger: mixer(0x78b138c24040) throttle end: throttle time(15)
+11-09 08:15:06.529  6457  6524 I Unity   : MobileAdsManager Init Status: GoogleMobileAds.Api.InitializationStatus
+11-09 08:15:06.529  6457  6524 I Unity   : MobileAdsManager:<Init>b__17_0(InitializationStatus)
+11-09 08:15:06.529  6457  6524 I Unity   : GoogleMobileAds.Common.MobileAdsEventExecutor:Update()
+11-09 08:15:06.529  6457  6524 I Unity   : 
+11-09 08:15:06.564   499   647 D ConnectivityService: releasing NetworkRequest [ TRACK_DEFAULT id=48, [ Capabilities: INTERNET&NOT_RESTRICTED&TRUSTED Uid: 10167 AdministratorUids: [] RequestorUid: 10167 RequestorPackageName: com.userjoy.ujjsgc.jp] ] (release request)
+11-09 08:15:06.566  1039  1039 D DcRequest: Cellular request confirmed: NetworkRequest [ TRACK_DEFAULT id=48, [ Capabilities: INTERNET&NOT_RESTRICTED&TRUSTED Uid: 10167 AdministratorUids: [] RequestorUid: 10167 RequestorPackageName: com.userjoy.ujjsgc.jp] ]
+11-09 08:15:06.566  1039  1039 D PhoneSwitcher: evaluating due to netReleased
+11-09 08:15:06.566  1039  1039 D PhoneSwitcher: notifyPreferredDataSubIdChanged to 1
+11-09 08:15:06.566   713   713 V KeyguardUpdateMonitor: onSubscriptionInfoChanged()
+11-09 08:15:06.567   713   713 V KeyguardUpdateMonitor: SubInfo:{id=1 iccId=89014103211118510720 simSlotIndex=0 carrierId=1 displayName=T-Mobile carrierName=T-Mobile nameSource=3 iconTint=-16746133 number=+15555215554 dataRoaming=0 iconBitmap=android.graphics.Bitmap@80a3749 mcc=310 mnc=260 countryIso=us isEmbedded=false nativeAccessRules=null cardString=89014103211118510720 cardId=-1 isOpportunistic=false groupUUID=null isGroupDisabled=false profileClass=-1 ehplmns=null hplmns=null subscriptionType=0 groupOwner=null carrierConfigAccessRules=null areUiccApplicationsEnabled=true}
+11-09 08:15:06.568  1039  1039 D PhoneSwitcher: Removed DcRequest, size: 12
+11-09 08:15:06.568  1039  1039 D Telephony: isEmergencyPreferredAccount: subId=1, activeData=1
+11-09 08:15:06.568  1039  1039 D Telephony: isEmergencyPreferredAccount: Device does not require preference.
+11-09 08:15:06.574  6457  6457 E chromium: [ERROR:aw_browser_terminator.cc(125)] Renderer process (6580) crash detected (code -1).
+11-09 08:15:06.812     0     0 I binder_alloc: 6580: binder_alloc_buf, no vma
+11-09 08:15:06.817     0     0 I binder  : 499:1639 transaction failed 29189/-3, size 84-0 line 3226
+11-09 08:15:06.621   934   934 I Zygote  : Process 6580 exited cleanly (0)
+11-09 08:15:06.627   499  1639 W ActivityManager: Exception when unbinding service com.userjoy.ujjsgc.jp/org.chromium.content.app.SandboxedProcessService0:0
+11-09 08:15:06.627   499  1639 W ActivityManager: android.os.DeadObjectException
+11-09 08:15:06.627   499  1639 W ActivityManager: 	at android.os.BinderProxy.transactNative(Native Method)
+11-09 08:15:06.627   499  1639 W ActivityManager: 	at android.os.BinderProxy.transact(BinderProxy.java:540)
+11-09 08:15:06.627   499  1639 W ActivityManager: 	at android.app.IApplicationThread$Stub$Proxy.scheduleUnbindService(IApplicationThread.java:1646)
+11-09 08:15:06.627   499  1639 W ActivityManager: 	at com.android.server.am.ActiveServices.removeConnectionLocked(ActiveServices.java:3545)
+11-09 08:15:06.627   499  1639 W ActivityManager: 	at com.android.server.am.ActiveServices.unbindServiceLocked(ActiveServices.java:2280)
+11-09 08:15:06.627   499  1639 W ActivityManager: 	at com.android.server.am.ActivityManagerService.unbindService(ActivityManagerService.java:15196)
+11-09 08:15:06.627   499  1639 W ActivityManager: 	at android.app.IActivityManager$Stub.onTransact(IActivityManager.java:2570)
+11-09 08:15:06.627   499  1639 W ActivityManager: 	at com.android.server.am.ActivityManagerService.onTransact(ActivityManagerService.java:2883)
+11-09 08:15:06.627   499  1639 W ActivityManager: 	at android.os.Binder.execTransactInternal(Binder.java:1154)
+11-09 08:15:06.627   499  1639 W ActivityManager: 	at android.os.Binder.execTransact(Binder.java:1123)
+11-09 08:15:06.627   160   160 W lowmemorykiller: Failed to open /proc/6580/oom_score_adj; errno=2: process 6580 might have been killed
+11-09 08:15:06.627   499  1639 I ActivityManager: Killing 6580:com.google.android.webview:sandboxed_process0:org.chromium.content.app.SandboxedProcessService0:0/u0a167i1 (adj 905): isolated not needed
+11-09 08:15:06.627   499  1639 I am_kill : [0,6580,com.google.android.webview:sandboxed_process0:org.chromium.content.app.SandboxedProcessService0:0,905,isolated not needed]
+11-09 08:15:06.628   499   540 I libprocessgroup: Successfully killed process cgroup uid 99001 pid 6580 in 0ms
+11-09 08:15:06.628   499  4646 I am_proc_died: [0,6580,com.google.android.webview:sandboxed_process0:org.chromium.content.app.SandboxedProcessService0:0,905,19]
+11-09 08:15:06.628   499  4646 I am_uid_stopped: 99001
+11-09 08:15:06.640   499   544 D KernelCpuUidUserSysTimeReader: Removing uids 1037-1037
+11-09 08:15:06.640   499   544 D KernelCpuUidUserSysTimeReader: Removing uids 1037-1037
+11-09 08:15:06.640   499   544 D KernelCpuUidUserSysTimeReader: Removing uids 99000-99000
+11-09 08:15:06.652   499   537 I am_pss  : [6457,10167,com.userjoy.ujjsgc.jp,477607936,447385600,0,677969920,0,2,11]
+11-09 08:15:08.076   499   537 I am_pss  : [6390,10113,com.google.android.projection.gearhead:shared,24085504,19456000,0,131354624,0,19,6]
+11-09 08:15:08.713  6457  6524 I Unity   : 08:15:08.707-228: Init lua state cost: 0.1761656
+11-09 08:15:08.713  6457  6524 I Unity   : LuaInterface.Debugger:Log(String)
+11-09 08:15:08.713  6457  6524 I Unity   : LuaInterface.LuaState:.ctor()
+11-09 08:15:08.713  6457  6524 I Unity   : LuaFramework.LuaManager:Awake()
+11-09 08:15:08.713  6457  6524 I Unity   : UnityEngine.GameObject:AddComponent()
+11-09 08:15:08.713  6457  6524 I Unity   : Main:StartLuaScriptMgr()
+11-09 08:15:08.713  6457  6524 I Unity   : ProcessLunchGame:V_UpdateLoading(Single)
+11-09 08:15:08.713  6457  6524 I Unity   : CProcManager:Update(Single)
+11-09 08:15:08.713  6457  6524 I Unity   : Main:Update()
+11-09 08:15:08.713  6457  6524 I Unity   : 
+11-09 08:15:09.081  6457  6524 I Unity   : 08:15:09.79-228: Register lua type cost time: 0.3586817
+11-09 08:15:09.081  6457  6524 I Unity   : LuaInterface.Debugger:Log(String)
+11-09 08:15:09.081  6457  6524 I Unity   : LuaBinder:Bind(LuaState)
+11-09 08:15:09.081  6457  6524 I Unity   : LuaFramework.LuaManager:Awake()
+11-09 08:15:09.081  6457  6524 I Unity   : UnityEngine.GameObject:AddComponent()
+11-09 08:15:09.081  6457  6524 I Unity   : Main:StartLuaScriptMgr()
+11-09 08:15:09.081  6457  6524 I Unity   : ProcessLunchGame:V_UpdateLoading(Single)
+11-09 08:15:09.081  6457  6524 I Unity   : CProcManager:Update(Single)
+11-09 08:15:09.081  6457  6524 I Unity   : Main:Update()
+11-09 08:15:09.081  6457  6524 I Unity   : 
+11-09 08:15:09.138  6457  6524 I Unity   : 08:15:09.137-228: LuaState start
+11-09 08:15:09.138  6457  6524 I Unity   : LuaInterface.Debugger:Log(String)
+11-09 08:15:09.138  6457  6524 I Unity   : LuaInterface.LuaState:Start()
+11-09 08:15:09.138  6457  6524 I Unity   : LuaFramework.LuaManager:InitStart()
+11-09 08:15:09.138  6457  6524 I Unity   : Main:StartLuaScriptMgr()
+11-09 08:15:09.138  6457  6524 I Unity   : ProcessLunchGame:V_UpdateLoading(Single)
+11-09 08:15:09.138  6457  6524 I Unity   : CProcManager:Update(Single)
+11-09 08:15:09.138  6457  6524 I Unity   : Main:Update()
+11-09 08:15:09.138  6457  6524 I Unity   : 
+11-09 08:15:09.145  6457  6524 I Unity   : ver20100 jit:  false fold cse dce fwd dse narrow loop abc sink fuse
+11-09 08:15:09.145  6457  6524 I Unity   : LuaFramework_UtilWrap:Log(IntPtr)
+11-09 08:15:09.145  6457  6524 I Unity   : 
+11-09 08:15:09.146  6457  6524 I Unity   : os: Linux, arch: arm64
+11-09 08:15:09.146  6457  6524 I Unity   : LuaFramework_UtilWrap:Log(IntPtr)
+11-09 08:15:09.146  6457  6524 I Unity   : 
+11-09 08:15:09.190  6457  6524 I Unity   : logic start
+11-09 08:15:09.190  6457  6524 I Unity   : LuaFramework_UtilWrap:Log(IntPtr)
+11-09 08:15:09.190  6457  6524 I Unity   : 
+11-09 08:15:09.220  6457  6457 I auditd  : type=1400 audit(0.0:48): avc: denied { getattr } for comm="UnityMain" path="/system/xbin/su" dev="dm-4" ino=3073 scontext=u:r:untrusted_app:s0:c167,c256,c512,c768 tcontext=u:object_r:su_exec:s0 tclass=file permissive=0 app=com.userjoy.ujjsgc.jp
+11-09 08:15:09.220  6457  6457 W UnityMain: type=1400 audit(0.0:48): avc: denied { getattr } for path="/system/xbin/su" dev="dm-4" ino=3073 scontext=u:r:untrusted_app:s0:c167,c256,c512,c768 tcontext=u:object_r:su_exec:s0 tclass=file permissive=0 app=com.userjoy.ujjsgc.jp
+11-09 08:15:09.921     0     0 W healthd : battery l=100 v=5000 t=25.0 h=2 st=2 c=900000 fc=300000 cc=10 chg=a
+11-09 08:15:09.224  6457  6457 I chatty  : uid=10167(com.userjoy.ujjsgc.jp) identical 1 line
+11-09 08:15:09.224  6457  6457 W UnityMain: type=1400 audit(0.0:50): avc: denied { getattr } for path="/system/xbin/su" dev="dm-4" ino=3073 scontext=u:r:untrusted_app:s0:c167,c256,c512,c768 tcontext=u:object_r:su_exec:s0 tclass=file permissive=0 app=com.userjoy.ujjsgc.jp
+11-09 08:15:12.113  6457  6524 I Unity   : 08:15:12.112-228: [SGM Offline] Original TW dictionaries initialized
+11-09 08:15:12.113  6457  6524 I Unity   : LuaInterface.Debugger:Log(String)
+11-09 08:15:12.113  6457  6524 I Unity   : LuaInterface.ToLua:Print(IntPtr)
+11-09 08:15:12.113  6457  6524 I Unity   : 
+11-09 08:15:12.141  6457  6524 I Unity   : 08:15:12.140-228: [SGM Offline] Original client offline adapters installed
+11-09 08:15:12.141  6457  6524 I Unity   : LuaInterface.Debugger:Log(String)
+11-09 08:15:12.141  6457  6524 I Unity   : LuaInterface.ToLua:Print(IntPtr)
+11-09 08:15:12.141  6457  6524 I Unity   : 
+11-09 08:15:13.936   380   460 D AudioFlinger: mixer(0x78b138c24040) throttle end: throttle time(9)
+11-09 08:15:14.037   380   460 D AudioFlinger: mixer(0x78b138c24040) throttle end: throttle time(6)
+11-09 08:15:14.069   380   460 D AudioFlinger: mixer(0x78b138c24040) throttle end: throttle time(1)
+11-09 08:15:14.202   380   460 D AudioFlinger: mixer(0x78b138c24040) throttle end: throttle time(16)
+11-09 08:15:14.217  6457  6524 E Unity   : ProcessBase:ShowConnectingTip = 0
+11-09 08:15:14.217  6457  6524 E Unity   : stack traceback:
+11-09 08:15:14.217  6457  6524 E Unity   : 	/Users/userjoy/Desktop/JenkinsRoot/workspace/SGC_BuildData/JP_OFFICIAL_Android/Unity/Assets/LuaScript/Process/ProcessBase.lua:847: in function 'ShowConnectingTip'
+11-09 08:15:14.217  6457  6524 E Unity   : 	.../userjoy/Desktop/JenkinsRoot/workspace/SGC_BuildData/JP_OFFICIAL_Android/Unity/Assets/LuaScript/Process/ProcessLoginGame.lua:147: in function 'enter'
+11-09 08:15:14.217  6457  6524 E Unity   : 	offline/boot.lua:118: in function <offline/boot.lua:116>
+11-09 08:15:14.217  6457  6524 E Unity   : LuaFramework_UtilWrap:LogError(IntPtr)
+11-09 08:15:14.217  6457  6524 E Unity   : 
+11-09 08:15:14.234  6457  6524 E Unity   : SetMarsOpeningStatus status = 0, notifyServer = 0, onlyNotify = 0
+11-09 08:15:14.234  6457  6524 E Unity   : LuaFramework_UtilWrap:LogError(IntPtr)
+11-09 08:15:14.234  6457  6524 E Unity   : 
+11-09 08:15:16.126  6457  6524 W Unity   : GetAllNetworkInterfaces Type: 0
+11-09 08:15:16.126  6457  6524 W Unity   : BaseProcLua:GetMacAddress()
+11-09 08:15:16.126  6457  6524 W Unity   : BaseProcLuaWrap:GetMacAddress(IntPtr)
+11-09 08:15:16.126  6457  6524 W Unity   : 
+11-09 08:15:16.127  6457  6524 I chatty  : uid=10167(com.userjoy.ujjsgc.jp) UnityMain identical 2 lines
+11-09 08:15:16.128  6457  6524 W Unity   : GetAllNetworkInterfaces Type: 0
+11-09 08:15:16.128  6457  6524 W Unity   : BaseProcLua:GetMacAddress()
+11-09 08:15:16.128  6457  6524 W Unity   : BaseProcLuaWrap:GetMacAddress(IntPtr)
+11-09 08:15:16.128  6457  6524 W Unity   : 
+11-09 08:15:16.128  6457  6524 I Unity   : ********* Mac Address : 
+11-09 08:15:16.128  6457  6524 I Unity   : LuaFramework_UtilWrap:Log(IntPtr)
+11-09 08:15:16.128  6457  6524 I Unity   : 
+11-09 08:15:16.204  6457  6524 W Unity   : WndForm_LoginGame:_SetPGSBannerVisible 0
+11-09 08:15:16.204  6457  6524 W Unity   : LuaFramework_UtilWrap:LogWarning(IntPtr)
+11-09 08:15:16.204  6457  6524 W Unity   : 
+11-09 08:15:16.209  6457  6524 E Unity   : InitServerListData regionID = 0
+11-09 08:15:16.209  6457  6524 E Unity   : LuaFramework_UtilWrap:LogError(IntPtr)
+11-09 08:15:16.209  6457  6524 E Unity   : 
+11-09 08:15:19.208  1039  1039 D RILJ    : [0211]> SIGNAL_STRENGTH [PHONE0]
+11-09 08:15:19.208   436   436 D RIL     : onRequest: SIGNAL_STRENGTH
+11-09 08:15:19.208   436   436 D AT      : AT> AT+CSQ
+11-09 08:15:19.211   436   495 D AT      : AT< %CGFPCCFG: 1,5000,14,0,1
+11-09 08:15:19.211   436   495 D RIL     : got CGFPCCFG line %CGFPCCFG: 1,5000,14,0,1 and %CGFPCCFG: 1,5000,14,0,1
+11-09 08:15:19.211   436   495 D RIL     : got i 0, val = 1
+11-09 08:15:19.211   436   495 D RIL     : got i 1, val = 5000
+11-09 08:15:19.211   436   495 D RIL     : got i 2, val = 14
+11-09 08:15:19.211   436   495 D RIL     : got i 3, val = 0
+11-09 08:15:19.211   436   495 D RIL     : got i 4, val = 1
+11-09 08:15:19.211   436   495 D RILC    : reportPhysicalChannelConfigs: 1 5000 14 0 1
+11-09 08:15:19.211   436   495 D AT      : AT< %CGFPCCFG: 2,5000,14,0,1
+11-09 08:15:19.211   436   495 D RIL     : got CGFPCCFG line %CGFPCCFG: 2,5000,14,0,1 and %CGFPCCFG: 2,5000,14,0,1
+11-09 08:15:19.211   436   495 D RIL     : got i 0, val = 2
+11-09 08:15:19.211   436   495 D RIL     : got i 1, val = 5000
+11-09 08:15:19.211   436   495 D RIL     : got i 2, val = 14
+11-09 08:15:19.211   436   495 D RIL     : got i 3, val = 0
+11-09 08:15:19.211   436   495 D RIL     : got i 4, val = 1
+11-09 08:15:19.211   436   495 D RILC    : reportPhysicalChannelConfigs: 2 5000 14 0 1
+11-09 08:15:19.211   436   495 D AT      : AT< +CSQ: 12,4,90,120,80,120,4,90,100,10,30,7,200
+11-09 08:15:19.211   436   495 D AT      : AT< OK
+11-09 08:15:19.212  1039  1220 D RILJ    : [UNSL]< RIL_UNSOL_PHYSICAL_CHANNEL_CONFIG [{mConnectionStatus=PrimaryServing,mCellBandwidthDownlinkKhz=5000,mRat=LTE,mFrequencyRange=UNKNOWN,mChannelNumber=2147483647,mContextIds=[1],mPhysicalCellId=0}] [PHONE0]
+11-09 08:15:19.212  1039  1220 D RILJ    : [UNSL]< RIL_UNSOL_PHYSICAL_CHANNEL_CONFIG [{mConnectionStatus=SecondaryServing,mCellBandwidthDownlinkKhz=5000,mRat=LTE,mFrequencyRange=UNKNOWN,mChannelNumber=2147483647,mContextIds=[1],mPhysicalCellId=0}] [PHONE0]
+11-09 08:15:19.213  1039  1220 E CellSignalStrengthLte: convertRssiAsuToDBm: invalid RSSI in ASU=90
+11-09 08:15:19.213  1039  1220 D RILJ    : [0211]< SIGNAL_STRENGTH SignalStrength:{mCdma=CellSignalStrengthCdma: cdmaDbm=2147483647 cdmaEcio=2147483647 evdoDbm=2147483647 evdoEcio=2147483647 evdoSnr=2147483647 level=0,mGsm=CellSignalStrengthGsm: rssi=2147483647 ber=2147483647 mTa=2147483647 mLevel=0,mWcdma=CellSignalStrengthWcdma: ss=2147483647 ber=2147483647 rscp=2147483647 ecno=2147483647 level=0,mTdscdma=CellSignalStrengthTdscdma: rssi=2147483647 ber=2147483647 rscp=2147483647 level=0,mLte=CellSignalStrengthLte: rssi=2147483647 rsrp=-100 rsrq=-10 rssnr=3 cqi=7 ta=200 level=2 parametersUseForLevel=1,mNr=CellSignalStrengthNr:{ csiRsrp = 2147483647 csiRsrq = 2147483647 csiSinr = 2147483647 ssRsrp = 2147483647 ssRsrq = 2147483647 ssSinr = 2147483647 level = 0 parametersUseForLevel = 1 },primary=CellSignalStrengthLte} [PHONE0]
+11-09 08:15:09.224  6457  6457 I chatty  : uid=10167(com.userjoy.ujjsgc.jp) identical 1 line
+11-09 08:15:09.224  6457  6457 I auditd  : type=1400 audit(0.0:50): avc: denied { getattr } for comm="UnityMain" path="/system/xbin/su" dev="dm-4" ino=3073 scontext=u:r:untrusted_app:s0:c167,c256,c512,c768 tcontext=u:object_r:su_exec:s0 tclass=file permissive=0 app=com.userjoy.ujjsgc.jp
+11-09 08:15:21.707   499   537 I am_pss  : [6457,10167,com.userjoy.ujjsgc.jp,871887872,840654848,0,1099628544,0,2,24]
+11-09 08:15:24.674   380   460 D AudioFlinger: mixer(0x78b138c24040) throttle end: throttle time(53)
+11-09 08:15:27.744   380   460 D AudioFlinger: mixer(0x78b138c24040) throttle end: throttle time(36)
+11-09 08:15:27.848  1806  6463 W GmsLocationProvider: Error removing location updates: 16
+11-09 08:15:39.216  1039  1039 D RILJ    : [0212]> SIGNAL_STRENGTH [PHONE0]
+11-09 08:15:39.216   436   436 D RIL     : onRequest: SIGNAL_STRENGTH
+11-09 08:15:39.216   436   436 D AT      : AT> AT+CSQ
+11-09 08:15:39.217   436   495 D AT      : AT< %CGFPCCFG: 1,5000,14,0,1
+11-09 08:15:39.217   436   495 D RIL     : got CGFPCCFG line %CGFPCCFG: 1,5000,14,0,1 and %CGFPCCFG: 1,5000,14,0,1
+11-09 08:15:39.217   436   495 D RIL     : got i 0, val = 1
+11-09 08:15:39.217   436   495 D RIL     : got i 1, val = 5000
+11-09 08:15:39.217   436   495 D RIL     : got i 2, val = 14
+11-09 08:15:39.217   436   495 D RIL     : got i 3, val = 0
+11-09 08:15:39.217   436   495 D RIL     : got i 4, val = 1
+11-09 08:15:39.217   436   495 D RILC    : reportPhysicalChannelConfigs: 1 5000 14 0 1
+11-09 08:15:39.217   436   495 D AT      : AT< %CGFPCCFG: 2,5000,14,0,1
+11-09 08:15:39.217   436   495 D RIL     : got CGFPCCFG line %CGFPCCFG: 2,5000,14,0,1 and %CGFPCCFG: 2,5000,14,0,1
+11-09 08:15:39.217   436   495 D RIL     : got i 0, val = 2
+11-09 08:15:39.217   436   495 D RIL     : got i 1, val = 5000
+11-09 08:15:39.217   436   495 D RIL     : got i 2, val = 14
+11-09 08:15:39.217   436   495 D RIL     : got i 3, val = 0
+11-09 08:15:39.217   436   495 D RIL     : got i 4, val = 1
+11-09 08:15:39.217   436   495 D RILC    : reportPhysicalChannelConfigs: 2 5000 14 0 1
+11-09 08:15:39.217   436   495 D AT      : AT< +CSQ: 12,4,90,120,80,120,4,90,100,10,30,7,200
+11-09 08:15:39.217   436   495 D AT      : AT< OK
+11-09 08:15:39.217  1039  1220 D RILJ    : [UNSL]< RIL_UNSOL_PHYSICAL_CHANNEL_CONFIG [{mConnectionStatus=PrimaryServing,mCellBandwidthDownlinkKhz=5000,mRat=LTE,mFrequencyRange=UNKNOWN,mChannelNumber=2147483647,mContextIds=[1],mPhysicalCellId=0}] [PHONE0]
+11-09 08:15:39.217  1039  1220 E CellSignalStrengthLte: convertRssiAsuToDBm: invalid RSSI in ASU=90
+11-09 08:15:39.217  1039  1220 D RILJ    : [0212]< SIGNAL_STRENGTH SignalStrength:{mCdma=CellSignalStrengthCdma: cdmaDbm=2147483647 cdmaEcio=2147483647 evdoDbm=2147483647 evdoEcio=2147483647 evdoSnr=2147483647 level=0,mGsm=CellSignalStrengthGsm: rssi=2147483647 ber=2147483647 mTa=2147483647 mLevel=0,mWcdma=CellSignalStrengthWcdma: ss=2147483647 ber=2147483647 rscp=2147483647 ecno=2147483647 level=0,mTdscdma=CellSignalStrengthTdscdma: rssi=2147483647 ber=2147483647 rscp=2147483647 level=0,mLte=CellSignalStrengthLte: rssi=2147483647 rsrp=-100 rsrq=-10 rssnr=3 cqi=7 ta=200 level=2 parametersUseForLevel=1,mNr=CellSignalStrengthNr:{ csiRsrp = 2147483647 csiRsrq = 2147483647 csiSinr = 2147483647 ssRsrp = 2147483647 ssRsrq = 2147483647 ssSinr = 2147483647 level = 0 parametersUseForLevel = 1 },primary=CellSignalStrengthLte} [PHONE0]
+11-09 08:15:39.217  1039  1220 D RILJ    : [UNSL]< RIL_UNSOL_PHYSICAL_CHANNEL_CONFIG [{mConnectionStatus=SecondaryServing,mCellBandwidthDownlinkKhz=5000,mRat=LTE,mFrequencyRange=UNKNOWN,mChannelNumber=2147483647,mContextIds=[1],mPhysicalCellId=0}] [PHONE0]
+11-09 08:15:47.763   380   460 D AudioFlinger: mixer(0x78b138c24040) throttle end: throttle time(34)
+11-09 08:15:59.221  1039  1039 D RILJ    : [0213]> SIGNAL_STRENGTH [PHONE0]
+11-09 08:15:59.221   436   436 D RIL     : onRequest: SIGNAL_STRENGTH
+11-09 08:15:59.221   436   436 D AT      : AT> AT+CSQ
+11-09 08:15:59.221   436   495 D AT      : AT< %CGFPCCFG: 1,5000,14,0,1
+11-09 08:15:59.221   436   495 D RIL     : got CGFPCCFG line %CGFPCCFG: 1,5000,14,0,1 and %CGFPCCFG: 1,5000,14,0,1
+11-09 08:15:59.221   436   495 D RIL     : got i 0, val = 1
+11-09 08:15:59.221   436   495 D RIL     : got i 1, val = 5000
+11-09 08:15:59.221   436   495 D RIL     : got i 2, val = 14
+11-09 08:15:59.221   436   495 D RIL     : got i 3, val = 0
+11-09 08:15:59.221   436   495 D RIL     : got i 4, val = 1
+11-09 08:15:59.221   436   495 D RILC    : reportPhysicalChannelConfigs: 1 5000 14 0 1
+11-09 08:15:59.221   436   495 D AT      : AT< %CGFPCCFG: 2,5000,14,0,1
+11-09 08:15:59.221   436   495 D RIL     : got CGFPCCFG line %CGFPCCFG: 2,5000,14,0,1 and %CGFPCCFG: 2,5000,14,0,1
+11-09 08:15:59.221   436   495 D RIL     : got i 0, val = 2
+11-09 08:15:59.221   436   495 D RIL     : got i 1, val = 5000
+11-09 08:15:59.221   436   495 D RIL     : got i 2, val = 14
+11-09 08:15:59.221   436   495 D RIL     : got i 3, val = 0
+11-09 08:15:59.221   436   495 D RIL     : got i 4, val = 1
+11-09 08:15:59.221   436   495 D RILC    : reportPhysicalChannelConfigs: 2 5000 14 0 1
+11-09 08:15:59.221   436   495 D AT      : AT< +CSQ: 12,4,90,120,80,120,4,90,100,10,30,7,200
+11-09 08:15:59.221   436   495 D AT      : AT< OK
+11-09 08:15:59.222  1039  1220 D RILJ    : [UNSL]< RIL_UNSOL_PHYSICAL_CHANNEL_CONFIG [{mConnectionStatus=PrimaryServing,mCellBandwidthDownlinkKhz=5000,mRat=LTE,mFrequencyRange=UNKNOWN,mChannelNumber=2147483647,mContextIds=[1],mPhysicalCellId=0}] [PHONE0]
+11-09 08:15:59.222  1039  1220 D RILJ    : [UNSL]< RIL_UNSOL_PHYSICAL_CHANNEL_CONFIG [{mConnectionStatus=SecondaryServing,mCellBandwidthDownlinkKhz=5000,mRat=LTE,mFrequencyRange=UNKNOWN,mChannelNumber=2147483647,mContextIds=[1],mPhysicalCellId=0}] [PHONE0]
+11-09 08:15:59.222  1039  1220 E CellSignalStrengthLte: convertRssiAsuToDBm: invalid RSSI in ASU=90
+11-09 08:15:59.222  1039  1220 D RILJ    : [0213]< SIGNAL_STRENGTH SignalStrength:{mCdma=CellSignalStrengthCdma: cdmaDbm=2147483647 cdmaEcio=2147483647 evdoDbm=2147483647 evdoEcio=2147483647 evdoSnr=2147483647 level=0,mGsm=CellSignalStrengthGsm: rssi=2147483647 ber=2147483647 mTa=2147483647 mLevel=0,mWcdma=CellSignalStrengthWcdma: ss=2147483647 ber=2147483647 rscp=2147483647 ecno=2147483647 level=0,mTdscdma=CellSignalStrengthTdscdma: rssi=2147483647 ber=2147483647 rscp=2147483647 level=0,mLte=CellSignalStrengthLte: rssi=2147483647 rsrp=-100 rsrq=-10 rssnr=3 cqi=7 ta=200 level=2 parametersUseForLevel=1,mNr=CellSignalStrengthNr:{ csiRsrp = 2147483647 csiRsrq = 2147483647 csiSinr = 2147483647 ssRsrp = 2147483647 ssRsrq = 2147483647 ssSinr = 2147483647 level = 0 parametersUseForLevel = 1 },primary=CellSignalStrengthLte} [PHONE0]
+11-09 08:16:00.001   713   713 D KeyguardClockSwitch: Updating clock: 816
+11-09 08:16:09.921     0     0 W healthd : battery l=100 v=5000 t=25.0 h=2 st=2 c=900000 fc=300000 cc=10 chg=a
+11-09 08:16:14.951   380   460 D AudioFlinger: mixer(0x78b138c24040) throttle end: throttle time(56)
+11-09 08:16:16.717   380   460 D AudioFlinger: mixer(0x78b138c24040) throttle end: throttle time(45)
+11-09 08:16:19.224  1039  1039 D RILJ    : [0214]> SIGNAL_STRENGTH [PHONE0]
+11-09 08:16:19.224   436   436 D RIL     : onRequest: SIGNAL_STRENGTH
+11-09 08:16:19.224   436   436 D AT      : AT> AT+CSQ
+11-09 08:16:19.225   436   495 D AT      : AT< %CGFPCCFG: 1,5000,14,0,1
+11-09 08:16:19.225   436   495 D RIL     : got CGFPCCFG line %CGFPCCFG: 1,5000,14,0,1 and %CGFPCCFG: 1,5000,14,0,1
+11-09 08:16:19.225   436   495 D RIL     : got i 0, val = 1
+11-09 08:16:19.225   436   495 D RIL     : got i 1, val = 5000
+11-09 08:16:19.225   436   495 D RIL     : got i 2, val = 14
+11-09 08:16:19.225   436   495 D RIL     : got i 3, val = 0
+11-09 08:16:19.225   436   495 D RIL     : got i 4, val = 1
+11-09 08:16:19.226   436   495 D RILC    : reportPhysicalChannelConfigs: 1 5000 14 0 1
+11-09 08:16:19.226   436   495 D AT      : AT< %CGFPCCFG: 2,5000,14,0,1
+11-09 08:16:19.226   436   495 D RIL     : got CGFPCCFG line %CGFPCCFG: 2,5000,14,0,1 and %CGFPCCFG: 2,5000,14,0,1
+11-09 08:16:19.226   436   495 D RIL     : got i 0, val = 2
+11-09 08:16:19.226   436   495 D RIL     : got i 1, val = 5000
+11-09 08:16:19.226   436   495 D RIL     : got i 2, val = 14
+11-09 08:16:19.226   436   495 D RIL     : got i 3, val = 0
+11-09 08:16:19.226   436   495 D RIL     : got i 4, val = 1
+11-09 08:16:19.226   436   495 D RILC    : reportPhysicalChannelConfigs: 2 5000 14 0 1
+11-09 08:16:19.226   436   495 D AT      : AT< +CSQ: 12,4,90,120,80,120,4,90,100,10,30,7,200
+11-09 08:16:19.226   436   495 D AT      : AT< OK
+11-09 08:16:19.226  1039  1220 D RILJ    : [UNSL]< RIL_UNSOL_PHYSICAL_CHANNEL_CONFIG [{mConnectionStatus=PrimaryServing,mCellBandwidthDownlinkKhz=5000,mRat=LTE,mFrequencyRange=UNKNOWN,mChannelNumber=2147483647,mContextIds=[1],mPhysicalCellId=0}] [PHONE0]
+11-09 08:16:19.226  1039  1220 D RILJ    : [UNSL]< RIL_UNSOL_PHYSICAL_CHANNEL_CONFIG [{mConnectionStatus=SecondaryServing,mCellBandwidthDownlinkKhz=5000,mRat=LTE,mFrequencyRange=UNKNOWN,mChannelNumber=2147483647,mContextIds=[1],mPhysicalCellId=0}] [PHONE0]
+11-09 08:16:19.226  1039  1220 E CellSignalStrengthLte: convertRssiAsuToDBm: invalid RSSI in ASU=90
+11-09 08:16:19.226  1039  1220 D RILJ    : [0214]< SIGNAL_STRENGTH SignalStrength:{mCdma=CellSignalStrengthCdma: cdmaDbm=2147483647 cdmaEcio=2147483647 evdoDbm=2147483647 evdoEcio=2147483647 evdoSnr=2147483647 level=0,mGsm=CellSignalStrengthGsm: rssi=2147483647 ber=2147483647 mTa=2147483647 mLevel=0,mWcdma=CellSignalStrengthWcdma: ss=2147483647 ber=2147483647 rscp=2147483647 ecno=2147483647 level=0,mTdscdma=CellSignalStrengthTdscdma: rssi=2147483647 ber=2147483647 rscp=2147483647 level=0,mLte=CellSignalStrengthLte: rssi=2147483647 rsrp=-100 rsrq=-10 rssnr=3 cqi=7 ta=200 level=2 parametersUseForLevel=1,mNr=CellSignalStrengthNr:{ csiRsrp = 2147483647 csiRsrq = 2147483647 csiSinr = 2147483647 ssRsrp = 2147483647 ssRsrq = 2147483647 ssSinr = 2147483647 level = 0 parametersUseForLevel = 1 },primary=CellSignalStrengthLte} [PHONE0]
+11-09 08:16:29.890   380   460 D AudioFlinger: mixer(0x78b138c24040) throttle end: throttle time(53)
+11-09 08:16:32.894   166   166 I hwservicemanager: getTransport: Cannot find entry android.hardware.graphics.mapper@4.0::IMapper/default in either framework or device manifest.
+11-09 08:16:32.895  6681  6681 I Gralloc4: mapper 4.x is not supported
+11-09 08:16:32.900  6681  6681 D HostConnection: createUnique: call
+11-09 08:16:32.901  6681  6681 D HostConnection: HostConnection::get() New Host Connection established 0x7d588a5c5fd0, tid 6681
+11-09 08:16:32.914  6681  6681 D HostConnection: HostComposition ext ANDROID_EMU_CHECKSUM_HELPER_v1 ANDROID_EMU_native_sync_v2 ANDROID_EMU_dma_v1 ANDROID_EMU_direct_mem ANDROID_EMU_host_composition_v1 ANDROID_EMU_host_composition_v2 ANDROID_EMU_YUV_Cache ANDROID_EMU_has_shared_slots_host_memory_allocator ANDROID_EMU_sync_buffer_data ANDROID_EMU_read_color_buffer_dma ANDROID_EMU_hwc_color_transform GL_OES_EGL_image_external_essl3 GL_OES_vertex_array_object GL_KHR_texture_compression_astc_ldr ANDROID_EMU_host_side_tracing ANDROID_EMU_gles_max_version_3_0 
+11-09 08:16:32.921   380   460 D AudioFlinger: mixer(0x78b138c24040) throttle end: throttle time(18)
+11-09 08:16:35.622   166   166 I hwservicemanager: getTransport: Cannot find entry android.hardware.graphics.mapper@4.0::IMapper/default in either framework or device manifest.
+11-09 08:16:35.623  6685  6685 I Gralloc4: mapper 4.x is not supported
+11-09 08:16:35.628  6685  6685 D HostConnection: createUnique: call
+11-09 08:16:35.632  6685  6685 D HostConnection: HostConnection::get() New Host Connection established 0x76b0a5549850, tid 6685
+11-09 08:16:35.663  6685  6685 D HostConnection: HostComposition ext ANDROID_EMU_CHECKSUM_HELPER_v1 ANDROID_EMU_native_sync_v2 ANDROID_EMU_dma_v1 ANDROID_EMU_direct_mem ANDROID_EMU_host_composition_v1 ANDROID_EMU_host_composition_v2 ANDROID_EMU_YUV_Cache ANDROID_EMU_has_shared_slots_host_memory_allocator ANDROID_EMU_sync_buffer_data ANDROID_EMU_read_color_buffer_dma ANDROID_EMU_hwc_color_transform GL_OES_EGL_image_external_essl3 GL_OES_vertex_array_object GL_KHR_texture_compression_astc_ldr ANDROID_EMU_host_side_tracing ANDROID_EMU_gles_max_version_3_0 
