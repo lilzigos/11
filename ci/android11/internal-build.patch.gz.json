@@ -1,20 +1,18 @@
 {
   "schema": 1,
-  "source_name": "SGM_Offline_TC_Candidate004.apk",
+  "source_name": "candidate004.apk",
   "source_size": 1737838450,
   "source_sha256": "613c092cd780b49eeb4fcbf736ff427fcc7622e475937d2a3178f2821f181202",
   "target_name": "sgm-offline.apk",
-  "target_size": 1737834354,
-  "target_sha256": "499027020bc20b2b9a829ab3889b78544523ae241e0b599825e62710abf4b61f",
-  "operation_count": 4,
-  "patch_size": 21434231,
-  "patch_sha256": "988b00d1e74169217525304e91890388060b900099c8a3f4d07045f11307376d",
-  "literal_size": 30819150,
-  "copy_size": 1707015204,
-  "unchanged_records": 5983,
-  "unchanged_bodies": 5983,
+  "target_size": 1737826175,
+  "target_sha256": "ca42daf64a3463411023f60aeec34e37f473a05db42b071fffb1a0080bdd1bb6",
+  "operation_count": 10,
+  "unchanged_compressed_entries": 5982,
   "changed_entries": [
+    "classes3.dex",
     "assets/BundleData/unload.uab",
     "assets/BundleData/unload64.uab"
-  ]
+  ],
+  "patch_sha256": "57d9aa1e4e05df916a81470e30bfa9f9cea2adabcabda680db29f44f0b2140a1",
+  "patch_size": 24795536
 }

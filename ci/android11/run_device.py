@@ -18,7 +18,7 @@ apk, out = Path(sys.argv[1]), Path(sys.argv[2])
 out.mkdir(exist_ok=True)
 package = 'com.userjoy.ujjsgc.jp'
 activity = package + '/com.unity3d.player.UnityPlayerActivity'
-expected = 'b849c12f19f518655e4efea5941896dd3712c80b0a3c55d3c67a56b033d6bb8d'
+expected = 'ca42daf64a3463411023f60aeec34e37f473a05db42b071fffb1a0080bdd1bb6'
 
 def adb(*args, timeout=60, check=True):
     p = subprocess.run(['adb', *args], capture_output=True, timeout=timeout)
@@ -46,6 +46,14 @@ def snapshot_logs():
         report['lua_exception_messages'] = sorted(set(report.get('lua_exception_messages', [])) | set(
             line.split('LuaException:', 1)[1].strip() for line in log_text.splitlines()
             if 'LuaException:' in line))[:30]
+        unity_exceptions = []
+        for line in log_text.splitlines():
+            match = re.search(r'\b[EW]\s+Unity\s*:\s*(.*Exception:.*)', line)
+            if match:
+                unity_exceptions.append(match.group(1))
+        report['unity_exception_messages'] = sorted(set(
+            report.get('unity_exception_messages', []) + unity_exceptions))[:30]
+        report['unity_exception_lines_in_log_window'] = len(unity_exceptions)
         report['offline_adapters_initialized'] = report.get('offline_adapters_initialized', False) or 'Original client offline adapters installed' in log_text
     (out / 'runtime-report.json').write_text(json.dumps(report, indent=2) + '\n')
 

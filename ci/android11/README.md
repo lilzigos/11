@@ -3,25 +3,42 @@
 This branch contains an internal test, not a new downloadable release. The main
 branch and its existing APK are not changed by the test.
 
-The SHA-bound 21 MB patch reconstructs the already signed internal APK from the
+The SHA-bound binary patch reconstructs the already signed internal APK from the
 existing candidate 004. The reconstructed file must have SHA256
-`b849c12f19f518655e4efea5941896dd3712c80b0a3c55d3c67a56b033d6bb8d`.
+`ca42daf64a3463411023f60aeec34e37f473a05db42b071fffb1a0080bdd1bb6`.
 No signing key is included. Standard Android package installation remains enabled.
 
 This internal build removes the multiplayer voice-volume call into the absent
 MARS plugin. Run 2 reached the original login process but repeatedly threw
 `GetMAXVolume` / `PluginBase.GetContext()` from the original audio settings loader.
 Original music, sound effects and character dubbing functions are retained.
-The regression is covered by the 43-assertion host integration test; actual
-Android login and gameplay still require the current runtime evidence.
+Actual gameplay requires review of the Android runtime evidence.
 
 Run 4 confirmed original login, original Traditional Chinese character creation,
 and recovery of the created character after force-stop/restart. Map initialization
 then repeatedly threw in the absent MARS notification provider. This build keeps
 the original notification-state function and makes CancelAllNotify/Notify/
 NotifyWithImage/NotifyWithBanner local no-ops. The original map, movement, combat
-and map-progress save/load are still unverified. It uses a new local development
+and map-progress save/load required further testing. It uses a new local development
 certificate after workspace recovery; the private key is not uploaded.
+
+Run 5 loaded the original 方外之地 scene and confirmed movement through actual
+touch input (minimap coordinates changed from 203,24 to 254,11). Combat and
+map-progress restoration did not pass. The restart sequence tapped before the
+login finished and its final capture remained at the original login screen.
+
+This test changes the retired SDK's six Java network getters to describe the
+single local route. The edit is bound to the original DEX SHA, preserves code
+item sizes, and repairs the standard DEX checksums; Android signature validation
+remains enabled. It addresses per-frame PluginBase.GetContext exceptions.
+
+It also corrects spawned enemy country and faction flags. The original combat
+eligibility bytecode rejects the previous all-zero flags. A 27-check regression
+with original constants, data constructors, stage table and attack rules accepts
+the enemy flags for sheep/deer/training targets and still protects all seven
+starter NPCs. Host checks do not establish Android combat. Runtime diagnostics
+now record real entity types, attack requests, damage and saved progress. The
+report includes Unity Java/C# exceptions as well as Lua exceptions.
 
 The workflow requires KVM and an official Android 11 Google APIs image with its
 ARM compatibility layer. It launches the actual Unity activity, blocks only the

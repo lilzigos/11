@@ -1,9 +1,11 @@
 {
-  "reconstructed_sha256": "b849c12f19f518655e4efea5941896dd3712c80b0a3c55d3c67a56b033d6bb8d",
-  "reconstructed_size": 1737834367,
+  "reconstructed_sha256": "ca42daf64a3463411023f60aeec34e37f473a05db42b071fffb1a0080bdd1bb6",
+  "reconstructed_size": 1737826175,
   "byte_exact_reconstruction_verified": true,
   "apk_native_gameplay_verified": false,
   "python_syntax": "passed",
   "shell_syntax": "passed",
-  "workflow_yaml_parse": "passed"
+  "workflow_yaml_parse": "passed",
+  "original_target_rule_checks": 27,
+  "dex_integrity_checked": true
 }
