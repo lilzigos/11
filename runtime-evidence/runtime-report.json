@@ -9,6 +9,12 @@
       "screenshot": "screen-015.png",
       "game_pid": "5527",
       "logcat_running": true
+    },
+    {
+      "seconds_after_launch": 45,
+      "screenshot": "screen-045.png",
+      "game_pid": "5527",
+      "logcat_running": true
     }
   ],
   "errors": [],
@@ -24,5 +30,5 @@
   "lua_exception_messages": [],
   "unity_exception_messages": [],
   "unity_exception_lines_in_log_window": 0,
-  "offline_adapters_initialized": false
+  "offline_adapters_initialized": true
 }
