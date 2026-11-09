@@ -1,71 +1,22 @@
 {
   "run_id": "42583353044",
-  "sequence": 1,
+  "sequence": 2,
   "actions": [
     {
       "op": "tap",
-      "x": 640,
-      "y": 604
+      "x": 675,
+      "y": 398
     },
     {
       "op": "wait",
-      "seconds": 8
+      "seconds": 2
     },
     {
       "op": "capture"
     },
     {
-      "op": "tap",
-      "x": 200,
-      "y": 617
-    },
-    {
       "op": "wait",
-      "seconds": 15
-    },
-    {
-      "op": "wait",
-      "seconds": 15
-    },
-    {
-      "op": "wait",
-      "seconds": 15
-    },
-    {
-      "op": "wait",
-      "seconds": 15
-    },
-    {
-      "op": "wait",
-      "seconds": 15
-    },
-    {
-      "op": "wait",
-      "seconds": 15
-    },
-    {
-      "op": "capture"
-    },
-    {
-      "op": "tap",
-      "x": 815,
-      "y": 665
-    },
-    {
-      "op": "wait",
-      "seconds": 15
-    },
-    {
-      "op": "wait",
-      "seconds": 15
-    },
-    {
-      "op": "wait",
-      "seconds": 15
-    },
-    {
-      "op": "wait",
-      "seconds": 15
+      "seconds": 5
     },
     {
       "op": "capture"
