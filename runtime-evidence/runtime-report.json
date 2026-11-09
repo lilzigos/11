@@ -81,6 +81,7 @@
         "status": "executed"
       }
     ],
-    "active": true
+    "active": false,
+    "end_reason": "time limit"
   }
 }
