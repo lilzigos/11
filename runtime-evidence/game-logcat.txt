@@ -13367,3 +13367,84 @@
 11-09 08:20:25.197  6763  6763 D HostConnection: createUnique: call
 11-09 08:20:25.197  6763  6763 D HostConnection: HostConnection::get() New Host Connection established 0x7fbc2d1c7390, tid 6763
 11-09 08:20:25.212  6763  6763 D HostConnection: HostComposition ext ANDROID_EMU_CHECKSUM_HELPER_v1 ANDROID_EMU_native_sync_v2 ANDROID_EMU_dma_v1 ANDROID_EMU_direct_mem ANDROID_EMU_host_composition_v1 ANDROID_EMU_host_composition_v2 ANDROID_EMU_YUV_Cache ANDROID_EMU_has_shared_slots_host_memory_allocator ANDROID_EMU_sync_buffer_data ANDROID_EMU_read_color_buffer_dma ANDROID_EMU_hwc_color_transform GL_OES_EGL_image_external_essl3 GL_OES_vertex_array_object GL_KHR_texture_compression_astc_ldr ANDROID_EMU_host_side_tracing ANDROID_EMU_gles_max_version_3_0 
+11-09 08:20:33.218   499  1639 D WifiNl80211Manager: Scan result ready event
+11-09 08:20:33.218   499  1639 D WifiNative: Scan result ready event
+11-09 08:20:39.298  1039  1039 D RILJ    : [0227]> SIGNAL_STRENGTH [PHONE0]
+11-09 08:20:39.298   436   436 D RIL     : onRequest: SIGNAL_STRENGTH
+11-09 08:20:39.298   436   436 D AT      : AT> AT+CSQ
+11-09 08:20:39.299   436   495 D AT      : AT< %CGFPCCFG: 1,5000,14,0,1
+11-09 08:20:39.299   436   495 D RIL     : got CGFPCCFG line %CGFPCCFG: 1,5000,14,0,1 and %CGFPCCFG: 1,5000,14,0,1
+11-09 08:20:39.299   436   495 D RIL     : got i 0, val = 1
+11-09 08:20:39.299   436   495 D RIL     : got i 1, val = 5000
+11-09 08:20:39.299   436   495 D RIL     : got i 2, val = 14
+11-09 08:20:39.299   436   495 D RIL     : got i 3, val = 0
+11-09 08:20:39.299   436   495 D RIL     : got i 4, val = 1
+11-09 08:20:39.299   436   495 D RILC    : reportPhysicalChannelConfigs: 1 5000 14 0 1
+11-09 08:20:39.299   436   495 D AT      : AT< %CGFPCCFG: 2,5000,14,0,1
+11-09 08:20:39.299   436   495 D RIL     : got CGFPCCFG line %CGFPCCFG: 2,5000,14,0,1 and %CGFPCCFG: 2,5000,14,0,1
+11-09 08:20:39.299   436   495 D RIL     : got i 0, val = 2
+11-09 08:20:39.299   436   495 D RIL     : got i 1, val = 5000
+11-09 08:20:39.299   436   495 D RIL     : got i 2, val = 14
+11-09 08:20:39.299   436   495 D RIL     : got i 3, val = 0
+11-09 08:20:39.299   436   495 D RIL     : got i 4, val = 1
+11-09 08:20:39.299   436   495 D RILC    : reportPhysicalChannelConfigs: 2 5000 14 0 1
+11-09 08:20:39.299   436   495 D AT      : AT< +CSQ: 12,4,90,120,80,120,4,90,100,10,30,7,200
+11-09 08:20:39.299   436   495 D AT      : AT< OK
+11-09 08:20:39.299  1039  1220 D RILJ    : [UNSL]< RIL_UNSOL_PHYSICAL_CHANNEL_CONFIG [{mConnectionStatus=PrimaryServing,mCellBandwidthDownlinkKhz=5000,mRat=LTE,mFrequencyRange=UNKNOWN,mChannelNumber=2147483647,mContextIds=[1],mPhysicalCellId=0}] [PHONE0]
+11-09 08:20:39.300  1039  1220 D RILJ    : [UNSL]< RIL_UNSOL_PHYSICAL_CHANNEL_CONFIG [{mConnectionStatus=SecondaryServing,mCellBandwidthDownlinkKhz=5000,mRat=LTE,mFrequencyRange=UNKNOWN,mChannelNumber=2147483647,mContextIds=[1],mPhysicalCellId=0}] [PHONE0]
+11-09 08:20:39.300  1039  1220 E CellSignalStrengthLte: convertRssiAsuToDBm: invalid RSSI in ASU=90
+11-09 08:20:39.300  1039  1220 D RILJ    : [0227]< SIGNAL_STRENGTH SignalStrength:{mCdma=CellSignalStrengthCdma: cdmaDbm=2147483647 cdmaEcio=2147483647 evdoDbm=2147483647 evdoEcio=2147483647 evdoSnr=2147483647 level=0,mGsm=CellSignalStrengthGsm: rssi=2147483647 ber=2147483647 mTa=2147483647 mLevel=0,mWcdma=CellSignalStrengthWcdma: ss=2147483647 ber=2147483647 rscp=2147483647 ecno=2147483647 level=0,mTdscdma=CellSignalStrengthTdscdma: rssi=2147483647 ber=2147483647 rscp=2147483647 level=0,mLte=CellSignalStrengthLte: rssi=2147483647 rsrp=-100 rsrq=-10 rssnr=3 cqi=7 ta=200 level=2 parametersUseForLevel=1,mNr=CellSignalStrengthNr:{ csiRsrp = 2147483647 csiRsrq = 2147483647 csiSinr = 2147483647 ssRsrp = 2147483647 ssRsrq = 2147483647 ssSinr = 2147483647 level = 0 parametersUseForLevel = 1 },primary=CellSignalStrengthLte} [PHONE0]
+11-09 08:20:54.238  6765  6765 D AndroidRuntime: >>>>>> START com.android.internal.os.RuntimeInit uid 0 <<<<<<
+11-09 08:20:54.239  6765  6765 I AndroidRuntime: Using default boot image
+11-09 08:20:54.239  6765  6765 I AndroidRuntime: Leaving lock profiling enabled
+11-09 08:20:54.240  6765  6765 I app_process: Core platform API reporting enabled, enforcing=false
+11-09 08:20:54.279  6765  6765 D app_process: Time zone APEX ICU file found: /apex/com.android.tzdata/etc/icu/icu_tzdata.dat
+11-09 08:20:54.279  6765  6765 D app_process: I18n APEX ICU file found: /apex/com.android.i18n/etc/icu/icudt66l.dat
+11-09 08:20:54.283  6765  6765 W app_process: Unexpected CPU variant for X86 using defaults: x86_64
+11-09 08:20:54.283  6765  6765 I app_process: The ClassLoaderContext is a special shared library.
+11-09 08:20:54.291  6765  6765 W app_process: JNI RegisterNativeMethods: attempt to register 0 native methods for android.media.AudioAttributes
+11-09 08:20:54.294  6765  6765 D AndroidRuntime: Calling main entry com.android.commands.input.Input
+11-09 08:20:54.296  6765  6765 D AndroidRuntime: Shutting down VM
+11-09 08:20:54.309  6765  6776 W app_process: Thread attaching while runtime is shutting down: Binder:6765_1
+11-09 08:20:54.309  6765  6776 I AndroidRuntime: NOTE: attach of thread 'Binder:6765_1' failed
+11-09 08:20:54.398  6457  6524 I Unity   : 08:20:54.397-347: [SGM Offline] Unsupported local protocol: 3316
+11-09 08:20:54.398  6457  6524 I Unity   : LuaInterface.Debugger:Log(String)
+11-09 08:20:54.398  6457  6524 I Unity   : LuaInterface.ToLua:Print(IntPtr)
+11-09 08:20:54.398  6457  6524 I Unity   : 
+11-09 08:20:59.307  1039  1039 D RILJ    : [0228]> SIGNAL_STRENGTH [PHONE0]
+11-09 08:20:59.307   436   436 D RIL     : onRequest: SIGNAL_STRENGTH
+11-09 08:20:59.307   436   436 D AT      : AT> AT+CSQ
+11-09 08:20:59.307   436   495 D AT      : AT< %CGFPCCFG: 1,5000,14,0,1
+11-09 08:20:59.307   436   495 D RIL     : got CGFPCCFG line %CGFPCCFG: 1,5000,14,0,1 and %CGFPCCFG: 1,5000,14,0,1
+11-09 08:20:59.307   436   495 D RIL     : got i 0, val = 1
+11-09 08:20:59.307   436   495 D RIL     : got i 1, val = 5000
+11-09 08:20:59.307   436   495 D RIL     : got i 2, val = 14
+11-09 08:20:59.307   436   495 D RIL     : got i 3, val = 0
+11-09 08:20:59.307   436   495 D RIL     : got i 4, val = 1
+11-09 08:20:59.308   436   495 D RILC    : reportPhysicalChannelConfigs: 1 5000 14 0 1
+11-09 08:20:59.308   436   495 D AT      : AT< %CGFPCCFG: 2,5000,14,0,1
+11-09 08:20:59.308   436   495 D RIL     : got CGFPCCFG line %CGFPCCFG: 2,5000,14,0,1 and %CGFPCCFG: 2,5000,14,0,1
+11-09 08:20:59.308   436   495 D RIL     : got i 0, val = 2
+11-09 08:20:59.308   436   495 D RIL     : got i 1, val = 5000
+11-09 08:20:59.308   436   495 D RIL     : got i 2, val = 14
+11-09 08:20:59.308   436   495 D RIL     : got i 3, val = 0
+11-09 08:20:59.308   436   495 D RIL     : got i 4, val = 1
+11-09 08:20:59.308   436   495 D RILC    : reportPhysicalChannelConfigs: 2 5000 14 0 1
+11-09 08:20:59.308   436   495 D AT      : AT< +CSQ: 12,4,90,120,80,120,4,90,100,10,30,7,200
+11-09 08:20:59.308   436   495 D AT      : AT< OK
+11-09 08:20:59.308  1039  1220 D RILJ    : [UNSL]< RIL_UNSOL_PHYSICAL_CHANNEL_CONFIG [{mConnectionStatus=PrimaryServing,mCellBandwidthDownlinkKhz=5000,mRat=LTE,mFrequencyRange=UNKNOWN,mChannelNumber=2147483647,mContextIds=[1],mPhysicalCellId=0}] [PHONE0]
+11-09 08:20:59.308  1039  1220 D RILJ    : [UNSL]< RIL_UNSOL_PHYSICAL_CHANNEL_CONFIG [{mConnectionStatus=SecondaryServing,mCellBandwidthDownlinkKhz=5000,mRat=LTE,mFrequencyRange=UNKNOWN,mChannelNumber=2147483647,mContextIds=[1],mPhysicalCellId=0}] [PHONE0]
+11-09 08:20:59.308  1039  1220 E CellSignalStrengthLte: convertRssiAsuToDBm: invalid RSSI in ASU=90
+11-09 08:20:59.308  1039  1220 D RILJ    : [0228]< SIGNAL_STRENGTH SignalStrength:{mCdma=CellSignalStrengthCdma: cdmaDbm=2147483647 cdmaEcio=2147483647 evdoDbm=2147483647 evdoEcio=2147483647 evdoSnr=2147483647 level=0,mGsm=CellSignalStrengthGsm: rssi=2147483647 ber=2147483647 mTa=2147483647 mLevel=0,mWcdma=CellSignalStrengthWcdma: ss=2147483647 ber=2147483647 rscp=2147483647 ecno=2147483647 level=0,mTdscdma=CellSignalStrengthTdscdma: rssi=2147483647 ber=2147483647 rscp=2147483647 level=0,mLte=CellSignalStrengthLte: rssi=2147483647 rsrp=-100 rsrq=-10 rssnr=3 cqi=7 ta=200 level=2 parametersUseForLevel=1,mNr=CellSignalStrengthNr:{ csiRsrp = 2147483647 csiRsrq = 2147483647 csiSinr = 2147483647 ssRsrp = 2147483647 ssRsrq = 2147483647 ssSinr = 2147483647 level = 0 parametersUseForLevel = 1 },primary=CellSignalStrengthLte} [PHONE0]
+11-09 08:21:00.000   713   713 D KeyguardClockSwitch: Updating clock: 821
+11-09 08:21:00.027   713   713 D KeyguardClockSwitch: Updating clock: 821
+11-09 08:21:00.273   166   166 I hwservicemanager: getTransport: Cannot find entry android.hardware.graphics.mapper@4.0::IMapper/default in either framework or device manifest.
+11-09 08:21:00.273  6779  6779 I Gralloc4: mapper 4.x is not supported
+11-09 08:21:00.276  6779  6779 D HostConnection: createUnique: call
+11-09 08:21:00.276  6779  6779 D HostConnection: HostConnection::get() New Host Connection established 0x7ee478a26390, tid 6779
+11-09 08:21:00.285  6779  6779 D HostConnection: HostComposition ext ANDROID_EMU_CHECKSUM_HELPER_v1 ANDROID_EMU_native_sync_v2 ANDROID_EMU_dma_v1 ANDROID_EMU_direct_mem ANDROID_EMU_host_composition_v1 ANDROID_EMU_host_composition_v2 ANDROID_EMU_YUV_Cache ANDROID_EMU_has_shared_slots_host_memory_allocator ANDROID_EMU_sync_buffer_data ANDROID_EMU_read_color_buffer_dma ANDROID_EMU_hwc_color_transform GL_OES_EGL_image_external_essl3 GL_OES_vertex_array_object GL_KHR_texture_compression_astc_ldr ANDROID_EMU_host_side_tracing ANDROID_EMU_gles_max_version_3_0 
+11-09 08:21:02.700   166   166 I hwservicemanager: getTransport: Cannot find entry android.hardware.graphics.mapper@4.0::IMapper/default in either framework or device manifest.
+11-09 08:21:02.700  6783  6783 I Gralloc4: mapper 4.x is not supported
+11-09 08:21:02.705  6783  6783 D HostConnection: createUnique: call
+11-09 08:21:02.707  6783  6783 D HostConnection: HostConnection::get() New Host Connection established 0x7e072c789010, tid 6783
+11-09 08:21:02.724  6783  6783 D HostConnection: HostComposition ext ANDROID_EMU_CHECKSUM_HELPER_v1 ANDROID_EMU_native_sync_v2 ANDROID_EMU_dma_v1 ANDROID_EMU_direct_mem ANDROID_EMU_host_composition_v1 ANDROID_EMU_host_composition_v2 ANDROID_EMU_YUV_Cache ANDROID_EMU_has_shared_slots_host_memory_allocator ANDROID_EMU_sync_buffer_data ANDROID_EMU_read_color_buffer_dma ANDROID_EMU_hwc_color_transform GL_OES_EGL_image_external_essl3 GL_OES_vertex_array_object GL_KHR_texture_compression_astc_ldr ANDROID_EMU_host_side_tracing ANDROID_EMU_gles_max_version_3_0 
