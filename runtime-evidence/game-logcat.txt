@@ -13448,3 +13448,58 @@
 11-09 08:21:02.705  6783  6783 D HostConnection: createUnique: call
 11-09 08:21:02.707  6783  6783 D HostConnection: HostConnection::get() New Host Connection established 0x7e072c789010, tid 6783
 11-09 08:21:02.724  6783  6783 D HostConnection: HostComposition ext ANDROID_EMU_CHECKSUM_HELPER_v1 ANDROID_EMU_native_sync_v2 ANDROID_EMU_dma_v1 ANDROID_EMU_direct_mem ANDROID_EMU_host_composition_v1 ANDROID_EMU_host_composition_v2 ANDROID_EMU_YUV_Cache ANDROID_EMU_has_shared_slots_host_memory_allocator ANDROID_EMU_sync_buffer_data ANDROID_EMU_read_color_buffer_dma ANDROID_EMU_hwc_color_transform GL_OES_EGL_image_external_essl3 GL_OES_vertex_array_object GL_KHR_texture_compression_astc_ldr ANDROID_EMU_host_side_tracing ANDROID_EMU_gles_max_version_3_0 
+11-09 08:21:09.921     0     0 W healthd : battery l=100 v=5000 t=25.0 h=2 st=2 c=900000 fc=300000 cc=10 chg=a
+11-09 08:21:11.198  1158  6707 V NativeCrypto: Read error: ssl=0x7ef08c476598: I/O error during system call, Connection reset by peer
+11-09 08:21:11.200  1158  6707 V NativeCrypto: SSL shutdown failed: ssl=0x7ef08c476598: I/O error during system call, Broken pipe
+11-09 08:21:11.200  1158  6707 E WakeLock: GCM_HB_ALARM release without a matched acquire!
+11-09 08:21:11.200  1158  6707 W WakeLock: GCM_HB_ALARM counter does not exist
+11-09 08:21:11.200   499   647 D ConnectivityService: reportNetworkConnectivity(101, false) by 10122
+11-09 08:21:11.200   956  2318 D NetworkMonitor/101: Forcing reevaluation for UID 10122. Dns signal count: 0
+11-09 08:21:11.201  1158  6707 E WakeLock: GCM_CONN_ALARM release without a matched acquire!
+11-09 08:21:11.201  1158  6707 W WakeLock: GCM_CONN_ALARM counter does not exist
+11-09 08:21:11.201  1158  6707 I gtalk_conn_close: [276,263]
+11-09 08:21:11.217   956  6786 D NetworkMonitor/101: PROBE_DNS www.google.com 14ms OK 142.251.154.119,142.251.153.119,142.251.155.119,142.251.151.119,142.251.157.119,142.251.152.119,142.251.156.119,142.251.150.119,2001:4860:482b:7700::,2001:4860:482c:7700::,2001:4860:482a:7700::,2001:4860:4828:7700::,2001:4860:4827:7700::,2001:4860:4829:7700::,2001:4860:4826:7700::,2001:4860:482d:7700::
+11-09 08:21:11.238   956  6787 D NetworkMonitor/101: PROBE_DNS connectivitycheck.gstatic.com 31ms OK 192.178.155.94,2607:f8b0:4004:c1b::5e
+11-09 08:21:11.243   956  6786 D NetworkMonitor/101: PROBE_HTTPS https://www.google.com/generate_204 time=26ms ret=204 request={Connection=[close], User-Agent=[Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.32 Safari/537.36]} headers={null=[HTTP/1.1 204 No Content], Alt-Svc=[h3=":443"; ma=2592000,h3-29=":443"; ma=2592000], Connection=[close], Content-Length=[0], Cross-Origin-Resource-Policy=[cross-origin], Date=[Mon, 09 Nov 2026 08:21:12 GMT], X-Android-Received-Millis=[1794212471243], X-Android-Response-Source=[NETWORK 204], X-Android-Selected-Protocol=[http/1.1], X-Android-Sent-Millis=[1794212471237]}
+11-09 08:21:11.248   499   538 W BroadcastQueue: Background execution not allowed: receiving Intent { act=android.net.conn.NETWORK_CONDITIONS_MEASURED flg=0x10 (has extras) } to com.google.android.gms/.chimera.GmsIntentOperationService$PersistentTrustedReceiver
+11-09 08:21:11.251   956  6785 D NetworkMonitor/101: isCaptivePortal: isSuccessful()=true isPortal()=false RedirectUrl=null isPartialConnectivity()=false Time=45ms
+11-09 08:21:11.252   499   647 D ConnectivityService: [101 WIFI] validation passed
+11-09 08:21:11.283   499   537 I am_pss  : [6457,10167,com.userjoy.ujjsgc.jp,1213946880,1182343168,0,1444835328,0,2,20]
+11-09 08:21:11.747   956  6787 D NetworkMonitor/101: PROBE_HTTP http://connectivitycheck.gstatic.com/generate_204 time=507ms ret=204 request={Connection=[close], User-Agent=[Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.32 Safari/537.36]} headers={null=[HTTP/1.1 204 No Content], Connection=[close], Content-Length=[0], Cross-Origin-Resource-Policy=[cross-origin], Date=[Mon, 09 Nov 2026 08:21:12 GMT], X-Android-Received-Millis=[1794212471746], X-Android-Response-Source=[NETWORK 204], X-Android-Selected-Protocol=[http/1.1], X-Android-Sent-Millis=[1794212471247]}
+11-09 08:21:16.217  1158  6797 I NetworkManagementSocketTagger: tagSocketFd(-1, 805307399, -1) failed with errno-9
+11-09 08:21:16.727  1158  6797 I c2dm    : [-2,,1,1]
+11-09 08:21:16.838  1158  6799 I c2dm    : [3,,1,1]
+11-09 08:21:16.840  1158  6799 I gtalk_heartbeat_reset: [66086,64.233.180.188:5228]
+11-09 08:21:16.840  1158  6799 E WakeLock: GCM_CONN_ALARM release without a matched acquire!
+11-09 08:21:16.841  1158  6799 I gtalk_connection: 0
+11-09 08:21:16.842  1158  6799 I c2dm    : [7,,1,1]
+11-09 08:21:19.310  1039  1039 D RILJ    : [0229]> SIGNAL_STRENGTH [PHONE0]
+11-09 08:21:19.310   436   436 D RIL     : onRequest: SIGNAL_STRENGTH
+11-09 08:21:19.310   436   436 D AT      : AT> AT+CSQ
+11-09 08:21:19.310   436   495 D AT      : AT< %CGFPCCFG: 1,5000,14,0,1
+11-09 08:21:19.310   436   495 D RIL     : got CGFPCCFG line %CGFPCCFG: 1,5000,14,0,1 and %CGFPCCFG: 1,5000,14,0,1
+11-09 08:21:19.310   436   495 D RIL     : got i 0, val = 1
+11-09 08:21:19.310   436   495 D RIL     : got i 1, val = 5000
+11-09 08:21:19.310   436   495 D RIL     : got i 2, val = 14
+11-09 08:21:19.310   436   495 D RIL     : got i 3, val = 0
+11-09 08:21:19.310   436   495 D RIL     : got i 4, val = 1
+11-09 08:21:19.311   436   495 D RILC    : reportPhysicalChannelConfigs: 1 5000 14 0 1
+11-09 08:21:19.311   436   495 D AT      : AT< %CGFPCCFG: 2,5000,14,0,1
+11-09 08:21:19.311   436   495 D RIL     : got CGFPCCFG line %CGFPCCFG: 2,5000,14,0,1 and %CGFPCCFG: 2,5000,14,0,1
+11-09 08:21:19.311   436   495 D RIL     : got i 0, val = 2
+11-09 08:21:19.311   436   495 D RIL     : got i 1, val = 5000
+11-09 08:21:19.311   436   495 D RIL     : got i 2, val = 14
+11-09 08:21:19.311   436   495 D RIL     : got i 3, val = 0
+11-09 08:21:19.311   436   495 D RIL     : got i 4, val = 1
+11-09 08:21:19.311   436   495 D RILC    : reportPhysicalChannelConfigs: 2 5000 14 0 1
+11-09 08:21:19.311   436   495 D AT      : AT< +CSQ: 12,4,90,120,80,120,4,90,100,10,30,7,200
+11-09 08:21:19.311   436   495 D AT      : AT< OK
+11-09 08:21:19.311  1039  1220 D RILJ    : [UNSL]< RIL_UNSOL_PHYSICAL_CHANNEL_CONFIG [{mConnectionStatus=PrimaryServing,mCellBandwidthDownlinkKhz=5000,mRat=LTE,mFrequencyRange=UNKNOWN,mChannelNumber=2147483647,mContextIds=[1],mPhysicalCellId=0}] [PHONE0]
+11-09 08:21:19.311  1039  1220 D RILJ    : [UNSL]< RIL_UNSOL_PHYSICAL_CHANNEL_CONFIG [{mConnectionStatus=SecondaryServing,mCellBandwidthDownlinkKhz=5000,mRat=LTE,mFrequencyRange=UNKNOWN,mChannelNumber=2147483647,mContextIds=[1],mPhysicalCellId=0}] [PHONE0]
+11-09 08:21:19.311  1039  1220 E CellSignalStrengthLte: convertRssiAsuToDBm: invalid RSSI in ASU=90
+11-09 08:21:19.312  1039  1220 D RILJ    : [0229]< SIGNAL_STRENGTH SignalStrength:{mCdma=CellSignalStrengthCdma: cdmaDbm=2147483647 cdmaEcio=2147483647 evdoDbm=2147483647 evdoEcio=2147483647 evdoSnr=2147483647 level=0,mGsm=CellSignalStrengthGsm: rssi=2147483647 ber=2147483647 mTa=2147483647 mLevel=0,mWcdma=CellSignalStrengthWcdma: ss=2147483647 ber=2147483647 rscp=2147483647 ecno=2147483647 level=0,mTdscdma=CellSignalStrengthTdscdma: rssi=2147483647 ber=2147483647 rscp=2147483647 level=0,mLte=CellSignalStrengthLte: rssi=2147483647 rsrp=-100 rsrq=-10 rssnr=3 cqi=7 ta=200 level=2 parametersUseForLevel=1,mNr=CellSignalStrengthNr:{ csiRsrp = 2147483647 csiRsrq = 2147483647 csiSinr = 2147483647 ssRsrp = 2147483647 ssRsrq = 2147483647 ssSinr = 2147483647 level = 0 parametersUseForLevel = 1 },primary=CellSignalStrengthLte} [PHONE0]
+11-09 08:21:31.462   166   166 I hwservicemanager: getTransport: Cannot find entry android.hardware.graphics.mapper@4.0::IMapper/default in either framework or device manifest.
+11-09 08:21:31.462  6802  6802 I Gralloc4: mapper 4.x is not supported
+11-09 08:21:31.467  6802  6802 D HostConnection: createUnique: call
+11-09 08:21:31.467  6802  6802 D HostConnection: HostConnection::get() New Host Connection established 0x74bd95ef1610, tid 6802
+11-09 08:21:31.476  6802  6802 D HostConnection: HostComposition ext ANDROID_EMU_CHECKSUM_HELPER_v1 ANDROID_EMU_native_sync_v2 ANDROID_EMU_dma_v1 ANDROID_EMU_direct_mem ANDROID_EMU_host_composition_v1 ANDROID_EMU_host_composition_v2 ANDROID_EMU_YUV_Cache ANDROID_EMU_has_shared_slots_host_memory_allocator ANDROID_EMU_sync_buffer_data ANDROID_EMU_read_color_buffer_dma ANDROID_EMU_hwc_color_transform GL_OES_EGL_image_external_essl3 GL_OES_vertex_array_object GL_KHR_texture_compression_astc_ldr ANDROID_EMU_host_side_tracing ANDROID_EMU_gles_max_version_3_0 
