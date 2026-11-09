@@ -11927,3 +11927,122 @@
 11-09 08:13:48.293  6427  6427 D HostConnection: createUnique: call
 11-09 08:13:48.294  6427  6427 D HostConnection: HostConnection::get() New Host Connection established 0x7a954231b250, tid 6427
 11-09 08:13:48.312  6427  6427 D HostConnection: HostComposition ext ANDROID_EMU_CHECKSUM_HELPER_v1 ANDROID_EMU_native_sync_v2 ANDROID_EMU_dma_v1 ANDROID_EMU_direct_mem ANDROID_EMU_host_composition_v1 ANDROID_EMU_host_composition_v2 ANDROID_EMU_YUV_Cache ANDROID_EMU_has_shared_slots_host_memory_allocator ANDROID_EMU_sync_buffer_data ANDROID_EMU_read_color_buffer_dma ANDROID_EMU_hwc_color_transform GL_OES_EGL_image_external_essl3 GL_OES_vertex_array_object GL_KHR_texture_compression_astc_ldr ANDROID_EMU_host_side_tracing ANDROID_EMU_gles_max_version_3_0 
+11-09 08:13:49.685  6390  6408 I gearhead:share: Waiting for a blocking GC ProfileSaver
+11-09 08:13:49.692  6390  6408 I gearhead:share: WaitForGcToComplete blocked ProfileSaver on ClassLinker for 6.762ms
+11-09 08:13:51.113  1806  2038 W NamedFutures: Timeout future task has been cancelled: 60000 milliseconds
+11-09 08:13:51.114  1806  1806 E SearchServiceStarter: Task 255 failed or timed out. Client 7944666210696766 disconnecting from SearchService!
+11-09 08:13:51.114  1806  1806 E SearchServiceStarter: java.util.concurrent.CancellationException: Task was cancelled.
+11-09 08:13:51.114  1806  1806 E SearchServiceStarter: 	at com.google.common.v.a.d.a(SourceFile:128)
+11-09 08:13:51.114  1806  1806 E SearchServiceStarter: 	at com.google.common.v.a.d.get(SourceFile:78)
+11-09 08:13:51.114  1806  1806 E SearchServiceStarter: 	at com.google.common.v.a.dq.a(SourceFile:1)
+11-09 08:13:51.114  1806  1806 E SearchServiceStarter: 	at com.google.common.v.a.bu.a(SourceFile:6)
+11-09 08:13:51.114  1806  1806 E SearchServiceStarter: 	at com.google.common.v.a.bq.run(SourceFile:4)
+11-09 08:13:51.114  1806  1806 E SearchServiceStarter: 	at com.google.android.apps.gsa.shared.util.c.a.as.run(SourceFile:1)
+11-09 08:13:51.114  1806  1806 E SearchServiceStarter: 	at android.os.Handler.handleCallback(Handler.java:938)
+11-09 08:13:51.114  1806  1806 E SearchServiceStarter: 	at android.os.Handler.dispatchMessage(Handler.java:99)
+11-09 08:13:51.114  1806  1806 E SearchServiceStarter: 	at android.os.Looper.loop(Looper.java:223)
+11-09 08:13:51.114  1806  1806 E SearchServiceStarter: 	at android.app.ActivityThread.main(ActivityThread.java:7656)
+11-09 08:13:51.114  1806  1806 E SearchServiceStarter: 	at java.lang.reflect.Method.invoke(Native Method)
+11-09 08:13:51.114  1806  1806 E SearchServiceStarter: 	at com.android.internal.os.RuntimeInit$MethodAndArgsCaller.run(RuntimeInit.java:592)
+11-09 08:13:51.114  1806  1806 E SearchServiceStarter: 	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:947)
+11-09 08:13:51.114  1806  2037 W SearchServiceCore: Abort, client detached.
+11-09 08:13:51.121   499   527 I ActivityManager: Killing 5639:com.google.android.setupwizard/u0a117 (adj 975): empty #17
+11-09 08:13:51.121   499   527 I am_kill : [0,5639,com.google.android.setupwizard,975,empty #17]
+11-09 08:13:51.125   499  3201 I am_proc_died: [0,5639,com.google.android.setupwizard,975,19]
+11-09 08:13:51.125   499  3201 I am_uid_stopped: 10117
+11-09 08:13:51.126   286   286 I Zygote  : Process 5639 exited due to signal 9 (Killed)
+11-09 08:13:51.127  1806  2034 W PhenotypeController: Retrieving full configuration for com.google.android.googlequicksearchbox failed with Status{statusCode=TIMEOUT, resolution=null}
+11-09 08:13:51.127  1806  6360 E BgTaskExecutorImpl: EXCLUSIVE background task FETCH_CONFIGS_FROM_PHENOTYPE was cancelled.
+11-09 08:13:51.127  1806  6360 E BgTaskExecutorImpl: java.util.concurrent.CancellationException: Task was cancelled.
+11-09 08:13:51.127  1806  6360 E BgTaskExecutorImpl: 	at com.google.common.v.a.d.a(SourceFile:128)
+11-09 08:13:51.127  1806  6360 E BgTaskExecutorImpl: 	at com.google.common.v.a.d.get(SourceFile:78)
+11-09 08:13:51.127  1806  6360 E BgTaskExecutorImpl: 	at com.google.common.v.a.dq.a(SourceFile:1)
+11-09 08:13:51.127  1806  6360 E BgTaskExecutorImpl: 	at com.google.common.v.a.bu.a(SourceFile:6)
+11-09 08:13:51.127  1806  6360 E BgTaskExecutorImpl: 	at com.google.common.v.a.bq.run(SourceFile:4)
+11-09 08:13:51.127  1806  6360 E BgTaskExecutorImpl: 	at com.google.android.apps.gsa.shared.util.c.a.bx.a(SourceFile:2)
+11-09 08:13:51.127  1806  6360 E BgTaskExecutorImpl: 	at com.google.android.apps.gsa.shared.util.c.a.ca.run(SourceFile:1)
+11-09 08:13:51.127  1806  6360 E BgTaskExecutorImpl: 	at com.google.apps.tiktok.concurrent.aq.run(SourceFile:1)
+11-09 08:13:51.127  1806  6360 E BgTaskExecutorImpl: 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1167)
+11-09 08:13:51.127  1806  6360 E BgTaskExecutorImpl: 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:641)
+11-09 08:13:51.127  1806  6360 E BgTaskExecutorImpl: 	at com.google.apps.tiktok.concurrent.f.run(Unknown Source:3)
+11-09 08:13:51.127  1806  6360 E BgTaskExecutorImpl: 	at java.lang.Thread.run(Thread.java:923)
+11-09 08:13:51.166   499   540 I libprocessgroup: Successfully killed process cgroup uid 10117 pid 5639 in 41ms
+11-09 08:13:51.214  1806  1806 I BgTaskExecutorImpl: Starting EXCLUSIVE background task INTERNAL_PERIODIC_TASK_SYNC.
+11-09 08:13:51.227  1806  1806 I BgTaskExecutorImpl: Starting PERIODIC background task OPA_ASSISTANT_LANGUAGE_TRANSITION_TASK.
+11-09 08:13:51.237  1806  2037 W SearchServiceCore: Abort, client detached.
+11-09 08:13:53.228   499   531 I commit_sys_config_file: [jobs,1]
+11-09 08:13:54.169   499   538 I am_uid_idle: 10080
+11-09 08:13:56.158   499  3201 I ActivityManager: Killing 5678:com.google.android.apps.youtube.music/u0a137 (adj 985): empty #17
+11-09 08:13:56.158   499  3201 I am_kill : [0,5678,com.google.android.apps.youtube.music,985,empty #17]
+11-09 08:13:56.170   499  1013 D ConnectivityService: ConnectivityService NetworkRequestInfo binderDied(NetworkRequest [ TRACK_DEFAULT id=42, [ Capabilities: INTERNET&NOT_RESTRICTED&TRUSTED Uid: 10137 AdministratorUids: [] RequestorUid: 10137 RequestorPackageName: com.google.android.apps.youtube.music] ], android.os.BinderProxy@3e35169)
+11-09 08:13:56.170   499   647 D ConnectivityService: releasing NetworkRequest [ TRACK_DEFAULT id=42, [ Capabilities: INTERNET&NOT_RESTRICTED&TRUSTED Uid: 10137 AdministratorUids: [] RequestorUid: 10137 RequestorPackageName: com.google.android.apps.youtube.music] ] (release request)
+11-09 08:13:56.170   499  4646 D ConnectivityService: ConnectivityService NetworkRequestInfo binderDied(NetworkRequest [ LISTEN id=43, [ Capabilities: INTERNET&NOT_RESTRICTED&TRUSTED&FOREGROUND Uid: 10137 AdministratorUids: [] RequestorUid: 10137 RequestorPackageName: com.google.android.apps.youtube.music] ], android.os.BinderProxy@acdd7ee)
+11-09 08:13:56.171   499  3201 I am_proc_died: [0,5678,com.google.android.apps.youtube.music,985,19]
+11-09 08:13:56.171   499  3201 I am_uid_stopped: 10137
+11-09 08:13:56.174  1039  1039 D DcRequest: Cellular request confirmed: NetworkRequest [ TRACK_DEFAULT id=42, [ Capabilities: INTERNET&NOT_RESTRICTED&TRUSTED Uid: 10137 AdministratorUids: [] RequestorUid: 10137 RequestorPackageName: com.google.android.apps.youtube.music] ]
+11-09 08:13:56.175  1039  1039 D PhoneSwitcher: evaluating due to netReleased
+11-09 08:13:56.175  1039  1039 D PhoneSwitcher: notifyPreferredDataSubIdChanged to 1
+11-09 08:13:56.176   713   713 V KeyguardUpdateMonitor: onSubscriptionInfoChanged()
+11-09 08:13:56.176   713   713 V KeyguardUpdateMonitor: SubInfo:{id=1 iccId=89014103211118510720 simSlotIndex=0 carrierId=1 displayName=T-Mobile carrierName=T-Mobile nameSource=3 iconTint=-16746133 number=+15555215554 dataRoaming=0 iconBitmap=android.graphics.Bitmap@7548a25 mcc=310 mnc=260 countryIso=us isEmbedded=false nativeAccessRules=null cardString=89014103211118510720 cardId=-1 isOpportunistic=false groupUUID=null isGroupDisabled=false profileClass=-1 ehplmns=null hplmns=null subscriptionType=0 groupOwner=null carrierConfigAccessRules=null areUiccApplicationsEnabled=true}
+11-09 08:13:56.177  1039  1039 D PhoneSwitcher: Removed DcRequest, size: 12
+11-09 08:13:56.177  1039  1039 D Telephony: isEmergencyPreferredAccount: subId=1, activeData=1
+11-09 08:13:56.177  1039  1039 D Telephony: isEmergencyPreferredAccount: Device does not require preference.
+11-09 08:13:56.177   286   286 I Zygote  : Process 5678 exited due to signal 9 (Killed)
+11-09 08:13:56.205   499   540 I libprocessgroup: Successfully killed process cgroup uid 10137 pid 5678 in 43ms
+11-09 08:13:59.183  1039  1039 D RILJ    : [0207]> SIGNAL_STRENGTH [PHONE0]
+11-09 08:13:59.184   436   436 D RIL     : onRequest: SIGNAL_STRENGTH
+11-09 08:13:59.184   436   436 D AT      : AT> AT+CSQ
+11-09 08:13:59.184   436   495 D AT      : AT< %CGFPCCFG: 1,5000,14,0,1
+11-09 08:13:59.184   436   495 D RIL     : got CGFPCCFG line %CGFPCCFG: 1,5000,14,0,1 and %CGFPCCFG: 1,5000,14,0,1
+11-09 08:13:59.184   436   495 D RIL     : got i 0, val = 1
+11-09 08:13:59.184   436   495 D RIL     : got i 1, val = 5000
+11-09 08:13:59.184   436   495 D RIL     : got i 2, val = 14
+11-09 08:13:59.184   436   495 D RIL     : got i 3, val = 0
+11-09 08:13:59.184   436   495 D RIL     : got i 4, val = 1
+11-09 08:13:59.184   436   495 D RILC    : reportPhysicalChannelConfigs: 1 5000 14 0 1
+11-09 08:13:59.184   436   495 D AT      : AT< %CGFPCCFG: 2,5000,14,0,1
+11-09 08:13:59.184   436   495 D RIL     : got CGFPCCFG line %CGFPCCFG: 2,5000,14,0,1 and %CGFPCCFG: 2,5000,14,0,1
+11-09 08:13:59.184   436   495 D RIL     : got i 0, val = 2
+11-09 08:13:59.184   436   495 D RIL     : got i 1, val = 5000
+11-09 08:13:59.184   436   495 D RIL     : got i 2, val = 14
+11-09 08:13:59.184   436   495 D RIL     : got i 3, val = 0
+11-09 08:13:59.184   436   495 D RIL     : got i 4, val = 1
+11-09 08:13:59.184   436   495 D RILC    : reportPhysicalChannelConfigs: 2 5000 14 0 1
+11-09 08:13:59.184   436   495 D AT      : AT< +CSQ: 12,4,90,120,80,120,4,90,100,10,30,7,200
+11-09 08:13:59.184   436   495 D AT      : AT< OK
+11-09 08:13:59.185  1039  1220 D RILJ    : [UNSL]< RIL_UNSOL_PHYSICAL_CHANNEL_CONFIG [{mConnectionStatus=PrimaryServing,mCellBandwidthDownlinkKhz=5000,mRat=LTE,mFrequencyRange=UNKNOWN,mChannelNumber=2147483647,mContextIds=[1],mPhysicalCellId=0}] [PHONE0]
+11-09 08:13:59.185  1039  1220 D RILJ    : [UNSL]< RIL_UNSOL_PHYSICAL_CHANNEL_CONFIG [{mConnectionStatus=SecondaryServing,mCellBandwidthDownlinkKhz=5000,mRat=LTE,mFrequencyRange=UNKNOWN,mChannelNumber=2147483647,mContextIds=[1],mPhysicalCellId=0}] [PHONE0]
+11-09 08:13:59.185  1039  1220 E CellSignalStrengthLte: convertRssiAsuToDBm: invalid RSSI in ASU=90
+11-09 08:13:59.185  1039  1220 D RILJ    : [0207]< SIGNAL_STRENGTH SignalStrength:{mCdma=CellSignalStrengthCdma: cdmaDbm=2147483647 cdmaEcio=2147483647 evdoDbm=2147483647 evdoEcio=2147483647 evdoSnr=2147483647 level=0,mGsm=CellSignalStrengthGsm: rssi=2147483647 ber=2147483647 mTa=2147483647 mLevel=0,mWcdma=CellSignalStrengthWcdma: ss=2147483647 ber=2147483647 rscp=2147483647 ecno=2147483647 level=0,mTdscdma=CellSignalStrengthTdscdma: rssi=2147483647 ber=2147483647 rscp=2147483647 level=0,mLte=CellSignalStrengthLte: rssi=2147483647 rsrp=-100 rsrq=-10 rssnr=3 cqi=7 ta=200 level=2 parametersUseForLevel=1,mNr=CellSignalStrengthNr:{ csiRsrp = 2147483647 csiRsrq = 2147483647 csiSinr = 2147483647 ssRsrp = 2147483647 ssRsrq = 2147483647 ssSinr = 2147483647 level = 0 parametersUseForLevel = 1 },primary=CellSignalStrengthLte} [PHONE0]
+11-09 08:14:00.003   713   713 D KeyguardClockSwitch: Updating clock: 814
+11-09 08:14:09.922     0     0 W healthd : battery l=100 v=5000 t=25.0 h=2 st=2 c=900000 fc=300000 cc=10 chg=a
+11-09 08:14:19.189  1039  1039 D RILJ    : [0208]> SIGNAL_STRENGTH [PHONE0]
+11-09 08:14:19.191   436   436 D RIL     : onRequest: SIGNAL_STRENGTH
+11-09 08:14:19.191   436   436 D AT      : AT> AT+CSQ
+11-09 08:14:19.194   436   495 D AT      : AT< %CGFPCCFG: 1,5000,14,0,1
+11-09 08:14:19.194   436   495 D RIL     : got CGFPCCFG line %CGFPCCFG: 1,5000,14,0,1 and %CGFPCCFG: 1,5000,14,0,1
+11-09 08:14:19.194   436   495 D RIL     : got i 0, val = 1
+11-09 08:14:19.194   436   495 D RIL     : got i 1, val = 5000
+11-09 08:14:19.194   436   495 D RIL     : got i 2, val = 14
+11-09 08:14:19.194   436   495 D RIL     : got i 3, val = 0
+11-09 08:14:19.194   436   495 D RIL     : got i 4, val = 1
+11-09 08:14:19.194   436   495 D RILC    : reportPhysicalChannelConfigs: 1 5000 14 0 1
+11-09 08:14:19.194   436   495 D AT      : AT< %CGFPCCFG: 2,5000,14,0,1
+11-09 08:14:19.194   436   495 D RIL     : got CGFPCCFG line %CGFPCCFG: 2,5000,14,0,1 and %CGFPCCFG: 2,5000,14,0,1
+11-09 08:14:19.194   436   495 D RIL     : got i 0, val = 2
+11-09 08:14:19.194   436   495 D RIL     : got i 1, val = 5000
+11-09 08:14:19.194   436   495 D RIL     : got i 2, val = 14
+11-09 08:14:19.194   436   495 D RIL     : got i 3, val = 0
+11-09 08:14:19.194   436   495 D RIL     : got i 4, val = 1
+11-09 08:14:19.194   436   495 D RILC    : reportPhysicalChannelConfigs: 2 5000 14 0 1
+11-09 08:14:19.194   436   495 D AT      : AT< +CSQ: 12,4,90,120,80,120,4,90,100,10,30,7,200
+11-09 08:14:19.194   436   495 D AT      : AT< OK
+11-09 08:14:19.195  1039  1220 D RILJ    : [UNSL]< RIL_UNSOL_PHYSICAL_CHANNEL_CONFIG [{mConnectionStatus=PrimaryServing,mCellBandwidthDownlinkKhz=5000,mRat=LTE,mFrequencyRange=UNKNOWN,mChannelNumber=2147483647,mContextIds=[1],mPhysicalCellId=0}] [PHONE0]
+11-09 08:14:19.195  1039  1220 E CellSignalStrengthLte: convertRssiAsuToDBm: invalid RSSI in ASU=90
+11-09 08:14:19.195  1039  1220 D RILJ    : [0208]< SIGNAL_STRENGTH SignalStrength:{mCdma=CellSignalStrengthCdma: cdmaDbm=2147483647 cdmaEcio=2147483647 evdoDbm=2147483647 evdoEcio=2147483647 evdoSnr=2147483647 level=0,mGsm=CellSignalStrengthGsm: rssi=2147483647 ber=2147483647 mTa=2147483647 mLevel=0,mWcdma=CellSignalStrengthWcdma: ss=2147483647 ber=2147483647 rscp=2147483647 ecno=2147483647 level=0,mTdscdma=CellSignalStrengthTdscdma: rssi=2147483647 ber=2147483647 rscp=2147483647 level=0,mLte=CellSignalStrengthLte: rssi=2147483647 rsrp=-100 rsrq=-10 rssnr=3 cqi=7 ta=200 level=2 parametersUseForLevel=1,mNr=CellSignalStrengthNr:{ csiRsrp = 2147483647 csiRsrq = 2147483647 csiSinr = 2147483647 ssRsrp = 2147483647 ssRsrq = 2147483647 ssSinr = 2147483647 level = 0 parametersUseForLevel = 1 },primary=CellSignalStrengthLte} [PHONE0]
+11-09 08:14:19.195  1039  1220 D RILJ    : [UNSL]< RIL_UNSOL_PHYSICAL_CHANNEL_CONFIG [{mConnectionStatus=SecondaryServing,mCellBandwidthDownlinkKhz=5000,mRat=LTE,mFrequencyRange=UNKNOWN,mChannelNumber=2147483647,mContextIds=[1],mPhysicalCellId=0}] [PHONE0]
+11-09 08:14:32.885   166   166 I hwservicemanager: getTransport: Cannot find entry android.hardware.graphics.mapper@4.0::IMapper/default in either framework or device manifest.
+11-09 08:14:32.885  6432  6432 I Gralloc4: mapper 4.x is not supported
+11-09 08:14:32.893  6432  6432 D HostConnection: createUnique: call
+11-09 08:14:32.893  6432  6432 D HostConnection: HostConnection::get() New Host Connection established 0x7a1f127d1510, tid 6432
+11-09 08:14:32.911  6432  6432 D HostConnection: HostComposition ext ANDROID_EMU_CHECKSUM_HELPER_v1 ANDROID_EMU_native_sync_v2 ANDROID_EMU_dma_v1 ANDROID_EMU_direct_mem ANDROID_EMU_host_composition_v1 ANDROID_EMU_host_composition_v2 ANDROID_EMU_YUV_Cache ANDROID_EMU_has_shared_slots_host_memory_allocator ANDROID_EMU_sync_buffer_data ANDROID_EMU_read_color_buffer_dma ANDROID_EMU_hwc_color_transform GL_OES_EGL_image_external_essl3 GL_OES_vertex_array_object GL_KHR_texture_compression_astc_ldr ANDROID_EMU_host_side_tracing ANDROID_EMU_gles_max_version_3_0 
