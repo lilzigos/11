@@ -1,0 +1,317 @@
+Activity Resolver Table:
+  Schemes:
+      sgc:
+        5d13f07 com.userjoy.ujjsgc.jp/com.unity3d.player.UnityPlayerActivity filter 4a9dbd2
+          Action: "android.intent.action.VIEW"
+          Category: "android.intent.category.DEFAULT"
+          Category: "android.intent.category.BROWSABLE"
+          Scheme: "sgc"
+          Authority: "open": -1
+      https:
+        5d13f07 com.userjoy.ujjsgc.jp/com.unity3d.player.UnityPlayerActivity filter 707265d
+          Action: "android.intent.action.VIEW"
+          Category: "android.intent.category.LAUNCHER"
+          Category: "android.intent.category.DEFAULT"
+          Category: "android.intent.category.BROWSABLE"
+          Category: "android.intent.category.HOME"
+          Scheme: "https"
+          Authority: "som-dp.gameflier.com": -1
+          AutoVerify=true
+      fbconnect:
+        3b8c4a3 com.userjoy.ujjsgc.jp/com.facebook.CustomTabActivity filter aa793a0
+          Action: "android.intent.action.VIEW"
+          Category: "android.intent.category.DEFAULT"
+          Category: "android.intent.category.BROWSABLE"
+          Scheme: "fbconnect"
+          Authority: "cct.com.userjoy.ujjsgc.jp": -1
+
+  Non-Data Actions:
+      android.intent.action.MAIN:
+        5d13f07 com.userjoy.ujjsgc.jp/com.unity3d.player.UnityPlayerActivity filter 1b62834
+          Action: "android.intent.action.MAIN"
+          Category: "android.intent.category.LAUNCHER"
+          Category: "android.intent.category.LEANBACK_LAUNCHER"
+
+Receiver Resolver Table:
+  Non-Data Actions:
+      android.intent.action.BATTERY_OKAY:
+        961f7f7 com.userjoy.ujjsgc.jp/androidx.work.impl.background.systemalarm.ConstraintProxy$BatteryNotLowProxy filter 84e0664
+          Action: "android.intent.action.BATTERY_OKAY"
+          Action: "android.intent.action.BATTERY_LOW"
+      android.intent.action.ACTION_POWER_DISCONNECTED:
+        5c38c91 com.userjoy.ujjsgc.jp/androidx.work.impl.background.systemalarm.ConstraintProxy$BatteryChargingProxy filter 23d37f6
+          Action: "android.intent.action.ACTION_POWER_CONNECTED"
+          Action: "android.intent.action.ACTION_POWER_DISCONNECTED"
+      androidx.profileinstaller.action.SAVE_PROFILE:
+        2208b0b com.userjoy.ujjsgc.jp/androidx.profileinstaller.ProfileInstallReceiver filter 2818aa6
+          Action: "androidx.profileinstaller.action.SAVE_PROFILE"
+      com.facebook.sdk.ACTION_CURRENT_AUTHENTICATION_TOKEN_CHANGED:
+        bdc415 com.userjoy.ujjsgc.jp/com.facebook.AuthenticationTokenManager$CurrentAuthenticationTokenChangedBroadcastReceiver filter fc9132a
+          Action: "com.facebook.sdk.ACTION_CURRENT_AUTHENTICATION_TOKEN_CHANGED"
+      android.intent.action.DEVICE_STORAGE_LOW:
+        48360cd com.userjoy.ujjsgc.jp/androidx.work.impl.background.systemalarm.ConstraintProxy$StorageNotLowProxy filter efcdd82
+          Action: "android.intent.action.DEVICE_STORAGE_LOW"
+          Action: "android.intent.action.DEVICE_STORAGE_OK"
+      android.net.conn.CONNECTIVITY_CHANGE:
+        1b41c93 com.userjoy.ujjsgc.jp/androidx.work.impl.background.systemalarm.ConstraintProxy$NetworkStateProxy filter 71724d0
+          Action: "android.net.conn.CONNECTIVITY_CHANGE"
+      com.facebook.sdk.ACTION_CURRENT_ACCESS_TOKEN_CHANGED:
+        50907ff com.userjoy.ujjsgc.jp/com.facebook.CurrentAccessTokenExpirationBroadcastReceiver filter 38249cc
+          Action: "com.facebook.sdk.ACTION_CURRENT_ACCESS_TOKEN_CHANGED"
+      android.intent.action.DEVICE_STORAGE_OK:
+        48360cd com.userjoy.ujjsgc.jp/androidx.work.impl.background.systemalarm.ConstraintProxy$StorageNotLowProxy filter efcdd82
+          Action: "android.intent.action.DEVICE_STORAGE_LOW"
+          Action: "android.intent.action.DEVICE_STORAGE_OK"
+      com.android.vending.INSTALL_REFERRER:
+        614cb59 com.userjoy.ujjsgc.jp/com.appsflyer.SingleInstallBroadcastReceiver filter ca5e31e
+          Action: "com.android.vending.INSTALL_REFERRER"
+      com.google.android.play.core.assetpacks.receiver.ACTION_SESSION_UPDATE:
+        8f0251b com.userjoy.ujjsgc.jp/com.google.android.play.core.assetpacks.SessionStateBroadcastReceiver filter 77036b8
+          Action: "com.google.android.play.core.assetpacks.receiver.ACTION_SESSION_UPDATE"
+      androidx.profileinstaller.action.INSTALL_PROFILE:
+        2208b0b com.userjoy.ujjsgc.jp/androidx.profileinstaller.ProfileInstallReceiver filter 7babde8
+          Action: "androidx.profileinstaller.action.INSTALL_PROFILE"
+      android.intent.action.BATTERY_LOW:
+        961f7f7 com.userjoy.ujjsgc.jp/androidx.work.impl.background.systemalarm.ConstraintProxy$BatteryNotLowProxy filter 84e0664
+          Action: "android.intent.action.BATTERY_OKAY"
+          Action: "android.intent.action.BATTERY_LOW"
+      android.intent.action.TIMEZONE_CHANGED:
+        af23cc9 com.userjoy.ujjsgc.jp/androidx.work.impl.background.systemalarm.RescheduleReceiver filter 41f4fce
+          Action: "android.intent.action.BOOT_COMPLETED"
+          Action: "android.intent.action.TIME_SET"
+          Action: "android.intent.action.TIMEZONE_CHANGED"
+      android.intent.action.TIME_SET:
+        af23cc9 com.userjoy.ujjsgc.jp/androidx.work.impl.background.systemalarm.RescheduleReceiver filter 41f4fce
+          Action: "android.intent.action.BOOT_COMPLETED"
+          Action: "android.intent.action.TIME_SET"
+          Action: "android.intent.action.TIMEZONE_CHANGED"
+      androidx.profileinstaller.action.SKIP_FILE:
+        2208b0b com.userjoy.ujjsgc.jp/androidx.profileinstaller.ProfileInstallReceiver filter 9cfbc01
+          Action: "androidx.profileinstaller.action.SKIP_FILE"
+      androidx.profileinstaller.action.BENCHMARK_OPERATION:
+        2208b0b com.userjoy.ujjsgc.jp/androidx.profileinstaller.ProfileInstallReceiver filter bcacce7
+          Action: "androidx.profileinstaller.action.BENCHMARK_OPERATION"
+      android.intent.action.BOOT_COMPLETED:
+        af23cc9 com.userjoy.ujjsgc.jp/androidx.work.impl.background.systemalarm.RescheduleReceiver filter 41f4fce
+          Action: "android.intent.action.BOOT_COMPLETED"
+          Action: "android.intent.action.TIME_SET"
+          Action: "android.intent.action.TIMEZONE_CHANGED"
+      android.intent.action.ACTION_POWER_CONNECTED:
+        5c38c91 com.userjoy.ujjsgc.jp/androidx.work.impl.background.systemalarm.ConstraintProxy$BatteryChargingProxy filter 23d37f6
+          Action: "android.intent.action.ACTION_POWER_CONNECTED"
+          Action: "android.intent.action.ACTION_POWER_DISCONNECTED"
+      androidx.work.diagnostics.REQUEST_DIAGNOSTICS:
+        758dc85 com.userjoy.ujjsgc.jp/androidx.work.impl.diagnostics.DiagnosticsReceiver filter 7e49ada
+          Action: "androidx.work.diagnostics.REQUEST_DIAGNOSTICS"
+      androidx.work.impl.background.systemalarm.UpdateProxies:
+        2f9eeef com.userjoy.ujjsgc.jp/androidx.work.impl.background.systemalarm.ConstraintProxyUpdateReceiver filter 711bdfc
+          Action: "androidx.work.impl.background.systemalarm.UpdateProxies"
+
+Permissions:
+  Permission [com.userjoy.ujjsgc.jp.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION] (17b173d):
+    sourcePackage=com.userjoy.ujjsgc.jp
+    uid=10167 gids=null type=0 prot=signature
+    perm=Permission{dea0437 com.userjoy.ujjsgc.jp.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION}
+
+Registered ContentProviders:
+  com.userjoy.ujjsgc.jp/com.google.firebase.provider.FirebaseInitProvider:
+    Provider{376bda4 com.userjoy.ujjsgc.jp/com.google.firebase.provider.FirebaseInitProvider}
+  com.userjoy.ujjsgc.jp/com.facebook.internal.FacebookInitProvider:
+    Provider{82ee70d com.userjoy.ujjsgc.jp/com.facebook.internal.FacebookInitProvider}
+  com.userjoy.ujjsgc.jp/com.google.android.gms.games.provider.PlayGamesInitProvider:
+    Provider{76c86c2 com.userjoy.ujjsgc.jp/com.google.android.gms.games.provider.PlayGamesInitProvider}
+  com.userjoy.ujjsgc.jp/androidx.startup.InitializationProvider:
+    Provider{650acd3 com.userjoy.ujjsgc.jp/androidx.startup.InitializationProvider}
+  com.userjoy.ujjsgc.jp/com.google.android.gms.ads.MobileAdsInitProvider:
+    Provider{3341010 com.userjoy.ujjsgc.jp/com.google.android.gms.ads.MobileAdsInitProvider}
+  com.userjoy.ujjsgc.jp/androidx.core.content.FileProvider:
+    Provider{66fe709 com.userjoy.ujjsgc.jp/androidx.core.content.FileProvider}
+
+ContentProvider Authorities:
+  [com.userjoy.ujjsgc.jp.playgamesinitprovider]:
+    Provider{76c86c2 com.userjoy.ujjsgc.jp/com.google.android.gms.games.provider.PlayGamesInitProvider}
+      applicationInfo=ApplicationInfo{4d0e com.userjoy.ujjsgc.jp}
+  [com.userjoy.ujjsgc.jp.fileprovider]:
+    Provider{66fe709 com.userjoy.ujjsgc.jp/androidx.core.content.FileProvider}
+      applicationInfo=ApplicationInfo{e6f432f com.userjoy.ujjsgc.jp}
+  [com.userjoy.ujjsgc.jp.mobileadsinitprovider]:
+    Provider{3341010 com.userjoy.ujjsgc.jp/com.google.android.gms.ads.MobileAdsInitProvider}
+      applicationInfo=ApplicationInfo{1321d3c com.userjoy.ujjsgc.jp}
+  [com.userjoy.ujjsgc.jp.firebaseinitprovider]:
+    Provider{376bda4 com.userjoy.ujjsgc.jp/com.google.firebase.provider.FirebaseInitProvider}
+      applicationInfo=ApplicationInfo{fa6eac5 com.userjoy.ujjsgc.jp}
+  [com.userjoy.ujjsgc.jp.androidx-startup]:
+    Provider{650acd3 com.userjoy.ujjsgc.jp/androidx.startup.InitializationProvider}
+      applicationInfo=ApplicationInfo{ef82c1a com.userjoy.ujjsgc.jp}
+  [com.userjoy.ujjsgc.jp.FacebookInitProvider]:
+    Provider{82ee70d com.userjoy.ujjsgc.jp/com.facebook.internal.FacebookInitProvider}
+      applicationInfo=ApplicationInfo{336e34b com.userjoy.ujjsgc.jp}
+
+Key Set Manager:
+  [com.userjoy.ujjsgc.jp]
+      Signing KeySets: 35
+
+Packages:
+  Package [com.userjoy.ujjsgc.jp] (ea1d128):
+    userId=10167
+    pkg=Package{5906e41 com.userjoy.ujjsgc.jp}
+    codePath=/data/app/~~oOt8S2Baq6GyAxp8w1oYHg==/com.userjoy.ujjsgc.jp-LpEpXp3nJWVYAF5NNjXjWA==
+    resourcePath=/data/app/~~oOt8S2Baq6GyAxp8w1oYHg==/com.userjoy.ujjsgc.jp-LpEpXp3nJWVYAF5NNjXjWA==
+    legacyNativeLibraryDir=/data/app/~~oOt8S2Baq6GyAxp8w1oYHg==/com.userjoy.ujjsgc.jp-LpEpXp3nJWVYAF5NNjXjWA==/lib
+    primaryCpuAbi=arm64-v8a
+    secondaryCpuAbi=null
+    versionCode=23017 minSdk=24 targetSdk=35
+    versionName=0.23.17
+    splits=[base]
+    apkSigningVersion=3
+    applicationInfo=ApplicationInfo{5906e41 com.userjoy.ujjsgc.jp}
+    flags=[ HAS_CODE ALLOW_CLEAR_USER_DATA ALLOW_BACKUP ]
+    privateFlags=[ PRIVATE_FLAG_ACTIVITIES_RESIZE_MODE_RESIZEABLE_VIA_SDK_VERSION ALLOW_AUDIO_PLAYBACK_CAPTURE PRIVATE_FLAG_REQUEST_LEGACY_EXTERNAL_STORAGE HAS_DOMAIN_URLS PARTIALLY_DIRECT_BOOT_AWARE PRIVATE_FLAG_ALLOW_NATIVE_HEAP_POINTER_TAGGING ]
+    forceQueryable=false
+    queriesIntents=[Intent { act=com.appsflyer.referrer.INSTALL_PROVIDER }, Intent { act=com.android.vending.billing.InAppBillingService.BIND }, Intent { act=com.google.android.apps.play.billingtestcompanion.BillingOverrideService.BIND }, Intent { act=android.intent.action.VIEW cat=[android.intent.category.BROWSABLE] dat=https:///... }, Intent { act=android.support.customtabs.action.CustomTabsService }, Intent { act=android.intent.action.INSERT dat=content://*/* typ=vnd.android.cursor.dir/event }, Intent { act=android.intent.action.VIEW dat=sms:xx }, Intent { act=android.intent.action.DIAL }]
+    dataDir=/data/user/0/com.userjoy.ujjsgc.jp
+    supportsScreens=[small, medium, large, xlarge, resizeable, anyDensity]
+    usesOptionalLibraries:
+      app-inputmapping
+      org.apache.http.legacy
+      androidx.window.extensions
+      androidx.window.sidecar
+      android.ext.adservices
+    usesLibraryFiles:
+      /system/framework/org.apache.http.legacy.jar
+      /system_ext/framework/androidx.window.sidecar.jar
+    timeStamp=2026-11-09 03:03:57
+    firstInstallTime=2026-11-09 03:04:13
+    lastUpdateTime=2026-11-09 03:04:13
+    signatures=PackageSignatures{75cefe6 version:3, signatures:[3017773b], past signatures:[]}
+    installPermissionsFixed=true
+    pkgFlags=[ HAS_CODE ALLOW_CLEAR_USER_DATA ALLOW_BACKUP ]
+    declared permissions:
+      com.userjoy.ujjsgc.jp.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION: prot=signature, INSTALLED
+    requested permissions:
+      android.permission.INTERNET
+      android.permission.READ_EXTERNAL_STORAGE: restricted=true
+      android.permission.WRITE_EXTERNAL_STORAGE: restricted=true
+      android.permission.ACCESS_NETWORK_STATE
+      com.android.vending.BILLING
+      android.permission.RECORD_AUDIO
+      android.permission.MODIFY_AUDIO_SETTINGS
+      android.permission.ACCESS_WIFI_STATE
+      com.google.android.gms.permission.AD_ID
+      android.permission.POST_NOTIFICATIONS
+      android.permission.READ_MEDIA_VISUAL_USER_SELECTED
+      android.permission.ACCESS_ADSERVICES_ATTRIBUTION
+      android.permission.ACCESS_ADSERVICES_AD_ID
+      android.permission.ACCESS_ADSERVICES_CUSTOM_AUDIENCE
+      android.permission.ACCESS_ADSERVICES_TOPICS
+      com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE
+      com.samsung.android.mapsagent.permission.READ_APP_INFO
+      com.huawei.appmarket.service.commondata.permission.GET_COMMON_DATA
+      android.permission.WAKE_LOCK
+      android.permission.FOREGROUND_SERVICE
+      android.permission.FOREGROUND_SERVICE_DATA_SYNC
+      android.permission.READ_MEDIA_AUDIO
+      com.userjoy.ujjsgc.jp.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION
+    install permissions:
+      android.permission.MODIFY_AUDIO_SETTINGS: granted=true
+      com.userjoy.ujjsgc.jp.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION: granted=true
+      android.permission.FOREGROUND_SERVICE: granted=true
+      android.permission.INTERNET: granted=true
+      android.permission.ACCESS_NETWORK_STATE: granted=true
+      android.permission.ACCESS_WIFI_STATE: granted=true
+      android.permission.WAKE_LOCK: granted=true
+    User 0: ceDataInode=132483 installed=true hidden=false suspended=false distractionFlags=0 stopped=false notLaunched=false enabled=0 instant=false virtual=false
+      gids=[3003]
+      runtime permissions:
+        android.permission.READ_EXTERNAL_STORAGE: granted=true, flags=[ USER_SENSITIVE_WHEN_GRANTED|USER_SENSITIVE_WHEN_DENIED|RESTRICTION_INSTALLER_EXEMPT]
+        android.permission.WRITE_EXTERNAL_STORAGE: granted=true, flags=[ USER_SENSITIVE_WHEN_GRANTED|USER_SENSITIVE_WHEN_DENIED|RESTRICTION_INSTALLER_EXEMPT]
+        android.permission.RECORD_AUDIO: granted=true, flags=[ USER_SENSITIVE_WHEN_GRANTED|USER_SENSITIVE_WHEN_DENIED]
+      enabledComponents:
+        com.google.android.play.core.assetpacks.ExtractionForegroundService
+        androidx.work.impl.background.systemjob.SystemJobService
+        com.google.android.play.core.assetpacks.AssetPackExtractionService
+
+Queries:
+  system apps queryable: false
+  queries via package name:
+  queries via intent:
+    com.userjoy.ujjsgc.jp:
+      com.google.android.setupwizard
+      com.android.dialer
+      com.google.android.googlequicksearchbox
+      com.android.chrome
+      com.google.android.apps.docs
+      com.google.android.calendar
+      com.google.android.apps.messaging
+  queryable via interaction:
+    User 0:
+      [com.android.location.fused,com.android.dynsystem,com.android.settings,com.android.wallpaperbackup,com.android.keychain,com.android.providers.settings,com.android.localtransport,android,com.android.emulator.multidisplay,com.android.server.telecom,com.android.inputdevices]:
+        com.userjoy.ujjsgc.jp
+      [com.google.android.gms,com.google.android.gsf]:
+        com.userjoy.ujjsgc.jp
+      com.google.android.inputmethod.latin:
+        com.userjoy.ujjsgc.jp
+      com.google.android.webview:
+        com.userjoy.ujjsgc.jp
+      com.userjoy.ujjsgc.jp:
+        com.google.android.webview
+
+Package Changes:
+  Sequence number=367
+  User 0:
+    seq=0, package=com.google.android.permissioncontroller
+    seq=1, package=com.android.systemui
+    seq=5, package=com.google.android.inputmethod.latin
+    seq=6, package=com.google.android.cellbroadcastreceiver
+    seq=8, package=com.google.android.sdksetup
+    seq=23, package=com.google.android.apps.youtube.music
+    seq=27, package=com.google.android.partnersetup
+    seq=99, package=com.android.settings
+    seq=134, package=com.google.android.apps.docs
+    seq=173, package=com.google.android.gsf
+    seq=206, package=com.google.android.calendar
+    seq=208, package=com.android.camera2
+    seq=221, package=com.android.nfc
+    seq=238, package=com.android.stk
+    seq=241, package=com.android.traceur
+    seq=310, package=com.google.android.apps.messaging
+    seq=315, package=com.google.android.apps.photos
+    seq=318, package=com.google.android.apps.wellbeing
+    seq=330, package=com.google.android.apps.maps
+    seq=331, package=com.android.vending
+    seq=332, package=com.google.android.youtube
+    seq=336, package=com.google.android.projection.gearhead
+    seq=337, package=com.google.android.setupwizard
+    seq=342, package=com.google.android.videos
+    seq=358, package=com.google.android.gms
+    seq=361, package=com.userjoy.ujjsgc.jp
+    seq=365, package=com.google.android.gm
+    seq=366, package=com.google.android.googlequicksearchbox
+
+
+Dexopt state:
+  [com.userjoy.ujjsgc.jp]
+    path: /data/app/~~oOt8S2Baq6GyAxp8w1oYHg==/com.userjoy.ujjsgc.jp-LpEpXp3nJWVYAF5NNjXjWA==/base.apk
+      x86_64: [status=speed-profile] [reason=install]
+      known secondary dex files:
+        /data/user/0/com.userjoy.ujjsgc.jp/cache/google_api_resources_lib.jar
+          class loader context: PCL[];PCL[/data/user/0/com.userjoy.ujjsgc.jp/cache/app_resources_lib.jar];PCL[/data/app/~~oOt8S2Baq6GyAxp8w1oYHg==/com.userjoy.ujjsgc.jp-LpEpXp3nJWVYAF5NNjXjWA==/base.apk]{PCL[/system/framework/org.apache.http.legacy.jar]#PCL[/system_ext/framework/androidx.window.sidecar.jar]}
+        /data/user/0/com.userjoy.ujjsgc.jp/cache/app_resources_lib.jar
+          class loader context: PCL[];PCL[/data/app/~~oOt8S2Baq6GyAxp8w1oYHg==/com.userjoy.ujjsgc.jp-LpEpXp3nJWVYAF5NNjXjWA==/base.apk]{PCL[/system/framework/org.apache.http.legacy.jar]#PCL[/system_ext/framework/androidx.window.sidecar.jar]}
+
+
+Compiler stats:
+  [com.userjoy.ujjsgc.jp]
+     base.apk - 5624
+
+APEX session state:
+
+Active APEX packages:
+
+
+Inactive APEX packages:
+
+
+Factory APEX packages:
+
+

@@ -12714,3 +12714,43 @@
 11-09 03:20:51.708  1033  1253 E CellSignalStrengthLte: convertRssiAsuToDBm: invalid RSSI in ASU=90
 11-09 03:20:51.708  1033  1253 D RILJ    : [0223]< SIGNAL_STRENGTH SignalStrength:{mCdma=CellSignalStrengthCdma: cdmaDbm=2147483647 cdmaEcio=2147483647 evdoDbm=2147483647 evdoEcio=2147483647 evdoSnr=2147483647 level=0,mGsm=CellSignalStrengthGsm: rssi=2147483647 ber=2147483647 mTa=2147483647 mLevel=0,mWcdma=CellSignalStrengthWcdma: ss=2147483647 ber=2147483647 rscp=2147483647 ecno=2147483647 level=0,mTdscdma=CellSignalStrengthTdscdma: rssi=2147483647 ber=2147483647 rscp=2147483647 level=0,mLte=CellSignalStrengthLte: rssi=2147483647 rsrp=-100 rsrq=-10 rssnr=3 cqi=7 ta=200 level=2 parametersUseForLevel=1,mNr=CellSignalStrengthNr:{ csiRsrp = 2147483647 csiRsrq = 2147483647 csiSinr = 2147483647 ssRsrp = 2147483647 ssRsrq = 2147483647 ssSinr = 2147483647 level = 0 parametersUseForLevel = 1 },primary=CellSignalStrengthLte} [PHONE0]
 11-09 03:21:00.002   711   711 D KeyguardClockSwitch: Updating clock: 321
+11-09 03:21:05.244   161   161 I servicemanager: Since 'apexservice' could not be found, trying to start it as a lazy AIDL service
+11-09 03:20:20.415     0     0 W healthd : battery l=100 v=5000 t=25.0 h=2 st=2 c=900000 fc=300000 cc=10 chg=a
+11-09 03:21:05.463     0     0 I init    : starting service 'apexd'...
+11-09 03:21:05.470     0     0 I init    : Control message: Processed ctl.interface_start for 'aidl/apexservice' from pid: 161 (/system/bin/servicemanager)
+11-09 03:21:05.539     0     0 I apexd   : Scanning /system/apex for preinstalled data
+11-09 03:21:05.568     0     0 I apexd   : Scanning /system_ext/apex for preinstalled data
+11-09 03:21:05.572     0     0 I apexd   : ... does not exist. Skipping
+11-09 03:21:05.574     0     0 I apexd   : Scanning /product/apex for preinstalled data
+11-09 03:21:05.577     0     0 I apexd   : ... does not exist. Skipping
+11-09 03:21:05.580     0     0 I apexd   : Scanning /vendor/apex for preinstalled data
+11-09 03:21:05.583     0     0 I apexd   : ... does not exist. Skipping
+11-09 03:21:05.595     0     0 I apexd   : Populating APEX database from mounts...
+11-09 03:21:05.601     0     0 I apexd   : Found "/apex/com.android.sdkext@300900700" backed by file /system/apex/com.google.android.sdkext.apex
+11-09 03:21:05.610     0     0 I apexd   : Found "/apex/com.android.extservices@300900700" backed by file /system/apex/com.google.android.extservices.apex
+11-09 03:21:05.615     0     0 I apexd   : Found "/apex/com.android.ipsec@300900700" backed by file /system/apex/com.google.android.ipsec.apex
+11-09 03:21:05.624     0     0 I apexd   : Found "/apex/com.android.runtime@1" backed by file /system/apex/com.android.runtime.apex
+11-09 03:21:05.630     0     0 I apexd   : Found "/apex/com.android.vndk.v30@1" backed by file /system/apex/com.android.vndk.current.apex
+11-09 03:21:05.635     0     0 I apexd   : Found "/apex/com.android.telephony@1" backed by file /system/apex/com.google.android.telephony.apex
+11-09 03:21:05.640     0     0 I apexd   : Found "/apex/com.android.tzdata@300900700" backed by file /system/apex/com.google.android.tzdata2.apex
+11-09 03:21:05.646     0     0 I apexd   : Found "/apex/com.android.resolv@300900700" backed by file /system/apex/com.google.android.resolv.apex
+11-09 03:21:05.649     0     0 I apexd   : Found "/apex/com.android.media.swcodec@300900714" backed by file /system/apex/com.google.android.media.swcodec.apex
+11-09 03:21:05.652     0     0 I apexd   : Found "/apex/com.android.cellbroadcast@300900720" backed by file /system/apex/com.google.android.cellbroadcast.apex
+11-09 03:21:05.656     0     0 I apexd   : Found "/apex/com.android.os.statsd@300900700" backed by file /system/apex/com.google.android.os.statsd.apex
+11-09 03:21:05.665     0     0 I apexd   : Found "/apex/com.android.mediaprovider@300900719" backed by file /system/apex/com.google.android.mediaprovider.apex
+11-09 03:21:05.676     0     0 I apexd   : Found "/apex/com.android.i18n@1" backed by file /system/apex/com.android.i18n.apex
+11-09 03:21:05.681     0     0 I apexd   : Found "/apex/com.android.art@1" backed by file /system/apex/com.android.art.debug.apex
+11-09 03:21:05.685     0     0 I apexd   : Found "/apex/com.android.tethering@300900700" backed by file /system/apex/com.google.android.tethering.apex
+11-09 03:21:05.691     0     0 I apexd   : Found "/apex/com.android.adbd@300900700" backed by file /system/apex/com.google.android.adbd.apex
+11-09 03:21:05.696     0     0 I apexd   : Found "/apex/com.android.permission@300900706" backed by file /system/apex/com.google.android.permission.apex
+11-09 03:21:05.699     0     0 I apexd   : Found "/apex/com.android.apex.cts.shim@1" backed by file /system/apex/com.android.apex.cts.shim.apex
+11-09 03:21:05.706     0     0 I apexd   : Found "/apex/com.android.media@300900700" backed by file /system/apex/com.google.android.media.apex
+11-09 03:21:05.709     0     0 I apexd   : Found "/apex/com.android.neuralnetworks@300900700" backed by file /system/apex/com.google.android.neuralnetworks.apex
+11-09 03:21:05.713     0     0 I apexd   : Found "/apex/com.android.wifi@300900711" backed by file /system/apex/com.google.android.wifi.apex
+11-09 03:21:05.716     0     0 I apexd   : Found "/apex/com.android.conscrypt@300900703" backed by file /system/apex/com.google.android.conscrypt.apex
+11-09 03:21:05.723     0     0 I apexd   : 22 packages restored.
+11-09 03:21:05.728     0     0 I AidlLazyServiceRegistrar: Registering service apexservice
+11-09 03:21:05.521   161   161 I BpBinder: onLastStrongRef automatically unlinking death recipients: <uncached descriptor>
+11-09 03:21:05.527   161   161 I servicemanager: Tried to unregister apexservice, but there is about to be a client.
+11-09 03:21:05.738     0     0 I AidlLazyServiceRegistrar: Trying to shut down the service. No clients in use for any service in process.
+11-09 03:21:05.743     0     0 I AidlLazyServiceRegistrar: Failed to unregister service apexservice
