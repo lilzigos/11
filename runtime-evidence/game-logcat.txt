@@ -13717,3 +13717,60 @@
 11-09 08:23:41.345  6840  6840 D HostConnection: createUnique: call
 11-09 08:23:41.345  6840  6840 D HostConnection: HostConnection::get() New Host Connection established 0x7143ec417a50, tid 6840
 11-09 08:23:41.357  6840  6840 D HostConnection: HostComposition ext ANDROID_EMU_CHECKSUM_HELPER_v1 ANDROID_EMU_native_sync_v2 ANDROID_EMU_dma_v1 ANDROID_EMU_direct_mem ANDROID_EMU_host_composition_v1 ANDROID_EMU_host_composition_v2 ANDROID_EMU_YUV_Cache ANDROID_EMU_has_shared_slots_host_memory_allocator ANDROID_EMU_sync_buffer_data ANDROID_EMU_read_color_buffer_dma ANDROID_EMU_hwc_color_transform GL_OES_EGL_image_external_essl3 GL_OES_vertex_array_object GL_KHR_texture_compression_astc_ldr ANDROID_EMU_host_side_tracing ANDROID_EMU_gles_max_version_3_0 
+11-09 08:23:59.348  1039  1039 D RILJ    : [0237]> SIGNAL_STRENGTH [PHONE0]
+11-09 08:23:59.348   436   436 D RIL     : onRequest: SIGNAL_STRENGTH
+11-09 08:23:59.348   436   436 D AT      : AT> AT+CSQ
+11-09 08:23:59.349   436   495 D AT      : AT< %CGFPCCFG: 1,5000,14,0,1
+11-09 08:23:59.349   436   495 D RIL     : got CGFPCCFG line %CGFPCCFG: 1,5000,14,0,1 and %CGFPCCFG: 1,5000,14,0,1
+11-09 08:23:59.349   436   495 D RIL     : got i 0, val = 1
+11-09 08:23:59.349   436   495 D RIL     : got i 1, val = 5000
+11-09 08:23:59.349   436   495 D RIL     : got i 2, val = 14
+11-09 08:23:59.349   436   495 D RIL     : got i 3, val = 0
+11-09 08:23:59.349   436   495 D RIL     : got i 4, val = 1
+11-09 08:23:59.349   436   495 D RILC    : reportPhysicalChannelConfigs: 1 5000 14 0 1
+11-09 08:23:59.349   436   495 D AT      : AT< %CGFPCCFG: 2,5000,14,0,1
+11-09 08:23:59.349   436   495 D RIL     : got CGFPCCFG line %CGFPCCFG: 2,5000,14,0,1 and %CGFPCCFG: 2,5000,14,0,1
+11-09 08:23:59.349   436   495 D RIL     : got i 0, val = 2
+11-09 08:23:59.349   436   495 D RIL     : got i 1, val = 5000
+11-09 08:23:59.349   436   495 D RIL     : got i 2, val = 14
+11-09 08:23:59.349   436   495 D RIL     : got i 3, val = 0
+11-09 08:23:59.349   436   495 D RIL     : got i 4, val = 1
+11-09 08:23:59.349   436   495 D RILC    : reportPhysicalChannelConfigs: 2 5000 14 0 1
+11-09 08:23:59.349   436   495 D AT      : AT< +CSQ: 12,4,90,120,80,120,4,90,100,10,30,7,200
+11-09 08:23:59.349   436   495 D AT      : AT< OK
+11-09 08:23:59.350  1039  1220 D RILJ    : [UNSL]< RIL_UNSOL_PHYSICAL_CHANNEL_CONFIG [{mConnectionStatus=PrimaryServing,mCellBandwidthDownlinkKhz=5000,mRat=LTE,mFrequencyRange=UNKNOWN,mChannelNumber=2147483647,mContextIds=[1],mPhysicalCellId=0}] [PHONE0]
+11-09 08:23:59.351  1039  1220 E CellSignalStrengthLte: convertRssiAsuToDBm: invalid RSSI in ASU=90
+11-09 08:23:59.351  1039  1220 D RILJ    : [0237]< SIGNAL_STRENGTH SignalStrength:{mCdma=CellSignalStrengthCdma: cdmaDbm=2147483647 cdmaEcio=2147483647 evdoDbm=2147483647 evdoEcio=2147483647 evdoSnr=2147483647 level=0,mGsm=CellSignalStrengthGsm: rssi=2147483647 ber=2147483647 mTa=2147483647 mLevel=0,mWcdma=CellSignalStrengthWcdma: ss=2147483647 ber=2147483647 rscp=2147483647 ecno=2147483647 level=0,mTdscdma=CellSignalStrengthTdscdma: rssi=2147483647 ber=2147483647 rscp=2147483647 level=0,mLte=CellSignalStrengthLte: rssi=2147483647 rsrp=-100 rsrq=-10 rssnr=3 cqi=7 ta=200 level=2 parametersUseForLevel=1,mNr=CellSignalStrengthNr:{ csiRsrp = 2147483647 csiRsrq = 2147483647 csiSinr = 2147483647 ssRsrp = 2147483647 ssRsrq = 2147483647 ssSinr = 2147483647 level = 0 parametersUseForLevel = 1 },primary=CellSignalStrengthLte} [PHONE0]
+11-09 08:23:59.351  1039  1220 D RILJ    : [UNSL]< RIL_UNSOL_PHYSICAL_CHANNEL_CONFIG [{mConnectionStatus=SecondaryServing,mCellBandwidthDownlinkKhz=5000,mRat=LTE,mFrequencyRange=UNKNOWN,mChannelNumber=2147483647,mContextIds=[1],mPhysicalCellId=0}] [PHONE0]
+11-09 08:24:00.005   713   713 D KeyguardClockSwitch: Updating clock: 824
+11-09 08:24:09.925     0     0 W healthd : battery l=100 v=5000 t=25.0 h=2 st=2 c=900000 fc=300000 cc=10 chg=a
+11-09 08:24:19.355  1039  1039 D RILJ    : [0238]> SIGNAL_STRENGTH [PHONE0]
+11-09 08:24:19.355   436   436 D RIL     : onRequest: SIGNAL_STRENGTH
+11-09 08:24:19.355   436   436 D AT      : AT> AT+CSQ
+11-09 08:24:19.355   436   495 D AT      : AT< %CGFPCCFG: 1,5000,14,0,1
+11-09 08:24:19.355   436   495 D RIL     : got CGFPCCFG line %CGFPCCFG: 1,5000,14,0,1 and %CGFPCCFG: 1,5000,14,0,1
+11-09 08:24:19.355   436   495 D RIL     : got i 0, val = 1
+11-09 08:24:19.355   436   495 D RIL     : got i 1, val = 5000
+11-09 08:24:19.355   436   495 D RIL     : got i 2, val = 14
+11-09 08:24:19.355   436   495 D RIL     : got i 3, val = 0
+11-09 08:24:19.355   436   495 D RIL     : got i 4, val = 1
+11-09 08:24:19.356   436   495 D RILC    : reportPhysicalChannelConfigs: 1 5000 14 0 1
+11-09 08:24:19.356   436   495 D AT      : AT< %CGFPCCFG: 2,5000,14,0,1
+11-09 08:24:19.356   436   495 D RIL     : got CGFPCCFG line %CGFPCCFG: 2,5000,14,0,1 and %CGFPCCFG: 2,5000,14,0,1
+11-09 08:24:19.356   436   495 D RIL     : got i 0, val = 2
+11-09 08:24:19.356   436   495 D RIL     : got i 1, val = 5000
+11-09 08:24:19.356   436   495 D RIL     : got i 2, val = 14
+11-09 08:24:19.356   436   495 D RIL     : got i 3, val = 0
+11-09 08:24:19.356   436   495 D RIL     : got i 4, val = 1
+11-09 08:24:19.356   436   495 D RILC    : reportPhysicalChannelConfigs: 2 5000 14 0 1
+11-09 08:24:19.356   436   495 D AT      : AT< +CSQ: 12,4,90,120,80,120,4,90,100,10,30,7,200
+11-09 08:24:19.356   436   495 D AT      : AT< OK
+11-09 08:24:19.356  1039  1220 D RILJ    : [UNSL]< RIL_UNSOL_PHYSICAL_CHANNEL_CONFIG [{mConnectionStatus=PrimaryServing,mCellBandwidthDownlinkKhz=5000,mRat=LTE,mFrequencyRange=UNKNOWN,mChannelNumber=2147483647,mContextIds=[1],mPhysicalCellId=0}] [PHONE0]
+11-09 08:24:19.356  1039  1220 D RILJ    : [UNSL]< RIL_UNSOL_PHYSICAL_CHANNEL_CONFIG [{mConnectionStatus=SecondaryServing,mCellBandwidthDownlinkKhz=5000,mRat=LTE,mFrequencyRange=UNKNOWN,mChannelNumber=2147483647,mContextIds=[1],mPhysicalCellId=0}] [PHONE0]
+11-09 08:24:19.357  1039  1220 E CellSignalStrengthLte: convertRssiAsuToDBm: invalid RSSI in ASU=90
+11-09 08:24:19.357  1039  1220 D RILJ    : [0238]< SIGNAL_STRENGTH SignalStrength:{mCdma=CellSignalStrengthCdma: cdmaDbm=2147483647 cdmaEcio=2147483647 evdoDbm=2147483647 evdoEcio=2147483647 evdoSnr=2147483647 level=0,mGsm=CellSignalStrengthGsm: rssi=2147483647 ber=2147483647 mTa=2147483647 mLevel=0,mWcdma=CellSignalStrengthWcdma: ss=2147483647 ber=2147483647 rscp=2147483647 ecno=2147483647 level=0,mTdscdma=CellSignalStrengthTdscdma: rssi=2147483647 ber=2147483647 rscp=2147483647 level=0,mLte=CellSignalStrengthLte: rssi=2147483647 rsrp=-100 rsrq=-10 rssnr=3 cqi=7 ta=200 level=2 parametersUseForLevel=1,mNr=CellSignalStrengthNr:{ csiRsrp = 2147483647 csiRsrq = 2147483647 csiSinr = 2147483647 ssRsrp = 2147483647 ssRsrq = 2147483647 ssSinr = 2147483647 level = 0 parametersUseForLevel = 1 },primary=CellSignalStrengthLte} [PHONE0]
+11-09 08:24:36.282   166   166 I hwservicemanager: getTransport: Cannot find entry android.hardware.graphics.mapper@4.0::IMapper/default in either framework or device manifest.
+11-09 08:24:36.283  6844  6844 I Gralloc4: mapper 4.x is not supported
+11-09 08:24:36.290  6844  6844 D HostConnection: createUnique: call
+11-09 08:24:36.291  6844  6844 D HostConnection: HostConnection::get() New Host Connection established 0x73a0e2e9a490, tid 6844
+11-09 08:24:36.300  6844  6844 D HostConnection: HostComposition ext ANDROID_EMU_CHECKSUM_HELPER_v1 ANDROID_EMU_native_sync_v2 ANDROID_EMU_dma_v1 ANDROID_EMU_direct_mem ANDROID_EMU_host_composition_v1 ANDROID_EMU_host_composition_v2 ANDROID_EMU_YUV_Cache ANDROID_EMU_has_shared_slots_host_memory_allocator ANDROID_EMU_sync_buffer_data ANDROID_EMU_read_color_buffer_dma ANDROID_EMU_hwc_color_transform GL_OES_EGL_image_external_essl3 GL_OES_vertex_array_object GL_KHR_texture_compression_astc_ldr ANDROID_EMU_host_side_tracing ANDROID_EMU_gles_max_version_3_0 
