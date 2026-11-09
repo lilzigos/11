@@ -6948,3 +6948,343 @@
 11-09 03:05:52.866  6231  6231 D HostConnection: HostConnection::get() New Host Connection established 0x7738044c9010, tid 6231
 11-09 03:05:52.886   380   453 D AudioFlinger: mixer(0x7c9624b7b040) throttle end: throttle time(10)
 11-09 03:05:52.889  6231  6231 D HostConnection: HostComposition ext ANDROID_EMU_CHECKSUM_HELPER_v1 ANDROID_EMU_native_sync_v2 ANDROID_EMU_dma_v1 ANDROID_EMU_direct_mem ANDROID_EMU_host_composition_v1 ANDROID_EMU_host_composition_v2 ANDROID_EMU_YUV_Cache ANDROID_EMU_has_shared_slots_host_memory_allocator ANDROID_EMU_sync_buffer_data ANDROID_EMU_read_color_buffer_dma ANDROID_EMU_hwc_color_transform GL_OES_EGL_image_external_essl3 GL_OES_vertex_array_object GL_KHR_texture_compression_astc_ldr ANDROID_EMU_host_side_tracing ANDROID_EMU_gles_max_version_3_0 
+11-09 03:05:59.107  6235  6235 D AndroidRuntime: >>>>>> START com.android.internal.os.RuntimeInit uid 0 <<<<<<
+11-09 03:05:59.121  6235  6235 I AndroidRuntime: Using default boot image
+11-09 03:05:59.121  6235  6235 I AndroidRuntime: Leaving lock profiling enabled
+11-09 03:05:59.126  6235  6235 I app_process: Core platform API reporting enabled, enforcing=false
+11-09 03:05:59.247  6235  6235 D app_process: Time zone APEX ICU file found: /apex/com.android.tzdata/etc/icu/icu_tzdata.dat
+11-09 03:05:59.247  6235  6235 D app_process: I18n APEX ICU file found: /apex/com.android.i18n/etc/icu/icudt66l.dat
+11-09 03:05:59.276  6235  6235 W app_process: Unexpected CPU variant for X86 using defaults: x86_64
+11-09 03:05:59.279  6235  6235 I app_process: The ClassLoaderContext is a special shared library.
+11-09 03:05:59.315  6235  6235 W app_process: JNI RegisterNativeMethods: attempt to register 0 native methods for android.media.AudioAttributes
+11-09 03:05:59.318  6235  6235 D AndroidRuntime: Calling main entry com.android.commands.input.Input
+11-09 03:05:59.343  6235  6235 D AndroidRuntime: Shutting down VM
+11-09 03:05:59.609  5527  5587 E Unity   : ProcessBase:ShowConnectingTip = 1
+11-09 03:05:59.609  5527  5587 E Unity   : stack traceback:
+11-09 03:05:59.609  5527  5587 E Unity   : 	/Users/userjoy/Desktop/JenkinsRoot/workspace/SGC_BuildData/JP_OFFICIAL_Android/Unity/Assets/LuaScript/Process/ProcessBase.lua:847: in function 'ShowConnectingTip'
+11-09 03:05:59.609  5527  5587 E Unity   : 	offline/boot.lua:132: in function <offline/boot.lua:124>
+11-09 03:05:59.609  5527  5587 E Unity   : LuaFramework_UtilWrap:LogError(IntPtr)
+11-09 03:05:59.609  5527  5587 E Unity   : 
+11-09 03:05:59.974  5527  5587 E Unity   : ProcessBase:ShowConnectingTip = 0
+11-09 03:05:59.974  5527  5587 E Unity   : stack traceback:
+11-09 03:05:59.974  5527  5587 E Unity   : 	/Users/userjoy/Desktop/JenkinsRoot/workspace/SGC_BuildData/JP_OFFICIAL_Android/Unity/Assets/LuaScript/Process/ProcessBase.lua:847: in function 'ShowConnectingTip'
+11-09 03:05:59.974  5527  5587 E Unity   : 	offline/lobby.lua:310: in function 'fn'
+11-09 03:05:59.974  5527  5587 E Unity   : 	offline/lobby.lua:73: in function 'tick'
+11-09 03:05:59.974  5527  5587 E Unity   : 	offline/boot.lua:174: in function 'V_Update'
+11-09 03:05:59.974  5527  5587 E Unity   : 	.../userjoy/Desktop/JenkinsRoot/workspace/SGC_BuildData/JP_OFFICIAL_Android/Unity/Assets/LuaScript/Process/ProcessLoginGame.lua:258: in function <.../userjoy/Desktop/JenkinsRoot/workspace/SGC_BuildData/JP_OFFICIAL_Android/Unity/Assets/LuaScript/Process/ProcessLoginGame.lua:257>
+11-09 03:05:59.974  5527  5587 E Unity   : LuaFramework_UtilWrap:LogError(IntPtr)
+11-09 03:05:59.974  5527  5587 E Unity   : 
+11-09 03:06:00.002   711   711 D KeyguardClockSwitch: Updating clock: 306
+11-09 03:06:00.019   711   711 D KeyguardClockSwitch: Updating clock: 306
+11-09 03:06:01.126  1388  6250 I Vision  : Requesting optional module download of ocr.
+11-09 03:06:01.127  1388  6250 I Vision  : Checking for download completion for 184661 -- ocr
+11-09 03:06:05.624  2049  2251 W OpaSSRequestSender: Failed to get ZeroStateResponse from AssistantClientSyncWorker with error java.util.concurrent.TimeoutException
+11-09 03:06:06.508   498   538 I am_uid_idle: 10143
+11-09 03:06:06.518   498   538 I am_uid_idle: 10134
+11-09 03:06:06.609   498   538 I am_uid_idle: 10079
+11-09 03:06:06.682   498   537 I am_pss  : [724,10162,com.google.android.permissioncontroller,11801600,8507392,0,111489024,0,19,2]
+11-09 03:06:07.392   498   538 I am_uid_idle: 10081
+11-09 03:06:07.418   498   538 I am_uid_idle: 10116
+11-09 03:06:07.418   498   538 I am_uid_idle: 10084
+11-09 03:06:08.168   498  1137 I ActivityManager: Killing 5478:com.google.android.packageinstaller/u0a89 (adj 975): empty #17
+11-09 03:06:08.168   498  1137 I am_kill : [0,5478,com.google.android.packageinstaller,975,empty #17]
+11-09 03:06:08.173   498  1137 I am_proc_died: [0,5478,com.google.android.packageinstaller,975,19]
+11-09 03:06:08.173   498  1137 I am_uid_stopped: 10089
+11-09 03:06:08.175   289   289 I Zygote  : Process 5478 exited due to signal 9 (Killed)
+11-09 03:06:08.215   498   540 I libprocessgroup: Successfully killed process cgroup uid 10089 pid 5478 in 45ms
+11-09 03:06:08.369   162   162 I hwservicemanager: getTransport: Cannot find entry android.hardware.graphics.mapper@4.0::IMapper/default in either framework or device manifest.
+11-09 03:06:08.371  6253  6253 I Gralloc4: mapper 4.x is not supported
+11-09 03:06:08.375  6253  6253 D HostConnection: createUnique: call
+11-09 03:06:08.375  6253  6253 D HostConnection: HostConnection::get() New Host Connection established 0x7994ae5d6190, tid 6253
+11-09 03:06:08.392  6253  6253 D HostConnection: HostComposition ext ANDROID_EMU_CHECKSUM_HELPER_v1 ANDROID_EMU_native_sync_v2 ANDROID_EMU_dma_v1 ANDROID_EMU_direct_mem ANDROID_EMU_host_composition_v1 ANDROID_EMU_host_composition_v2 ANDROID_EMU_YUV_Cache ANDROID_EMU_has_shared_slots_host_memory_allocator ANDROID_EMU_sync_buffer_data ANDROID_EMU_read_color_buffer_dma ANDROID_EMU_hwc_color_transform GL_OES_EGL_image_external_essl3 GL_OES_vertex_array_object GL_KHR_texture_compression_astc_ldr ANDROID_EMU_host_side_tracing ANDROID_EMU_gles_max_version_3_0 
+11-09 03:06:08.965  2049  2240 W OpaSSRequestSender: Failed to get ZeroStateResponse from AssistantClientSyncWorker with error java.util.concurrent.TimeoutException
+11-09 03:06:08.999  6255  6255 D AndroidRuntime: >>>>>> START com.android.internal.os.RuntimeInit uid 0 <<<<<<
+11-09 03:06:09.002  6255  6255 I AndroidRuntime: Using default boot image
+11-09 03:06:09.002  6255  6255 I AndroidRuntime: Leaving lock profiling enabled
+11-09 03:06:09.004  6255  6255 I app_process: Core platform API reporting enabled, enforcing=false
+11-09 03:06:09.061  6255  6255 D app_process: Time zone APEX ICU file found: /apex/com.android.tzdata/etc/icu/icu_tzdata.dat
+11-09 03:06:09.061  6255  6255 D app_process: I18n APEX ICU file found: /apex/com.android.i18n/etc/icu/icudt66l.dat
+11-09 03:06:09.066  6255  6255 W app_process: Unexpected CPU variant for X86 using defaults: x86_64
+11-09 03:06:09.067  6255  6255 I app_process: The ClassLoaderContext is a special shared library.
+11-09 03:06:09.076  6255  6255 W app_process: JNI RegisterNativeMethods: attempt to register 0 native methods for android.media.AudioAttributes
+11-09 03:06:09.079  6255  6255 D AndroidRuntime: Calling main entry com.android.commands.input.Input
+11-09 03:06:09.083  6255  6255 D AndroidRuntime: Shutting down VM
+11-09 03:06:09.665  5527  5587 I Unity   : 03:06:09.664-773: [SGM Offline] Unsupported local protocol: 3315
+11-09 03:06:09.665  5527  5587 I Unity   : LuaInterface.Debugger:Log(String)
+11-09 03:06:09.665  5527  5587 I Unity   : LuaInterface.ToLua:Print(IntPtr)
+11-09 03:06:09.665  5527  5587 I Unity   : 
+11-09 03:06:09.669   498   538 I am_uid_idle: 10117
+11-09 03:06:09.706  4735  4766 I Dialer  : OmtpVvmCarrierCfgHlpr - OmtpEvent:CONFIG_STATUS_SMS_TIME_OUT
+11-09 03:06:09.706  4735  4735 I Dialer  : RetryPolicy - discarding deferred status: configuration_state=4
+11-09 03:06:09.707  4735  4735 I Dialer  : VvmTaskExecutor - no more tasks, stopping service if no task are added in 5000 millis
+11-09 03:06:09.707  4735  4735 I Dialer  : VvmTaskReceiver - task received
+11-09 03:06:09.707  4735  4735 I Dialer  : VvmTaskReceiver - TaskExecutor already running
+11-09 03:06:09.707  4735  4735 I Dialer  : Task.createTask - create task:com.android.voicemail.impl.ActivationTask
+11-09 03:06:09.707  4735  4735 I Dialer  : RetryPolicy - retry #2 for com.android.voicemail.impl.ActivationTask@a1bccbd queued, executing in 5000
+11-09 03:06:09.707  4735  4735 I Dialer  : VvmTaskExecutor - com.android.voicemail.impl.ActivationTask@a1bccbd added
+11-09 03:06:09.707  4735  4735 I Dialer  : VvmTaskExecutor - minimal wait time:5000
+11-09 03:06:09.707  4735  4735 I Dialer  : VvmTaskExecutor - sleep for 5000 millis
+11-09 03:06:10.038  5527  5587 I Unity   : 400
+11-09 03:06:10.038  5527  5587 I Unity   : WrdFileTool:readWRDFile(Int32, tagmapHEADER&)
+11-09 03:06:10.038  5527  5587 I Unity   : WrdData:LoadFile(Int32)
+11-09 03:06:10.038  5527  5587 I Unity   : WrdFileMgr:loadLevel(Int32)
+11-09 03:06:10.038  5527  5587 I Unity   : WrdFileMgrWrap:loadLevel(IntPtr)
+11-09 03:06:10.038  5527  5587 I Unity   : 
+11-09 03:06:10.039  5527  5587 I Unity   : 50
+11-09 03:06:10.039  5527  5587 I Unity   : WrdFileTool:readWRDFile(Int32, tagmapHEADER&)
+11-09 03:06:10.039  5527  5587 I Unity   : WrdData:LoadFile(Int32)
+11-09 03:06:10.039  5527  5587 I Unity   : WrdFileMgr:loadLevel(Int32)
+11-09 03:06:10.039  5527  5587 I Unity   : WrdFileMgrWrap:loadLevel(IntPtr)
+11-09 03:06:10.039  5527  5587 I Unity   : 
+11-09 03:06:10.106  5527  5587 I Unity   : !=null
+11-09 03:06:10.106  5527  5587 I Unity   : BinFileTool:LoadMapDataFromBundle(String)
+11-09 03:06:10.106  5527  5587 I Unity   : BinFileTool:readFile(Int32, tageventHEADER)
+11-09 03:06:10.106  5527  5587 I Unity   : BinData:loadFile()
+11-09 03:06:10.106  5527  5587 I Unity   : BinFileMgr:loadLevel(Int32)
+11-09 03:06:10.106  5527  5587 I Unity   : BinFileMgrWrap:loadLevel(IntPtr)
+11-09 03:06:10.106  5527  5587 I Unity   : 
+11-09 03:06:11.133   498   537 I am_pss  : [6102,10143,com.google.android.syncadapters.contacts,9799680,6324224,0,108236800,0,19,2]
+11-09 03:06:11.134  1388  6270 I Vision  : Requesting optional module download of ocr.
+11-09 03:06:11.134  1388  6270 I Vision  : Checking for download completion for 194668 -- ocr
+11-09 03:06:11.489  1033  1033 D RILJ    : [0176]> SIGNAL_STRENGTH [PHONE0]
+11-09 03:06:11.489   440   440 D RIL     : onRequest: SIGNAL_STRENGTH
+11-09 03:06:11.489   440   440 D AT      : AT> AT+CSQ
+11-09 03:06:11.489   440   485 D AT      : AT< %CGFPCCFG: 1,5000,14,0,1
+11-09 03:06:11.489   440   485 D RIL     : got CGFPCCFG line %CGFPCCFG: 1,5000,14,0,1 and %CGFPCCFG: 1,5000,14,0,1
+11-09 03:06:11.489   440   485 D RIL     : got i 0, val = 1
+11-09 03:06:11.489   440   485 D RIL     : got i 1, val = 5000
+11-09 03:06:11.489   440   485 D RIL     : got i 2, val = 14
+11-09 03:06:11.489   440   485 D RIL     : got i 3, val = 0
+11-09 03:06:11.489   440   485 D RIL     : got i 4, val = 1
+11-09 03:06:11.489   440   485 D RILC    : reportPhysicalChannelConfigs: 1 5000 14 0 1
+11-09 03:06:11.489   440   485 D AT      : AT< %CGFPCCFG: 2,5000,14,0,1
+11-09 03:06:11.489   440   485 D RIL     : got CGFPCCFG line %CGFPCCFG: 2,5000,14,0,1 and %CGFPCCFG: 2,5000,14,0,1
+11-09 03:06:11.489   440   485 D RIL     : got i 0, val = 2
+11-09 03:06:11.489   440   485 D RIL     : got i 1, val = 5000
+11-09 03:06:11.489   440   485 D RIL     : got i 2, val = 14
+11-09 03:06:11.489   440   485 D RIL     : got i 3, val = 0
+11-09 03:06:11.489   440   485 D RIL     : got i 4, val = 1
+11-09 03:06:11.489   440   485 D RILC    : reportPhysicalChannelConfigs: 2 5000 14 0 1
+11-09 03:06:11.489   440   485 D AT      : AT< +CSQ: 12,4,90,120,80,120,4,90,100,10,30,7,200
+11-09 03:06:11.489   440   485 D AT      : AT< OK
+11-09 03:06:11.489  1033  1253 D RILJ    : [UNSL]< RIL_UNSOL_PHYSICAL_CHANNEL_CONFIG [{mConnectionStatus=PrimaryServing,mCellBandwidthDownlinkKhz=5000,mRat=LTE,mFrequencyRange=UNKNOWN,mChannelNumber=2147483647,mContextIds=[1],mPhysicalCellId=0}] [PHONE0]
+11-09 03:06:11.490  1033  1253 D RILJ    : [UNSL]< RIL_UNSOL_PHYSICAL_CHANNEL_CONFIG [{mConnectionStatus=SecondaryServing,mCellBandwidthDownlinkKhz=5000,mRat=LTE,mFrequencyRange=UNKNOWN,mChannelNumber=2147483647,mContextIds=[1],mPhysicalCellId=0}] [PHONE0]
+11-09 03:06:11.490  1033  1253 E CellSignalStrengthLte: convertRssiAsuToDBm: invalid RSSI in ASU=90
+11-09 03:06:11.490  1033  1253 D RILJ    : [0176]< SIGNAL_STRENGTH SignalStrength:{mCdma=CellSignalStrengthCdma: cdmaDbm=2147483647 cdmaEcio=2147483647 evdoDbm=2147483647 evdoEcio=2147483647 evdoSnr=2147483647 level=0,mGsm=CellSignalStrengthGsm: rssi=2147483647 ber=2147483647 mTa=2147483647 mLevel=0,mWcdma=CellSignalStrengthWcdma: ss=2147483647 ber=2147483647 rscp=2147483647 ecno=2147483647 level=0,mTdscdma=CellSignalStrengthTdscdma: rssi=2147483647 ber=2147483647 rscp=2147483647 level=0,mLte=CellSignalStrengthLte: rssi=2147483647 rsrp=-100 rsrq=-10 rssnr=3 cqi=7 ta=200 level=2 parametersUseForLevel=1,mNr=CellSignalStrengthNr:{ csiRsrp = 2147483647 csiRsrq = 2147483647 csiSinr = 2147483647 ssRsrp = 2147483647 ssRsrq = 2147483647 ssSinr = 2147483647 level = 0 parametersUseForLevel = 1 },primary=CellSignalStrengthLte} [PHONE0]
+11-09 03:06:11.532  5527  5587 I Unity   : SceneMgr::SwitchScene stage1
+11-09 03:06:11.532  5527  5587 I Unity   : LuaFramework_UtilWrap:Log(IntPtr)
+11-09 03:06:11.532  5527  5587 I Unity   : 
+11-09 03:06:12.116  5527  5587 W Unity   : 03:06:12.115-780: Type TweenScale not wrap to lua, push as UITweener, the warning is only raised once
+11-09 03:06:12.116  5527  5587 W Unity   : LuaInterface.Debugger:LogWarning(String)
+11-09 03:06:12.116  5527  5587 W Unity   : LuaInterface.LuaState:GetMissMetaReference(Type)
+11-09 03:06:12.116  5527  5587 W Unity   : LuaInterface.ToLua:PushUserObject(IntPtr, Object)
+11-09 03:06:12.116  5527  5587 W Unity   : WndSubProperty_PropertyDeclWrap:get__object(IntPtr)
+11-09 03:06:12.116  5527  5587 W Unity   : 
+11-09 03:06:12.565  5527  5587 I Unity   : UISafeArea.CurrentResolutionWidth : 1280
+11-09 03:06:12.565  5527  5587 I Unity   : LuaFramework_UtilWrap:Log(IntPtr)
+11-09 03:06:12.565  5527  5587 I Unity   : 
+11-09 03:06:12.565  5527  5587 I Unity   : UISafeArea.ScreenOriginWidth : 1280
+11-09 03:06:12.565  5527  5587 I Unity   : LuaFramework_UtilWrap:Log(IntPtr)
+11-09 03:06:12.565  5527  5587 I Unity   : 
+11-09 03:06:12.566  5527  5587 I Unity   : safeArea.x : 0
+11-09 03:06:12.566  5527  5587 I Unity   : LuaFramework_UtilWrap:Log(IntPtr)
+11-09 03:06:12.566  5527  5587 I Unity   : 
+11-09 03:06:12.566  5527  5587 I Unity   : safeArea.y : 0
+11-09 03:06:12.566  5527  5587 I Unity   : LuaFramework_UtilWrap:Log(IntPtr)
+11-09 03:06:12.566  5527  5587 I Unity   : 
+11-09 03:06:12.567  5527  5587 I Unity   : safeArea.width : 1280
+11-09 03:06:12.567  5527  5587 I Unity   : LuaFramework_UtilWrap:Log(IntPtr)
+11-09 03:06:12.567  5527  5587 I Unity   : 
+11-09 03:06:12.568  5527  5587 I Unity   : safeArea.height : 720
+11-09 03:06:12.568  5527  5587 I Unity   : LuaFramework_UtilWrap:Log(IntPtr)
+11-09 03:06:12.568  5527  5587 I Unity   : 
+11-09 03:06:12.568  5527  5587 I Unity   : widthScale : 1
+11-09 03:06:12.568  5527  5587 I Unity   : LuaFramework_UtilWrap:Log(IntPtr)
+11-09 03:06:12.568  5527  5587 I Unity   : 
+11-09 03:06:14.746  4735  4766 I Dialer  : VvmTaskExecutor - executing task com.android.voicemail.impl.ActivationTask@a1bccbd
+11-09 03:06:14.746  4735  4766 I Dialer  : PreOMigrationHandler - ComponentInfo{com.android.phone/com.android.services.telephony.TelephonyConnectionService}, ***, UserHandle{0} already migrated
+11-09 03:06:14.757  6066  6213 I VoicemailNotifier: receivers for android.intent.action.PROVIDER_CHANGED :[]
+11-09 03:06:14.759  4735  4766 I Dialer  : VvmActivationTask - VVM content provider configured - vvm_type_cvvm
+11-09 03:06:14.759  4735  4766 I Dialer  : OmtpVvmCarrierCfgHlpr - OmtpEvent:CONFIG_ACTIVATING
+11-09 03:06:14.762  6066  6213 I VoicemailNotifier: receivers for android.intent.action.PROVIDER_CHANGED :[]
+11-09 03:06:14.768  1033  1321 D SmsNumberUtils: enter filterDestAddr. destAddr="[BajqU4K5_YhSYbs-7QUn0dOwcmI]"
+11-09 03:06:14.770  1033  1321 I service_manager_stats: [100,30,130038]
+11-09 03:06:14.770  1033  1321 D SmsNumberUtils: destAddr is not formatted.
+11-09 03:06:14.771  1033  1321 D SmsNumberUtils: leave filterDestAddr, new destAddr="[BajqU4K5_YhSYbs-7QUn0dOwcmI]"
+11-09 03:06:14.771  1033  1321 D ImsSmsDispatcher [0]: isAvailable: up=false, reg= false, cap= false
+11-09 03:06:14.771  1033  1321 D ImsSmsDispatcher [0]: isAvailable: up=false, reg= false, cap= false
+11-09 03:06:14.773  1033  1321 D SMSDispatcher: Found carrier package.
+11-09 03:06:14.774   498  1137 I am_uid_active: 10117
+11-09 03:06:14.780  1033  1321 D SMSDispatcher: bindService() for carrier messaging service succeeded
+11-09 03:06:14.783  1033  1356 D SMSDispatcher: Sending SMS by IP failed. Retry on carrier network. id: 0
+11-09 03:06:14.783  1033  1356 D ImsSmsDispatcher [0]: isAvailable: up=false, reg= false, cap= false
+11-09 03:06:14.783  1033  1356 D GsmSMSDispatcher: sendSms:  isIms()=false mRetryCount=0 mImsRetry=0 mMessageRef=0 mUsesImsServiceForIms=false SS=0 id=0
+11-09 03:06:14.783  1033  1356 D ImsSmsDispatcher [0]: isAvailable: up=false, reg= false, cap= false
+11-09 03:06:14.783  1033  1356 D ImsSmsDispatcher [0]: isAvailable: up=false, reg= false, cap= false
+11-09 03:06:14.783  1033  1356 D RILJ    : [0177]> SEND_SMS [PHONE0]
+11-09 03:06:14.783   440   440 D RIL     : onRequest: SEND_SMS
+11-09 03:06:14.783   440   440 D RIL     : getSIMStatus(). sState: 10
+11-09 03:06:14.783   440   440 D AT      : AT> AT+CPIN?
+11-09 03:06:14.783   440   485 D AT      : AT< +CPIN: READY
+11-09 03:06:14.784   440   485 D AT      : AT< OK
+11-09 03:06:14.784  1033  1356 D EmergencyNumberTracker: slotId:0 country:us emergencyNumbers: 
+11-09 03:06:14.784  1033  1356 D EmergencyNumberTracker: System property doesn't provide any emergency numbers. Use embedded logic for determining ones.
+11-09 03:06:14.784   440   440 D RIL     : requestSendSMS datalen =16
+11-09 03:06:14.784   440   440 D AT      : AT> AT+CMGS=29
+11-09 03:06:14.784   440   485 D AT      : AT< > 
+11-09 03:06:14.784   440   485 D AT      : AT> 004100038121F20004140605040710000041637469766174653A64743D36^Z
+11-09 03:06:14.784   440   485 D AT      : AT< +CMGS: 0
+11-09 03:06:14.784   440   485 D AT      : AT< OK
+11-09 03:06:14.785  1033  1253 D RILJ    : [0177]< SEND_SMS { mMessageRef = 1, mErrorCode = 0, mAckPdu = } [PHONE0]
+11-09 03:06:14.796  1033  1033 D EmergencyNumberTracker: slotId:0 country:us emergencyNumbers: 
+11-09 03:06:14.796  1033  1033 D EmergencyNumberTracker: System property doesn't provide any emergency numbers. Use embedded logic for determining ones.
+11-09 03:06:19.011  5527  5587 I Unity   : 03:06:19.10-814: [SGM Offline] Unsupported local protocol: 3340
+11-09 03:06:19.011  5527  5587 I Unity   : LuaInterface.Debugger:Log(String)
+11-09 03:06:19.011  5527  5587 I Unity   : LuaInterface.ToLua:Print(IntPtr)
+11-09 03:06:19.011  5527  5587 I Unity   : 
+11-09 03:06:19.012  5527  5587 I Unity   : 03:06:19.12-814: [SGM Offline] Unsupported local protocol: 3446
+11-09 03:06:19.012  5527  5587 I Unity   : LuaInterface.Debugger:Log(String)
+11-09 03:06:19.012  5527  5587 I Unity   : LuaInterface.ToLua:Print(IntPtr)
+11-09 03:06:19.012  5527  5587 I Unity   : 
+11-09 03:06:19.014  5527  5587 I Unity   : SceneMgr::SwitchScene finish
+11-09 03:06:19.014  5527  5587 I Unity   : LuaFramework_UtilWrap:Log(IntPtr)
+11-09 03:06:19.014  5527  5587 I Unity   : 
+11-09 03:06:20.415     0     0 W healthd : battery l=100 v=5000 t=25.0 h=2 st=2 c=900000 fc=300000 cc=10 chg=a
+11-09 03:06:21.143   498   537 I am_pss  : [1865,10119,com.google.process.gapps,9486336,5386240,0,114032640,0,19,2]
+11-09 03:06:21.150  1388  6273 I Vision  : Requesting optional module download of ocr.
+11-09 03:06:21.150  1388  6273 I Vision  : Checking for download completion for 204684 -- ocr
+11-09 03:06:21.338   498   538 I am_uid_idle: 10162
+11-09 03:06:23.933  5527  5587 W Unity   : 03:06:23.931-818: Type CSpriteFrame not wrap to lua, push as object, the warning is only raised once
+11-09 03:06:23.933  5527  5587 W Unity   : LuaInterface.Debugger:LogWarning(String)
+11-09 03:06:23.933  5527  5587 W Unity   : LuaInterface.LuaState:GetMissMetaReference(Type)
+11-09 03:06:23.933  5527  5587 W Unity   : LuaInterface.ToLua:PushUserObject(IntPtr, Object)
+11-09 03:06:23.933  5527  5587 W Unity   : LuaInterface.ToLua:Push(IntPtr, Object)
+11-09 03:06:23.933  5527  5587 W Unity   : System_ArrayWrap:get_Item(IntPtr)
+11-09 03:06:23.933  5527  5587 W Unity   : 
+11-09 03:06:25.117  5527  5587 I Unity   : 03:06:25.116-819: [SGM Offline] Unsupported local protocol: 3487
+11-09 03:06:25.117  5527  5587 I Unity   : LuaInterface.Debugger:Log(String)
+11-09 03:06:25.117  5527  5587 I Unity   : LuaInterface.ToLua:Print(IntPtr)
+11-09 03:06:25.117  5527  5587 I Unity   : 
+11-09 03:06:25.118  5527  5587 I Unity   : 03:06:25.117-819: [SGM Offline] Unsupported local protocol: 3358
+11-09 03:06:25.118  5527  5587 I Unity   : LuaInterface.Debugger:Log(String)
+11-09 03:06:25.118  5527  5587 I Unity   : LuaInterface.ToLua:Print(IntPtr)
+11-09 03:06:25.118  5527  5587 I Unity   : 
+11-09 03:06:28.966  5527  5587 W Unity   : 03:06:28.965-825: Type BoxOutline not wrap to lua, push as UnityEngine.UI.BaseMeshEffect, the warning is only raised once
+11-09 03:06:28.966  5527  5587 W Unity   : LuaInterface.Debugger:LogWarning(String)
+11-09 03:06:28.966  5527  5587 W Unity   : LuaInterface.LuaState:GetMissMetaReference(Type)
+11-09 03:06:28.966  5527  5587 W Unity   : LuaInterface.ToLua:PushUserObject(IntPtr, Object)
+11-09 03:06:28.966  5527  5587 W Unity   : UnityEngine_GameObjectWrap:GetComponent(IntPtr)
+11-09 03:06:28.966  5527  5587 W Unity   : 
+11-09 03:06:31.170  1388  6275 I Vision  : Requesting optional module download of ocr.
+11-09 03:06:31.170  1388  6275 I Vision  : Checking for download completion for 214704 -- ocr
+11-09 03:06:31.215   498  1941 D WifiNl80211Manager: Scan result ready event
+11-09 03:06:31.215   498  1941 D WifiNative: Scan result ready event
+11-09 03:06:31.241  2853  3001 E libc    : Access denied finding property "persist.adb.tls_server.enable"
+11-09 03:06:31.241  2853  3001 E libc    : Access denied finding property "service.adb.tls.port"
+11-09 03:06:31.228  2853  2853 I auditd  : type=1400 audit(0.0:48): avc: denied { read } for comm="Binder:2853_4" name="u:object_r:system_adbd_prop:s0" dev="tmpfs" ino=8245 scontext=u:r:gmscore_app:s0:c512,c768 tcontext=u:object_r:system_adbd_prop:s0 tclass=file permissive=0 app=com.google.android.gms
+11-09 03:06:31.228  2853  2853 W Binder:2853_4: type=1400 audit(0.0:48): avc: denied { read } for name="u:object_r:system_adbd_prop:s0" dev="tmpfs" ino=8245 scontext=u:r:gmscore_app:s0:c512,c768 tcontext=u:object_r:system_adbd_prop:s0 tclass=file permissive=0 app=com.google.android.gms
+11-09 03:06:31.236  2853  2853 I auditd  : type=1400 audit(0.0:49): avc: denied { read } for comm="Binder:2853_4" name="u:object_r:adbd_prop:s0" dev="tmpfs" ino=8105 scontext=u:r:gmscore_app:s0:c512,c768 tcontext=u:object_r:adbd_prop:s0 tclass=file permissive=0 app=com.google.android.gms
+11-09 03:06:31.236  2853  2853 W Binder:2853_4: type=1400 audit(0.0:49): avc: denied { read } for name="u:object_r:adbd_prop:s0" dev="tmpfs" ino=8105 scontext=u:r:gmscore_app:s0:c512,c768 tcontext=u:object_r:adbd_prop:s0 tclass=file permissive=0 app=com.google.android.gms
+11-09 03:06:31.321  1159  2263 W GLSUser : [AppCertManager] Failed to get security token.
+11-09 03:06:31.321  1159  2263 W GLSUser : java.io.IOException: Invalid scope
+11-09 03:06:31.321  1159  2263 W GLSUser : 	at adac.b(:com.google.android.gms@201817023@20.18.17 (040800-311416286):23)
+11-09 03:06:31.321  1159  2263 W GLSUser : 	at adac.a(:com.google.android.gms@201817023@20.18.17 (040800-311416286):18)
+11-09 03:06:31.321  1159  2263 W GLSUser : 	at adac.a(:com.google.android.gms@201817023@20.18.17 (040800-311416286):11)
+11-09 03:06:31.321  1159  2263 W GLSUser : 	at huk.a(:com.google.android.gms@201817023@20.18.17 (040800-311416286):16)
+11-09 03:06:31.321  1159  2263 W GLSUser : 	at hui.a(:com.google.android.gms@201817023@20.18.17 (040800-311416286):41)
+11-09 03:06:31.321  1159  2263 W GLSUser : 	at hud.a(:com.google.android.gms@201817023@20.18.17 (040800-311416286):0)
+11-09 03:06:31.321  1159  2263 W GLSUser : 	at hug.a(:com.google.android.gms@201817023@20.18.17 (040800-311416286):10)
+11-09 03:06:31.321  1159  2263 W GLSUser : 	at fzn.call(:com.google.android.gms@201817023@20.18.17 (040800-311416286):5)
+11-09 03:06:31.321  1159  2263 W GLSUser : 	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+11-09 03:06:31.321  1159  2263 W GLSUser : 	at sji.b(:com.google.android.gms@201817023@20.18.17 (040800-311416286):12)
+11-09 03:06:31.321  1159  2263 W GLSUser : 	at sji.run(:com.google.android.gms@201817023@20.18.17 (040800-311416286):7)
+11-09 03:06:31.321  1159  2263 W GLSUser : 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1167)
+11-09 03:06:31.321  1159  2263 W GLSUser : 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:641)
+11-09 03:06:31.321  1159  2263 W GLSUser : 	at spj.run(:com.google.android.gms@201817023@20.18.17 (040800-311416286):0)
+11-09 03:06:31.321  1159  2263 W GLSUser : 	at java.lang.Thread.run(Thread.java:923)
+11-09 03:06:31.347  1159  2263 W GLSUser : [AppCertManager] IOException while requesting key: 
+11-09 03:06:31.347  1159  2263 W GLSUser : java.io.IOException: Invalid device key response.
+11-09 03:06:31.347  1159  2263 W GLSUser : 	at huk.a(:com.google.android.gms@201817023@20.18.17 (040800-311416286):46)
+11-09 03:06:31.347  1159  2263 W GLSUser : 	at hui.a(:com.google.android.gms@201817023@20.18.17 (040800-311416286):41)
+11-09 03:06:31.347  1159  2263 W GLSUser : 	at hud.a(:com.google.android.gms@201817023@20.18.17 (040800-311416286):0)
+11-09 03:06:31.347  1159  2263 W GLSUser : 	at hug.a(:com.google.android.gms@201817023@20.18.17 (040800-311416286):10)
+11-09 03:06:31.347  1159  2263 W GLSUser : 	at fzn.call(:com.google.android.gms@201817023@20.18.17 (040800-311416286):5)
+11-09 03:06:31.347  1159  2263 W GLSUser : 	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+11-09 03:06:31.347  1159  2263 W GLSUser : 	at sji.b(:com.google.android.gms@201817023@20.18.17 (040800-311416286):12)
+11-09 03:06:31.347  1159  2263 W GLSUser : 	at sji.run(:com.google.android.gms@201817023@20.18.17 (040800-311416286):7)
+11-09 03:06:31.347  1159  2263 W GLSUser : 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1167)
+11-09 03:06:31.347  1159  2263 W GLSUser : 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:641)
+11-09 03:06:31.347  1159  2263 W GLSUser : 	at spj.run(:com.google.android.gms@201817023@20.18.17 (040800-311416286):0)
+11-09 03:06:31.347  1159  2263 W GLSUser : 	at java.lang.Thread.run(Thread.java:923)
+11-09 03:06:31.492  1033  1033 D RILJ    : [0178]> SIGNAL_STRENGTH [PHONE0]
+11-09 03:06:31.492   440   440 D RIL     : onRequest: SIGNAL_STRENGTH
+11-09 03:06:31.492   440   440 D AT      : AT> AT+CSQ
+11-09 03:06:31.495   440   485 D AT      : AT< %CGFPCCFG: 1,5000,14,0,1
+11-09 03:06:31.495   440   485 D RIL     : got CGFPCCFG line %CGFPCCFG: 1,5000,14,0,1 and %CGFPCCFG: 1,5000,14,0,1
+11-09 03:06:31.495   440   485 D RIL     : got i 0, val = 1
+11-09 03:06:31.495   440   485 D RIL     : got i 1, val = 5000
+11-09 03:06:31.495   440   485 D RIL     : got i 2, val = 14
+11-09 03:06:31.495   440   485 D RIL     : got i 3, val = 0
+11-09 03:06:31.495   440   485 D RIL     : got i 4, val = 1
+11-09 03:06:31.495   440   485 D RILC    : reportPhysicalChannelConfigs: 1 5000 14 0 1
+11-09 03:06:31.495   440   485 D AT      : AT< %CGFPCCFG: 2,5000,14,0,1
+11-09 03:06:31.495   440   485 D RIL     : got CGFPCCFG line %CGFPCCFG: 2,5000,14,0,1 and %CGFPCCFG: 2,5000,14,0,1
+11-09 03:06:31.495   440   485 D RIL     : got i 0, val = 2
+11-09 03:06:31.495   440   485 D RIL     : got i 1, val = 5000
+11-09 03:06:31.495   440   485 D RIL     : got i 2, val = 14
+11-09 03:06:31.495   440   485 D RIL     : got i 3, val = 0
+11-09 03:06:31.495   440   485 D RIL     : got i 4, val = 1
+11-09 03:06:31.495   440   485 D RILC    : reportPhysicalChannelConfigs: 2 5000 14 0 1
+11-09 03:06:31.495   440   485 D AT      : AT< +CSQ: 12,4,90,120,80,120,4,90,100,10,30,7,200
+11-09 03:06:31.495   440   485 D AT      : AT< OK
+11-09 03:06:31.495  1033  1253 D RILJ    : [UNSL]< RIL_UNSOL_PHYSICAL_CHANNEL_CONFIG [{mConnectionStatus=PrimaryServing,mCellBandwidthDownlinkKhz=5000,mRat=LTE,mFrequencyRange=UNKNOWN,mChannelNumber=2147483647,mContextIds=[1],mPhysicalCellId=0}] [PHONE0]
+11-09 03:06:31.495  1033  1253 D RILJ    : [UNSL]< RIL_UNSOL_PHYSICAL_CHANNEL_CONFIG [{mConnectionStatus=SecondaryServing,mCellBandwidthDownlinkKhz=5000,mRat=LTE,mFrequencyRange=UNKNOWN,mChannelNumber=2147483647,mContextIds=[1],mPhysicalCellId=0}] [PHONE0]
+11-09 03:06:31.496  1033  1253 E CellSignalStrengthLte: convertRssiAsuToDBm: invalid RSSI in ASU=90
+11-09 03:06:31.496  1033  1253 D RILJ    : [0178]< SIGNAL_STRENGTH SignalStrength:{mCdma=CellSignalStrengthCdma: cdmaDbm=2147483647 cdmaEcio=2147483647 evdoDbm=2147483647 evdoEcio=2147483647 evdoSnr=2147483647 level=0,mGsm=CellSignalStrengthGsm: rssi=2147483647 ber=2147483647 mTa=2147483647 mLevel=0,mWcdma=CellSignalStrengthWcdma: ss=2147483647 ber=2147483647 rscp=2147483647 ecno=2147483647 level=0,mTdscdma=CellSignalStrengthTdscdma: rssi=2147483647 ber=2147483647 rscp=2147483647 level=0,mLte=CellSignalStrengthLte: rssi=2147483647 rsrp=-100 rsrq=-10 rssnr=3 cqi=7 ta=200 level=2 parametersUseForLevel=1,mNr=CellSignalStrengthNr:{ csiRsrp = 2147483647 csiRsrq = 2147483647 csiSinr = 2147483647 ssRsrp = 2147483647 ssRsrq = 2147483647 ssSinr = 2147483647 level = 0 parametersUseForLevel = 1 },primary=CellSignalStrengthLte} [PHONE0]
+11-09 03:06:36.253   498   537 I am_pss  : [1625,10119,com.google.process.gservices,9529344,5636096,0,112087040,0,19,2]
+11-09 03:06:38.210   498  4160 I ActivityManager: Killing 5672:com.google.android.webview:webview_service/u0a144 (adj 975): empty #17
+11-09 03:06:38.210   498  4160 I am_kill : [0,5672,com.google.android.webview:webview_service,975,empty #17]
+11-09 03:06:38.214   498  3517 I am_proc_died: [0,5672,com.google.android.webview:webview_service,975,19]
+11-09 03:06:38.214   498  3517 I am_uid_stopped: 10144
+11-09 03:06:38.217   290   290 I Zygote  : Process 5672 exited due to signal 9 (Killed)
+11-09 03:06:38.262   498   540 I libprocessgroup: Successfully killed process cgroup uid 10144 pid 5672 in 45ms
+11-09 03:06:41.178  1388  6281 I Vision  : Requesting optional module download of ocr.
+11-09 03:06:41.178  1388  6281 I Vision  : Checking for download completion for 224712 -- ocr
+11-09 03:06:41.187   498   537 I am_pss  : [1865,10119,com.google.process.gapps,9511936,5386240,0,114032640,0,19,1]
+11-09 03:06:51.182  1388  6284 I Vision  : Requesting optional module download of ocr.
+11-09 03:06:51.182  1388  6284 I Vision  : Checking for download completion for 234716 -- ocr
+11-09 03:06:51.499  1033  1033 D RILJ    : [0179]> SIGNAL_STRENGTH [PHONE0]
+11-09 03:06:51.499   440   440 D RIL     : onRequest: SIGNAL_STRENGTH
+11-09 03:06:51.499   440   440 D AT      : AT> AT+CSQ
+11-09 03:06:51.499   440   485 D AT      : AT< %CGFPCCFG: 1,5000,14,0,1
+11-09 03:06:51.499   440   485 D RIL     : got CGFPCCFG line %CGFPCCFG: 1,5000,14,0,1 and %CGFPCCFG: 1,5000,14,0,1
+11-09 03:06:51.499   440   485 D RIL     : got i 0, val = 1
+11-09 03:06:51.499   440   485 D RIL     : got i 1, val = 5000
+11-09 03:06:51.499   440   485 D RIL     : got i 2, val = 14
+11-09 03:06:51.499   440   485 D RIL     : got i 3, val = 0
+11-09 03:06:51.499   440   485 D RIL     : got i 4, val = 1
+11-09 03:06:51.500   440   485 D RILC    : reportPhysicalChannelConfigs: 1 5000 14 0 1
+11-09 03:06:51.500   440   485 D AT      : AT< %CGFPCCFG: 2,5000,14,0,1
+11-09 03:06:51.500   440   485 D RIL     : got CGFPCCFG line %CGFPCCFG: 2,5000,14,0,1 and %CGFPCCFG: 2,5000,14,0,1
+11-09 03:06:51.500   440   485 D RIL     : got i 0, val = 2
+11-09 03:06:51.500   440   485 D RIL     : got i 1, val = 5000
+11-09 03:06:51.500   440   485 D RIL     : got i 2, val = 14
+11-09 03:06:51.500   440   485 D RIL     : got i 3, val = 0
+11-09 03:06:51.500   440   485 D RIL     : got i 4, val = 1
+11-09 03:06:51.500   440   485 D RILC    : reportPhysicalChannelConfigs: 2 5000 14 0 1
+11-09 03:06:51.500   440   485 D AT      : AT< +CSQ: 12,4,90,120,80,120,4,90,100,10,30,7,200
+11-09 03:06:51.500   440   485 D AT      : AT< OK
+11-09 03:06:51.500  1033  1253 D RILJ    : [UNSL]< RIL_UNSOL_PHYSICAL_CHANNEL_CONFIG [{mConnectionStatus=PrimaryServing,mCellBandwidthDownlinkKhz=5000,mRat=LTE,mFrequencyRange=UNKNOWN,mChannelNumber=2147483647,mContextIds=[1],mPhysicalCellId=0}] [PHONE0]
+11-09 03:06:51.500  1033  1253 D RILJ    : [UNSL]< RIL_UNSOL_PHYSICAL_CHANNEL_CONFIG [{mConnectionStatus=SecondaryServing,mCellBandwidthDownlinkKhz=5000,mRat=LTE,mFrequencyRange=UNKNOWN,mChannelNumber=2147483647,mContextIds=[1],mPhysicalCellId=0}] [PHONE0]
+11-09 03:06:51.500  1033  1253 E CellSignalStrengthLte: convertRssiAsuToDBm: invalid RSSI in ASU=90
+11-09 03:06:51.501  1033  1253 D RILJ    : [0179]< SIGNAL_STRENGTH SignalStrength:{mCdma=CellSignalStrengthCdma: cdmaDbm=2147483647 cdmaEcio=2147483647 evdoDbm=2147483647 evdoEcio=2147483647 evdoSnr=2147483647 level=0,mGsm=CellSignalStrengthGsm: rssi=2147483647 ber=2147483647 mTa=2147483647 mLevel=0,mWcdma=CellSignalStrengthWcdma: ss=2147483647 ber=2147483647 rscp=2147483647 ecno=2147483647 level=0,mTdscdma=CellSignalStrengthTdscdma: rssi=2147483647 ber=2147483647 rscp=2147483647 level=0,mLte=CellSignalStrengthLte: rssi=2147483647 rsrp=-100 rsrq=-10 rssnr=3 cqi=7 ta=200 level=2 parametersUseForLevel=1,mNr=CellSignalStrengthNr:{ csiRsrp = 2147483647 csiRsrq = 2147483647 csiSinr = 2147483647 ssRsrp = 2147483647 ssRsrq = 2147483647 ssSinr = 2147483647 level = 0 parametersUseForLevel = 1 },primary=CellSignalStrengthLte} [PHONE0]
+11-09 03:06:55.216   162   162 I hwservicemanager: getTransport: Cannot find entry android.hardware.graphics.mapper@4.0::IMapper/default in either framework or device manifest.
+11-09 03:06:55.216  6287  6287 I Gralloc4: mapper 4.x is not supported
+11-09 03:06:55.235  6287  6287 D HostConnection: createUnique: call
+11-09 03:06:55.235  6287  6287 D HostConnection: HostConnection::get() New Host Connection established 0x7cb88388eed0, tid 6287
+11-09 03:06:55.246  6287  6287 D HostConnection: HostComposition ext ANDROID_EMU_CHECKSUM_HELPER_v1 ANDROID_EMU_native_sync_v2 ANDROID_EMU_dma_v1 ANDROID_EMU_direct_mem ANDROID_EMU_host_composition_v1 ANDROID_EMU_host_composition_v2 ANDROID_EMU_YUV_Cache ANDROID_EMU_has_shared_slots_host_memory_allocator ANDROID_EMU_sync_buffer_data ANDROID_EMU_read_color_buffer_dma ANDROID_EMU_hwc_color_transform GL_OES_EGL_image_external_essl3 GL_OES_vertex_array_object GL_KHR_texture_compression_astc_ldr ANDROID_EMU_host_side_tracing ANDROID_EMU_gles_max_version_3_0 
+11-09 03:06:57.505   162   162 I hwservicemanager: getTransport: Cannot find entry android.hardware.graphics.mapper@4.0::IMapper/default in either framework or device manifest.
+11-09 03:06:57.506  6291  6291 I Gralloc4: mapper 4.x is not supported
+11-09 03:06:57.510  6291  6291 D HostConnection: createUnique: call
+11-09 03:06:57.511  6291  6291 D HostConnection: HostConnection::get() New Host Connection established 0x73c7d5159350, tid 6291
+11-09 03:06:57.534  6291  6291 D HostConnection: HostComposition ext ANDROID_EMU_CHECKSUM_HELPER_v1 ANDROID_EMU_native_sync_v2 ANDROID_EMU_dma_v1 ANDROID_EMU_direct_mem ANDROID_EMU_host_composition_v1 ANDROID_EMU_host_composition_v2 ANDROID_EMU_YUV_Cache ANDROID_EMU_has_shared_slots_host_memory_allocator ANDROID_EMU_sync_buffer_data ANDROID_EMU_read_color_buffer_dma ANDROID_EMU_hwc_color_transform GL_OES_EGL_image_external_essl3 GL_OES_vertex_array_object GL_KHR_texture_compression_astc_ldr ANDROID_EMU_host_side_tracing ANDROID_EMU_gles_max_version_3_0 
