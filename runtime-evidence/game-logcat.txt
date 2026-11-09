@@ -13774,3 +13774,42 @@
 11-09 08:24:36.290  6844  6844 D HostConnection: createUnique: call
 11-09 08:24:36.291  6844  6844 D HostConnection: HostConnection::get() New Host Connection established 0x73a0e2e9a490, tid 6844
 11-09 08:24:36.300  6844  6844 D HostConnection: HostComposition ext ANDROID_EMU_CHECKSUM_HELPER_v1 ANDROID_EMU_native_sync_v2 ANDROID_EMU_dma_v1 ANDROID_EMU_direct_mem ANDROID_EMU_host_composition_v1 ANDROID_EMU_host_composition_v2 ANDROID_EMU_YUV_Cache ANDROID_EMU_has_shared_slots_host_memory_allocator ANDROID_EMU_sync_buffer_data ANDROID_EMU_read_color_buffer_dma ANDROID_EMU_hwc_color_transform GL_OES_EGL_image_external_essl3 GL_OES_vertex_array_object GL_KHR_texture_compression_astc_ldr ANDROID_EMU_host_side_tracing ANDROID_EMU_gles_max_version_3_0 
+11-09 08:24:38.988   162   162 I servicemanager: Since 'apexservice' could not be found, trying to start it as a lazy AIDL service
+11-09 08:24:39.205     0     0 I init    : starting service 'apexd'...
+11-09 08:24:39.208     0     0 I init    : Control message: Processed ctl.interface_start for 'aidl/apexservice' from pid: 162 (/system/bin/servicemanager)
+11-09 08:24:39.272     0     0 I apexd   : Scanning /system/apex for preinstalled data
+11-09 08:24:39.307     0     0 I apexd   : Scanning /system_ext/apex for preinstalled data
+11-09 08:24:39.309     0     0 I apexd   : ... does not exist. Skipping
+11-09 08:24:39.311     0     0 I apexd   : Scanning /product/apex for preinstalled data
+11-09 08:24:39.314     0     0 I apexd   : ... does not exist. Skipping
+11-09 08:24:39.317     0     0 I apexd   : Scanning /vendor/apex for preinstalled data
+11-09 08:24:39.320     0     0 I apexd   : ... does not exist. Skipping
+11-09 08:24:39.321     0     0 I apexd   : Populating APEX database from mounts...
+11-09 08:24:39.323     0     0 I apexd   : Found "/apex/com.android.sdkext@300900700" backed by file /system/apex/com.google.android.sdkext.apex
+11-09 08:24:39.327     0     0 I apexd   : Found "/apex/com.android.extservices@300900700" backed by file /system/apex/com.google.android.extservices.apex
+11-09 08:24:39.331     0     0 I apexd   : Found "/apex/com.android.ipsec@300900700" backed by file /system/apex/com.google.android.ipsec.apex
+11-09 08:24:39.343     0     0 I apexd   : Found "/apex/com.android.runtime@1" backed by file /system/apex/com.android.runtime.apex
+11-09 08:24:39.354     0     0 I apexd   : Found "/apex/com.android.vndk.v30@1" backed by file /system/apex/com.android.vndk.current.apex
+11-09 08:24:39.363     0     0 I apexd   : Found "/apex/com.android.telephony@1" backed by file /system/apex/com.google.android.telephony.apex
+11-09 08:24:39.367     0     0 I apexd   : Found "/apex/com.android.tzdata@300900700" backed by file /system/apex/com.google.android.tzdata2.apex
+11-09 08:24:39.374     0     0 I apexd   : Found "/apex/com.android.resolv@300900700" backed by file /system/apex/com.google.android.resolv.apex
+11-09 08:24:39.382     0     0 I apexd   : Found "/apex/com.android.media.swcodec@300900714" backed by file /system/apex/com.google.android.media.swcodec.apex
+11-09 08:24:39.394     0     0 I apexd   : Found "/apex/com.android.cellbroadcast@300900720" backed by file /system/apex/com.google.android.cellbroadcast.apex
+11-09 08:24:39.401     0     0 I apexd   : Found "/apex/com.android.os.statsd@300900700" backed by file /system/apex/com.google.android.os.statsd.apex
+11-09 08:24:39.406     0     0 I apexd   : Found "/apex/com.android.mediaprovider@300900719" backed by file /system/apex/com.google.android.mediaprovider.apex
+11-09 08:24:39.412     0     0 I apexd   : Found "/apex/com.android.i18n@1" backed by file /system/apex/com.android.i18n.apex
+11-09 08:24:39.415     0     0 I apexd   : Found "/apex/com.android.art@1" backed by file /system/apex/com.android.art.debug.apex
+11-09 08:24:39.418     0     0 I apexd   : Found "/apex/com.android.tethering@300900700" backed by file /system/apex/com.google.android.tethering.apex
+11-09 08:24:39.422     0     0 I apexd   : Found "/apex/com.android.adbd@300900700" backed by file /system/apex/com.google.android.adbd.apex
+11-09 08:24:39.426     0     0 I apexd   : Found "/apex/com.android.permission@300900706" backed by file /system/apex/com.google.android.permission.apex
+11-09 08:24:39.430     0     0 I apexd   : Found "/apex/com.android.apex.cts.shim@1" backed by file /system/apex/com.android.apex.cts.shim.apex
+11-09 08:24:39.434     0     0 I apexd   : Found "/apex/com.android.media@300900700" backed by file /system/apex/com.google.android.media.apex
+11-09 08:24:39.438     0     0 I apexd   : Found "/apex/com.android.neuralnetworks@300900700" backed by file /system/apex/com.google.android.neuralnetworks.apex
+11-09 08:24:39.442     0     0 I apexd   : Found "/apex/com.android.wifi@300900711" backed by file /system/apex/com.google.android.wifi.apex
+11-09 08:24:39.446     0     0 I apexd   : Found "/apex/com.android.conscrypt@300900703" backed by file /system/apex/com.google.android.conscrypt.apex
+11-09 08:24:39.239   162   162 I BpBinder: onLastStrongRef automatically unlinking death recipients: <uncached descriptor>
+11-09 08:24:39.450     0     0 I apexd   : 22 packages restored.
+11-09 08:24:39.451     0     0 I AidlLazyServiceRegistrar: Registering service apexservice
+11-09 08:24:39.244   162   162 I servicemanager: Tried to unregister apexservice, but there is about to be a client.
+11-09 08:24:39.454     0     0 I AidlLazyServiceRegistrar: Trying to shut down the service. No clients in use for any service in process.
+11-09 08:24:39.458     0     0 I AidlLazyServiceRegistrar: Failed to unregister service apexservice
