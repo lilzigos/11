@@ -11464,3 +11464,307 @@
 11-09 08:12:24.099  6339  6339 D HostConnection: createUnique: call
 11-09 08:12:24.100  6339  6339 D HostConnection: HostConnection::get() New Host Connection established 0x7d62b11cc5d0, tid 6339
 11-09 08:12:24.118  6339  6339 D HostConnection: HostComposition ext ANDROID_EMU_CHECKSUM_HELPER_v1 ANDROID_EMU_native_sync_v2 ANDROID_EMU_dma_v1 ANDROID_EMU_direct_mem ANDROID_EMU_host_composition_v1 ANDROID_EMU_host_composition_v2 ANDROID_EMU_YUV_Cache ANDROID_EMU_has_shared_slots_host_memory_allocator ANDROID_EMU_sync_buffer_data ANDROID_EMU_read_color_buffer_dma ANDROID_EMU_hwc_color_transform GL_OES_EGL_image_external_essl3 GL_OES_vertex_array_object GL_KHR_texture_compression_astc_ldr ANDROID_EMU_host_side_tracing ANDROID_EMU_gles_max_version_3_0 
+11-09 08:12:26.962  1525  6342 I Vision  : Requesting optional module download of ocr.
+11-09 08:12:26.963  1525  6342 I Vision  : Checking for download completion for 340425 -- ocr
+11-09 08:12:32.886  3018  3287 I CarrierServices: [84] drv.a: (PEv2-SM): DisabledState: event Timeout
+11-09 08:12:34.004   499  3201 I ActivityManager: Killing 5503:com.google.android.webview:webview_service/u0a145 (adj 975): empty #17
+11-09 08:12:34.004   499  3201 I am_kill : [0,5503,com.google.android.webview:webview_service,975,empty #17]
+11-09 08:12:34.007   499  2072 I am_proc_died: [0,5503,com.google.android.webview:webview_service,975,19]
+11-09 08:12:34.007   499  2072 I am_uid_stopped: 10145
+11-09 08:12:34.009   290   290 I Zygote  : Process 5503 exited due to signal 9 (Killed)
+11-09 08:12:34.049   499   540 I libprocessgroup: Successfully killed process cgroup uid 10145 pid 5503 in 43ms
+11-09 08:12:36.977   499   537 I am_pss  : [6127,10146,com.google.android.apps.messaging,79125504,59817984,0,184414208,0,19,4]
+11-09 08:12:36.982  1525  6344 I Vision  : Requesting optional module download of ocr.
+11-09 08:12:36.982  1525  6344 I Vision  : Checking for download completion for 350445 -- ocr
+11-09 08:12:39.163  1039  1039 D RILJ    : [0203]> SIGNAL_STRENGTH [PHONE0]
+11-09 08:12:39.163   436   436 D RIL     : onRequest: SIGNAL_STRENGTH
+11-09 08:12:39.163   436   436 D AT      : AT> AT+CSQ
+11-09 08:12:39.163   436   495 D AT      : AT< %CGFPCCFG: 1,5000,14,0,1
+11-09 08:12:39.163   436   495 D RIL     : got CGFPCCFG line %CGFPCCFG: 1,5000,14,0,1 and %CGFPCCFG: 1,5000,14,0,1
+11-09 08:12:39.163   436   495 D RIL     : got i 0, val = 1
+11-09 08:12:39.163   436   495 D RIL     : got i 1, val = 5000
+11-09 08:12:39.163   436   495 D RIL     : got i 2, val = 14
+11-09 08:12:39.163   436   495 D RIL     : got i 3, val = 0
+11-09 08:12:39.163   436   495 D RIL     : got i 4, val = 1
+11-09 08:12:39.164   436   495 D RILC    : reportPhysicalChannelConfigs: 1 5000 14 0 1
+11-09 08:12:39.164   436   495 D AT      : AT< %CGFPCCFG: 2,5000,14,0,1
+11-09 08:12:39.164   436   495 D RIL     : got CGFPCCFG line %CGFPCCFG: 2,5000,14,0,1 and %CGFPCCFG: 2,5000,14,0,1
+11-09 08:12:39.164   436   495 D RIL     : got i 0, val = 2
+11-09 08:12:39.164   436   495 D RIL     : got i 1, val = 5000
+11-09 08:12:39.164   436   495 D RIL     : got i 2, val = 14
+11-09 08:12:39.164   436   495 D RIL     : got i 3, val = 0
+11-09 08:12:39.164   436   495 D RIL     : got i 4, val = 1
+11-09 08:12:39.164   436   495 D RILC    : reportPhysicalChannelConfigs: 2 5000 14 0 1
+11-09 08:12:39.164   436   495 D AT      : AT< +CSQ: 12,4,90,120,80,120,4,90,100,10,30,7,200
+11-09 08:12:39.164   436   495 D AT      : AT< OK
+11-09 08:12:39.164  1039  1220 D RILJ    : [UNSL]< RIL_UNSOL_PHYSICAL_CHANNEL_CONFIG [{mConnectionStatus=PrimaryServing,mCellBandwidthDownlinkKhz=5000,mRat=LTE,mFrequencyRange=UNKNOWN,mChannelNumber=2147483647,mContextIds=[1],mPhysicalCellId=0}] [PHONE0]
+11-09 08:12:39.164  1039  1220 D RILJ    : [UNSL]< RIL_UNSOL_PHYSICAL_CHANNEL_CONFIG [{mConnectionStatus=SecondaryServing,mCellBandwidthDownlinkKhz=5000,mRat=LTE,mFrequencyRange=UNKNOWN,mChannelNumber=2147483647,mContextIds=[1],mPhysicalCellId=0}] [PHONE0]
+11-09 08:12:39.164  1039  1220 E CellSignalStrengthLte: convertRssiAsuToDBm: invalid RSSI in ASU=90
+11-09 08:12:39.164  1039  1220 D RILJ    : [0203]< SIGNAL_STRENGTH SignalStrength:{mCdma=CellSignalStrengthCdma: cdmaDbm=2147483647 cdmaEcio=2147483647 evdoDbm=2147483647 evdoEcio=2147483647 evdoSnr=2147483647 level=0,mGsm=CellSignalStrengthGsm: rssi=2147483647 ber=2147483647 mTa=2147483647 mLevel=0,mWcdma=CellSignalStrengthWcdma: ss=2147483647 ber=2147483647 rscp=2147483647 ecno=2147483647 level=0,mTdscdma=CellSignalStrengthTdscdma: rssi=2147483647 ber=2147483647 rscp=2147483647 level=0,mLte=CellSignalStrengthLte: rssi=2147483647 rsrp=-100 rsrq=-10 rssnr=3 cqi=7 ta=200 level=2 parametersUseForLevel=1,mNr=CellSignalStrengthNr:{ csiRsrp = 2147483647 csiRsrq = 2147483647 csiSinr = 2147483647 ssRsrp = 2147483647 ssRsrq = 2147483647 ssSinr = 2147483647 level = 0 parametersUseForLevel = 1 },primary=CellSignalStrengthLte} [PHONE0]
+11-09 08:12:46.993  1525  6346 I Vision  : Requesting optional module download of ocr.
+11-09 08:12:46.993  1525  6346 I Vision  : Checking for download completion for 360455 -- ocr
+11-09 08:12:50.061   499   538 I am_uid_idle: 10115
+11-09 08:12:50.075  1806  1806 I BgTaskExecutorImpl: Starting EXCLUSIVE background task SEND_GSA_HOME_REQUEST.
+11-09 08:12:50.098  1445  2982 I Dialer  : OmtpVvmCarrierCfgHlpr - OmtpEvent:CONFIG_STATUS_SMS_TIME_OUT
+11-09 08:12:50.098  1445  1445 I Dialer  : RetryPolicy - Retry limit for com.android.voicemail.impl.ActivationTask@447df75 reached
+11-09 08:12:50.098  1445  1445 I Dialer  : RetryPolicy - committing deferred status: configuration_state=4
+11-09 08:12:50.107  1489  1509 I VoicemailNotifier: receivers for android.intent.action.PROVIDER_CHANGED :[]
+11-09 08:12:50.108  1445  1445 I Dialer  : VvmTaskExecutor - no more tasks, stopping service if no task are added in 5000 millis
+11-09 08:12:50.139  1806  6348 E ApplicationPropertiesBu: Date 2021-12-06T00:00:00Z is out of expected range.
+11-09 08:12:50.139  1806  6348 E ApplicationPropertiesBu: Date 2022-02-15T00:00:00Z is out of expected range.
+11-09 08:12:50.140  1806  6348 E ApplicationPropertiesBu: Date 2022-02-22T00:00:00Z is out of expected range.
+11-09 08:12:50.142  1806  2037 W SearchServiceCore: Abort, client detached.
+11-09 08:12:50.218  1158  2313 W Conscrypt: Could not set socket write timeout: java.net.SocketException: Socket closed
+11-09 08:12:50.220  1158  2313 W Conscrypt: 	at com.google.android.gms.org.conscrypt.Platform.setSocketWriteTimeout(:com.google.android.gms@201817023@20.18.17 (040800-311416286):2)
+11-09 08:12:50.220  1158  2313 W Conscrypt: 	at com.google.android.gms.org.conscrypt.ConscryptFileDescriptorSocket.setSoWriteTimeout(:com.google.android.gms@201817023@20.18.17 (040800-311416286):0)
+11-09 08:12:50.723  1158  2313 W Conscrypt: Could not set socket write timeout: java.net.SocketException: Socket closed
+11-09 08:12:50.723  1158  2313 W Conscrypt: 	at com.google.android.gms.org.conscrypt.Platform.setSocketWriteTimeout(:com.google.android.gms@201817023@20.18.17 (040800-311416286):2)
+11-09 08:12:50.723  1158  2313 W Conscrypt: 	at com.google.android.gms.org.conscrypt.ConscryptFileDescriptorSocket.setSoWriteTimeout(:com.google.android.gms@201817023@20.18.17 (040800-311416286):0)
+11-09 08:12:50.998  5853  5869 E libc    : Access denied finding property "persist.adb.tls_server.enable"
+11-09 08:12:50.999  5853  5869 E libc    : Access denied finding property "service.adb.tls.port"
+11-09 08:12:50.984  5853  5853 I auditd  : type=1400 audit(0.0:46): avc: denied { read } for comm="Binder:5853_1" name="u:object_r:system_adbd_prop:s0" dev="tmpfs" ino=1610 scontext=u:r:gmscore_app:s0:c512,c768 tcontext=u:object_r:system_adbd_prop:s0 tclass=file permissive=0 app=com.google.android.gms
+11-09 08:12:50.984  5853  5853 W Binder:5853_1: type=1400 audit(0.0:46): avc: denied { read } for name="u:object_r:system_adbd_prop:s0" dev="tmpfs" ino=1610 scontext=u:r:gmscore_app:s0:c512,c768 tcontext=u:object_r:system_adbd_prop:s0 tclass=file permissive=0 app=com.google.android.gms
+11-09 08:12:50.996  5853  5853 I auditd  : type=1400 audit(0.0:47): avc: denied { read } for comm="Binder:5853_1" name="u:object_r:adbd_prop:s0" dev="tmpfs" ino=1470 scontext=u:r:gmscore_app:s0:c512,c768 tcontext=u:object_r:adbd_prop:s0 tclass=file permissive=0 app=com.google.android.gms
+11-09 08:12:50.996  5853  5853 W Binder:5853_1: type=1400 audit(0.0:47): avc: denied { read } for name="u:object_r:adbd_prop:s0" dev="tmpfs" ino=1470 scontext=u:r:gmscore_app:s0:c512,c768 tcontext=u:object_r:adbd_prop:s0 tclass=file permissive=0 app=com.google.android.gms
+11-09 08:12:51.071  1806  1806 W n       : Received update for unknown package com.google.android.googlequicksearchbox
+11-09 08:12:51.075  1806  1806 I BgTaskExecutorImpl: Starting EXCLUSIVE background task FETCH_CONFIGS_FROM_PHENOTYPE.
+11-09 08:12:51.099  1158  2161 W GLSUser : [AppCertManager] Failed to get security token.
+11-09 08:12:51.099  1158  2161 W GLSUser : java.io.IOException: Invalid scope
+11-09 08:12:51.099  1158  2161 W GLSUser : 	at adac.b(:com.google.android.gms@201817023@20.18.17 (040800-311416286):23)
+11-09 08:12:51.099  1158  2161 W GLSUser : 	at adac.a(:com.google.android.gms@201817023@20.18.17 (040800-311416286):18)
+11-09 08:12:51.099  1158  2161 W GLSUser : 	at adac.a(:com.google.android.gms@201817023@20.18.17 (040800-311416286):11)
+11-09 08:12:51.099  1158  2161 W GLSUser : 	at huk.a(:com.google.android.gms@201817023@20.18.17 (040800-311416286):16)
+11-09 08:12:51.099  1158  2161 W GLSUser : 	at hui.a(:com.google.android.gms@201817023@20.18.17 (040800-311416286):41)
+11-09 08:12:51.099  1158  2161 W GLSUser : 	at hud.a(:com.google.android.gms@201817023@20.18.17 (040800-311416286):0)
+11-09 08:12:51.099  1158  2161 W GLSUser : 	at hug.a(:com.google.android.gms@201817023@20.18.17 (040800-311416286):10)
+11-09 08:12:51.099  1158  2161 W GLSUser : 	at fzn.call(:com.google.android.gms@201817023@20.18.17 (040800-311416286):5)
+11-09 08:12:51.099  1158  2161 W GLSUser : 	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+11-09 08:12:51.099  1158  2161 W GLSUser : 	at sji.b(:com.google.android.gms@201817023@20.18.17 (040800-311416286):12)
+11-09 08:12:51.099  1158  2161 W GLSUser : 	at sji.run(:com.google.android.gms@201817023@20.18.17 (040800-311416286):7)
+11-09 08:12:51.099  1158  2161 W GLSUser : 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1167)
+11-09 08:12:51.099  1158  2161 W GLSUser : 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:641)
+11-09 08:12:51.099  1158  2161 W GLSUser : 	at spj.run(:com.google.android.gms@201817023@20.18.17 (040800-311416286):0)
+11-09 08:12:51.099  1158  2161 W GLSUser : 	at java.lang.Thread.run(Thread.java:923)
+11-09 08:12:51.141  1158  2161 W GLSUser : [AppCertManager] IOException while requesting key: 
+11-09 08:12:51.141  1158  2161 W GLSUser : java.io.IOException: Invalid device key response.
+11-09 08:12:51.141  1158  2161 W GLSUser : 	at huk.a(:com.google.android.gms@201817023@20.18.17 (040800-311416286):46)
+11-09 08:12:51.141  1158  2161 W GLSUser : 	at hui.a(:com.google.android.gms@201817023@20.18.17 (040800-311416286):41)
+11-09 08:12:51.141  1158  2161 W GLSUser : 	at hud.a(:com.google.android.gms@201817023@20.18.17 (040800-311416286):0)
+11-09 08:12:51.141  1158  2161 W GLSUser : 	at hug.a(:com.google.android.gms@201817023@20.18.17 (040800-311416286):10)
+11-09 08:12:51.141  1158  2161 W GLSUser : 	at fzn.call(:com.google.android.gms@201817023@20.18.17 (040800-311416286):5)
+11-09 08:12:51.141  1158  2161 W GLSUser : 	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+11-09 08:12:51.141  1158  2161 W GLSUser : 	at sji.b(:com.google.android.gms@201817023@20.18.17 (040800-311416286):12)
+11-09 08:12:51.141  1158  2161 W GLSUser : 	at sji.run(:com.google.android.gms@201817023@20.18.17 (040800-311416286):7)
+11-09 08:12:51.141  1158  2161 W GLSUser : 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1167)
+11-09 08:12:51.141  1158  2161 W GLSUser : 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:641)
+11-09 08:12:51.141  1158  2161 W GLSUser : 	at spj.run(:com.google.android.gms@201817023@20.18.17 (040800-311416286):0)
+11-09 08:12:51.141  1158  2161 W GLSUser : 	at java.lang.Thread.run(Thread.java:923)
+11-09 08:12:51.149  1158  2313 I anhw    : Scheduling Phenotype for a PhenotypeSyncImmediately(12, com.google.android.googlequicksearchbox) one off with window [1, 2] in seconds [CONTEXT service_id=51 ]
+11-09 08:12:09.921     0     0 W healthd : battery l=100 v=5000 t=25.0 h=2 st=2 c=900000 fc=300000 cc=10 chg=a
+11-09 08:12:51.376     0     0 I binder  : 1158:2408 transaction failed 29201/-28, size 308856-0 line 3226
+11-09 08:12:51.169  1158  2408 E JavaBinder: !!! FAILED BINDER TRANSACTION !!!  (parcel size = 308856)
+11-09 08:12:51.172  1806  6350 W PhenotypeToGsaConfigs: Can't format flag AndroidGsaVelourJars__velour_birthdaydoodle_jar__name to integer.
+11-09 08:12:51.172  1806  6350 W PhenotypeToGsaConfigs: Can't format flag AndroidGsaVelourJars__velour_call_jar__name to integer.
+11-09 08:12:51.172  1806  6350 W PhenotypeToGsaConfigs: Can't format flag AndroidGsaVelourJars__velour_canvas_jar__name to integer.
+11-09 08:12:51.172  1806  6350 W PhenotypeToGsaConfigs: Can't format flag AndroidGsaVelourJars__velour_chkpkg_jar__name to integer.
+11-09 08:12:51.172  1806  6350 W PhenotypeToGsaConfigs: Can't format flag AndroidGsaVelourJars__velour_crashtest_jar__name to integer.
+11-09 08:12:51.172  1806  6350 W PhenotypeToGsaConfigs: Can't format flag AndroidGsaVelourJars__velour_dining_jar__name to integer.
+11-09 08:12:51.172  1806  6350 W PhenotypeToGsaConfigs: Can't format flag AndroidGsaVelourJars__velour_doodle_notifications_jar__name to integer.
+11-09 08:12:51.172  1806  6350 W PhenotypeToGsaConfigs: Can't format flag AndroidGsaVelourJars__velour_imageviewer_jar__name to integer.
+11-09 08:12:51.172  1806  6350 W PhenotypeToGsaConfigs: Can't format flag AndroidGsaVelourJars__velour_ipa_jar__name to integer.
+11-09 08:12:51.172  1806  6350 W PhenotypeToGsaConfigs: Can't format flag AndroidGsaVelourJars__velour_jslocation_jar__name to integer.
+11-09 08:12:51.172  1806  6350 W PhenotypeToGsaConfigs: Can't format flag AndroidGsaVelourJars__velour_localintent_jar__name to integer.
+11-09 08:12:51.172  1806  6350 W PhenotypeToGsaConfigs: Can't format flag AndroidGsaVelourJars__velour_messaging_jar__name to integer.
+11-09 08:12:51.172  1806  6350 W PhenotypeToGsaConfigs: Can't format flag AndroidGsaVelourJars__velour_nativesrp_activity_jar__name to integer.
+11-09 08:12:51.172  1806  6350 W PhenotypeToGsaConfigs: Can't format flag AndroidGsaVelourJars__velour_nativesrp_presenter_jar__name to integer.
+11-09 08:12:51.172  1806  6350 W PhenotypeToGsaConfigs: Can't format flag AndroidGsaVelourJars__velour_nowcontent_jar__name to integer.
+11-09 08:12:51.172  1806  6350 W PhenotypeToGsaConfigs: Can't format flag AndroidGsaVelourJars__velour_recents_activity_jar__name to integer.
+11-09 08:12:51.172  1806  6350 W PhenotypeToGsaConfigs: Can't format flag AndroidGsaVelourJars__velour_save_jar__name to integer.
+11-09 08:12:51.172  1806  6350 W PhenotypeToGsaConfigs: Can't format flag AndroidGsaVelourJars__velour_searchresults_activity_jar__name to integer.
+11-09 08:12:51.172  1806  6350 W PhenotypeToGsaConfigs: Can't format flag AndroidGsaVelourJars__velour_test_jar__name to integer.
+11-09 08:12:51.172  1806  6350 W PhenotypeToGsaConfigs: Can't format flag AndroidGsaVelourJars__velour_weather_jar__name to integer.
+11-09 08:12:51.172  1806  6350 W PhenotypeToGsaConfigs: Can't format flag bindle_flags__bloblobber_blob to integer.
+11-09 08:12:51.172  1806  6350 W PhenotypeToGsaConfigs: Can't format flag bindle_flags__velour_jar to integer.
+11-09 08:12:51.210  1806  6350 I BlobLobber: Canceling downloads: []
+11-09 08:12:51.213  1806  1806 I BgTaskExecutorImpl: Starting EXCLUSIVE background task BLOBLOBBER_SYNC.
+11-09 08:12:51.215  1806  2037 W SearchServiceCore: Abort, client detached.
+11-09 08:12:51.215  1806  2037 W SearchServiceCore: Abort, client detached.
+11-09 08:12:51.217  1806  2040 I ModelDownloadListener: Schdedule model download
+11-09 08:12:51.217  1806  2058 I FedAssExpListener: Fed-ass not supported for signed out users.
+11-09 08:12:51.217  1806  2058 I FedAssExpListener: Successfully processed experiments changed.
+11-09 08:12:51.220  1806  1806 I BgTaskExecutorImpl: Starting EXCLUSIVE background task UPDATE_HOTWORD_MODELS.
+11-09 08:12:51.224  1806  6361 I ModelDownloadController: requestHotwordModelUpdate modelType-2 modelLocale-en-US
+11-09 08:12:51.224  1806  6361 I ModelDownloadController: shouldDownloadModel: modelLocale is en-US
+11-09 08:12:51.224  1806  6361 I ModelDownloadController: We already downloaded model from given location.
+11-09 08:12:51.224  1806  6361 I ModelDownloadController: Model download not requested.
+11-09 08:12:51.225  1806  2037 W SearchServiceCore: Abort, client detached.
+11-09 08:12:51.225  1806  2037 W SearchServiceCore: Abort, client detached.
+11-09 08:12:51.277  1806  1806 I BgTaskExecutorImpl: Starting EXCLUSIVE background task ON_EXPERIMENTS_UPDATED.
+11-09 08:12:51.278  1806  2040 I OpaEligibilityChecker: send OpaEligibilityChange broadcast to CommonBroadcastReceiver
+11-09 08:12:51.289  1806  2037 W SearchServiceCore: Abort, client detached.
+11-09 08:12:51.289  1806  2037 I chatty  : uid=10123(com.google.android.googlequicksearchbox) EventBus0 identical 1 line
+11-09 08:12:51.289  1806  2037 W SearchServiceCore: Abort, client detached.
+11-09 08:12:51.296  1806  2037 I SNBWorker: Updating bootstrap data
+11-09 08:12:51.296  1806  2037 I MonetActivityIntentUtil: Initialization data file not found
+11-09 08:12:51.296  1806  2037 W b       : Root proto not found when parsing Uri agsa:/data?type=searchnow.TYPE_SEARCHNOW
+11-09 08:12:51.296  1806  2037 W b       : Root proto not found in extras.
+11-09 08:12:51.300  1806  1806 I BgTaskExecutorImpl: Starting EXCLUSIVE background task UPDATE_LAUNCHER_SHORTCUT.
+11-09 08:12:51.309  1806  2037 W SearchServiceCore: Abort, client detached.
+11-09 08:12:51.314  1806  6361 I dvm_lock_sample: [com.google.android.googlequickse,0,Blocking Thread #48,35,SourceFile,7,void com.google.android.apps.gsa.l.d.a(com.google.android.apps.gsa.l.c),-,20,void com.google.android.apps.gsa.l.d.a(com.google.android.apps.gsa.l.c),7]
+11-09 08:12:51.309  1806  2037 I chatty  : uid=10123(com.google.android.googlequicksearchbox) EventBus0 identical 1 line
+11-09 08:12:51.309  1806  2037 W SearchServiceCore: Abort, client detached.
+11-09 08:12:51.326  1806  2040 W CorpusConfigHelper: Invalid input from icing corpus JSON flag.
+11-09 08:12:51.326  1806  2040 W CorpusConfigHelper: android.util.MalformedJsonException: Use JsonReader.setLenient(true) to accept malformed JSON at line 123 column 2
+11-09 08:12:51.326  1806  2040 W CorpusConfigHelper: 	at android.util.JsonReader.syntaxError(JsonReader.java:1162)
+11-09 08:12:51.326  1806  2040 W CorpusConfigHelper: 	at android.util.JsonReader.checkLenient(JsonReader.java:840)
+11-09 08:12:51.326  1806  2040 W CorpusConfigHelper: 	at android.util.JsonReader.nextInArray(JsonReader.java:615)
+11-09 08:12:51.326  1806  2040 W CorpusConfigHelper: 	at android.util.JsonReader.peek(JsonReader.java:345)
+11-09 08:12:51.326  1806  2040 W CorpusConfigHelper: 	at android.util.JsonReader.hasNext(JsonReader.java:321)
+11-09 08:12:51.326  1806  2040 W CorpusConfigHelper: 	at com.google.android.apps.gsa.searchbox.c.b.b.k.a(SourceFile:25)
+11-09 08:12:51.326  1806  2040 W CorpusConfigHelper: 	at com.google.android.apps.gsa.searchbox.c.b.b.j.a(SourceFile:1)
+11-09 08:12:51.326  1806  2040 W CorpusConfigHelper: 	at com.google.android.apps.gsa.search.core.i.i.run(Unknown Source:2)
+11-09 08:12:51.326  1806  2040 W CorpusConfigHelper: 	at com.google.android.libraries.gsa.l.a.l.call(Unknown Source:2)
+11-09 08:12:51.326  1806  2040 W CorpusConfigHelper: 	at com.google.android.apps.gsa.shared.logger.g.a.a.l.a(SourceFile:13)
+11-09 08:12:51.326  1806  2040 W CorpusConfigHelper: 	at com.google.android.apps.gsa.shared.logger.g.a.a.d.call(Unknown Source:4)
+11-09 08:12:51.326  1806  2040 W CorpusConfigHelper: 	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+11-09 08:12:51.326  1806  2040 W CorpusConfigHelper: 	at com.google.apps.tiktok.concurrent.aq.run(SourceFile:1)
+11-09 08:12:51.326  1806  2040 W CorpusConfigHelper: 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1167)
+11-09 08:12:51.326  1806  2040 W CorpusConfigHelper: 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:641)
+11-09 08:12:51.326  1806  2040 W CorpusConfigHelper: 	at com.google.apps.tiktok.concurrent.f.run(Unknown Source:3)
+11-09 08:12:51.326  1806  2040 W CorpusConfigHelper: 	at java.lang.Thread.run(Thread.java:923)
+11-09 08:12:51.329  1806  6349 I dvm_lock_sample: [com.google.android.googlequickse,0,Blocking Thread #44,24,SourceFile,7,void com.google.android.apps.gsa.l.d.a(com.google.android.apps.gsa.l.c),-,20,void com.google.android.apps.gsa.l.d.a(com.google.android.apps.gsa.l.c),4]
+11-09 08:12:51.340  1806  2037 W SearchServiceCore: Abort, client detached.
+11-09 08:12:51.340  1806  2037 W SearchServiceCore: Abort, client detached.
+11-09 08:12:51.357  1525  2634 I Icing   : IndexChimeraService.getServiceInterface callingPackage=com.google.android.googlequicksearchbox componentName=agsa_icing_connection serviceId=33 [CONTEXT service_id=21 ]
+11-09 08:12:51.358  1525  2689 I Icing   : IndexChimeraService.getServiceInterface callingPackage=com.google.android.googlequicksearchbox componentName=agsa_icing_connection serviceId=32 [CONTEXT service_id=21 ]
+11-09 08:12:51.365  1525  2282 W Icing   : No valid account for uploading user actions [CONTEXT service_id=21 ]
+11-09 08:12:51.385  1525  2282 I Icing   : Usage reports ok 0, Failed Usage reports 0, indexed 0, rejected 0 [CONTEXT service_id=21 ]
+11-09 08:12:51.419  1525  5677 W Icing   : No valid account for uploading user actions [CONTEXT service_id=21 ]
+11-09 08:12:51.425  1525  2689 I Icing   : IndexChimeraService.getServiceInterface callingPackage=com.google.android.gms componentName=null serviceId=30 [CONTEXT service_id=21 ]
+11-09 08:12:51.429  1525  5677 I Icing   : Usage reports ok 0, Failed Usage reports 0, indexed 0, rejected 0 [CONTEXT service_id=21 ]
+11-09 08:12:51.431  1525  5677 W Icing   : No valid account for uploading user actions [CONTEXT service_id=21 ]
+11-09 08:12:51.435  1525  5677 I Icing   : Usage reports ok 0, Failed Usage reports 0, indexed 0, rejected 0 [CONTEXT service_id=21 ]
+11-09 08:12:53.158   499  2001 I am_uid_active: 10080
+11-09 08:12:53.285  1158  4414 W Conscrypt: Could not set socket write timeout: java.net.SocketException: Socket closed
+11-09 08:12:53.285  1158  4414 W Conscrypt: 	at com.google.android.gms.org.conscrypt.Platform.setSocketWriteTimeout(:com.google.android.gms@201817023@20.18.17 (040800-311416286):2)
+11-09 08:12:53.285  1158  4414 W Conscrypt: 	at com.google.android.gms.org.conscrypt.ConscryptFileDescriptorSocket.setSoWriteTimeout(:com.google.android.gms@201817023@20.18.17 (040800-311416286):0)
+11-09 08:12:53.794  1158  4414 W Conscrypt: Could not set socket write timeout: java.net.SocketException: Socket closed
+11-09 08:12:53.794  1158  4414 W Conscrypt: 	at com.google.android.gms.org.conscrypt.Platform.setSocketWriteTimeout(:com.google.android.gms@201817023@20.18.17 (040800-311416286):2)
+11-09 08:12:53.794  1158  4414 W Conscrypt: 	at com.google.android.gms.org.conscrypt.ConscryptFileDescriptorSocket.setSoWriteTimeout(:com.google.android.gms@201817023@20.18.17 (040800-311416286):0)
+11-09 08:12:53.968  1158  4414 I anhw    : Scheduling adaptive one off task with window [14400, 604800] in seconds [CONTEXT service_id=51 ]
+11-09 08:12:54.418   499   537 I sysui_multi_action: [757,1717,758,1,759,0]
+11-09 08:12:54.418   499   537 I sysui_multi_action: [757,1717,758,2,759,1]
+11-09 08:12:54.419   499   537 I sysui_multi_action: [757,1717,758,3,759,0]
+11-09 08:12:55.147  1445  1445 I Dialer  : VvmTaskExecutor - Stopping service
+11-09 08:12:55.147  1445  1445 I Dialer  : VvmTaskExecutor - finishing Job
+11-09 08:12:55.147  1445  1445 I Dialer  : TaskSchedulerJobService - finishing job
+11-09 08:12:55.151  1445  1445 I Dialer  : JobFinishedPoller.run - Job finished
+11-09 08:12:55.151  1445  1445 I Dialer  : VvmTaskExecutor - terminated
+11-09 08:12:56.995  1525  6346 I Vision  : Requesting optional module download of ocr.
+11-09 08:12:58.752  6127  6232 I BugleRcsEngine: [114] xgx.run: delay time out, reset attempts 1 and process SIM event
+11-09 08:12:58.754  6127  6232 W BugleRcsEngine: [114] xgu.c: process intent: android.intent.action.SIM_STATE_CHANGED
+11-09 08:12:58.761  1039  1381 D SubscriptionController: [getActiveSubscriptionInfoForSimSlotIndex]+ slotIndex=0 subId={id=1 iccId=89014103211118510720 simSlotIndex=0 carrierId=1 displayName=T-Mobile carrierName=T-Mobile nameSource=3 iconTint=-16746133 number=+15555215554 dataRoaming=0 iconBitmap=android.graphics.Bitmap@8ef5fd8 mcc=310 mnc=260 countryIso=us isEmbedded=false nativeAccessRules=null cardString=89014103211118510720 cardId=-1 isOpportunistic=false groupUUID=null isGroupDisabled=false profileClass=-1 ehplmns=null hplmns=null subscriptionType=0 groupOwner=null carrierConfigAccessRules=null areUiccApplicationsEnabled=true}
+11-09 08:12:58.763  6127  6232 I BugleRcsEngine: [114] xgu.e: Processing an intent
+11-09 08:12:58.764  6127  6232 I BugleRcsEngine: [114] xgu.a: Ignoring duplicate SIM state: LOADED
+11-09 08:12:59.168  1039  1039 D RILJ    : [0204]> SIGNAL_STRENGTH [PHONE0]
+11-09 08:12:59.168   436   436 D RIL     : onRequest: SIGNAL_STRENGTH
+11-09 08:12:59.168   436   436 D AT      : AT> AT+CSQ
+11-09 08:12:59.169   436   495 D AT      : AT< %CGFPCCFG: 1,5000,14,0,1
+11-09 08:12:59.169   436   495 D RIL     : got CGFPCCFG line %CGFPCCFG: 1,5000,14,0,1 and %CGFPCCFG: 1,5000,14,0,1
+11-09 08:12:59.169   436   495 D RIL     : got i 0, val = 1
+11-09 08:12:59.169   436   495 D RIL     : got i 1, val = 5000
+11-09 08:12:59.169   436   495 D RIL     : got i 2, val = 14
+11-09 08:12:59.169   436   495 D RIL     : got i 3, val = 0
+11-09 08:12:59.169   436   495 D RIL     : got i 4, val = 1
+11-09 08:12:59.169   436   495 D RILC    : reportPhysicalChannelConfigs: 1 5000 14 0 1
+11-09 08:12:59.169   436   495 D AT      : AT< %CGFPCCFG: 2,5000,14,0,1
+11-09 08:12:59.169   436   495 D RIL     : got CGFPCCFG line %CGFPCCFG: 2,5000,14,0,1 and %CGFPCCFG: 2,5000,14,0,1
+11-09 08:12:59.169   436   495 D RIL     : got i 0, val = 2
+11-09 08:12:59.169   436   495 D RIL     : got i 1, val = 5000
+11-09 08:12:59.169   436   495 D RIL     : got i 2, val = 14
+11-09 08:12:59.169   436   495 D RIL     : got i 3, val = 0
+11-09 08:12:59.169   436   495 D RIL     : got i 4, val = 1
+11-09 08:12:59.169   436   495 D RILC    : reportPhysicalChannelConfigs: 2 5000 14 0 1
+11-09 08:12:59.169   436   495 D AT      : AT< +CSQ: 12,4,90,120,80,120,4,90,100,10,30,7,200
+11-09 08:12:59.169   436   495 D AT      : AT< OK
+11-09 08:12:59.169  1039  1220 D RILJ    : [UNSL]< RIL_UNSOL_PHYSICAL_CHANNEL_CONFIG [{mConnectionStatus=PrimaryServing,mCellBandwidthDownlinkKhz=5000,mRat=LTE,mFrequencyRange=UNKNOWN,mChannelNumber=2147483647,mContextIds=[1],mPhysicalCellId=0}] [PHONE0]
+11-09 08:12:59.170  1039  1220 D RILJ    : [UNSL]< RIL_UNSOL_PHYSICAL_CHANNEL_CONFIG [{mConnectionStatus=SecondaryServing,mCellBandwidthDownlinkKhz=5000,mRat=LTE,mFrequencyRange=UNKNOWN,mChannelNumber=2147483647,mContextIds=[1],mPhysicalCellId=0}] [PHONE0]
+11-09 08:12:59.170  1039  1220 E CellSignalStrengthLte: convertRssiAsuToDBm: invalid RSSI in ASU=90
+11-09 08:12:59.170  1039  1220 D RILJ    : [0204]< SIGNAL_STRENGTH SignalStrength:{mCdma=CellSignalStrengthCdma: cdmaDbm=2147483647 cdmaEcio=2147483647 evdoDbm=2147483647 evdoEcio=2147483647 evdoSnr=2147483647 level=0,mGsm=CellSignalStrengthGsm: rssi=2147483647 ber=2147483647 mTa=2147483647 mLevel=0,mWcdma=CellSignalStrengthWcdma: ss=2147483647 ber=2147483647 rscp=2147483647 ecno=2147483647 level=0,mTdscdma=CellSignalStrengthTdscdma: rssi=2147483647 ber=2147483647 rscp=2147483647 level=0,mLte=CellSignalStrengthLte: rssi=2147483647 rsrp=-100 rsrq=-10 rssnr=3 cqi=7 ta=200 level=2 parametersUseForLevel=1,mNr=CellSignalStrengthNr:{ csiRsrp = 2147483647 csiRsrq = 2147483647 csiSinr = 2147483647 ssRsrp = 2147483647 ssRsrq = 2147483647 ssSinr = 2147483647 level = 0 parametersUseForLevel = 1 },primary=CellSignalStrengthLte} [PHONE0]
+11-09 08:13:00.001   713   713 D KeyguardClockSwitch: Updating clock: 813
+11-09 08:13:09.922     0     0 W healthd : battery l=100 v=5000 t=25.0 h=2 st=2 c=900000 fc=300000 cc=10 chg=a
+11-09 08:13:13.878   499   537 I am_pss  : [5353,10167,com.userjoy.ujjsgc.jp,1160635392,1130987520,0,1386618880,0,2,18]
+11-09 08:13:19.174  1039  1039 D RILJ    : [0205]> SIGNAL_STRENGTH [PHONE0]
+11-09 08:13:19.174   436   436 D RIL     : onRequest: SIGNAL_STRENGTH
+11-09 08:13:19.174   436   436 D AT      : AT> AT+CSQ
+11-09 08:13:19.174   436   495 D AT      : AT< %CGFPCCFG: 1,5000,14,0,1
+11-09 08:13:19.174   436   495 D RIL     : got CGFPCCFG line %CGFPCCFG: 1,5000,14,0,1 and %CGFPCCFG: 1,5000,14,0,1
+11-09 08:13:19.174   436   495 D RIL     : got i 0, val = 1
+11-09 08:13:19.174   436   495 D RIL     : got i 1, val = 5000
+11-09 08:13:19.174   436   495 D RIL     : got i 2, val = 14
+11-09 08:13:19.174   436   495 D RIL     : got i 3, val = 0
+11-09 08:13:19.174   436   495 D RIL     : got i 4, val = 1
+11-09 08:13:19.175   436   495 D RILC    : reportPhysicalChannelConfigs: 1 5000 14 0 1
+11-09 08:13:19.175   436   495 D AT      : AT< %CGFPCCFG: 2,5000,14,0,1
+11-09 08:13:19.175   436   495 D RIL     : got CGFPCCFG line %CGFPCCFG: 2,5000,14,0,1 and %CGFPCCFG: 2,5000,14,0,1
+11-09 08:13:19.175   436   495 D RIL     : got i 0, val = 2
+11-09 08:13:19.175   436   495 D RIL     : got i 1, val = 5000
+11-09 08:13:19.175   436   495 D RIL     : got i 2, val = 14
+11-09 08:13:19.175   436   495 D RIL     : got i 3, val = 0
+11-09 08:13:19.175   436   495 D RIL     : got i 4, val = 1
+11-09 08:13:19.175   436   495 D RILC    : reportPhysicalChannelConfigs: 2 5000 14 0 1
+11-09 08:13:19.175   436   495 D AT      : AT< +CSQ: 12,4,90,120,80,120,4,90,100,10,30,7,200
+11-09 08:13:19.175   436   495 D AT      : AT< OK
+11-09 08:13:19.175  1039  1220 D RILJ    : [UNSL]< RIL_UNSOL_PHYSICAL_CHANNEL_CONFIG [{mConnectionStatus=PrimaryServing,mCellBandwidthDownlinkKhz=5000,mRat=LTE,mFrequencyRange=UNKNOWN,mChannelNumber=2147483647,mContextIds=[1],mPhysicalCellId=0}] [PHONE0]
+11-09 08:13:19.175  1039  1220 D RILJ    : [UNSL]< RIL_UNSOL_PHYSICAL_CHANNEL_CONFIG [{mConnectionStatus=SecondaryServing,mCellBandwidthDownlinkKhz=5000,mRat=LTE,mFrequencyRange=UNKNOWN,mChannelNumber=2147483647,mContextIds=[1],mPhysicalCellId=0}] [PHONE0]
+11-09 08:13:19.176  1039  1220 E CellSignalStrengthLte: convertRssiAsuToDBm: invalid RSSI in ASU=90
+11-09 08:13:19.176  1039  1220 D RILJ    : [0205]< SIGNAL_STRENGTH SignalStrength:{mCdma=CellSignalStrengthCdma: cdmaDbm=2147483647 cdmaEcio=2147483647 evdoDbm=2147483647 evdoEcio=2147483647 evdoSnr=2147483647 level=0,mGsm=CellSignalStrengthGsm: rssi=2147483647 ber=2147483647 mTa=2147483647 mLevel=0,mWcdma=CellSignalStrengthWcdma: ss=2147483647 ber=2147483647 rscp=2147483647 ecno=2147483647 level=0,mTdscdma=CellSignalStrengthTdscdma: rssi=2147483647 ber=2147483647 rscp=2147483647 level=0,mLte=CellSignalStrengthLte: rssi=2147483647 rsrp=-100 rsrq=-10 rssnr=3 cqi=7 ta=200 level=2 parametersUseForLevel=1,mNr=CellSignalStrengthNr:{ csiRsrp = 2147483647 csiRsrq = 2147483647 csiSinr = 2147483647 ssRsrp = 2147483647 ssRsrq = 2147483647 ssSinr = 2147483647 level = 0 parametersUseForLevel = 1 },primary=CellSignalStrengthLte} [PHONE0]
+11-09 08:13:25.147   499   537 I am_pss  : [1445,10121,com.android.dialer,10662912,7389184,0,107532288,0,19,2]
+11-09 08:13:28.394   499   527 W ActivityManager: Background start not allowed: service Intent { cmp=com.google.android.apps.messaging/.shared.datamodel.action.execution.ActionExecutorImpl$EmptyService } to com.google.android.apps.messaging/.shared.datamodel.action.execution.ActionExecutorImpl$EmptyService from pid=6127 uid=10146 pkg=com.google.android.apps.messaging startFg?=false
+11-09 08:13:00.027   713   713 D KeyguardClockSwitch: Updating clock: 813
+11-09 08:13:28.395  6127  6127 W BugleDataModel: ActionExecutorImpl: Action started execution, but we can't guarantee it will complete, the app may be killed. Action: class com.google.android.apps.messaging.shared.datamodel.action.CountryCodeDetectorAction-CountryCodeDetectorAction:271779003
+11-09 08:13:28.395  6127  6127 W BugleDataModel: java.lang.IllegalStateException: Not allowed to start service Intent { cmp=com.google.android.apps.messaging/.shared.datamodel.action.execution.ActionExecutorImpl$EmptyService }: app is in background uid UidRecord{23d10ec u0a146 CEM  idle procs:1 seq(0,0,0)}
+11-09 08:13:28.395  6127  6127 W BugleDataModel: 	at android.app.ContextImpl.startServiceCommon(ContextImpl.java:1715)
+11-09 08:13:28.395  6127  6127 W BugleDataModel: 	at android.app.ContextImpl.startService(ContextImpl.java:1670)
+11-09 08:13:28.395  6127  6127 W BugleDataModel: 	at android.content.ContextWrapper.startService(ContextWrapper.java:720)
+11-09 08:13:28.395  6127  6127 W BugleDataModel: 	at com.google.android.apps.messaging.shared.datamodel.action.execution.ActionExecutorImpl.a(PG:98)
+11-09 08:13:28.395  6127  6127 W BugleDataModel: 	at com.google.android.apps.messaging.shared.datamodel.action.execution.ActionExecutorImpl.a(PG:93)
+11-09 08:13:28.395  6127  6127 W BugleDataModel: 	at gjl.c(PG:119)
+11-09 08:13:28.395  6127  6127 W BugleDataModel: 	at gji.run(Unknown Source:1)
+11-09 08:13:28.395  6127  6127 W BugleDataModel: 	at afou.run(PG:3)
+11-09 08:13:28.395  6127  6127 W BugleDataModel: 	at android.os.Handler.handleCallback(Handler.java:938)
+11-09 08:13:28.395  6127  6127 W BugleDataModel: 	at android.os.Handler.dispatchMessage(Handler.java:99)
+11-09 08:13:28.395  6127  6127 W BugleDataModel: 	at android.os.Looper.loop(Looper.java:223)
+11-09 08:13:28.395  6127  6127 W BugleDataModel: 	at android.app.ActivityThread.main(ActivityThread.java:7656)
+11-09 08:13:28.395  6127  6127 W BugleDataModel: 	at java.lang.reflect.Method.invoke(Native Method)
+11-09 08:13:28.395  6127  6127 W BugleDataModel: 	at com.android.internal.os.RuntimeInit$MethodAndArgsCaller.run(RuntimeInit.java:592)
+11-09 08:13:28.395  6127  6127 W BugleDataModel: 	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:947)
+11-09 08:13:28.397  6127  6127 W BugleDataModel: ActionExecutorImpl: Action started execution, but we can't guarantee it will complete, the app may be killed. Action: class com.google.android.apps.messaging.shared.datamodel.action.SelfParticipantsRefreshAction-SelfParticipantsRefreshAction:271779004
+11-09 08:13:28.397  6127  6127 W BugleDataModel: java.lang.IllegalStateException: Not allowed to start service Intent { cmp=com.google.android.apps.messaging/.shared.datamodel.action.execution.ActionExecutorImpl$EmptyService }: app is in background uid UidRecord{23d10ec u0a146 CEM  idle procs:1 seq(0,0,0)}
+11-09 08:13:28.397  6127  6127 W BugleDataModel: 	at android.app.ContextImpl.startServiceCommon(ContextImpl.java:1715)
+11-09 08:13:28.397  6127  6127 W BugleDataModel: 	at android.app.ContextImpl.startService(ContextImpl.java:1670)
+11-09 08:13:28.397  6127  6127 W BugleDataModel: 	at android.content.ContextWrapper.startService(ContextWrapper.java:720)
+11-09 08:13:28.397  6127  6127 W BugleDataModel: 	at com.google.android.apps.messaging.shared.datamodel.action.execution.ActionExecutorImpl.a(PG:98)
+11-09 08:13:28.397  6127  6127 W BugleDataModel: 	at com.google.android.apps.messaging.shared.datamodel.action.execution.ActionExecutorImpl.a(PG:93)
+11-09 08:13:28.397  6127  6127 W BugleDataModel: 	at gjl.c(PG:119)
+11-09 08:13:28.397  6127  6127 W BugleDataModel: 	at gji.run(Unknown Source:1)
+11-09 08:13:28.397  6127  6127 W BugleDataModel: 	at afou.run(PG:3)
+11-09 08:13:28.397  6127  6127 W BugleDataModel: 	at android.os.Handler.handleCallback(Handler.java:938)
+11-09 08:13:28.397  6127  6127 W BugleDataModel: 	at android.os.Handler.dispatchMessage(Handler.java:99)
+11-09 08:13:28.397  6127  6127 W BugleDataModel: 	at android.os.Looper.loop(Looper.java:223)
+11-09 08:13:28.397  6127  6127 W BugleDataModel: 	at android.app.ActivityThread.main(ActivityThread.java:7656)
+11-09 08:13:28.397  6127  6127 W BugleDataModel: 	at java.lang.reflect.Method.invoke(Native Method)
+11-09 08:13:28.397  6127  6127 W BugleDataModel: 	at com.android.internal.os.RuntimeInit$MethodAndArgsCaller.run(RuntimeInit.java:592)
+11-09 08:13:28.397  6127  6127 W BugleDataModel: 	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:947)
+11-09 08:13:28.399  6127  6366 I Bugle   : CountryCodeDetector: updateMainDeviceCountry from default subscription network country. detected country: us
+11-09 08:13:28.401  6127  6366 I BugleDataModel: ParticipantRefresh: ContactContentObserver created
+11-09 08:13:28.401  6127  6366 I BugleDataModel: ParticipantRefresh: Start participant refresh. refreshMode: SELF_ONLY
+11-09 08:13:28.407  6127  6366 I BugleDataModel: SelfParticipantsData: insertSelfParticipant. participantId: 2, selfParticipantId: 2, subId: 1
+11-09 08:13:28.414  6127  6366 I BugleBackup: Registering preference change listener for "buglesub_1".
+11-09 08:13:28.418  6127  6366 I Bugle   : CountryCodeDetector: updateMainDeviceCountry from default subscription network country. detected country: us
+11-09 08:13:28.488  6127  6366 I BugleDataModel: ParticipantRefresh: Number of participants refreshed: 2
+11-09 08:13:28.997   166   166 I hwservicemanager: getTransport: Cannot find entry android.hardware.graphics.mapper@4.0::IMapper/default in either framework or device manifest.
+11-09 08:13:28.998  6370  6370 I Gralloc4: mapper 4.x is not supported
+11-09 08:13:29.002  6370  6370 D HostConnection: createUnique: call
+11-09 08:13:29.003  6370  6370 D HostConnection: HostConnection::get() New Host Connection established 0x7b3cefa50a90, tid 6370
+11-09 08:13:29.018  6370  6370 D HostConnection: HostComposition ext ANDROID_EMU_CHECKSUM_HELPER_v1 ANDROID_EMU_native_sync_v2 ANDROID_EMU_dma_v1 ANDROID_EMU_direct_mem ANDROID_EMU_host_composition_v1 ANDROID_EMU_host_composition_v2 ANDROID_EMU_YUV_Cache ANDROID_EMU_has_shared_slots_host_memory_allocator ANDROID_EMU_sync_buffer_data ANDROID_EMU_read_color_buffer_dma ANDROID_EMU_hwc_color_transform GL_OES_EGL_image_external_essl3 GL_OES_vertex_array_object GL_KHR_texture_compression_astc_ldr ANDROID_EMU_host_side_tracing ANDROID_EMU_gles_max_version_3_0 
