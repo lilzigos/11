@@ -1,0 +1,8 @@
+Stopping: com.userjoy.ujjsgc.jp
+Starting: Intent { cmp=com.userjoy.ujjsgc.jp/com.unity3d.player.UnityPlayerActivity }
+Status: ok
+LaunchState: COLD
+Activity: com.userjoy.ujjsgc.jp/com.unity3d.player.UnityPlayerActivity
+TotalTime: 1369
+WaitTime: 1375
+Complete
