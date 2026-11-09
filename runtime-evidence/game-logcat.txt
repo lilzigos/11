@@ -6711,3 +6711,240 @@
 11-09 03:05:08.685   498   637 I netstats_wifi_sample: [31449277,22452,873054,6543,31449277,22452,873054,6543,31359153,22417,856586,6490,1794193509687]
 11-09 03:05:08.731   498   637 I netstats_mobile_sample: [23187,77,35484,138,23187,77,35484,138,47690,154,19078,82,1794193509733]
 11-09 03:05:08.731   498   637 I netstats_wifi_sample: [31848877,22722,873814,6562,31848877,22722,873814,6562,31764673,22691,857266,6507,1794193509733]
+11-09 03:05:09.602  4735  4766 I Dialer  : VvmTaskExecutor - executing task com.android.voicemail.impl.ActivationTask@8cc2168
+11-09 03:05:09.603  4735  4766 I Dialer  : PreOMigrationHandler - ComponentInfo{com.android.phone/com.android.services.telephony.TelephonyConnectionService}, ***, UserHandle{0} already migrated
+11-09 03:05:09.617  6066  6101 I VoicemailNotifier: receivers for android.intent.action.PROVIDER_CHANGED :[]
+11-09 03:05:09.619  4735  4766 I Dialer  : VvmActivationTask - VVM content provider configured - vvm_type_cvvm
+11-09 03:05:09.619  4735  4766 I Dialer  : OmtpVvmCarrierCfgHlpr - OmtpEvent:CONFIG_ACTIVATING
+11-09 03:05:09.624  6066  6083 I VoicemailNotifier: receivers for android.intent.action.PROVIDER_CHANGED :[]
+11-09 03:05:09.655  6007  6027 I .android.video: Waiting for a blocking GC ProfileSaver
+11-09 03:05:09.657  1033  1356 D SmsNumberUtils: enter filterDestAddr. destAddr="[BajqU4K5_YhSYbs-7QUn0dOwcmI]"
+11-09 03:05:09.658  1033  1356 D SmsNumberUtils: destAddr is not formatted.
+11-09 03:05:09.658  1033  1356 D SmsNumberUtils: leave filterDestAddr, new destAddr="[BajqU4K5_YhSYbs-7QUn0dOwcmI]"
+11-09 03:05:09.658  1033  1356 D ImsSmsDispatcher [0]: isAvailable: up=false, reg= false, cap= false
+11-09 03:05:09.658  1033  1356 D ImsSmsDispatcher [0]: isAvailable: up=false, reg= false, cap= false
+11-09 03:05:09.662  1033  1356 D SMSDispatcher: Found carrier package.
+11-09 03:05:09.662   498  1674 I am_uid_active: 10117
+11-09 03:05:09.664  1033  1356 D SMSDispatcher: bindService() for carrier messaging service succeeded
+11-09 03:05:09.670  1033  1356 D SMSDispatcher: Sending SMS by IP failed. Retry on carrier network. id: 0
+11-09 03:05:09.670  1033  1356 D ImsSmsDispatcher [0]: isAvailable: up=false, reg= false, cap= false
+11-09 03:05:09.670  1033  1356 D GsmSMSDispatcher: sendSms:  isIms()=false mRetryCount=0 mImsRetry=0 mMessageRef=0 mUsesImsServiceForIms=false SS=0 id=0
+11-09 03:05:09.670  1033  1356 D ImsSmsDispatcher [0]: isAvailable: up=false, reg= false, cap= false
+11-09 03:05:09.670  1033  1356 D ImsSmsDispatcher [0]: isAvailable: up=false, reg= false, cap= false
+11-09 03:05:09.671  1033  1356 D RILJ    : [0172]> SEND_SMS [PHONE0]
+11-09 03:05:09.674  1033  1356 D EmergencyNumberTracker: slotId:0 country:us emergencyNumbers: 
+11-09 03:05:09.674  1033  1356 D EmergencyNumberTracker: System property doesn't provide any emergency numbers. Use embedded logic for determining ones.
+11-09 03:05:09.677  6007  6027 I .android.video: WaitForGcToComplete blocked ProfileSaver on ClassLinker for 22.304ms
+11-09 03:05:09.677   440   440 D RIL     : onRequest: SEND_SMS
+11-09 03:05:09.677   440   440 D RIL     : getSIMStatus(). sState: 10
+11-09 03:05:09.677   440   440 D AT      : AT> AT+CPIN?
+11-09 03:05:09.679   440   485 D AT      : AT< +CPIN: READY
+11-09 03:05:09.679   440   485 D AT      : AT< OK
+11-09 03:05:09.680   440   440 D RIL     : requestSendSMS datalen =16
+11-09 03:05:09.680   440   440 D AT      : AT> AT+CMGS=29
+11-09 03:05:09.681   440   485 D AT      : AT< > 
+11-09 03:05:09.681   440   485 D AT      : AT> 004100038121F20004140605040710000041637469766174653A64743D36^Z
+11-09 03:05:09.681   440   485 D AT      : AT< +CMGS: 0
+11-09 03:05:09.681   440   485 D AT      : AT< OK
+11-09 03:05:09.682  1033  1253 D RILJ    : [0172]< SEND_SMS { mMessageRef = 1, mErrorCode = 0, mAckPdu = } [PHONE0]
+11-09 03:05:09.687  1033  1033 D EmergencyNumberTracker: slotId:0 country:us emergencyNumbers: 
+11-09 03:05:09.687  1033  1033 D EmergencyNumberTracker: System property doesn't provide any emergency numbers. Use embedded logic for determining ones.
+11-09 03:05:09.737   498   537 I sysui_multi_action: [757,1717,758,1,759,0]
+11-09 03:05:09.738   498   537 I sysui_multi_action: [757,1717,758,2,759,1]
+11-09 03:05:09.738   498   537 I sysui_multi_action: [757,1717,758,3,759,0]
+11-09 03:05:09.804   498   537 I am_pss  : [5672,10144,com.google.android.webview:webview_service,13613056,4608000,0,100929536,0,19,5]
+11-09 03:05:09.858   498   508 I system_server: Background concurrent copying GC freed 295931(15MB) AllocSpace objects, 57(3380KB) LOS objects, 50% free, 14MB/29MB, paused 36us total 140.456ms
+11-09 03:05:09.863   498   509 W JavaBinder: BinderProxy is being destroyed but the application did not call unlinkToDeath to unlink all of its death recipients beforehand.  Releasing leaked death recipient: com.android.server.AlarmManagerService$2
+11-09 03:05:09.863   498   509 I BpBinder: onLastStrongRef automatically unlinking death recipients: <uncached descriptor>
+11-09 03:05:10.101   498   637 I netstats_mobile_sample: [23187,77,35484,138,23187,77,35484,138,47690,154,19078,82,1794193511099]
+11-09 03:05:10.101   498   637 I netstats_wifi_sample: [39914877,28172,899614,7207,39914877,28172,899614,7207,39826233,28138,882426,7136,1794193511099]
+11-09 03:05:11.069   498   587 W ActivityManager: Unable to start service Intent { act=com.google.android.gms.drive.ApiService.RESET_AFTER_BOOT flg=0x4 cmp=com.google.android.gms/.drive.api.ApiService (has extras) } U=0: not found
+11-09 03:05:11.080  1388  6147 I Vision  : Requesting optional module download of ocr.
+11-09 03:05:11.080  1388  6147 I Vision  : Checking for download completion for 134614 -- ocr
+11-09 03:05:11.084   498   641 I dvm_lock_sample: [system_server,0,WifiHandlerThread,10,AlarmManagerService.java,1763,void com.android.server.AlarmManagerService.setImpl(int, long, long, long, android.app.PendingIntent, android.app.IAlarmListener, java.lang.String, int, android.os.WorkSource, android.app.AlarmManager$AlarmClockInfo, int, java.lang.String),-,4108,void com.android.server.AlarmManagerService$AlarmThread.run(),2]
+11-09 03:05:11.105   498   537 I am_pss  : [5779,10113,com.google.android.setupwizard,9675776,6733824,0,111812608,0,19,2]
+11-09 03:05:11.126   498  3192 D WifiNl80211Manager: Scan result ready event
+11-09 03:05:11.126   498  3192 D WifiNative: Scan result ready event
+11-09 03:05:11.442   498   637 I netstats_mobile_sample: [23187,77,35484,138,23187,77,35484,138,47690,154,19078,82,1794193512445]
+11-09 03:05:11.442   498   637 I netstats_wifi_sample: [48877757,34228,930254,7973,48877757,34228,930254,7973,48834993,34225,913466,7912,1794193512445]
+11-09 03:05:11.449  1033  1033 D RILJ    : [0173]> SIGNAL_STRENGTH [PHONE0]
+11-09 03:05:11.450   440   440 D RIL     : onRequest: SIGNAL_STRENGTH
+11-09 03:05:11.450   440   440 D AT      : AT> AT+CSQ
+11-09 03:05:11.454   440   485 D AT      : AT< %CGFPCCFG: 1,5000,14,0,1
+11-09 03:05:11.454   440   485 D RIL     : got CGFPCCFG line %CGFPCCFG: 1,5000,14,0,1 and %CGFPCCFG: 1,5000,14,0,1
+11-09 03:05:11.454   440   485 D RIL     : got i 0, val = 1
+11-09 03:05:11.454   440   485 D RIL     : got i 1, val = 5000
+11-09 03:05:11.454   440   485 D RIL     : got i 2, val = 14
+11-09 03:05:11.454   440   485 D RIL     : got i 3, val = 0
+11-09 03:05:11.454   440   485 D RIL     : got i 4, val = 1
+11-09 03:05:11.454   440   485 D RILC    : reportPhysicalChannelConfigs: 1 5000 14 0 1
+11-09 03:05:11.454   440   485 D AT      : AT< %CGFPCCFG: 2,5000,14,0,1
+11-09 03:05:11.454   440   485 D RIL     : got CGFPCCFG line %CGFPCCFG: 2,5000,14,0,1 and %CGFPCCFG: 2,5000,14,0,1
+11-09 03:05:11.454   440   485 D RIL     : got i 0, val = 2
+11-09 03:05:11.454   440   485 D RIL     : got i 1, val = 5000
+11-09 03:05:11.454   440   485 D RIL     : got i 2, val = 14
+11-09 03:05:11.454   440   485 D RIL     : got i 3, val = 0
+11-09 03:05:11.454   440   485 D RIL     : got i 4, val = 1
+11-09 03:05:11.454   440   485 D RILC    : reportPhysicalChannelConfigs: 2 5000 14 0 1
+11-09 03:05:11.454   440   485 D AT      : AT< +CSQ: 12,4,90,120,80,120,4,90,100,10,30,7,200
+11-09 03:05:11.454   440   485 D AT      : AT< OK
+11-09 03:05:11.454  1033  1253 D RILJ    : [UNSL]< RIL_UNSOL_PHYSICAL_CHANNEL_CONFIG [{mConnectionStatus=PrimaryServing,mCellBandwidthDownlinkKhz=5000,mRat=LTE,mFrequencyRange=UNKNOWN,mChannelNumber=2147483647,mContextIds=[1],mPhysicalCellId=0}] [PHONE0]
+11-09 03:05:11.455  1033  1253 D RILJ    : [UNSL]< RIL_UNSOL_PHYSICAL_CHANNEL_CONFIG [{mConnectionStatus=SecondaryServing,mCellBandwidthDownlinkKhz=5000,mRat=LTE,mFrequencyRange=UNKNOWN,mChannelNumber=2147483647,mContextIds=[1],mPhysicalCellId=0}] [PHONE0]
+11-09 03:05:11.471  1033  1253 E CellSignalStrengthLte: convertRssiAsuToDBm: invalid RSSI in ASU=90
+11-09 03:05:11.472  1033  1253 D RILJ    : [0173]< SIGNAL_STRENGTH SignalStrength:{mCdma=CellSignalStrengthCdma: cdmaDbm=2147483647 cdmaEcio=2147483647 evdoDbm=2147483647 evdoEcio=2147483647 evdoSnr=2147483647 level=0,mGsm=CellSignalStrengthGsm: rssi=2147483647 ber=2147483647 mTa=2147483647 mLevel=0,mWcdma=CellSignalStrengthWcdma: ss=2147483647 ber=2147483647 rscp=2147483647 ecno=2147483647 level=0,mTdscdma=CellSignalStrengthTdscdma: rssi=2147483647 ber=2147483647 rscp=2147483647 level=0,mLte=CellSignalStrengthLte: rssi=2147483647 rsrp=-100 rsrq=-10 rssnr=3 cqi=7 ta=200 level=2 parametersUseForLevel=1,mNr=CellSignalStrengthNr:{ csiRsrp = 2147483647 csiRsrq = 2147483647 csiSinr = 2147483647 ssRsrp = 2147483647 ssRsrq = 2147483647 ssSinr = 2147483647 level = 0 parametersUseForLevel = 1 },primary=CellSignalStrengthLte} [PHONE0]
+11-09 03:05:11.931  1979  6200 D DownloadManager: [5] Finished with status SUCCESS
+11-09 03:05:11.962  2049  2272 W BlobLobber: Not processing download id 5, not a BlobLobber blob
+11-09 03:05:11.962  2049  2272 W BlobLobber: Notification for download id 5 which we didn't know or failed
+11-09 03:05:11.975  2049  2049 I BgTaskExecutorImpl: Starting NONEXCLUSIVE background task ZIP_DOWNLOAD_PROCESSOR.
+11-09 03:05:11.978  2049  2251 I ModelDnldProcssHelpr: #handleDownloadComplete, downloadId=5
+11-09 03:05:11.978  2049  2251 E ModelDnldProcssHelpr: pending download info for pending_hotword_model_download_info is null
+11-09 03:05:11.978  2049  2251 E ModelDnldProcssHelpr: pending download info for pending_xgoogle_hotword_model_download_info is null
+11-09 03:05:12.012  2049  2241 I ZipDownloadProcessorTsk: cacheDestination: /data/user/0/com.google.android.googlequicksearchbox/app_g3_models/en-US.zip
+11-09 03:05:12.022  2049  2290 W SearchServiceCore: Abort, client detached.
+11-09 03:05:12.191  1388  2233 I TelephonySpam: TelephonySpamChimeraService - Running Telephony Spam Chimera Service
+11-09 03:05:12.821   498   637 I netstats_mobile_sample: [23187,77,35484,138,23187,77,35484,138,47690,154,19078,82,1794193513824]
+11-09 03:05:12.821   498   637 I netstats_wifi_sample: [51919821,36288,941084,8227,51919821,36288,941084,8227,51942137,36328,924696,8176,1794193513824]
+11-09 03:05:13.018   498   537 I am_pss  : [4875,10136,com.google.android.apps.photos,33601536,24121344,0,126545920,0,19,2]
+11-09 03:05:13.454  2049  2251 I Greco3DataManager: #handleLocale  en-US
+11-09 03:05:13.456  2049  2251 I Greco3DataManager: available language pack of en-US is version 310
+11-09 03:05:13.463  1979  3080 V DownloadManager: Deleting /storage/emulated/0/Android/data/com.google.android.googlequicksearchbox/files/download_cache/en-US-v310-f32.zip via provider delete
+11-09 03:05:13.478  1659  1699 I MediaProvider: Scanned external_primary due to REASON_DEMAND, found 0 items in 2ms, 0 inserts 0 updates 0 deletes
+11-09 03:05:15.105   498   554 I commit_sys_config_file: [package-user-0,10]
+11-09 03:05:15.296  6007  6133 D CompatibilityChangeReporter: Compat change id reported: 150939131; UID 10140; state: DISABLED
+11-09 03:05:20.417     0     0 W healthd : battery l=100 v=5000 t=25.0 h=2 st=2 c=900000 fc=300000 cc=10 chg=a
+11-09 03:05:21.088   498   537 I am_pss  : [5979,10151,com.google.android.apps.wallpaper,13644800,10797056,0,111910912,0,19,1]
+11-09 03:05:21.089  1388  6222 I Vision  : Requesting optional module download of ocr.
+11-09 03:05:21.089  1388  6222 I Vision  : Checking for download completion for 144624 -- ocr
+11-09 03:05:21.178   498   538 I am_uid_idle: 10114
+11-09 03:05:21.807   498   537 I am_pss  : [5843,10139,com.google.android.apps.youtube.music,55165952,45748224,0,182976512,0,19,9]
+11-09 03:05:21.814   498   537 I am_pss  : [1291,10114,com.google.android.apps.wellbeing,19598336,16203776,0,127049728,0,19,2]
+11-09 03:05:26.135   498   537 I am_pss  : [6007,10140,com.google.android.videos,31335424,19533824,0,130392064,0,19,4]
+11-09 03:05:27.520   498  1117 I ActivityManager: Killing 5264:com.google.android.apps.docs/u0a141 (adj 985): empty #17
+11-09 03:05:27.520   498  1117 I am_kill : [0,5264,com.google.android.apps.docs,985,empty #17]
+11-09 03:05:27.520   498  1117 I ActivityManager: Killing 4966:com.google.android.configupdater/u0a120 (adj 985): empty #18
+11-09 03:05:27.520   498  1117 I am_kill : [0,4966,com.google.android.configupdater,985,empty #18]
+11-09 03:05:27.520   498  1117 I ActivityManager: Killing 4989:com.google.android.apps.maps/u0a135 (adj 995): empty #19
+11-09 03:05:27.520   498  1117 I am_kill : [0,4989,com.google.android.apps.maps,995,empty #19]
+11-09 03:05:27.533   498   537 I am_pss  : [6179,10116,com.google.android.partnersetup,6549504,3633152,0,101842944,0,19,1]
+11-09 03:05:27.535   498  1117 I am_proc_died: [0,4966,com.google.android.configupdater,985,19]
+11-09 03:05:27.535   498  1117 I am_uid_stopped: 10120
+11-09 03:05:27.536   289   289 I Zygote  : Process 4966 exited due to signal 9 (Killed)
+11-09 03:05:27.540   498   537 I am_pss  : [6154,10084,com.android.providers.calendar,7811072,4497408,0,107307008,0,19,2]
+11-09 03:05:27.758     0     0 I binder  : undelivered TRANSACTION_COMPLETE
+11-09 03:05:27.761     0     0 I binder  : undelivered transaction 430171, process died.
+11-09 03:05:27.553   498  1117 I am_proc_died: [0,5264,com.google.android.apps.docs,985,19]
+11-09 03:05:27.553   498  1117 I am_uid_stopped: 10141
+11-09 03:05:27.557   289   289 I Zygote  : Process 5264 exited due to signal 9 (Killed)
+11-09 03:05:27.559   498  3517 I am_proc_died: [0,4989,com.google.android.apps.maps,995,19]
+11-09 03:05:27.559   498  3517 I am_uid_stopped: 10135
+11-09 03:05:27.561   289   289 I Zygote  : Process 4989 exited due to signal 9 (Killed)
+11-09 03:05:27.566   498   540 I libprocessgroup: Successfully killed process cgroup uid 10141 pid 5264 in 45ms
+11-09 03:05:27.566   498   540 I libprocessgroup: Successfully killed process cgroup uid 10120 pid 4966 in 0ms
+11-09 03:05:27.567   498   540 I libprocessgroup: Successfully killed process cgroup uid 10135 pid 4989 in 0ms
+11-09 03:05:28.131   498  3517 I ActivityManager: Killing 1291:com.google.android.apps.wellbeing/u0a114 (adj 975): empty #17
+11-09 03:05:28.131   498  3517 I am_kill : [0,1291,com.google.android.apps.wellbeing,975,empty #17]
+11-09 03:05:28.144   498  3517 I am_proc_died: [0,1291,com.google.android.apps.wellbeing,975,19]
+11-09 03:05:28.144   498  3517 I am_uid_stopped: 10114
+11-09 03:05:28.146   289   289 I Zygote  : Process 1291 exited due to signal 9 (Killed)
+11-09 03:05:28.183   498   540 I libprocessgroup: Successfully killed process cgroup uid 10114 pid 1291 in 42ms
+11-09 03:05:28.359   498   538 I am_uid_idle: 10144
+11-09 03:05:31.102  1388  6225 I Vision  : Requesting optional module download of ocr.
+11-09 03:05:31.102  1388  6225 I Vision  : Checking for download completion for 154636 -- ocr
+11-09 03:05:31.436  5843  5956 W YouTubeMusic: Could not register for notifications with InnerTube: 
+11-09 03:05:31.436  5843  5956 W YouTubeMusic: rff: java.util.concurrent.ExecutionException: qjl: Precondition check failed.
+11-09 03:05:31.436  5843  5956 W YouTubeMusic: 	at rex.b(PG:18)
+11-09 03:05:31.436  5843  5956 W YouTubeMusic: 	at uqp.f(PG:65)
+11-09 03:05:31.436  5843  5956 W YouTubeMusic: 	at uqp.g(PG:134)
+11-09 03:05:31.436  5843  5956 W YouTubeMusic: 	at uqp.b(PG:99)
+11-09 03:05:31.436  5843  5956 W YouTubeMusic: 	at uqn.run(Unknown Source:1)
+11-09 03:05:31.436  5843  5956 W YouTubeMusic: 	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:462)
+11-09 03:05:31.436  5843  5956 W YouTubeMusic: 	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+11-09 03:05:31.436  5843  5956 W YouTubeMusic: 	at ywx.run(Unknown Source:1)
+11-09 03:05:31.436  5843  5956 W YouTubeMusic: 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1167)
+11-09 03:05:31.436  5843  5956 W YouTubeMusic: 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:641)
+11-09 03:05:31.436  5843  5956 W YouTubeMusic: 	at pqt.run(PG:13)
+11-09 03:05:31.436  5843  5956 W YouTubeMusic: 	at java.lang.Thread.run(Thread.java:923)
+11-09 03:05:31.436  5843  5956 W YouTubeMusic: Caused by: java.util.concurrent.ExecutionException: qjl: Precondition check failed.
+11-09 03:05:31.436  5843  5956 W YouTubeMusic: 	at zsp.a(PG:135)
+11-09 03:05:31.436  5843  5956 W YouTubeMusic: 	at zsp.get(PG:91)
+11-09 03:05:31.436  5843  5956 W YouTubeMusic: 	at rex.b(PG:17)
+11-09 03:05:31.436  5843  5956 W YouTubeMusic: 	... 11 more
+11-09 03:05:31.436  5843  5956 W YouTubeMusic: Caused by: qjl: Precondition check failed.
+11-09 03:05:31.436  5843  5956 W YouTubeMusic: 	at rdu.b(PG:106)
+11-09 03:05:31.436  5843  5956 W YouTubeMusic: 	at pyo.a(PG:61)
+11-09 03:05:31.436  5843  5956 W YouTubeMusic: 	at pxo.run(Unknown Source:17)
+11-09 03:05:31.436  5843  5956 W YouTubeMusic: 	... 4 more
+11-09 03:05:31.436  5843  5956 W YouTubeMusic: Caused by: bjj
+11-09 03:05:31.436  5843  5956 W YouTubeMusic: 	at pxo.run(Unknown Source:13)
+11-09 03:05:31.436  5843  5956 W YouTubeMusic: 	... 4 more
+11-09 03:05:31.478  1033  1033 D RILJ    : [0174]> SIGNAL_STRENGTH [PHONE0]
+11-09 03:05:31.478   440   440 D RIL     : onRequest: SIGNAL_STRENGTH
+11-09 03:05:31.478   440   440 D AT      : AT> AT+CSQ
+11-09 03:05:31.480   440   485 D AT      : AT< %CGFPCCFG: 1,5000,14,0,1
+11-09 03:05:31.480   440   485 D RIL     : got CGFPCCFG line %CGFPCCFG: 1,5000,14,0,1 and %CGFPCCFG: 1,5000,14,0,1
+11-09 03:05:31.480   440   485 D RIL     : got i 0, val = 1
+11-09 03:05:31.480   440   485 D RIL     : got i 1, val = 5000
+11-09 03:05:31.480   440   485 D RIL     : got i 2, val = 14
+11-09 03:05:31.480   440   485 D RIL     : got i 3, val = 0
+11-09 03:05:31.480   440   485 D RIL     : got i 4, val = 1
+11-09 03:05:31.480   440   485 D RILC    : reportPhysicalChannelConfigs: 1 5000 14 0 1
+11-09 03:05:31.480   440   485 D AT      : AT< %CGFPCCFG: 2,5000,14,0,1
+11-09 03:05:31.480   440   485 D RIL     : got CGFPCCFG line %CGFPCCFG: 2,5000,14,0,1 and %CGFPCCFG: 2,5000,14,0,1
+11-09 03:05:31.480   440   485 D RIL     : got i 0, val = 2
+11-09 03:05:31.480   440   485 D RIL     : got i 1, val = 5000
+11-09 03:05:31.480   440   485 D RIL     : got i 2, val = 14
+11-09 03:05:31.480   440   485 D RIL     : got i 3, val = 0
+11-09 03:05:31.480   440   485 D RIL     : got i 4, val = 1
+11-09 03:05:31.480   440   485 D RILC    : reportPhysicalChannelConfigs: 2 5000 14 0 1
+11-09 03:05:31.480   440   485 D AT      : AT< +CSQ: 12,4,90,120,80,120,4,90,100,10,30,7,200
+11-09 03:05:31.480   440   485 D AT      : AT< OK
+11-09 03:05:31.480  1033  1253 D RILJ    : [UNSL]< RIL_UNSOL_PHYSICAL_CHANNEL_CONFIG [{mConnectionStatus=PrimaryServing,mCellBandwidthDownlinkKhz=5000,mRat=LTE,mFrequencyRange=UNKNOWN,mChannelNumber=2147483647,mContextIds=[1],mPhysicalCellId=0}] [PHONE0]
+11-09 03:05:31.480  1033  1253 D RILJ    : [UNSL]< RIL_UNSOL_PHYSICAL_CHANNEL_CONFIG [{mConnectionStatus=SecondaryServing,mCellBandwidthDownlinkKhz=5000,mRat=LTE,mFrequencyRange=UNKNOWN,mChannelNumber=2147483647,mContextIds=[1],mPhysicalCellId=0}] [PHONE0]
+11-09 03:05:31.481  1033  1253 E CellSignalStrengthLte: convertRssiAsuToDBm: invalid RSSI in ASU=90
+11-09 03:05:31.481  1033  1253 D RILJ    : [0174]< SIGNAL_STRENGTH SignalStrength:{mCdma=CellSignalStrengthCdma: cdmaDbm=2147483647 cdmaEcio=2147483647 evdoDbm=2147483647 evdoEcio=2147483647 evdoSnr=2147483647 level=0,mGsm=CellSignalStrengthGsm: rssi=2147483647 ber=2147483647 mTa=2147483647 mLevel=0,mWcdma=CellSignalStrengthWcdma: ss=2147483647 ber=2147483647 rscp=2147483647 ecno=2147483647 level=0,mTdscdma=CellSignalStrengthTdscdma: rssi=2147483647 ber=2147483647 rscp=2147483647 level=0,mLte=CellSignalStrengthLte: rssi=2147483647 rsrp=-100 rsrq=-10 rssnr=3 cqi=7 ta=200 level=2 parametersUseForLevel=1,mNr=CellSignalStrengthNr:{ csiRsrp = 2147483647 csiRsrq = 2147483647 csiSinr = 2147483647 ssRsrp = 2147483647 ssRsrq = 2147483647 ssSinr = 2147483647 level = 0 parametersUseForLevel = 1 },primary=CellSignalStrengthLte} [PHONE0]
+11-09 03:05:41.105  1388  6225 I Vision  : Requesting optional module download of ocr.
+11-09 03:05:41.105  1388  6225 I Vision  : Checking for download completion for 164639 -- ocr
+11-09 03:05:41.110   498   537 I am_pss  : [5979,10151,com.google.android.apps.wallpaper,13970432,10797056,0,111910912,0,19,2]
+11-09 03:05:41.451   498   537 I am_pss  : [724,10162,com.google.android.permissioncontroller,11801600,8507392,0,111489024,0,19,2]
+11-09 03:05:45.201   380   453 D AudioFlinger: mixer(0x7c9624b7b040) throttle end: throttle time(17)
+11-09 03:05:45.683   498   537 I am_pss  : [5527,10167,com.userjoy.ujjsgc.jp,862601216,832577536,0,1088708608,0,2,15]
+11-09 03:05:45.710   380   453 D AudioFlinger: mixer(0x7c9624b7b040) throttle end: throttle time(57)
+11-09 03:05:46.094   498   538 I ActivityManager: Waited long enough for: ServiceRecord{cb81f65 u0 com.google.android.gms/.chimera.GmsIntentOperationService}
+11-09 03:05:46.149  2049  2228 W OpaSSRequestSender: Failed to get ZeroStateResponse from AssistantClientSyncWorker with error java.util.concurrent.TimeoutException
+11-09 03:05:46.194   498   537 I am_pss  : [6007,10140,com.google.android.videos,31413248,19496960,0,130355200,0,19,3]
+11-09 03:05:50.659   498   537 I am_pss  : [6179,10116,com.google.android.partnersetup,6699008,3633152,0,101842944,0,19,1]
+11-09 03:05:50.661   498   537 I am_pss  : [6154,10084,com.android.providers.calendar,7945216,4497408,0,107307008,0,19,2]
+11-09 03:05:50.664   498   537 I am_pss  : [6102,10143,com.google.android.syncadapters.contacts,9708544,6324224,0,108236800,0,19,2]
+11-09 03:05:51.119  1388  6228 I Vision  : Requesting optional module download of ocr.
+11-09 03:05:51.119  1388  6228 I Vision  : Checking for download completion for 174653 -- ocr
+11-09 03:05:51.487  1033  1033 D RILJ    : [0175]> SIGNAL_STRENGTH [PHONE0]
+11-09 03:05:51.487   440   440 D RIL     : onRequest: SIGNAL_STRENGTH
+11-09 03:05:51.487   440   440 D AT      : AT> AT+CSQ
+11-09 03:05:51.487   440   485 D AT      : AT< %CGFPCCFG: 1,5000,14,0,1
+11-09 03:05:51.487   440   485 D RIL     : got CGFPCCFG line %CGFPCCFG: 1,5000,14,0,1 and %CGFPCCFG: 1,5000,14,0,1
+11-09 03:05:51.487   440   485 D RIL     : got i 0, val = 1
+11-09 03:05:51.487   440   485 D RIL     : got i 1, val = 5000
+11-09 03:05:51.487   440   485 D RIL     : got i 2, val = 14
+11-09 03:05:51.487   440   485 D RIL     : got i 3, val = 0
+11-09 03:05:51.487   440   485 D RIL     : got i 4, val = 1
+11-09 03:05:51.488   440   485 D RILC    : reportPhysicalChannelConfigs: 1 5000 14 0 1
+11-09 03:05:51.488   440   485 D AT      : AT< %CGFPCCFG: 2,5000,14,0,1
+11-09 03:05:51.488   440   485 D RIL     : got CGFPCCFG line %CGFPCCFG: 2,5000,14,0,1 and %CGFPCCFG: 2,5000,14,0,1
+11-09 03:05:51.488   440   485 D RIL     : got i 0, val = 2
+11-09 03:05:51.488   440   485 D RIL     : got i 1, val = 5000
+11-09 03:05:51.488   440   485 D RIL     : got i 2, val = 14
+11-09 03:05:51.488   440   485 D RIL     : got i 3, val = 0
+11-09 03:05:51.488   440   485 D RIL     : got i 4, val = 1
+11-09 03:05:51.488   440   485 D RILC    : reportPhysicalChannelConfigs: 2 5000 14 0 1
+11-09 03:05:51.488   440   485 D AT      : AT< +CSQ: 12,4,90,120,80,120,4,90,100,10,30,7,200
+11-09 03:05:51.488   440   485 D AT      : AT< OK
+11-09 03:05:51.488  1033  1253 D RILJ    : [UNSL]< RIL_UNSOL_PHYSICAL_CHANNEL_CONFIG [{mConnectionStatus=PrimaryServing,mCellBandwidthDownlinkKhz=5000,mRat=LTE,mFrequencyRange=UNKNOWN,mChannelNumber=2147483647,mContextIds=[1],mPhysicalCellId=0}] [PHONE0]
+11-09 03:05:51.488  1033  1253 E CellSignalStrengthLte: convertRssiAsuToDBm: invalid RSSI in ASU=90
+11-09 03:05:51.488  1033  1253 D RILJ    : [0175]< SIGNAL_STRENGTH SignalStrength:{mCdma=CellSignalStrengthCdma: cdmaDbm=2147483647 cdmaEcio=2147483647 evdoDbm=2147483647 evdoEcio=2147483647 evdoSnr=2147483647 level=0,mGsm=CellSignalStrengthGsm: rssi=2147483647 ber=2147483647 mTa=2147483647 mLevel=0,mWcdma=CellSignalStrengthWcdma: ss=2147483647 ber=2147483647 rscp=2147483647 ecno=2147483647 level=0,mTdscdma=CellSignalStrengthTdscdma: rssi=2147483647 ber=2147483647 rscp=2147483647 level=0,mLte=CellSignalStrengthLte: rssi=2147483647 rsrp=-100 rsrq=-10 rssnr=3 cqi=7 ta=200 level=2 parametersUseForLevel=1,mNr=CellSignalStrengthNr:{ csiRsrp = 2147483647 csiRsrq = 2147483647 csiSinr = 2147483647 ssRsrp = 2147483647 ssRsrq = 2147483647 ssSinr = 2147483647 level = 0 parametersUseForLevel = 1 },primary=CellSignalStrengthLte} [PHONE0]
+11-09 03:05:51.488  1033  1253 D RILJ    : [UNSL]< RIL_UNSOL_PHYSICAL_CHANNEL_CONFIG [{mConnectionStatus=SecondaryServing,mCellBandwidthDownlinkKhz=5000,mRat=LTE,mFrequencyRange=UNKNOWN,mChannelNumber=2147483647,mContextIds=[1],mPhysicalCellId=0}] [PHONE0]
+11-09 03:05:52.859   162   162 I hwservicemanager: getTransport: Cannot find entry android.hardware.graphics.mapper@4.0::IMapper/default in either framework or device manifest.
+11-09 03:05:52.859  6231  6231 I Gralloc4: mapper 4.x is not supported
+11-09 03:05:52.865  6231  6231 D HostConnection: createUnique: call
+11-09 03:05:52.866  6231  6231 D HostConnection: HostConnection::get() New Host Connection established 0x7738044c9010, tid 6231
+11-09 03:05:52.886   380   453 D AudioFlinger: mixer(0x7c9624b7b040) throttle end: throttle time(10)
+11-09 03:05:52.889  6231  6231 D HostConnection: HostComposition ext ANDROID_EMU_CHECKSUM_HELPER_v1 ANDROID_EMU_native_sync_v2 ANDROID_EMU_dma_v1 ANDROID_EMU_direct_mem ANDROID_EMU_host_composition_v1 ANDROID_EMU_host_composition_v2 ANDROID_EMU_YUV_Cache ANDROID_EMU_has_shared_slots_host_memory_allocator ANDROID_EMU_sync_buffer_data ANDROID_EMU_read_color_buffer_dma ANDROID_EMU_hwc_color_transform GL_OES_EGL_image_external_essl3 GL_OES_vertex_array_object GL_KHR_texture_compression_astc_ldr ANDROID_EMU_host_side_tracing ANDROID_EMU_gles_max_version_3_0 
